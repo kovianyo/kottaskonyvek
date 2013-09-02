@@ -1,0 +1,158 @@
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage[magyar]{babel}  % magyar támogatás
+\usepackage[T1]{fontenc}
+
+\sloppy % jobbra kilógás helyett új sorba tördelés
+\frenchspacing % nincs nagyobb szóköz a mondatok után
+
+% idézõlejek: ``szem elõtt''
+
+% magyar latex leírás:
+% http://www.cs.bme.hu/~egmont/latex/
+
+% http://www.szofi.hu/gnu/magyarispell/
+% http://csomalin.elte.hu/~flu/konyvek/lkh_1.html
+% http://www.math.bme.hu/latex/
+
+\setlength\parindent{0in}
+
+\usepackage{graphicx}
+\usepackage{alltt}
+
+\usepackage{fancyhdr}
+\usepackage{chngpage}
+
+% elválasztás kikapcsolása
+\usepackage[none]{hyphenat} 
+
+\usepackage{makeidx}
+\makeindex
+
+\usepackage{multicol}
+
+\usepackage{pdflscape}
+
+% for \textsubscript{} :
+\usepackage{fixltx2e}
+
+% for \textmusicalnote
+\usepackage{textcomp}
+
+\setlength\fboxsep{0pt}
+\setlength\fboxrule{0.5pt}
+
+% usage: \incpicture{filename}{title}{graphpar(scale=0.5)}
+\newcommand{\incpicture}[3]
+{
+\begin{figure}[ht]
+  \vspace{10pt}
+  \begin{center}
+      \includegraphics[#3]{pictures/#1}
+  \end{center}
+%  \vspace{-30pt}
+\caption{#2\label{fig:#1}}
+\end{figure}
+} 
+
+\newcommand{\incborderpicture}[3]
+{
+\begin{figure}[ht]
+  \vspace{10pt}
+  \begin{center}
+      \fbox{\includegraphics[#3]{pictures/#1}}
+  \end{center}
+  \vspace{-10pt}
+\caption{#2\label{fig:#1}}
+\end{figure}
+} 
+
+
+% multicol index
+% http://www.latex-community.org/forum/viewtopic.php?f=4&t=1735&start=0&st=0&sk=t&sd=a
+\makeatletter
+\renewenvironment{theindex}
+  {\if@twocolumn
+      \@restonecolfalse
+   \else
+      \@restonecoltrue
+   \fi
+   \setlength{\columnseprule}{0pt}
+   \setlength{\columnsep}{10pt}
+   \begin{multicols}{2}[\section*{\indexname}]
+   \markboth{\MakeUppercase\indexname}%
+            {\MakeUppercase\indexname}%
+   \thispagestyle{plain}
+   \setlength{\parindent}{0pt}
+   \setlength{\parskip}{0pt plus 0.3pt}
+   \relax
+   \let\item\@idxitem}%
+  {\end{multicols}\if@restonecol\onecolumn\else\clearpage\fi}
+\makeatother
+
+% cím cseréje
+\addto\captionsmagyar{\renewcommand{\listfigurename}{KottÃ¡k jegyzÃ©ke}}
+
+
+% mwdiawiki sablonok fordításai
+
+% szómagyarázat \szo{szó}{magyarázat}
+\newcommand{\szo}[2]{\footnotesize{$\clubsuit$ #1: #2 \newline}} 
+
+% szerzõ \szerzo{szövegíró}{zeneszerzõ}
+\newcommand{\szerzo}[2]{\footnotesize{$\clubsuit$ Szöveg: #1, zene: #2 \newline}} 
+
+% van kotta
+\newcommand{\vankotta}{\footnotesize{\textmusicalnote \ Ehhez a dalhoz van kotta. \newline}} 
+
+% megjegyzes
+\newcommand{\megjegyzes}[1]{\footnotesize{$\clubsuit$ Megjegyzés: #1 \newline}} 
+
+% tanultuk
+\newcommand{\tanultuk}[1]{\footnotesize{$\spadesuit$ Tanultuk: #1 \newline}} 
+
+% tánc
+\newcommand{\tanc}[1]{\footnotesize{$\heartsuit$ Tánc: #1 \newline}} 
+
+% tájegység
+\newcommand{\tajegyseg}[1]{\footnotesize{$\diamondsuit$ Tájegység: #1 \newline}} 
+
+
+
+\newcommand{\kotta}[2]
+{
+        \vspace{-1.7cm}
+        \addcontentsline{lof}{subsection}{#1}
+%        \begin{center}
+            \includegraphics[scale=0.936]{generated/kotta/files/pdf/#2.pdf}
+%        \end{center}
+        \vspace{2.0cm}
+}
+
+\newcommand{\fejezet}[1]
+{
+\newpage
+\begin{minipage}{\textwidth}
+\phantomsection
+\addcontentsline{toc}{section}{#1}
+\begin{center}
+\Huge{\textbf{#1}}
+\end{center}
+\vspace{0.5cm}
+\end{minipage}
+}
+
+
+\newcommand{\cscs}{105. sz. IV. Béla Cscs.}
+\newcommand{\cscslong}{105. számú IV. Béla Cserkészcsapat}
+\newcommand{\kiado}{Nóta Benne, 2011}
+
+\setlength{\premulticols}{0pt}
+
+% cleardoublepage to even
+% http://texblog.net/latex-archive/layout/chapter-start-left-side-openleft/langswitch_lang/es/
+\makeatletter
+\renewcommand*\cleardoublepage{\clearpage\if@twoside
+  \ifodd\c@page \hbox{}\newpage\if@twocolumn\hbox{}%
+  \newpage\fi\fi\fi}
+\makeatother

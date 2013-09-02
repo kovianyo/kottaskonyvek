@@ -1,0 +1,96 @@
+\documentclass[a4paper,12pt,twoside]{article}
+
+\input{../generator/commonheader.tex} 
+\input{header.tex} 
+
+\begin{document}
+\newcounter{DalCount}
+\stepcounter{DalCount}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{2}       
+
+\pagestyle{empty} 
+
+\include{cimlap}
+
+\include{belsolap}
+
+
+%\newpage
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markboth{Dalsokönyv}{}}
+
+\renewcommand{\subsectionmark}[1]{\markright{\thesubsection.\ #1}{}}
+%http://texblog.wordpress.com/2007/11/07/headerfooter-in-latex-with-fancyhdr/
+\fancyhead[l]{Tiéd a dal}
+\fancyfoot[C]{}
+
+
+
+
+%\fancyfoot[el]{\thepage}
+%\fancyfoot[or]{\thepage}
+
+\pagenumbering{arabic}  % 1, 2, 3, 4, ...
+\setcounter{page}{1} % oldal sz�ml�l� 1-re �ll�t�sa
+\resetheaders
+
+% from now on it is twosided
+% http://www.latex-community.org/forum/viewtopic.php?f=4&t=38
+%\setboolean{@twoside}{true} 
+\input{generated/files/includes}
+
+\newpage
+
+%\section*{Bevezető}
+%\input{../generated/files/bevezeto}
+%\newpage
+
+%\input{generated/files/tematikus}
+%\newpage
+
+% fix for printindex first page header style http://www.latex-community.org/forum/viewtopic.php?f=47&t=5857&start=0
+\fancypagestyle{plain}
+{
+\resetheaders
+}
+\normalsize
+
+%\cleardoublepage
+%\input{generated/files/akkordok}
+
+%\cleardoublepage
+%\input{generated/files/hangterjedelmek}
+
+
+\cleardoublepage
+\printindex
+\newpage
+
+%\begin{multicols}{2} 
+%\tableofcontents
+%\end{multicols}
+%\newpage
+
+% kott�k jegyz�ke
+%\listoffigures
+
+%\input{generated/files/hangnemek}
+%\newpage
+
+%\fancyhead[r]{T�rgymutat�}
+%\footnotesize 
+%\printindex
+
+%\printindex{szavak}{Szószedet}
+
+\pagestyle{empty} 
+
+
+%\include{hatlap}
+
+\end{document}
+
+
+
