@@ -6,24 +6,27 @@ MSCORE = mscore
 # make "make" :) not to delete intermediate files (http://darrendev.blogspot.com/2008/06/stopping-make-delete-intermediate-files.html)
 .SECONDARY:
 
+# turns echo off
+.SILENT:
+
 all: files
 
 include Makefile.filenames
 
 Makefile.filenames:
 	echo -n "files: " > Makefile.filenames
-	cd files/mscz; ls | sed "s/^/files\\/pdf\\//" | sed "s/.mscz$$/.pdf\\\\/" >> ../../Makefile.filenames
+	cd files/mscx; ls | sed "s/^/files\\/pdf\\//" | sed "s/.mscx$$/.pdf\\\\/" >> ../../Makefile.filenames
 #	cd files/mscz; ls | sed "s/^/files\\/mscx\\//" | sed "s/.mscz$$/.mscx\\\\/" >> ../../Makefile.filenames
 
 
 files/pdf/%.pdf: files/ly/%.ly #definitions.ly
-	cd files/pdf; rm $**.pdf; lilypond -dbackend=eps ../../$<
+	cd files/pdf; if [ -e "$**.pdf" ]; then rm $**.pdf; fi; lilypond -dbackend=eps ../../$<
 # cd is needed because lilypond generates auxiliary files
 
 files/ly/%.ly: files/xml/%.xml
 	cd files; php ../../../../generator/kotta/XmlToLy.php ../$< > ../$@
 
-files/xml/%.xml: files/mscz/%.mscz
+files/xml/%.xml: files/mscx/%.mscx
 	cd files; $(MSCORE) ../$< -o ../$@ > /dev/null
 
 files/mscx/%.mscx: files/mscz/%.mscz
