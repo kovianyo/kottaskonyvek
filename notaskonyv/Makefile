@@ -20,5 +20,5 @@ compile:
 	pdflatex notaskonyv.tex
 
 show:
-	$(PDFVIEWER) tiedadal.pdf &
+	$(PDFVIEWER) notaskonyv.pdf &
 
