@@ -144,7 +144,7 @@ if (Settings::$Includes == 2)
 	while ($elem)
 	{
 		//echo $elem->nodeName . " ";
-		if ($elem->nodeName == "h2") echo '\fejezet{' . trim(utf8_decode($elem->nodeValue)) . "}%\n";
+		if ($elem->nodeName == "h2") echo '\fejezet{' . trim($elem->nodeValue) . "}%\n";
 		if ($elem->nodeName == "ul") 
 		{
 			$as = $proc->query("li/a[not(@class='new')]", $elem);

@@ -1,0 +1,94 @@
+\documentclass[a4paper,12pt,twoside]{article}
+
+\input{../generator/commonheader.tex} 
+\input{header.tex} 
+
+%\includeonly{statisztika}
+
+\begin{document}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{2}       
+
+\pagestyle{empty} 
+
+%\include{cimlap}
+
+%\include{belsolap}
+
+%~\vspace{2cm}
+%\begin{center}
+%\Huge
+%N√≥t√°k
+%\end{center}
+%\newpage
+
+%\newpage
+\pagestyle{fancy}
+%\renewcommand{\sectionmark}[1]{\markboth{\thesection.\ \MakeUppercase{#1}}{}}
+%\renewcommand{\sectionmark}[1]{\markboth{Dalsok√∂nyv}{}}
+
+\renewcommand{\subsectionmark}[1]{\markright{\thesubsection.\ #1}{}}
+%http://texblog.wordpress.com/2007/11/07/headerfooter-in-latex-with-fancyhdr/
+\fancyhead[or,el]{N√≥t√°sk√∂nyv}
+\fancyhead[ol,er]{\sectionmark}
+%\fancyhead[el]{\includegraphics[scale=0.05]{pictures/ivbela_black.pdf}}
+%\fancyhead[ol]{N√≥t√°sk√∂nyv}
+%\fancyhead[or]{\includegraphics[scale=0.05]{pictures/ivbela_black.pdf}}
+%\fancyfoot[r]{\footnotesize \today}
+\fancyfoot[C]{}
+
+
+
+
+\fancyfoot[el]{\thepage}
+\fancyfoot[or]{\thepage}
+
+\pagenumbering{arabic}  % 1, 2, 3, 4, ...
+\setcounter{page}{1} % oldal sz·ml·lÛ 1-re ·llÌt·sa
+
+% from now on it is twosided
+% http://www.latex-community.org/forum/viewtopic.php?f=4&t=38
+%\setboolean{@twoside}{true} 
+\input{generated/files/includes}
+
+%\pagestyle{empty}
+%\begin{landscape}
+%\include{generated/tablazat}
+%\end{landscape}  
+%\index{szavak}{szÛ}
+\newpage
+
+%\section*{Bevezet≈ë}
+%\input{../generated/files/bevezeto}
+%\newpage
+
+%\input{generated/files/tematikus}
+%\newpage
+
+\cleardoublepage
+\begin{multicols}{2} 
+\tableofcontents
+\end{multicols}
+\newpage
+
+% kott·k jegyzÈke
+%\listoffigures
+
+\newpage
+
+%\fancyhead[r]{T·rgymutatÛ}
+%\footnotesize 
+%\printindex
+
+%\printindex{szavak}{Sz√≥szedet}
+
+\pagestyle{empty} 
+
+
+%\include{hatlap}
+
+\end{document}
+
+
+

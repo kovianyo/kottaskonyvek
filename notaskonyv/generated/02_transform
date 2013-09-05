@@ -1,0 +1,9 @@
+php ../../generator/DalUrls.php files/dalok.html > 03_files
+chmod +x 03_files
+php ../../generator/DalTranslates.php files/dalok.html > 04_translates
+chmod +x 04_translates
+php ../../generator/DalCount.php files/dalok.html > files/countdal.tex
+php ../../generator/Includes.php files/dalok.html > files/includes.tex
+php ../../generator/Tartalmaz.php > files/tartalmaz.tex
+php ../../generator/Tematikus.php files/dalok.html > files/tematikus.tex
+php ../../generator/PrintInclude.php > files/printinclude.tex
