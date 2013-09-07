@@ -1,5 +1,6 @@
 
 MSCORE = musescore
+FILENAMES = filenames
 
 # make "make" :) not to delete intermediate files (http://darrendev.blogspot.com/2008/06/stopping-make-delete-intermediate-files.html)
 .SECONDARY:
@@ -8,16 +9,16 @@ MSCORE = musescore
 .SILENT:
 
 # rules that are not names of a file
-.PHONY: all createdirs pdffiles
+.PHONY: all createdirs pdffiles rebuild prerebuild clean
 
 all: createdirs pdffiles
 
-include filenames
+include $(FILENAMES)
 
 # the directory time changes if a new file is added, or existing is renamed, so this is the prerequisite
-filenames: files/mscx
-	echo -n "pdffiles: " > filenames
-	cd files/mscx; ls | sed "s/^/files\\/pdf\\//" | sed "s/.mscx$$/.pdf\\\\/" >> ../../filenames
+$(FILENAMES): files/mscx
+	echo -n "pdffiles: " > $(FILENAMES)
+	cd files/mscx; ls | sed "s/^/files\\/pdf\\//" | sed "s/.mscx$$/.pdf\\\\/" >> ../../$(FILENAMES)
 
 files/pdf/%.pdf: files/ly/%.ly #definitions.ly
 	cd files/pdf; if [ -e "$**.pdf" ]; then rm $**.pdf; fi; lilypond -dbackend=eps ../../$<
@@ -42,4 +43,14 @@ files/ly:
 
 files/pdf:
 	mkdir files/pdf
+
+rebuild: prerebuild createdirs pdffiles
+
+prerebuild:
+	rm $(FILENAMES)
+	touch files/mscx/*
+
+clean:
+	rm -r files/xml files/ly files/pdf
+	rm $(FILENAMES)
 
