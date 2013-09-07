@@ -1,4 +1,6 @@
-MSCORE = mscore
+
+MSCORE = musescore
+FILENAMES = filenames
 
 # make "make" :) not to delete intermediate files (http://darrendev.blogspot.com/2008/06/stopping-make-delete-intermediate-files.html)
 .SECONDARY:
@@ -6,14 +8,17 @@ MSCORE = mscore
 # turns echo off
 .SILENT:
 
-all: files
+# rules that are not names of a file
+.PHONY: all createdirs pdffiles rebuild prerebuild clean
 
-include Makefile.filenames
+all: createdirs pdffiles
 
-Makefile.filenames:
-	echo -n "files: " > Makefile.filenames
-	cd files/mscx; ls | sed "s/^/files\\/pdf\\//" | sed "s/.mscx$$/.pdf\\\\/" >> ../../Makefile.filenames
+include $(FILENAMES)
 
+# the directory time changes if a new file is added, or existing is renamed, so this is the prerequisite
+$(FILENAMES): files/mscx
+	echo -n "pdffiles: " > $(FILENAMES)
+	cd files/mscx; ls | sed "s/^/files\\/pdf\\//" | sed "s/.mscx$$/.pdf\\\\/" >> ../../$(FILENAMES)
 
 files/pdf/%.pdf: files/ly/%.ly #definitions.ly
 	cd files/pdf; if [ -e "$**.pdf" ]; then rm $**.pdf; fi; lilypond -dbackend=eps ../../$<
@@ -28,8 +33,24 @@ files/xml/%.xml: files/mscx/%.mscx
 files/mscx/%.mscx: files/mscz/%.mscz
 	cd files; $(MSCORE) ../$< -o ../$@ > /dev/null
 
-createdirs:
-	if [ ! -d "files/xml" ]; then mkdir files/xml; fi
-	if [ ! -d "files/ly" ]; then mkdir files/ly; fi
-	if [ ! -d "files/pdf" ]; then mkdir files/pdf; fi
+createdirs: files/xml files/ly files/pdf
+
+files/xml:
+	mkdir files/xml
+
+files/ly:
+	mkdir files/ly
+
+files/pdf:
+	mkdir files/pdf
+
+rebuild: prerebuild createdirs pdffiles
+
+prerebuild:
+	rm $(FILENAMES)
+	touch files/mscx/*
+
+clean:
+	rm -r files/xml files/ly files/pdf
+	rm $(FILENAMES)
 
