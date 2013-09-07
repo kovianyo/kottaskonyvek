@@ -9,12 +9,15 @@ MSCORE = mscore
 # turns echo off
 .SILENT:
 
-all: files
+# rules that are not names of a file
+.PHONY: createdirs pdffiles
+
+all: createdirs pdffiles
 
 include Makefile.filenames
 
 Makefile.filenames:
-	echo -n "files: " > Makefile.filenames
+	echo -n "pdffiles: " > Makefile.filenames
 	cd files/mscx; ls | sed "s/^/files\\/pdf\\//" | sed "s/.mscx$$/.pdf\\\\/" >> ../../Makefile.filenames
 #	cd files/mscz; ls | sed "s/^/files\\/mscx\\//" | sed "s/.mscz$$/.mscx\\\\/" >> ../../Makefile.filenames
 
@@ -31,4 +34,15 @@ files/xml/%.xml: files/mscx/%.mscx
 
 files/mscx/%.mscx: files/mscz/%.mscz
 	cd files; $(MSCORE) ../$< -o ../$@ > /dev/null
+
+createdirs: files/xml files/ly files/pdf
+
+files/xml:
+	mkdir files/xml
+
+files/ly:
+	mkdir files/ly
+
+files/pdf:
+	mkdir files/pdf
 
