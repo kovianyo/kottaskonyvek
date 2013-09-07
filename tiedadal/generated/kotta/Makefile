@@ -1,7 +1,5 @@
 
-MSCORE = mscore
-#MSCORE = /home/kovi/kovi/musescore/build.release/mscore/mscore
-#MSCORE = musescore
+MSCORE = musescore
 
 # make "make" :) not to delete intermediate files (http://darrendev.blogspot.com/2008/06/stopping-make-delete-intermediate-files.html)
 .SECONDARY:
@@ -10,17 +8,16 @@ MSCORE = mscore
 .SILENT:
 
 # rules that are not names of a file
-.PHONY: createdirs pdffiles
+.PHONY: all createdirs pdffiles
 
 all: createdirs pdffiles
 
-include Makefile.filenames
+include filenames
 
-Makefile.filenames:
-	echo -n "pdffiles: " > Makefile.filenames
-	cd files/mscx; ls | sed "s/^/files\\/pdf\\//" | sed "s/.mscx$$/.pdf\\\\/" >> ../../Makefile.filenames
-#	cd files/mscz; ls | sed "s/^/files\\/mscx\\//" | sed "s/.mscz$$/.mscx\\\\/" >> ../../Makefile.filenames
-
+# the directory time changes if a new file is added, or existing is renamed, so this is the prerequisite
+filenames: files/mscx
+	echo -n "pdffiles: " > filenames
+	cd files/mscx; ls | sed "s/^/files\\/pdf\\//" | sed "s/.mscx$$/.pdf\\\\/" >> ../../filenames
 
 files/pdf/%.pdf: files/ly/%.ly #definitions.ly
 	cd files/pdf; if [ -e "$**.pdf" ]; then rm $**.pdf; fi; lilypond -dbackend=eps ../../$<
