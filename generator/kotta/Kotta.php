@@ -941,10 +941,12 @@ class Kotta extends XmlProcessor
 	function removeTrailingSilnces($sequnece)
 	{
 		$sequnece = rtrim($sequnece);
-		while (substr($sequnece, -2) == "s4")
+		$toremove = " s4";
+		$len = strlen($toremove);
+		while (substr($sequnece, -1*$len) == $toremove)
 		{
-			$sequnece = substr($sequnece, 0, strlen($sequnece)-2);
-		$sequnece = rtrim($sequnece);
+			$sequnece = substr($sequnece, 0, strlen($sequnece)-$len);
+			$sequnece = rtrim($sequnece);
 		}
 		return $sequnece;
 	}
