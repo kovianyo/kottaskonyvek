@@ -281,6 +281,7 @@ class Kotta extends XmlProcessor
 
 		if ($this->getFirst("grace", $note)) return ""; // skip grace notes
 
+		// TODO: nested tuplets: once upon a trubadour, Measure 40
 		$tupletStart = $this->getFirst("notations/tuplet[@type='start']", $note);
 		if ($tupletStart)
 		{
@@ -301,33 +302,33 @@ class Kotta extends XmlProcessor
 		if ($rest != NULL)
 		{
 			$result .= "r" . $duration . " ";
-			return $result;
 		}
-
-
-		$tieSign = "";
-		$tie = $this->getFirst("tie[@type='start']", $note);
-		if ($tie /*&& $this->getNodeValue("@type", $tie) == "start"*/) $tieSign = "~";
-		$slurStart = $this->getFirst("notations/slur[@type='start']", $note);
-		$slurStop = $this->getFirst("notations/slur[@type='stop']", $note);
-
-
-		if ($notes == null) $result .= $this->tone($note) . $duration . $tieSign . " ";
 		else
 		{
-			$result .= "<";
-			foreach ($notes as $n) $result .= $this->tone($n) . " ";
-			$result .= ">". $duration . $tieSign . " ";
+			$tieSign = "";
+			$tie = $this->getFirst("tie[@type='start']", $note);
+			if ($tie /*&& $this->getNodeValue("@type", $tie) == "start"*/) $tieSign = "~";
+			$slurStart = $this->getFirst("notations/slur[@type='start']", $note);
+			$slurStop = $this->getFirst("notations/slur[@type='stop']", $note);
+	
+	
+			if ($notes == null) $result .= $this->tone($note) . $duration . $tieSign . " ";
+			else
+			{
+				$result .= "<";
+				foreach ($notes as $n) $result .= $this->tone($n) . " ";
+				$result .= ">". $duration . $tieSign . " ";
+			}
+	
+	
+			if ($this->getFirst("notations/fermata[@type='upright']", $note))
+			{
+				$result .= '\fermata ';
+			}
+	
+			if ($slurStop) $result .= ")";
+			if ($slurStart) $result .=  "(";
 		}
-
-
-		if ($this->getFirst("notations/fermata[@type='upright']", $note))
-		{
-			$result .= '\fermata ';
-		}
-
-		if ($slurStop) $result .= ")";
-		if ($slurStart) $result .=  "(";
 
 		$tupletStop = $this->getFirst("notations/tuplet[@type='stop']", $note);
 		if ($tupletStop) $result .=  " } ";
