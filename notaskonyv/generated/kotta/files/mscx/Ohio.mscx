@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="1.14">
-  <programVersion>1.2</programVersion>
-  <programRevision>5470
-</programRevision>
+  <programVersion>1.3</programVersion>
+  <programRevision>5702</programRevision>
   <Spatium>1.764</Spatium>
   <Division>480</Division>
   <Style>
@@ -55,7 +54,26 @@
       </Instrument>
     </Part>
   <Staff id="1">
+    <VBox>
+      <height>10</height>
+      <leftMargin>5</leftMargin>
+      <rightMargin>5</rightMargin>
+      <topMargin>5</topMargin>
+      <bottomMargin>5</bottomMargin>
+      <Text>
+        <style>2</style>
+        <subtype>Title</subtype>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:24pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ohio</p></body></html>
+          </html-data>
+        </Text>
+      </VBox>
     <Measure number="1">
+      <stretch>0.8</stretch>
       <TimeSig>
         <subtype>260</subtype>
         <den>4</den>
@@ -98,8 +116,56 @@
             </Tie>
           </Note>
         </Chord>
+      <Lyrics>
+        <syllabic>begin</syllabic>
+        <style>6</style>
+        <tick>480</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Meg</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>middle</syllabic>
+        <style>6</style>
+        <tick>960</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">mond</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>end</syllabic>
+        <style>6</style>
+        <tick>1440</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">tam</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <style>6</style>
+        <tick>1680</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">én,</p></body></html>
+          </html-data>
+        </Lyrics>
       </Measure>
     <Measure number="2">
+      <stretch>0.8</stretch>
       <Harmony>
         <root>14</root>
         <extension>1</extension>
@@ -113,6 +179,7 @@
         </Chord>
       </Measure>
     <Measure number="3">
+      <stretch>0.8</stretch>
       <Rest>
         <durationType>quarter</durationType>
         </Rest>
@@ -151,8 +218,57 @@
             </Tie>
           </Note>
         </Chord>
+      <Lyrics>
+        <syllabic>begin</syllabic>
+        <style>6</style>
+        <tick>4320</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">e</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>end</syllabic>
+        <style>6</style>
+        <tick>4560</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">nyém</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>begin</syllabic>
+        <style>6</style>
+        <tick>5280</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">le</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>end</syllabic>
+        <style>6</style>
+        <tick>5520</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">szel,</p></body></html>
+          </html-data>
+        </Lyrics>
       </Measure>
     <Measure number="4">
+      <stretch>0.8</stretch>
       <Harmony>
         <root>15</root>
         <extension>1</extension>
@@ -166,6 +282,7 @@
         </Chord>
       </Measure>
     <Measure number="5">
+      <stretch>0.8</stretch>
       <Rest>
         <durationType>quarter</durationType>
         </Rest>
@@ -203,8 +320,55 @@
             </Tie>
           </Note>
         </Chord>
+      <Lyrics>
+        <style>6</style>
+        <tick>8160</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">és</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>begin</syllabic>
+        <style>6</style>
+        <tick>8640</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">töb</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>end</syllabic>
+        <style>6</style>
+        <tick>9120</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">bé</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <style>6</style>
+        <tick>9360</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">már</p></body></html>
+          </html-data>
+        </Lyrics>
       </Measure>
     <Measure number="6">
+      <stretch>0.8</stretch>
       <Harmony>
         <root>15</root>
         <extension>64</extension>
@@ -218,6 +382,7 @@
         </Chord>
       </Measure>
     <Measure number="7">
+      <stretch>0.8</stretch>
       <Rest>
         <durationType>quarter</durationType>
         </Rest>
@@ -266,8 +431,68 @@
             </Tie>
           </Note>
         </Chord>
+      <Lyrics>
+        <syllabic>begin</syllabic>
+        <style>6</style>
+        <tick>12000</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">sen</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>end</syllabic>
+        <style>6</style>
+        <tick>12240</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ki</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <style>6</style>
+        <tick>12480</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">nem</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>begin</syllabic>
+        <style>6</style>
+        <tick>12960</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ö</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>end</syllabic>
+        <style>6</style>
+        <tick>13200</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">lel,</p></body></html>
+          </html-data>
+        </Lyrics>
       </Measure>
     <Measure number="8">
+      <stretch>0.8</stretch>
       <LayoutBreak>
         <subtype>line</subtype>
         </LayoutBreak>
@@ -284,6 +509,7 @@
         </Chord>
       </Measure>
     <Measure number="9">
+      <stretch>0.9</stretch>
       <Text>
         <style>17</style>
         <subtype>MeasureNumber</subtype>
@@ -325,8 +551,53 @@
             </Tie>
           </Note>
         </Chord>
+      <Lyrics>
+        <style>6</style>
+        <tick>15840</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Vár</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <style>6</style>
+        <tick>16320</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ránk</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <style>6</style>
+        <tick>16800</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">a</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <style>6</style>
+        <tick>17040</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">part,</p></body></html>
+          </html-data>
+        </Lyrics>
       </Measure>
     <Measure number="10">
+      <stretch>0.9</stretch>
       <Harmony>
         <root>14</root>
         <extension>64</extension>
@@ -340,6 +611,7 @@
         </Chord>
       </Measure>
     <Measure number="11">
+      <stretch>0.9</stretch>
       <Rest>
         <durationType>quarter</durationType>
         </Rest>
@@ -388,8 +660,66 @@
             </Tie>
           </Note>
         </Chord>
+      <Lyrics>
+        <style>6</style>
+        <tick>19680</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">hív</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <style>6</style>
+        <tick>19920</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">a</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <style>6</style>
+        <tick>20160</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">nagy</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>begin</syllabic>
+        <style>6</style>
+        <tick>20640</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">fo</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>end</syllabic>
+        <style>6</style>
+        <tick>20880</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">lyó,</p></body></html>
+          </html-data>
+        </Lyrics>
       </Measure>
     <Measure number="12">
+      <stretch>0.9</stretch>
       <Harmony>
         <root>13</root>
         <extension>1</extension>
@@ -403,6 +733,7 @@
         </Chord>
       </Measure>
     <Measure number="13">
+      <stretch>0.9</stretch>
       <Rest>
         <durationType>quarter</durationType>
         </Rest>
@@ -427,8 +758,44 @@
           <tpc>15</tpc>
           </Note>
         </Chord>
+      <Lyrics>
+        <syllabic>begin</syllabic>
+        <style>6</style>
+        <tick>23520</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">csob</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>end</syllabic>
+        <style>6</style>
+        <tick>24000</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ban</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <style>6</style>
+        <tick>24480</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">a</p></body></html>
+          </html-data>
+        </Lyrics>
       </Measure>
     <Measure number="14">
+      <stretch>0.9</stretch>
       <Harmony>
         <root>14</root>
         <extension>1</extension>
@@ -440,8 +807,20 @@
           <tpc>18</tpc>
           </Note>
         </Chord>
+      <Lyrics>
+        <style>6</style>
+        <tick>24960</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">víz,</p></body></html>
+          </html-data>
+        </Lyrics>
       </Measure>
     <Measure number="15">
+      <stretch>0.9</stretch>
       <Harmony>
         <root>15</root>
         <extension>1</extension>
@@ -481,8 +860,55 @@
           <tpc>16</tpc>
           </Note>
         </Chord>
+      <Lyrics>
+        <style>6</style>
+        <tick>27360</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">hív</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <style>6</style>
+        <tick>27600</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">az</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>begin</syllabic>
+        <style>6</style>
+        <tick>27840</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">O</p></body></html>
+          </html-data>
+        </Lyrics>
+      <Lyrics>
+        <syllabic>middle</syllabic>
+        <style>6</style>
+        <tick>28320</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">hi</p></body></html>
+          </html-data>
+        </Lyrics>
       </Measure>
     <Measure number="16">
+      <stretch>0.9</stretch>
       <Harmony>
         <root>14</root>
         <extension>1</extension>
@@ -497,7 +923,19 @@
       <BarLine>
         <subtype>5</subtype>
         </BarLine>
+      <Lyrics>
+        <syllabic>end</syllabic>
+        <style>6</style>
+        <tick>28800</tick>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:11.0007pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">o.</p></body></html>
+          </html-data>
+        </Lyrics>
       </Measure>
     </Staff>
-  <cursorTrack>0</cursorTrack>
+  <cursorTrack>-1</cursorTrack>
   </museScore>
