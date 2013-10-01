@@ -22,6 +22,9 @@ download: files files/dalok.html transform
 files:
 	mkdir files
 
+files/html:
+	mkdir -p files/html
+
 files/dalok.html::
 	wget http://105.cserkesz.hu/wiki/index.php/N%C3%B3t%C3%A1k -O files/dalok.html
 
