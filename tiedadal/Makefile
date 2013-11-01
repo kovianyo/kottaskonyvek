@@ -27,5 +27,5 @@ upload:
 	scp tiedadal.pdf pi@192.168.1.147:/var/www/tiedadal/tiedadal.pdf
 
 install:
-	sudo apt-get -y install musescore php5 lilypond texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended # texlive-full
+	sudo apt-get -y install musescore php5 lilypond texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended xvfb # texlive-full
 
