@@ -1,5 +1,5 @@
-
-\usepackage[a4paper,inner=1.5cm,outer=1.5cm,top=2.0cm,bottom=2.0cm,pdftex]{geometry} % \usepackage[a4paper,inner=0.15\textwidth,outer=0.15\textwidth,top=0.2\textwidth,bottom=0.2\textwidth,pdftex]{geometry}
+\usepackage[a4paper,inner=1.5cm,outer=1.5cm,top=2.0cm,bottom=2.0cm,pdftex]{geometry}
+% \usepackage[a4paper,inner=0.15\textwidth,outer=0.15\textwidth,top=0.2\textwidth,bottom=0.2\textwidth,pdftex]{geometry}
 
 \usepackage[pdftex]{hyperref}
 \hypersetup{
@@ -17,14 +17,13 @@
     linkcolor=black,          % color of internal links
     citecolor=black,        % color of links to bibliography
 %    filecolor=magenta,      % color of file links
-	urlcolor=black,           % color of external links
-	pdflang=hu-HU,
-	pdfpagelayout=TwoPageRight
+    urlcolor=black,           % color of external links
+    pdflang=hu-HU,
+    pdfpagelayout=TwoPageRight
 }
 % temp
 %\newcommand{\url}[1]{{#1}}
 
-%\usepackage{fancyvrb}
 \renewcommand{\ttdefault}{txtt}
 
 \addto\captionsmagyar{\renewcommand{\indexname}{Tartalom}}
@@ -35,9 +34,6 @@
 \fancyhead[er,ol]{\includegraphics[scale=0.1]{pictures/tiedadal.pdf}}
 \fancyhead[el]{\includegraphics[scale=0.07]{pictures/ivbela_black.pdf}}
 \fancyhead[or]{\includegraphics[scale=0.07]{pictures/ivbela_black.pdf}}
-%\fancyhead[er,ol]{\includegraphics[height=0.05\textwidth]{pictures/tiedadal.pdf}}
-%\fancyhead[el]{\includegraphics[height=0.05\textwidth]{pictures/ivbela_black.pdf}}
-%\fancyhead[or]{\includegraphics[height=0.05\textwidth]{pictures/ivbela_black.pdf}}
 \fancyfoot[C]{}
 \fancyfoot[el,or]{\thepage}
 \fancyfoot[er,ol]{}
@@ -60,11 +56,9 @@
 {
 \begin{minipage}{\textwidth}
 \vspace{0.4cm}
-%\begin{center}
 \phantomsection
 \addcontentsline{toc}{subsection}{#1}\label{#2}
 \dalcim{#1}
-%\end{center}
 \end{minipage}
 }
 
@@ -84,7 +78,6 @@
 \begin{minipage}{\textwidth}~
 \vspace{0.5cm}
 \end{minipage}
-%\vspace{0.5cm}
 }
 
 \newcommand{\kottaend}
