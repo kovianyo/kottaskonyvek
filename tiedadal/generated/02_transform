@@ -15,9 +15,6 @@ php ../../generator/Includes.php files/dalok.html > files/includes.tex
 echo Processing Tartalmaz...
 php ../../generator/Tartalmaz.php > files/tartalmaz.tex
 
-echo Processing Tematikus...
-php ../../generator/Tematikus.php files/dalok.html > files/tematikus.tex
-
 echo Processing PrintInclude...
 php ../../generator/PrintInclude.php > files/printinclude.tex
 
