@@ -60,25 +60,25 @@ class Hangnemek extends DalokProcessor
 
 	arsort($counts); // reserve sort (descending)
 
-	echo "\section*{Hangnemek}\n";
-	echo "\begin{multicols}{2}\n";
+	echo '\section*{Hangnemek}'."\n";
+	echo '\begin{multicols}{2}'."\n";
 
 
 	foreach ($counts as $key => $value)
 	{
 	    echo '\begin{minipage}{\textwidth}'."\n";
-	    echo "\subsubsection*{". $key ."}\n";
+	    echo '\subsubsection*{'. $key ."}\n";
 	    $lista = array();
 	    foreach ($this->hangnemek[$key] as $value)
 	    {
-		array_push($lista, $this->dalok[$value] . ", \pageref{".$value ."}" . '\newline' . "\n");
+		array_push($lista, $this->dalok[$value] . ', \pageref{'.$value .'}' . '\newline' . "\n");
 	    }
 	    sort($lista, SORT_LOCALE_STRING);
 	    echo implode("", $lista) ."\n";
-	    echo "\end{minipage}\n";
+	    echo '\end{minipage}'."\n";
 
 	}
-	echo "\end{multicols}\n";
+	echo '\end{multicols}'."\n";
     }
 }
 

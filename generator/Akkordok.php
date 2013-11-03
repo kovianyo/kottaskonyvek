@@ -49,8 +49,8 @@ class Akkordok extends DalokProcessor
 
 	asort($lengths);
 
-	echo "\section*{Akkordok}\n";
-	echo "\begin{multicols}{2}\n";
+	echo '\section*{Akkordok}' . "\n";
+	echo '\begin{multicols}{2}' . "\n";
 
 
 	foreach ($lengths as $key => $value)
@@ -61,15 +61,15 @@ class Akkordok extends DalokProcessor
 	    $lista = array();
 	    foreach ($this->akkordHalmazok[$key] as $value)
 	    {
-		array_push($lista, '\textbullet\hspace{1 mm}' . $this->dalok[$value] . ", \pageref{".$value ."}" . '\newline' . "\n");
+		array_push($lista, '\textbullet\hspace{1 mm}' . $this->dalok[$value] . ', \pageref{'.$value .'}' . '\newline' . "\n");
 	    }
 	    sort($lista, SORT_LOCALE_STRING);
 	    echo implode("", $lista) ."\n";
 	    //echo '~\newline' ."\n";
-	    echo "\end{minipage}\n";
+	    echo '\end{minipage}'."\n";
 
 	}
-	echo "\end{multicols}\n";
+	echo '\end{multicols}'."\n";
     }
 }
 

@@ -65,9 +65,9 @@ class Hangterjedelmek extends DalokProcessor
 
 	asort($lengths);
 */
-	echo "\section*{Hangterjedelmek}";
+	echo '\section*{Hangterjedelmek}';
 	//echo "félhangokban, növekvő sorrendben\n";
-	echo "\begin{multicols}{2}\n";
+	echo '\begin{multicols}{2}'."\n";
 
 
 	foreach ($this->hangterjedelmek as $key => $value)
@@ -81,7 +81,7 @@ class Hangterjedelmek extends DalokProcessor
 	    $lista = array();
 	    foreach ($this->hangterjedelmek[$key] as $value)
 	    {
-		array_push($lista, '\textbullet\hspace{1 mm}' . $this->dalok[$value] . ", \pageref{".$value ."}" . '\newline' . "\n");
+		array_push($lista, '\textbullet\hspace{1 mm}' . $this->dalok[$value] . ', \pageref{'.$value .'}'. '\newline' . "\n");
 	    }
 	    sort($lista, SORT_LOCALE_STRING);
 	    echo implode("", $lista); // ."\n";
@@ -89,7 +89,7 @@ class Hangterjedelmek extends DalokProcessor
 	    //echo "\end{minipage}\n";
 
 	}
-	echo "\end{multicols}\n";
+	echo '\end{multicols}' . "\n";
 
     }
 }
