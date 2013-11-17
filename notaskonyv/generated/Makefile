@@ -1,32 +1,6 @@
-.PHONY: all download transform texfiles
+DALOKURL = http://105.cserkesz.hu/wiki/index.php/N%C3%B3t%C3%A1k
 
-FILENAMES = filenames
-
-all: files texfiles
-
-include $(FILENAMES)
-
-$(FILENAMES): files/html
-	echo -n "texfiles: " > $(FILENAMES)
-	cd files/html; ls | sed "s/^/files\\/tex\\//" | sed "s/.html$$/.tex\\\\/" >> ../../$(FILENAMES)
-
-files/tex/%.tex: files/html/%.html ../../generator/Dal.php | files/tex
-	php ../../generator/Dal.php $< > $@
-
-files/tex:
-	mkdir files/tex
-
-download: files files/dalok.html transform
-	./03_files
-
-files:
-	mkdir files
-
-files/html:
-	mkdir -p files/html
-
-files/dalok.html::
-	wget http://105.cserkesz.hu/wiki/index.php/N%C3%B3t%C3%A1k -O files/dalok.html
+include ../../generator/Makefile.generated
 
 transform:
 	php ../../generator/DalUrls.php files/dalok.html > 03_files
