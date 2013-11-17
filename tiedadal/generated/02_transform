@@ -26,3 +26,9 @@ php ../../generator/Akkordok.php files/dalok.html > files/akkordok.tex
 
 echo Processing Hangterjedelmek...
 php ../../generator/Hangterjedelmek.php files/dalok.html > files/hangterjedelmek.tex
+
+echo Processing ToneSpan...
+php ../../generator/ToneSpans.php files/dalok.html > files/tonespans.dat
+
+echo Plotting tonespan...
+gnuplot tonespan.plot

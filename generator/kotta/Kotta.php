@@ -2,6 +2,17 @@
 
 require_once(dirname(__FILE__) . "/../XmlProcessor.php");
 
+class ToneSpan
+{
+	public $MinPitch;
+	public $MaxPitch;
+	
+	public function ToString()
+	{
+		return $this->MinPitch . " " . $this->MaxPitch;
+	}
+}
+
 class Kotta extends XmlProcessor
 {
     private $skipNextRepeat = false;
@@ -136,7 +147,7 @@ class Kotta extends XmlProcessor
 	    return $result;
 	}
 
-	function GetHangtrejedelem()
+	function GetToneSpan()
 	{
 		// return null if there are more voices
 		$parts = $this->query("/score-partwise/part");
@@ -153,6 +164,7 @@ class Kotta extends XmlProcessor
 			$voice = $this->getNodeValue("voice/text()", $notes->item($i));
 			if ($voice != null) if (!in_array($voice, $voices)) array_push($voices, $voice);
 		}
+		
 		if (count($voices) > 1) return null;
 
 		if ($this->getFirst("measure/note/chord", $part) != null) return null;
@@ -162,20 +174,36 @@ class Kotta extends XmlProcessor
 	    $minpitch = $maxpitch = 0;
 	    foreach ($notes as $note)
 	    {
-		if ($this->getFirst("rest", $note) == null)
-		{
-			$pitch = $this -> getPitch($note);
-			if ($minpitch == 0 && $maxpitch == 0)
+			if ($this->getFirst("rest", $note) == null)
 			{
-				$minpitch = $maxpitch = $pitch;
+				$pitch = $this -> getPitch($note);
+				if ($minpitch == 0 && $maxpitch == 0)
+				{
+					$minpitch = $maxpitch = $pitch;
+				}
+	
+				if ($pitch > $maxpitch) $maxpitch = $pitch;
+				if ($pitch < $minpitch) $minpitch = $pitch;
 			}
-
-			if ($pitch > $maxpitch) $maxpitch = $pitch;
-			if ($pitch < $minpitch) $minpitch = $pitch;
-		}
 	    }
-	    
-	    return $maxpitch - $minpitch;
+		
+	    $toneSpan = new ToneSpan();
+		$toneSpan->MaxPitch = $maxpitch;
+		$toneSpan->MinPitch = $minpitch;
+
+	    return $toneSpan;
+	}
+
+	function GetHangtrejedelem()
+	{
+		$toneSpan = $this->GetToneSpan();
+		
+		if ($toneSpan == null)
+		{
+			return null;
+		}
+		
+	    return $toneSpan->Maxpitch - $toneSpan->Minpitch;
 	}
 
 	function repeat($str, $count)
