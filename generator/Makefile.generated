@@ -1,0 +1,35 @@
+# Include this Makefile in the Makefile in the 'generated' folder
+# Define DALOKURL
+
+# TODO check DALOKURL for being filled out
+
+.PHONY: all download transform texfiles
+
+FILENAMES = filenames
+
+all: files texfiles
+
+include $(FILENAMES)
+
+$(FILENAMES): files/html
+	echo -n "texfiles: " > $(FILENAMES)
+	cd files/html; ls | sed "s/^/files\\/tex\\//" | sed "s/.html$$/.tex\\\\/" >> ../../$(FILENAMES)
+
+files/tex/%.tex: files/html/%.html ../../generator/Dal.php | files/tex
+	php ../../generator/Dal.php $< > $@
+
+files/tex:
+	mkdir files/tex
+
+download: files files/dalok.html transform
+	./03_files
+
+files:
+	mkdir files
+
+files/html:
+	mkdir -p files/html
+
+files/dalok.html::
+	wget $(DALOKURL) -O files/dalok.html
+
