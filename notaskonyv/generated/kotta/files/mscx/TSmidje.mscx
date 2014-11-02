@@ -62,6 +62,35 @@
       </Instrument>
     </Part>
   <Staff id="1">
+    <VBox>
+      <height>10</height>
+      <leftMargin>5</leftMargin>
+      <rightMargin>5</rightMargin>
+      <topMargin>5</topMargin>
+      <bottomMargin>5</bottomMargin>
+      <Text>
+        <style>2</style>
+        <subtype>Title</subtype>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:24pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">'t Smidje</p></body></html>
+          </html-data>
+        </Text>
+      <Text>
+        <style>4</style>
+        <subtype>Composer</subtype>
+        <frame>0</frame>
+        <html-data>
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;">
+<p align="right" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Laïs</p></body></html>
+          </html-data>
+        </Text>
+      </VBox>
     <Measure number="1">
       <KeySig>
         <subtype>13</subtype>
@@ -987,7 +1016,6 @@ p, li { white-space: pre-wrap; }
       <Chord>
         <durationType>quarter</durationType>
         <Note>
-          <selected>1</selected>
           <pitch>60</pitch>
           <tpc>14</tpc>
           </Note>
@@ -2044,5 +2072,5 @@ p, li { white-space: pre-wrap; }
         </Lyrics>
       </Measure>
     </Staff>
-  <cursorTrack>0</cursorTrack>
+  <cursorTrack>-1</cursorTrack>
   </museScore>
