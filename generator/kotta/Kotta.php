@@ -1090,6 +1090,12 @@ class Kotta extends XmlProcessor
 		$keyMode = $this->getNodeValue("mode/text()", $key);
 		$hangnem = "c";
 
+    // TODO
+    if ($keyMode != "minor")
+    {
+      $keyMode = "major";
+    }
+
 		if ($keyMode == "minor")
 		{
 			if ($keyFifths == -7) $hangnem = "aes";
