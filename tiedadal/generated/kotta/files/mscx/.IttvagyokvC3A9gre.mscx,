@@ -2430,15 +2430,11 @@
           <subtype>start-repeat</subtype>
           <span>1</span>
           </BarLine>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text>El</text>
+            <text><font face="Times New Roman"></font>El</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -2449,7 +2445,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text>jöt</text>
+            <text><font face="Times New Roman"></font>jöt</text>
             </Lyrics>
           <Note>
             <pitch>66</pitch>
@@ -2460,7 +2456,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>tem</text>
+            <text><font face="Times New Roman"></font>tem</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -2475,7 +2471,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text>Hoz</text>
+            <text><font face="Times New Roman"></font>Hoz</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -2486,8 +2482,9 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>zád,</text>
+            <text><font face="Times New Roman"></font>zád,</text>
             </Lyrics>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2497,6 +2494,11 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
+        <tick>30720</tick>
+        <Harmony>
+          <name></name>
+          <track>1</track>
+          </Harmony>
         </Measure>
       <Measure number="18">
         <endRepeat>2</endRepeat>
