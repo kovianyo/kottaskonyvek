@@ -1,5 +1,5 @@
 
-MSCORE = musescore
+MSCORE = xvfb-run musescore
 FILENAMES = filenames
 
 # make "make" :) not to delete intermediate files (http://darrendev.blogspot.com/2008/06/stopping-make-delete-intermediate-files.html)
@@ -53,4 +53,3 @@ prerebuild:
 clean:
 	rm -r files/xml files/ly files/pdf
 	rm $(FILENAMES)
-
