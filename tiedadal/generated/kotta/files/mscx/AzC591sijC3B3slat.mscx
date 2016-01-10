@@ -1,1641 +1,1168 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="1.14">
-  <programVersion>1.2</programVersion>
-  <programRevision>5470
-</programRevision>
-  <Spatium>1.80798</Spatium>
-  <Division>480</Division>
-  <Style>
-    <createMultiMeasureRests>1</createMultiMeasureRests>
-    </Style>
-  <showInvisible>1</showInvisible>
-  <showFrames>1</showFrames>
-  <page-layout>
-    <pageFormat>Letter</pageFormat>
-    <page-margins type="both">
-      <left-margin>71.7496</left-margin>
-      <right-margin>71.7496</right-margin>
-      <top-margin>90.1994</top-margin>
-      <bottom-margin>90.1994</bottom-margin>
-      </page-margins>
-    <page-offset>0</page-offset>
-    </page-layout>
-  <movement-title>Az ősi jóslat</movement-title>
-  <source>http://wikifonia.org/node/3873/revisions/5101/view</source>
-  <siglist>
-    <sig tick="0">
-      <nom>2</nom>
-      <denom>4</denom>
-      </sig>
-    </siglist>
-  <tempolist fix="2">
-    </tempolist>
-  <Part>
-    <Staff>
-      <cleflist>
-        <clef tick="0" idx="0"/>
-        </cleflist>
-      <keylist>
-        <key tick="0" idx="1"/>
-        </keylist>
+<museScore version="2.06">
+  <programVersion>2.0.2</programVersion>
+  <programRevision>3543170</programRevision>
+  <Score>
+    <LayerTag id="0" tag="default"></LayerTag>
+    <currentLayer>0</currentLayer>
+    <Synthesizer>
+      </Synthesizer>
+    <Division>480</Division>
+    <Style>
+      <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
+      <frameSystemDistance>1</frameSystemDistance>
+      <minMeasureWidth>4</minMeasureWidth>
+      <endBarDistance>0.3</endBarDistance>
+      <bracketWidth>0.35</bracketWidth>
+      <bracketDistance>0.25</bracketDistance>
+      <clefLeftMargin>0.5</clefLeftMargin>
+      <minNoteDistance>0.4</minNoteDistance>
+      <measureSpacing>1.14</measureSpacing>
+      <ledgerLineWidth>0.12</ledgerLineWidth>
+      <beamWidth>0.48</beamWidth>
+      <beamMinLen>1.25</beamMinLen>
+      <propertyDistanceStem>0.5</propertyDistanceStem>
+      <harmonyY>0</harmonyY>
+      <chordStyle>custom</chordStyle>
+      <chordsXmlFile>1</chordsXmlFile>
+      <chordDescriptionFile>stdchords.xml</chordDescriptionFile>
+      <createMultiMeasureRests>1</createMultiMeasureRests>
+      <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
+      <voltaY>-2</voltaY>
+      <keySigNaturals>1</keySigNaturals>
+      <tupletOufOfStaff>0</tupletOufOfStaff>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Chord Symbol</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <page-layout>
+        <page-height>1584</page-height>
+        <page-width>1224</page-width>
+        <page-margins type="both">
+          <left-margin>71.7496</left-margin>
+          <right-margin>71.7496</right-margin>
+          <top-margin>90.1994</top-margin>
+          <bottom-margin>90.1994</bottom-margin>
+          </page-margins>
+        </page-layout>
+      <Spatium>1.80798</Spatium>
+      </Style>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
+    <showMargins>0</showMargins>
+    <metaTag name="arranger"></metaTag>
+    <metaTag name="composer"></metaTag>
+    <metaTag name="copyright"></metaTag>
+    <metaTag name="creationDate">2016-01-10</metaTag>
+    <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle">Az ősi jóslat</metaTag>
+    <metaTag name="platform">Linux</metaTag>
+    <metaTag name="poet"></metaTag>
+    <metaTag name="source">http://wikifonia.org/node/3873/revisions/5101/view</metaTag>
+    <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
+    <metaTag name="workTitle"></metaTag>
+    <PageList>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      </PageList>
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          </StaffType>
+        </Staff>
+      <trackName></trackName>
+      <Instrument>
+        <trackName></trackName>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <program value="0"/>
+          <controller ctrl="93" value="30"/>
+          <controller ctrl="91" value="30"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Staff id="1">
+      <VBox>
+        <height>10</height>
+        <bottomGap>7</bottomGap>
+        <Text>
+          <style>Title</style>
+          <text><font face="Times New Roman"/>Az ősi jóslat</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text><font face="Times New Roman"/>S. Sourire</text>
+          </Text>
+        </VBox>
+      <Measure number="1">
+        <breakMultiMeasureRest/>
+        <Clef>
+          <concertClefType>G</concertClefType>
+          <transposingClefType>G</transposingClefType>
+          </Clef>
+        <KeySig>
+          <accidental>1</accidental>
+          </KeySig>
+        <TimeSig>
+          <sigN>2</sigN>
+          <sigD>4</sigD>
+          <showCourtesySig>1</showCourtesySig>
+          </TimeSig>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <StaffText>
+          <style>System</style>
+          <text><font size="9.75613"/><font face="Times New Roman"/>Refrén</text>
+          </StaffText>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>Az</text>
+            </Lyrics>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>ő</text>
+            </Lyrics>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>si</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="2">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>jós</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>lat</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="3">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>14</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>be</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>tel</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>je</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>66</pitch>
+            <tpc>20</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="4">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>half</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>sült,</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="5">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>Mi</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>énk</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>a</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="6">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>Meg</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>vál</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="7">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>16</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>half</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>tó,</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <Tie id="2">
+              </Tie>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="8">
+        <breakMultiMeasureRest/>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Chord>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="2"/>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="9">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>Ö</text>
+            </Lyrics>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>vé</text>
+            </Lyrics>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>az</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="10">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>ég</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>és</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="11">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>14</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>ö</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>vé</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>a</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>66</pitch>
+            <tpc>20</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="12">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>half</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>föld,</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="13">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>a</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>kit</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>ma</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="14">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>hir</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>det</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="15">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>16</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>an</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>gyal</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="16">
+        <breakMultiMeasureRest/>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>half</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>szó.</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <Tie id="3">
+              </Tie>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="17">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>eighth</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="3"/>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Beam id="1">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>eighth</durationType>
+          <Beam>1</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>1. Fa</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>end</BeamMode>
+          <durationType>eighth</durationType>
+          <Beam>1</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>lu</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="18">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>szé</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>lén,</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="19">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>bar</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>lang</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="20">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>mé</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>lyén,</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <Tie id="4">
+              </Tie>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="21">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="4"/>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Beam id="2">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>eighth</durationType>
+          <Beam>2</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>Má</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>end</BeamMode>
+          <durationType>eighth</durationType>
+          <Beam>2</Beam>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>ri</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="22">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>á</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>nak</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="23">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text><font size="10.7317"/><font face="Times New Roman"/>szűz</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>kar</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="24">
+        <breakMultiMeasureRest/>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Harmony>
+          <root>16</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>half</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>ján,</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <Tie id="5">
+              </Tie>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="25">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="5"/>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Beam id="3">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>eighth</durationType>
+          <Beam>3</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>Ki</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>end</BeamMode>
+          <durationType>eighth</durationType>
+          <Beam>3</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>csi</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="26">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>gyer</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>mek</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="27">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>nyug</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>szik</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="28">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>14</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>bé</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>kén,</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <Tie id="6">
+              </Tie>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="29">
+        <breakMultiMeasureRest/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <endSpanner id="6"/>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Beam id="4">
+          </Beam>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>eighth</durationType>
+          <Beam>4</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>A</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>end</BeamMode>
+          <durationType>eighth</durationType>
+          <Beam>4</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>ludj,</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="30">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>é</text>
+            </Lyrics>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>des</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="31">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>16</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>Jé</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>zus</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="32">
+        <breakMultiMeasureRest/>
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          <pos x="0" y="-4"/>
+          </Harmony>
+        <Chord>
+          <durationType>half</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>kám!</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <BarLine>
+          <subtype>end</subtype>
+          <span>1</span>
+          </BarLine>
+        </Measure>
       </Staff>
-    <Instrument>
-      <Channel name="normal">
-        <controller ctrl="0" value="0"/>
-        <controller ctrl="32" value="0"/>
-        <program value="0"/>
-        <controller ctrl="7" value="100"/>
-        <controller ctrl="10" value="64"/>
-        <controller ctrl="93" value="30"/>
-        <controller ctrl="91" value="30"/>
-        </Channel>
-      </Instrument>
-    </Part>
-  <Staff id="1">
-    <VBox>
-      <height>10</height>
-      <leftMargin>5</leftMargin>
-      <rightMargin>5</rightMargin>
-      <topMargin>5</topMargin>
-      <bottomMargin>5</bottomMargin>
-      <Text>
-        <style>2</style>
-        <subtype>Title</subtype>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:24pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Az ősi jóslat</p></body></html>
-          </html-data>
-        </Text>
-      <Text>
-        <style>4</style>
-        <subtype>Composer</subtype>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:12pt; font-weight:400; font-style:normal;">
-<p align="right" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">S. Sourire</p></body></html>
-          </html-data>
-        </Text>
-      </VBox>
-    <Measure number="1">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="10.4341" y="-4"/>
-        </Harmony>
-      <StaffText>
-        <style>22</style>
-        <subtype>System</subtype>
-        <systemFlag>1</systemFlag>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:10.25pt; font-weight:400; font-style:normal;">
-<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:10pt;">Refrén</span></p></body></html>
-          </html-data>
-        </StaffText>
-      <TimeSig>
-        <subtype>132</subtype>
-        <den>4</den>
-        <nom1>2</nom1>
-        </TimeSig>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>down</StemDirection>
-        <Note>
-          <pitch>71</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>down</StemDirection>
-        <Note>
-          <pitch>71</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>69</pitch>
-          <tpc>17</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <style>6</style>
-        <tick>0</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">Az</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>240</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">ő</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>720</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">si</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="2">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>960</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">jós</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>1440</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">lat</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="3">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>14</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.51816" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>66</pitch>
-          <tpc>20</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>1920</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">be</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>middle</syllabic>
-        <style>6</style>
-        <tick>2160</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">tel</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>middle</syllabic>
-        <style>6</style>
-        <tick>2640</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">je</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="4">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>half</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>64</pitch>
-          <tpc>18</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>2880</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">sült,</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="5">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.83028" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>3840</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">Mi</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <style>6</style>
-        <tick>4080</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">énk</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <style>6</style>
-        <tick>4560</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">a</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="6">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>4800</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">Meg</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>middle</syllabic>
-        <style>6</style>
-        <tick>5280</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">vál</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="7">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>16</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.60734" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>half</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>69</pitch>
-          <tpc>17</tpc>
-          <Tie>
-            </Tie>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>5760</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">tó,</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="8">
-      <breakMultiMeasureRest/>
-      <LayoutBreak>
-        <subtype>line</subtype>
-        </LayoutBreak>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>69</pitch>
-          <tpc>17</tpc>
-          </Note>
-        </Chord>
-      <Rest>
-        <durationType>quarter</durationType>
-        </Rest>
-      </Measure>
-    <Measure number="9">
-      <breakMultiMeasureRest/>
-      <Text>
-        <style>17</style>
-        <subtype>MeasureNumber</subtype>
-        </Text>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="7.33652" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>down</StemDirection>
-        <Note>
-          <pitch>71</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>down</StemDirection>
-        <Note>
-          <pitch>71</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>69</pitch>
-          <tpc>17</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>7680</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">Ö</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>7920</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">vé</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <style>6</style>
-        <tick>8400</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">az</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="10">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <style>6</style>
-        <tick>8640</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">ég</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <style>6</style>
-        <tick>9120</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">és</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="11">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>14</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.2" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>66</pitch>
-          <tpc>20</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>9600</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">ö</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>9840</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">vé</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <style>6</style>
-        <tick>10320</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">a</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="12">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>half</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>64</pitch>
-          <tpc>18</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <style>6</style>
-        <tick>10560</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">föld,</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="13">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.2" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>11520</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">a</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>11760</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">kit</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <style>6</style>
-        <tick>12240</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">ma</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="14">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>12480</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">hir</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>12960</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">det</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="15">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>16</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.6645" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>69</pitch>
-          <tpc>17</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>71</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>13440</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">an</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>middle</syllabic>
-        <style>6</style>
-        <tick>13920</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">gyal</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="16">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="2.20299" y="-4"/>
-        </Harmony>
-      <LayoutBreak>
-        <subtype>line</subtype>
-        </LayoutBreak>
-      <Chord>
-        <durationType>half</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          <Tie>
-            </Tie>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <style>6</style>
-        <tick>14400</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">szó.</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="17">
-      <breakMultiMeasureRest/>
-      <Text>
-        <style>17</style>
-        <subtype>MeasureNumber</subtype>
-        </Text>
-      <Chord>
-        <durationType>eighth</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Rest>
-        <durationType>eighth</durationType>
-        </Rest>
-      <Beam id="0">
-        </Beam>
-      <Chord>
-        <BeamMode>begin</BeamMode>
-        <durationType>eighth</durationType>
-        <Beam>0</Beam>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <BeamMode>end</BeamMode>
-        <durationType>eighth</durationType>
-        <Beam>0</Beam>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>60</pitch>
-          <tpc>14</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>15840</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">1. Fa</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>16080</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">lu</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="18">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.87487" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>16320</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">szé</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>16800</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">lén,</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="19">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>57</pitch>
-          <tpc>17</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>17280</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">bar</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>17760</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">lang</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="20">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.81656" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          <Tie>
-            </Tie>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>18240</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">mé</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>18720</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">lyén,</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="21">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Beam id="1">
-        </Beam>
-      <Chord>
-        <BeamMode>begin</BeamMode>
-        <durationType>eighth</durationType>
-        <Beam>1</Beam>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <BeamMode>end</BeamMode>
-        <durationType>eighth</durationType>
-        <Beam>1</Beam>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>60</pitch>
-          <tpc>14</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>19680</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">Má</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>middle</syllabic>
-        <style>6</style>
-        <tick>19920</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">ri</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="22">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.2" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>middle</syllabic>
-        <style>6</style>
-        <tick>20160</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">á</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>20640</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">nak</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="23">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <style>6</style>
-        <tick>21120</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">szűz</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>21600</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">kar</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="24">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>16</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="2.08295" y="-4"/>
-        </Harmony>
-      <LayoutBreak>
-        <subtype>line</subtype>
-        </LayoutBreak>
-      <Chord>
-        <durationType>half</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>57</pitch>
-          <tpc>17</tpc>
-          <Tie>
-            </Tie>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>22080</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">ján,</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="25">
-      <breakMultiMeasureRest/>
-      <Text>
-        <style>17</style>
-        <subtype>MeasureNumber</subtype>
-        </Text>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>57</pitch>
-          <tpc>17</tpc>
-          </Note>
-        </Chord>
-      <Beam id="2">
-        </Beam>
-      <Chord>
-        <BeamMode>begin</BeamMode>
-        <durationType>eighth</durationType>
-        <Beam>2</Beam>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <BeamMode>end</BeamMode>
-        <durationType>eighth</durationType>
-        <Beam>2</Beam>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>60</pitch>
-          <tpc>14</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>23520</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">Ki</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>23760</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">csi</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="26">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="2.48424" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>24000</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">gyer</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>24480</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">mek</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="27">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>59</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>24960</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">nyug</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>25440</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">szik</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="28">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>14</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.51816" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>64</pitch>
-          <tpc>18</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          <Tie>
-            </Tie>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>25920</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">bé</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>26400</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">kén,</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="29">
-      <breakMultiMeasureRest/>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Beam id="3">
-        </Beam>
-      <Chord>
-        <BeamMode>begin</BeamMode>
-        <durationType>eighth</durationType>
-        <Beam>3</Beam>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <BeamMode>end</BeamMode>
-        <durationType>eighth</durationType>
-        <Beam>3</Beam>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>69</pitch>
-          <tpc>17</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>27360</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">A</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <selected>1</selected>
-        <tick>27600</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">ludj,</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="30">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.2" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>down</StemDirection>
-        <Note>
-          <pitch>71</pitch>
-          <tpc>19</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>27840</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">é</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>28320</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">des</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="31">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>16</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="1.39926" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>62</pitch>
-          <tpc>16</tpc>
-          </Note>
-        </Chord>
-      <Chord>
-        <durationType>quarter</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>69</pitch>
-          <tpc>17</tpc>
-          </Note>
-        </Chord>
-      <Lyrics>
-        <syllabic>begin</syllabic>
-        <style>6</style>
-        <tick>28800</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">Jé</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      <Lyrics>
-        <syllabic>middle</syllabic>
-        <style>6</style>
-        <tick>29280</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">zus</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    <Measure number="32">
-      <breakMultiMeasureRest/>
-      <Harmony>
-        <root>15</root>
-        <extension>1</extension>
-        <offset x="0" y="-2.59956e-18"/>
-        <pos x="2.70947" y="-4"/>
-        </Harmony>
-      <Chord>
-        <durationType>half</durationType>
-        <StemDirection>up</StemDirection>
-        <Note>
-          <pitch>67</pitch>
-          <tpc>15</tpc>
-          </Note>
-        </Chord>
-      <BarLine>
-        <subtype>5</subtype>
-        </BarLine>
-      <Lyrics>
-        <syllabic>end</syllabic>
-        <style>6</style>
-        <tick>29760</tick>
-        <frame>0</frame>
-        <html-data>
-<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Times New Roman'; font-size:11.275pt; font-weight:400; font-style:normal;">
-<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:11pt;">kám!</span></p></body></html>
-          </html-data>
-        </Lyrics>
-      </Measure>
-    </Staff>
-  <cursorTrack>0</cursorTrack>
+    </Score>
   </museScore>
