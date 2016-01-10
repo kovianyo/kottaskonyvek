@@ -29,3 +29,5 @@ show:
 install:
 	sudo apt-get -y install musescore php5 lilypond texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-lang-european xvfb gnuplot
 
+clean:
+	rm generated/files/tex/*
