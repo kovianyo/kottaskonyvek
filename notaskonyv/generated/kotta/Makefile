@@ -24,7 +24,7 @@ files/pdf/%.pdf: files/ly/%.ly #definitions.ly
 	cd files/pdf; if [ -e "$**.pdf" ]; then rm $**.pdf; fi; lilypond -dbackend=eps ../../$<
 # cd is needed because lilypond generates auxiliary files
 
-files/ly/%.ly: files/xml/%.xml
+files/ly/%.ly: files/xml/%.xml definitions.ly ../Settings.php ../../../generator/kotta/XmlToLy.php ../../../generator/kotta/Kotta.php
 	cd files; php ../../../../generator/kotta/XmlToLy.php ../$< > ../$@
 
 files/xml/%.xml: files/mscx/%.mscx
