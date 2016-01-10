@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notee" value="e"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -3129,7 +3129,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="70.991" y="6.69199"/>
+            <pos x="70.3664" y="6.69199"/>
             </Segment>
           </HairPin>
         <Chord>
@@ -3213,7 +3213,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="36.4425" y="7.17355"/>
+            <pos x="35.4255" y="7.17355"/>
             </Segment>
           </HairPin>
         <Chord>
@@ -5585,7 +5585,6 @@
           <durationType>eighth</durationType>
           </Rest>
         <Chord>
-          <dots>2</dots>
           <durationType>half</durationType>
           <Note>
             <Tie id="24">
@@ -5600,6 +5599,40 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <Tie id="26">
+              </Tie>
+            <endSpanner id="24"/>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <Tie id="27">
+              </Tie>
+            <endSpanner id="25"/>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <Tie id="28">
+              </Tie>
+            <endSpanner id="26"/>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <Tie id="29">
+              </Tie>
+            <endSpanner id="27"/>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
         </Measure>
       <Measure number="41">
         <Beam id="57">
@@ -5608,12 +5641,12 @@
           <durationType>eighth</durationType>
           <Beam>57</Beam>
           <Note>
-            <endSpanner id="24"/>
+            <endSpanner id="28"/>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <endSpanner id="25"/>
+            <endSpanner id="29"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
