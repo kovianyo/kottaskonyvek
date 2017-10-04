@@ -24,7 +24,7 @@ function toFileName($str)
 
 function toFileNameLong($str)
 {
-	$part = substr($str, strlen("http://105.cserkesz.hu/wiki/index.php/"));
+	$part = substr($str, strlen("/wiki2/index.php?title="));
 	$part = str_replace("_", "", $part);
 	$part = str_replace("%", "", $part);
 	$part = str_replace(",", "2C", $part);

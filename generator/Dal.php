@@ -32,7 +32,7 @@ class DalProcessor extends HtmlProcessor
 
 	function parse()
 	{
-		$this->name = toFileNameLong($this->getNodeValue("//div[@class='printfooter']/a/@href"));
+		$this->name = toFileNameLong($this->getNodeValue("//li[@id='ca-nstab-main']/span/a/@href"));
 		$this->title = $this->getNodeValue("//div[@id='content']//h1/text()");
 		$this->text = $this->nagybetu($this->getNodeValue("//div[@id='bodyContent']//pre/text()"));
 		if ($this->getFirst("//div[@class='refren']")) $this->refrens = explode(";", $this->getNodeValue("//div[@class='refren']/div[1]/text()"));

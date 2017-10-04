@@ -46,6 +46,8 @@ $proc = new HtmlProcessor();
 
 $proc->loadFirstArg($argv);
 
+// echo Settings::$Includes;
+
 // fejezetek nélkül
 if (Settings::$Includes < 2)
 {
@@ -138,7 +140,7 @@ if (Settings::$Includes < 2)
 // fejezetenként
 if (Settings::$Includes == 2)
 {
-	$contentBody = $proc->getFirst("//div[@id='bodyContent']");
+	$contentBody = $proc->getFirst("//div[@id='mw-content-text']");
 	$elem = $contentBody->firstChild;
 	
 	while ($elem)
@@ -151,6 +153,7 @@ if (Settings::$Includes == 2)
 			foreach ($as as $a)
 			{
 				$href = $proc->getNodeValue("@href", $a);
+				// echo "href: " . $href . "\n";
 				echo "\input{generated/files/tex/" . toFileName($href) . "}%\n";
 			}
 		}

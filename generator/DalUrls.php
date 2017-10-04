@@ -18,7 +18,7 @@ foreach ($as as $a)
 	$href = $proc->getNodeValue("@href", $a);
 	if ($href[0] != "#")
 	{
-		echo "wget http://105.cserkesz.hu" . $href . " -4 -O files/html/" . toFileName($href) . ".html\n";
+		echo "wget http://kovianyo.ddns.net" . $href . " -4 -O files/html/" . toFileName($href) . ".html\n";
 	}
 }
 

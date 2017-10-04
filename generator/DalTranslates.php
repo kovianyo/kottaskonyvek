@@ -18,6 +18,7 @@ foreach ($as as $a)
 	$href = $proc->getNodeValue("@href", $a);
 	if ($href[0] != "#")
 	{
+		// echo "href: " . $href . "\n";
 		$fileName = toFileName($href);
 		echo "php ../../generator/Dal.php files/html/" . $fileName . ".html > files/tex/". $fileName .".tex\n";
 	}
