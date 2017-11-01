@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programVersion>2.0.3</programVersion>
+  <programRevision>3c7a69d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -42,6 +42,1387 @@
         <size>12</size>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         </TextStyle>
+      <ChordList>
+        <font id="0" family="default">
+          <mag>1</mag>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          </font>
+        <font id="1" family="FreeSerif">
+          <mag>1.2</mag>
+          <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
+          </font>
+        <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
+        <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
+        <chord id="1">
+          <name></name>
+          <name></name>
+          <xml>major</xml>
+          <voicing>C E G</voicing>
+          <render></render>
+          </chord>
+        <chord id="2">
+          <name>Maj</name>
+          <xml>major</xml>
+          <voicing>C E G</voicing>
+          <render>Maj</render>
+          </chord>
+        <chord id="3">
+          <name>5b</name>
+          <xml>major</xml>
+          <voicing>C E Gb</voicing>
+          <degree>altb5</degree>
+          <render>5 b</render>
+          </chord>
+        <chord id="4">
+          <name>+</name>
+          <xml>augmented</xml>
+          <voicing>C E Ab</voicing>
+          <render>+</render>
+          </chord>
+        <chord id="5">
+          <name>6</name>
+          <xml>major-sixth</xml>
+          <voicing>C E G A</voicing>
+          <render>6</render>
+          </chord>
+        <chord id="6">
+          <name>Maj7</name>
+          <xml>major-seventh</xml>
+          <voicing>C E G B</voicing>
+          <render>Maj 7</render>
+          </chord>
+        <chord id="7">
+          <name>Maj9</name>
+          <xml>major-ninth</xml>
+          <voicing>C D E G B</voicing>
+          <render>Maj 9</render>
+          </chord>
+        <chord id="8">
+          <name>Maj9#11</name>
+          <xml>major-ninth</xml>
+          <voicing>C D E Gb G B</voicing>
+          <degree>add#11</degree>
+          <render>Maj 9 # 11</render>
+          </chord>
+        <chord id="9">
+          <name>Maj13#11</name>
+          <xml>major-13th</xml>
+          <voicing>C D E Gb G A B</voicing>
+          <degree>add#11</degree>
+          <render>Maj 13 # 11</render>
+          </chord>
+        <chord id="10">
+          <name>Maj13</name>
+          <xml>major-13th</xml>
+          <voicing>C D E Gb G A B</voicing>
+          <render>Maj 13</render>
+          </chord>
+        <chord id="11">
+          <name>Maj9(no 3)</name>
+          <xml>major-ninth</xml>
+          <voicing>C D G B</voicing>
+          <degree>sub3</degree>
+          <render>Maj 9 (no 3)</render>
+          </chord>
+        <chord id="12">
+          <name>+</name>
+          <xml>augmented</xml>
+          <voicing>C E Ab</voicing>
+          <render>+</render>
+          </chord>
+        <chord id="13">
+          <name>Maj7#5</name>
+          <xml>major-seventh</xml>
+          <voicing>C E Ab B</voicing>
+          <degree>alt#5</degree>
+          <render>Maj 7 # 5</render>
+          </chord>
+        <chord id="14">
+          <name>69</name>
+          <xml>major-sixth</xml>
+          <voicing>C D E G A</voicing>
+          <degree>add9</degree>
+          <render>69</render>
+          </chord>
+        <chord id="15">
+          <name>2</name>
+          <xml>major</xml>
+          <voicing>C D E G</voicing>
+          <degree>add2</degree>
+          <render>2</render>
+          </chord>
+        <chord id="16">
+          <name>m</name>
+          <xml>minor</xml>
+          <voicing>C Eb G</voicing>
+          <render>m</render>
+          </chord>
+        <chord id="17">
+          <name>m+</name>
+          <xml>minor</xml>
+          <voicing>C Eb Ab</voicing>
+          <degree>alt#5</degree>
+          <render>m+</render>
+          </chord>
+        <chord id="18">
+          <name>mMaj7</name>
+          <xml>major-minor</xml>
+          <voicing>C Eb G B</voicing>
+          <render>m Maj 7</render>
+          </chord>
+        <chord id="19">
+          <name>m7</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Eb G Bb</voicing>
+          <render>m7</render>
+          </chord>
+        <chord id="20">
+          <name>m9</name>
+          <xml>minor-ninth</xml>
+          <voicing>C D Eb G Bb</voicing>
+          <render>m9</render>
+          </chord>
+        <chord id="21">
+          <name>m11</name>
+          <xml>minor-11th</xml>
+          <voicing>C D Eb F G Bb</voicing>
+          <render>m11</render>
+          </chord>
+        <chord id="22">
+          <name>m13</name>
+          <xml>minor-13th</xml>
+          <voicing>C D Eb F G A Bb</voicing>
+          <render>m13</render>
+          </chord>
+        <chord id="23">
+          <name>m6</name>
+          <xml>minor-sixth</xml>
+          <voicing>C Eb G A</voicing>
+          <render>m6</render>
+          </chord>
+        <chord id="24">
+          <name>m#5</name>
+          <xml>minor</xml>
+          <voicing>C Eb Ab</voicing>
+          <degree>alt#5</degree>
+          <render>m # 5</render>
+          </chord>
+        <chord id="25">
+          <name>m7#5</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Eb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <render>m 7 # 5</render>
+          </chord>
+        <chord id="26">
+          <name>m69</name>
+          <xml>minor-sixth</xml>
+          <voicing>C D Eb G A</voicing>
+          <degree>add9</degree>
+          <render>m69</render>
+          </chord>
+        <chord id="27">
+          <name>Lyd</name>
+          <xml>major</xml>
+          <voicing>C E Gb G</voicing>
+          <degree>add#11</degree>
+          <render>Lyd</render>
+          </chord>
+        <chord id="28">
+          <name>Maj7Lyd</name>
+          <xml>major-seventh</xml>
+          <voicing>C D E G A</voicing>
+          <degree>add#11</degree>
+          <render>Maj 7 Lyd</render>
+          </chord>
+        <chord id="29">
+          <name>Maj7b5</name>
+          <xml>major-seventh</xml>
+          <voicing>C E Gb B</voicing>
+          <degree>altb5</degree>
+          <render>Maj 7 b 5</render>
+          </chord>
+        <chord id="32">
+          <name>m7b5</name>
+          <xml>half-diminished</xml>
+          <voicing>C Eb Gb Bb</voicing>
+          <render>m7 b 5</render>
+          </chord>
+        <chord id="33">
+          <name>dim</name>
+          <xml>diminished</xml>
+          <voicing>C Eb Gb</voicing>
+          <render>dim</render>
+          </chord>
+        <chord id="34">
+          <name>m9b5</name>
+          <xml>minor-ninth</xml>
+          <voicing>C D Eb Gb Bb</voicing>
+          <degree>altb5</degree>
+          <render>m9 b 5</render>
+          </chord>
+        <chord id="40">
+          <name>5</name>
+          <xml>power</xml>
+          <voicing>C G</voicing>
+          <render>5</render>
+          </chord>
+        <chord id="56">
+          <name>7+</name>
+          <xml>augmented-seventh</xml>
+          <voicing>C E Ab</voicing>
+          <render>7+</render>
+          </chord>
+        <chord id="57">
+          <name>9+</name>
+          <xml>augmented-ninth</xml>
+          <voicing>C D E Ab Bb</voicing>
+          <render>9+</render>
+          </chord>
+        <chord id="58">
+          <name>13+</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <render>13+</render>
+          </chord>
+        <chord id="59">
+          <name>(blues)</name>
+          <xml>major</xml>
+          <voicing>C Eb E G</voicing>
+          <degree>add#9</degree>
+          <render>(blues)</render>
+          </chord>
+        <chord id="60">
+          <name>7(Blues)</name>
+          <xml>dominant</xml>
+          <voicing>C E G Bb</voicing>
+          <degree>add#9</degree>
+          <render>7(blues)</render>
+          </chord>
+        <chord id="64">
+          <name>7</name>
+          <xml>dominant</xml>
+          <voicing>C E G Bb</voicing>
+          <render>7</render>
+          </chord>
+        <chord id="65">
+          <name>13</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E F G A Bb</voicing>
+          <render>13</render>
+          </chord>
+        <chord id="66">
+          <name>7b13</name>
+          <xml>dominant</xml>
+          <voicing>C E G Ab Bb</voicing>
+          <degree>addb13</degree>
+          <render>7 b 13</render>
+          </chord>
+        <chord id="67">
+          <name>7#11</name>
+          <xml>dominant</xml>
+          <voicing>C E Gb G Bb</voicing>
+          <degree>add#11</degree>
+          <render>7 # 11</render>
+          </chord>
+        <chord id="68">
+          <name>13#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E F Gb G A Bb</voicing>
+          <degree>add#11</degree>
+          <render>13 # 11</render>
+          </chord>
+        <chord id="69">
+          <name>7#11b13</name>
+          <xml>dominant</xml>
+          <voicing>C E Gb G Ab Bb</voicing>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 # 11 b 13</render>
+          </chord>
+        <chord id="70">
+          <name>9</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E G Bb</voicing>
+          <render>9</render>
+          </chord>
+        <chord id="72">
+          <name>9b13</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E G Ab Bb</voicing>
+          <degree>addb13</degree>
+          <render>9 b 13</render>
+          </chord>
+        <chord id="73">
+          <name>9#11</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb G Bb</voicing>
+          <degree>add#11</degree>
+          <render>9 # 11</render>
+          </chord>
+        <chord id="74">
+          <name>13#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E Gb G A Bb</voicing>
+          <degree>alt#11</degree>
+          <render>13 # 11</render>
+          </chord>
+        <chord id="75">
+          <name>9#11b13</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb G Ab Bb</voicing>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>9 # 11 b 13</render>
+          </chord>
+        <chord id="76">
+          <name>7b9</name>
+          <xml>dominant</xml>
+          <voicing>C Db E G Bb</voicing>
+          <degree>addb9</degree>
+          <render>7 b 9</render>
+          </chord>
+        <chord id="77">
+          <name>13b9</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Db E F G A Bb</voicing>
+          <degree>altb9</degree>
+          <render>13 b 9</render>
+          </chord>
+        <chord id="78">
+          <name>7b9b13</name>
+          <xml>dominant</xml>
+          <voicing>C Db E G Ab Bb</voicing>
+          <degree>addb9</degree>
+          <degree>addb13</degree>
+          <render>7 b 9 b 13</render>
+          </chord>
+        <chord id="79">
+          <name>7b9#11</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Gb G Bb</voicing>
+          <degree>addb9</degree>
+          <degree>alt#11</degree>
+          <render>7 b 9 # 11</render>
+          </chord>
+        <chord id="80">
+          <name>13b9#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Db E Gb G A Bb</voicing>
+          <degree>altb9</degree>
+          <degree>alt#11</degree>
+          <render>13 b 9 # 11</render>
+          </chord>
+        <chord id="81">
+          <name>7b9#11b13</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Gb G Ab Bb</voicing>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 b 9 # 11 b 13</render>
+          </chord>
+        <chord id="82">
+          <name>7#9</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E G Bb</voicing>
+          <degree>add#9</degree>
+          <render>7 # 9</render>
+          </chord>
+        <chord id="83">
+          <name>13#9</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Eb E F G A Bb</voicing>
+          <degree>alt#9</degree>
+          <render>13 # 9</render>
+          </chord>
+        <chord id="84">
+          <name>7#9b13</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E G Ab Bb</voicing>
+          <degree>add#9</degree>
+          <degree>addb13</degree>
+          <render>7 # 9 b 13</render>
+          </chord>
+        <chord id="85">
+          <name>9#11</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb G Bb</voicing>
+          <degree>add#11</degree>
+          <render>9 # 11</render>
+          </chord>
+        <chord id="86">
+          <name>13#9#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Eb E Gb G A Bb</voicing>
+          <degree>alt#9</degree>
+          <degree>alt#11</degree>
+          <render>13 # 9 # 11</render>
+          </chord>
+        <chord id="87">
+          <name>7#9#11b13</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Gb G Ab Bb</voicing>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 # 9 # 11 b 13</render>
+          </chord>
+        <chord id="88">
+          <name>7b5</name>
+          <xml>dominant</xml>
+          <voicing>C E Gb Bb</voicing>
+          <degree>altb5</degree>
+          <render>7 b 5</render>
+          </chord>
+        <chord id="89">
+          <name>13b5</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E F Gb A Bb</voicing>
+          <degree>altb5</degree>
+          <render>13 b 5</render>
+          </chord>
+        <chord id="90">
+          <name>7b5b13</name>
+          <xml>dominant</xml>
+          <voicing>C E Gb A Bb</voicing>
+          <degree>altb5</degree>
+          <degree>addb13</degree>
+          <render>7 b 5 b 13</render>
+          </chord>
+        <chord id="91">
+          <name>9b5</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb Bb</voicing>
+          <degree>altb5</degree>
+          <render>9 b 5</render>
+          </chord>
+        <chord id="92">
+          <name>9b5b13</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb Ab Bb</voicing>
+          <degree>altb5</degree>
+          <degree>addb13</degree>
+          <render>9 b 5 b 13</render>
+          </chord>
+        <chord id="93">
+          <name>7b5b9</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Gb Bb</voicing>
+          <degree>altb5</degree>
+          <degree>addb9</degree>
+          <render>7 b 5 b 9</render>
+          </chord>
+        <chord id="94">
+          <name>13b5b9</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Db E F Gb A Bb</voicing>
+          <degree>altb5</degree>
+          <degree>addb9</degree>
+          <render>13 b 5 b 9</render>
+          </chord>
+        <chord id="95">
+          <name>7b5b9b13</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Gb Ab Bb</voicing>
+          <degree>altb5</degree>
+          <degree>addb9</degree>
+          <degree>addb13</degree>
+          <render>7 b 5 b 9 b 13</render>
+          </chord>
+        <chord id="96">
+          <name>7b5#9</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Gb Bb</voicing>
+          <degree>altb5</degree>
+          <degree>add#9</degree>
+          <render>7 b 5 # 9</render>
+          </chord>
+        <chord id="97">
+          <name>13b5#9</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Eb E F Gb A Bb</voicing>
+          <degree>altb5</degree>
+          <degree>alt#9</degree>
+          <render>13 b 5 # 9</render>
+          </chord>
+        <chord id="98">
+          <name>7b5#9b13</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Gb Ab Bb</voicing>
+          <degree>altb5</degree>
+          <degree>add#9</degree>
+          <degree>addb13</degree>
+          <render>7 b 5 # 9 b 13</render>
+          </chord>
+        <chord id="99">
+          <name>7#5</name>
+          <xml>augmented-seventh</xml>
+          <voicing>C E Ab Bb</voicing>
+          <render>7 # 5</render>
+          </chord>
+        <chord id="100">
+          <name>13#5</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E F Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <render>13 # 5</render>
+          </chord>
+        <chord id="101">
+          <name>7#5#11</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add#11</degree>
+          <render>7 # 5 # 11</render>
+          </chord>
+        <chord id="102">
+          <name>13#5#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>alt#11</degree>
+          <render>13 # 5 # 11</render>
+          </chord>
+        <chord id="103">
+          <name>9#5</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <render>9 # 5</render>
+          </chord>
+        <chord id="104">
+          <name>9#5#11</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add#11</degree>
+          <render>9 # 5 # 11</render>
+          </chord>
+        <chord id="105">
+          <name>7#5b9</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>addb9</degree>
+          <render>7 # 5 b 9</render>
+          </chord>
+        <chord id="106">
+          <name>13#5b9</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Db E F Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>altb9</degree>
+          <render>13 # 5 b 9</render>
+          </chord>
+        <chord id="107">
+          <name>7#5b9#11</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Gb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>addb9</degree>
+          <degree>add#11</degree>
+          <render>7 # 5 b 9 # 11</render>
+          </chord>
+        <chord id="108">
+          <name>13#5b9#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Db E Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>altb9</degree>
+          <degree>alt#11</degree>
+          <render>13 # 5 b 9 # 11</render>
+          </chord>
+        <chord id="109">
+          <name>7#5#9</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add#9</degree>
+          <render>7 # 5 # 9</render>
+          </chord>
+        <chord id="110">
+          <name>13#5#9#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Eb E Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>alt#9</degree>
+          <degree>alt#11</degree>
+          <render>13 # 5 # 9 # 11</render>
+          </chord>
+        <chord id="111">
+          <name>7#5#9#11</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Gb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <render>7 # 5 # 9 # 11</render>
+          </chord>
+        <chord id="112">
+          <name>13#5#9#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Eb E Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>alt#9</degree>
+          <degree>alt#11</degree>
+          <render>13 # 5 # 9 # 11</render>
+          </chord>
+        <chord id="113">
+          <name>7alt</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Gb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <render>7 alt</render>
+          </chord>
+        <chord id="128">
+          <name>7sus</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F G Bb</voicing>
+          <degree>add7</degree>
+          <render>7 sus</render>
+          </chord>
+        <chord id="129">
+          <name>13sus</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>add13</degree>
+          <render>13 sus</render>
+          </chord>
+        <chord id="130">
+          <name>7susb13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 13</render>
+          </chord>
+        <chord id="131">
+          <name>7sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F G Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#11</degree>
+          <render>7 sus # 11</render>
+          </chord>
+        <chord id="132">
+          <name>13sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G A Bb</voicing>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 11</render>
+          </chord>
+        <chord id="133">
+          <name>7sus#11b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Gb G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 sus # 11 b 13</render>
+          </chord>
+        <chord id="134">
+          <name>9sus</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F G Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <render>9 sus</render>
+          </chord>
+        <chord id="135">
+          <name>9susb13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>addb13</degree>
+          <render>9 sus b 13</render>
+          </chord>
+        <chord id="136">
+          <name>9sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <render>9 sus # 11</render>
+          </chord>
+        <chord id="137">
+          <name>13sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 11</render>
+          </chord>
+        <chord id="138">
+          <name>13sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 11</render>
+          </chord>
+        <chord id="139">
+          <name>9sus#11b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>9 sus # 11 b 13</render>
+          </chord>
+        <chord id="140">
+          <name>7susb9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F G Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <render>7 sus b 9</render>
+          </chord>
+        <chord id="141">
+          <name>13susb9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <degree>add11</degree>
+          <degree>add13</degree>
+          <render>13 sus b 9</render>
+          </chord>
+        <chord id="142">
+          <name>7susb9b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 9 b 13</render>
+          </chord>
+        <chord id="143">
+          <name>7susb9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb G Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <degree>add#11</degree>
+          <render>7 sus b 9 # 11</render>
+          </chord>
+        <chord id="144">
+          <name>13susb9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Gb G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus b 9 # 11</render>
+          </chord>
+        <chord id="145">
+          <name>7susb9#11b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 9 # 11 b 13</render>
+          </chord>
+        <chord id="146">
+          <name>7sus#9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F G Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <render>7 sus # 9</render>
+          </chord>
+        <chord id="147">
+          <name>13sus#9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add13</degree>
+          <render>13 sus # 9</render>
+          </chord>
+        <chord id="148">
+          <name>7sus#9b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>addb13</degree>
+          <render>7 sus # 9 b 13</render>
+          </chord>
+        <chord id="149">
+          <name>9sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <render>9 sus # 11</render>
+          </chord>
+        <chord id="150">
+          <name>13sus#9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 9 # 11</render>
+          </chord>
+        <chord id="151">
+          <name>7sus#9#11b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 sus # 9 # 11 b 13</render>
+          </chord>
+        <chord id="152">
+          <name>7susb5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Gb Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <render>7 sus b 5</render>
+          </chord>
+        <chord id="153">
+          <name>13susb5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb A Bb</voicing>
+          <degree>alt5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add13</degree>
+          <render>13 sus b 5</render>
+          </chord>
+        <chord id="154">
+          <name>7susb5b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Gb Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 5 b 13</render>
+          </chord>
+        <chord id="155">
+          <name>9susb5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb Bb</voicing>
+          <degree>alt5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <render>9 sus b 5</render>
+          </chord>
+        <chord id="156">
+          <name>9susb5b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb Ab Bb</voicing>
+          <degree>alt5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add13</degree>
+          <render>9 sus b 5 b 13</render>
+          </chord>
+        <chord id="157">
+          <name>7susb5b9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <degree>addb9</degree>
+          <render>7 sus b 5 b 9</render>
+          </chord>
+        <chord id="158">
+          <name>13susb5b9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb A Bb</voicing>
+          <degree>alt5</degree>
+          <degree>add7</degree>
+          <degree>altb9</degree>
+          <degree>add13</degree>
+          <render>13 sus b 5 b 9</render>
+          </chord>
+        <chord id="159">
+          <name>7susb5b9b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <degree>addb9</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 5 b 9 b 13</render>
+          </chord>
+        <chord id="160">
+          <name>7susb5#9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <degree>add#9</degree>
+          <render>7 sus b 5 # 9</render>
+          </chord>
+        <chord id="161">
+          <name>13susb5#9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb A Bb</voicing>
+          <degree>altb5</degree>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add13</degree>
+          <render>13 sus b 5 # 9</render>
+          </chord>
+        <chord id="162">
+          <name>7susb5#9b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <degree>add#9</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 5 # 9 b 13</render>
+          </chord>
+        <chord id="163">
+          <name>7sus#5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <render>7 sus # 5</render>
+          </chord>
+        <chord id="164">
+          <name>13sus#5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5</render>
+          </chord>
+        <chord id="165">
+          <name>7sus#5#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <degree>add#11</degree>
+          <render>7 sus # 5 # 11</render>
+          </chord>
+        <chord id="166">
+          <name>13sus#5#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5 # 11</render>
+          </chord>
+        <chord id="167">
+          <name>9sus#5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <render>9 sus # 5</render>
+          </chord>
+        <chord id="168">
+          <name>9sus#5#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <render>9 sus # 5 # 11</render>
+          </chord>
+        <chord id="169">
+          <name>7sus#5b9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <degree>addb9</degree>
+          <render>7 sus # 5 b 9</render>
+          </chord>
+        <chord id="170">
+          <name>13sus#5b9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5 b 9</render>
+          </chord>
+        <chord id="171">
+          <name>7sus#5b9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <degree>addb9</degree>
+          <degree>add#11</degree>
+          <render>7 sus # 5 b 9 # 11</render>
+          </chord>
+        <chord id="172">
+          <name>13sus#5b9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5 b 9 # 11</render>
+          </chord>
+        <chord id="173">
+          <name>7sus#5#9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <degree>add#9</degree>
+          <render>7 sus # 5 # 9</render>
+          </chord>
+        <chord id="174">
+          <name>13sus#5#9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5 # 9 # 11</render>
+          </chord>
+        <chord id="175">
+          <name>7sus#5#9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <render>7 sus # 5 # 9 # 11</render>
+          </chord>
+        <chord id="176">
+          <name>13sus#5#9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5 # 9 # 11</render>
+          </chord>
+        <chord id="177">
+          <name>4</name>
+          <xml>major</xml>
+          <voicing>C E F G</voicing>
+          <degree>add4</degree>
+          <render>4</render>
+          </chord>
+        <chord id="184">
+          <name>sus</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F G</voicing>
+          <render>sus</render>
+          </chord>
+        <chord id="185">
+          <name>dim7</name>
+          <xml>diminished-seventh</xml>
+          <voicing>C Eb Gb</voicing>
+          <render>dim 7</render>
+          </chord>
+        <chord id="186">
+          <name>sus2</name>
+          <xml>suspended-second</xml>
+          <voicing>C D G</voicing>
+          <render>sus 2</render>
+          </chord>
+        <chord id="187">
+          <name>maddb13</name>
+          <xml>minor</xml>
+          <voicing>C Eb Ab</voicing>
+          <degree>addb13</degree>
+          <render>m add b 13</render>
+          </chord>
+        <chord id="188">
+          <name>add#13</name>
+          <xml>major</xml>
+          <voicing>C E G Bb</voicing>
+          <degree>add#13</degree>
+          <render># 13</render>
+          </chord>
+        <chord id="189">
+          <name>add#11#13</name>
+          <xml>major</xml>
+          <voicing>C E Gb G Bb</voicing>
+          <degree>add#11</degree>
+          <degree>add#13</degree>
+          <render>add # 11 # 13</render>
+          </chord>
+        <chord id="190">
+          <name>add#13</name>
+          <xml>major</xml>
+          <voicing>C E G Bb</voicing>
+          <degree>add#13</degree>
+          <render>add # 13</render>
+          </chord>
+        <chord id="191">
+          <name>6add9</name>
+          <xml>major-sixth</xml>
+          <voicing>C D E G A</voicing>
+          <degree>add9</degree>
+          <render>6 add 9</render>
+          </chord>
+        <chord id="192">
+          <name>sus4</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F G</voicing>
+          <render>sus 4</render>
+          </chord>
+        <chord id="193">
+          <name>11</name>
+          <xml>dominant-11th</xml>
+          <voicing>C D E F G Bb</voicing>
+          <render>11</render>
+          </chord>
+        <chord id="194">
+          <name>Maj11</name>
+          <xml>major-11th</xml>
+          <voicing>C D E F G B</voicing>
+          <render>Maj 11</render>
+          </chord>
+        <chord id="195">
+          <name>Tristan</name>
+          <xml>Tristan</xml>
+          <voicing>C D Gb Bb</voicing>
+          <render>Tristan</render>
+          </chord>
+        <chord id="196">
+          <name>m7add11</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Eb F G Bb</voicing>
+          <degree>add11</degree>
+          <render>m 7 add 11</render>
+          </chord>
+        <chord id="197">
+          <name>Maj7add13</name>
+          <xml>major-seventh</xml>
+          <voicing>C E G A B</voicing>
+          <degree>add13</degree>
+          <render>Maj 7 add 13</render>
+          </chord>
+        <chord id="198">
+          <name>madd9</name>
+          <xml>minor</xml>
+          <voicing>C D Eb G</voicing>
+          <degree>add9</degree>
+          <render>m add 9</render>
+          </chord>
+        <chord id="199">
+          <name>m9Maj7</name>
+          <xml>major-minor</xml>
+          <voicing>C D Eb G B</voicing>
+          <degree>add9</degree>
+          <render>m 9 Maj 7</render>
+          </chord>
+        <chord id="200">
+          <name>5</name>
+          <xml>pedal</xml>
+          <voicing>C G</voicing>
+          <degree>add5</degree>
+          <render>5</render>
+          </chord>
+        <chord id="201">
+          <name>m11b5</name>
+          <xml>minor-11th</xml>
+          <voicing>C D Eb F Gb Bb</voicing>
+          <degree>altb5</degree>
+          <render>m 11 b 5</render>
+          </chord>
+        <chord id="202">
+          <name>dim7add#7</name>
+          <xml>diminished-seventh</xml>
+          <voicing>C Eb Gb A B</voicing>
+          <degree>add#7</degree>
+          <render>dim 7 add # 7</render>
+          </chord>
+        <chord id="203">
+          <name>aug9</name>
+          <xml>augmented-seventh</xml>
+          <voicing>C D E Ab</voicing>
+          <degree>add9</degree>
+          <render># 5 9</render>
+          </chord>
+        <chord id="204">
+          <name>omit5</name>
+          <xml>major</xml>
+          <voicing>C E</voicing>
+          <degree>sub5</degree>
+          <render>omit 5</render>
+          </chord>
+        <chord id="205">
+          <name>aug7</name>
+          <xml>augmented-seventh</xml>
+          <voicing>C E Ab</voicing>
+          <render>aug 7</render>
+          </chord>
+        <chord id="206">
+          <name>aug9</name>
+          <xml>augmented-ninth</xml>
+          <voicing>C D E Ab Bb</voicing>
+          <render>aug 9</render>
+          </chord>
+        <chord id="207">
+          <name>aug13</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <render>aug 13</render>
+          </chord>
+        <chord id="210">
+          <name>Maj7#11</name>
+          <xml>major-seventh</xml>
+          <voicing>C E Gb G B</voicing>
+          <degree>add#11</degree>
+          <render>Maj 7 # 11</render>
+          </chord>
+        <chord id="211">
+          <name>Maj9#5</name>
+          <xml>major-ninth</xml>
+          <voicing>C D E Ab B</voicing>
+          <degree>alt#5</degree>
+          <render>Maj 9 # 5</render>
+          </chord>
+        <chord id="212">
+          <name>Maj7#9</name>
+          <xml>major-seventh</xml>
+          <voicing>C Eb E G B</voicing>
+          <degree>add#9</degree>
+          <render>Maj 7 # 9</render>
+          </chord>
+        <chord id="213">
+          <name>add2</name>
+          <xml>major</xml>
+          <voicing>C D E G</voicing>
+          <degree>add2</degree>
+          <render>add 2</render>
+          </chord>
+        <chord id="214">
+          <name>add9</name>
+          <xml>major</xml>
+          <voicing>C D E G</voicing>
+          <degree>add9</degree>
+          <render>add 9</render>
+          </chord>
+        <chord id="215">
+          <name>susb9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F G</voicing>
+          <degree>addb9</degree>
+          <render>sus b 9</render>
+          </chord>
+        <chord id="216">
+          <name>Maj7sus</name>
+          <xml>major-seventh</xml>
+          <voicing>C F G B</voicing>
+          <degree>sub3</degree>
+          <degree>add4</degree>
+          <render>Maj 7 sus</render>
+          </chord>
+        <chord id="217">
+          <name>Maj9sus</name>
+          <xml>major-ninth</xml>
+          <voicing>C D F G B</voicing>
+          <degree>sub3</degree>
+          <degree>add4</degree>
+          <render>Maj 9 sus</render>
+          </chord>
+        <chord id="220">
+          <name>m7b9</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Db Eb G Bb</voicing>
+          <degree>addb9</degree>
+          <render>m 7 b 9</render>
+          </chord>
+        <chord id="221">
+          <name>m7b13</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Eb G Ab Bb</voicing>
+          <degree>addb13</degree>
+          <render>m 7 b 13</render>
+          </chord>
+        <chord id="222">
+          <name>Phryg</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Db Eb F G Bb</voicing>
+          <degree>addb9</degree>
+          <degree>add4</degree>
+          <render>Phryg</render>
+          </chord>
+        <chord id="223">
+          <name>madd2</name>
+          <xml>minor</xml>
+          <voicing>C D Eb G</voicing>
+          <degree>add9</degree>
+          <render>m add 2</render>
+          </chord>
+        <chord id="230">
+          <name>7b9#9</name>
+          <xml>dominant</xml>
+          <voicing>C Db Eb E G Bb</voicing>
+          <degree>addb9</degree>
+          <degree>add#9</degree>
+          <render>7 b 9 # 9</render>
+          </chord>
+        <chord id="240">
+          <name>sus#4</name>
+          <xml>major</xml>
+          <voicing>C Gb G</voicing>
+          <degree>sub3</degree>
+          <degree>add#4</degree>
+          <render>sus # 4</render>
+          </chord>
+        <chord id="241">
+          <name>Maj7b13</name>
+          <xml>major-seventh</xml>
+          <voicing>C E G Ab B</voicing>
+          <degree>addb13</degree>
+          <render>Maj 7 b 13</render>
+          </chord>
+        </ChordList>
       <page-layout>
         <page-height>1584</page-height>
         <page-width>1224</page-width>
@@ -133,11 +1514,11 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"/>Liebe ohne Leiden</text>
+          <text><font face="Times New Roman"></font>Liebe ohne Leiden</text>
           </Text>
         <Text>
           <style>Composer</style>
-          <text><font face="Times New Roman"/>Udo Jürgens</text>
+          <text><font face="Times New Roman"></font>Udo Jürgens</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -198,7 +1579,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Die</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Die</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -213,12 +1594,11 @@
           <root>14</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Zeit</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Zeit</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -239,7 +1619,7 @@
           <Tuplet>1</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ist</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ist</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -251,7 +1631,7 @@
           <Tuplet>1</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>um,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>um,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -284,7 +1664,7 @@
           <Tuplet>2</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>die</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>die</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -302,12 +1682,11 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>uns</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>uns</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -324,7 +1703,7 @@
           <Beam>1</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ver</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ver</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -338,7 +1717,7 @@
           <Beam>1</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>band,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>band,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -363,7 +1742,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ich</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ich</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -377,12 +1756,11 @@
         <Harmony>
           <root>15</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>weiß,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>weiß,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -393,7 +1771,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dass</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dass</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -409,7 +1787,7 @@
           <durationType>eighth</durationType>
           <Beam>2</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>du</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>du</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -422,7 +1800,7 @@
           <durationType>16th</durationType>
           <Beam>2</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>es</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>es</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -454,7 +1832,7 @@
           <durationType>16th</durationType>
           <Beam>3</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>fühlst,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>fühlst,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -471,7 +1849,6 @@
           <root>14</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -491,7 +1868,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>So</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>So</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -506,12 +1883,11 @@
           <root>14</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>geh</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>geh</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -522,7 +1898,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ich</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ich</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -533,7 +1909,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>jetzt</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>jetzt</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -544,7 +1920,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>auch</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>auch</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -562,7 +1938,6 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Beam id="4">
           </Beam>
@@ -572,7 +1947,7 @@
           <durationType>eighth</durationType>
           <Beam>4</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>wenn</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>wenn</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -585,7 +1960,7 @@
           <durationType>16th</durationType>
           <Beam>4</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>du</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>du</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -614,7 +1989,7 @@
           <durationType>16th</durationType>
           <Beam>5</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>mich</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>mich</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -637,7 +2012,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>noch</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>noch</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -651,12 +2026,11 @@
         <Harmony>
           <root>12</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>gern</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>gern</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -668,7 +2042,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>be</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>be</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -685,7 +2059,7 @@
           <Beam>6</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>schüt</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>schüt</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -699,7 +2073,7 @@
           <Beam>6</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>zen</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>zen</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -732,7 +2106,7 @@
           <Tuplet>3</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>willst,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>willst,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -748,7 +2122,6 @@
         <Harmony>
           <root>11</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -768,7 +2141,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Dein</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Dein</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -783,13 +2156,12 @@
           <root>14</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Leucht</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Leucht</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -801,7 +2173,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>turm</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>turm</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -834,7 +2206,7 @@
           <Tuplet>4</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>steht</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>steht</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -863,7 +2235,7 @@
           <durationType>eighth</durationType>
           <Beam>7</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>nun</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>nun</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -881,13 +2253,12 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>an</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>an</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -909,7 +2280,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ders</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ders</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -922,7 +2293,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>wo,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>wo,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -936,7 +2307,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>und</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>und</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -951,12 +2322,11 @@
         <Harmony>
           <root>12</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>nicht</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>nicht</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -967,7 +2337,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>mehr</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>mehr</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -978,7 +2348,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>hier</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>hier</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -999,7 +2369,7 @@
           <Tuplet>6</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>bei</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>bei</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1011,7 +2381,7 @@
           <Tuplet>6</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dir,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dir,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1028,7 +2398,6 @@
         <Harmony>
           <root>11</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -1042,7 +2411,6 @@
         <Harmony>
           <root>15</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -1064,7 +2432,7 @@
           <Tuplet>7</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>und</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>und</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1080,12 +2448,11 @@
           <root>14</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>auf</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>auf</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1096,7 +2463,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dem</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dem</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1107,7 +2474,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Weg</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Weg</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1118,7 +2485,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>zum</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>zum</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1134,13 +2501,12 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>eig</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>eig</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1162,7 +2528,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>nen</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>nen</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1174,7 +2540,7 @@
           <Tuplet>8</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Licht,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Licht,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1199,7 +2565,7 @@
           <Tuplet>9</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>komm,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>komm,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1218,12 +2584,11 @@
           <root>14</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>sag,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>sag,</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1234,7 +2599,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>was</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>was</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1245,12 +2610,11 @@
         <Harmony>
           <root>15</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>wünschst</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>wünschst</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1261,7 +2625,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>du</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>du</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1279,12 +2643,11 @@
           <root>14</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>mir.</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>mir.</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1304,7 +2667,6 @@
         <Harmony>
           <root>14</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Rest>
           <durationType>half</durationType>
@@ -1326,7 +2688,7 @@
           <Tuplet>10</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Ich</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Ich</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1347,7 +2709,7 @@
           <Tuplet>11</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>wünsch</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>wünsch</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1359,7 +2721,7 @@
           <Tuplet>11</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dir</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dir</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1374,13 +2736,12 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Lie</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Lie</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1392,7 +2753,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>be</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>be</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1404,7 +2765,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>oh</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>oh</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1416,7 +2777,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ne</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ne</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1431,13 +2792,12 @@
           <root>12</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Lei</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Lei</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1459,7 +2819,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>den,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>den,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1471,7 +2831,7 @@
           <Tuplet>12</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>und</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>und</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1482,7 +2842,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>eine</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>eine</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1499,12 +2859,11 @@
         <Harmony>
           <root>14</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Hand,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Hand,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1515,7 +2874,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>die</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>die</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1527,7 +2886,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dei</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dei</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1549,7 +2908,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ne</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ne</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1564,7 +2923,7 @@
           <Tuplet>13</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>hält,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>hält,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1582,7 +2941,6 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -1610,7 +2968,7 @@
           <Tuplet>14</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Ich</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Ich</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1631,7 +2989,7 @@
           <Tuplet>15</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>wünsch</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>wünsch</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1643,7 +3001,7 @@
           <Tuplet>15</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dir</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dir</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1659,13 +3017,12 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Lie</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Lie</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1677,7 +3034,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>be</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>be</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1689,7 +3046,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>oh</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>oh</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1711,7 +3068,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ne</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ne</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1724,7 +3081,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Lei</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Lei</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1742,7 +3099,6 @@
           <root>12</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1760,7 +3116,7 @@
           <durationType>eighth</durationType>
           <Beam>8</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>den,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>den,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1773,7 +3129,7 @@
           <durationType>eighth</durationType>
           <Beam>8</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>und</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>und</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1799,7 +3155,7 @@
           <durationType>eighth</durationType>
           <Beam>9</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dass</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dass</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1812,7 +3168,7 @@
           <durationType>eighth</durationType>
           <Beam>9</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dir</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dir</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1827,12 +3183,11 @@
         <Harmony>
           <root>11</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>nie</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>nie</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1843,7 +3198,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>die</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>die</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1860,7 +3215,7 @@
           <Beam>10</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Hoff</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Hoff</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1874,7 +3229,7 @@
           <Beam>10</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>nung</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>nung</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1907,7 +3262,7 @@
           <Tuplet>17</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>fehlt,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>fehlt,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1927,7 +3282,6 @@
         <Harmony>
           <root>10</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -1954,7 +3308,7 @@
           <Tuplet>18</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Und</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Und</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1966,7 +3320,7 @@
           <Tuplet>18</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dass</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dass</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1982,12 +3336,11 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dir</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dir</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1999,7 +3352,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dei</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dei</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2011,7 +3364,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ne</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ne</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2026,7 +3379,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Träu</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Träu</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2042,13 +3395,12 @@
           <root>12</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>me</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>me</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2059,7 +3411,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>bleiben,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>bleiben,</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2083,7 +3435,7 @@
           <Tuplet>19</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Und</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Und</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2095,7 +3447,7 @@
           <Tuplet>19</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>wenn</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>wenn</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2110,12 +3462,11 @@
         <Harmony>
           <root>11</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>du</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>du</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2126,7 +3477,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>suchst</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>suchst</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2137,7 +3488,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>nach</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>nach</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2154,7 +3505,7 @@
           <Beam>11</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Zärt</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Zärt</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2171,7 +3522,7 @@
           <Beam>11</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>lich</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>lich</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2188,13 +3539,12 @@
         <Harmony>
           <root>10</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>keit,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>keit,</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2220,7 +3570,7 @@
           <Tuplet>20</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Wünsch</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Wünsch</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2235,7 +3585,7 @@
           <durationType>eighth</durationType>
           <Beam>12</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ich</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ich</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2248,7 +3598,7 @@
           <durationType>eighth</durationType>
           <Beam>12</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>dir</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>dir</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2267,13 +3617,12 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Lie</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Lie</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2285,7 +3634,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>be</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>be</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2297,7 +3646,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>oh</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>oh</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2309,7 +3658,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>ne</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>ne</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2324,13 +3673,12 @@
           <root>12</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Lei</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Lei</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2342,7 +3690,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>den,</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>den,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2358,7 +3706,7 @@
           <durationType>eighth</durationType>
           <Beam>13</Beam>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>und</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>und</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2383,12 +3731,11 @@
           <root>14</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Glück</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Glück</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2399,7 +3746,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>für</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>für</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2416,7 +3763,7 @@
           <Beam>14</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>al</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>al</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2430,7 +3777,7 @@
           <Beam>14</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7079"/><font face="Times New Roman"/>le</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>le</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2466,7 +3813,7 @@
           <Tuplet>21</Tuplet>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7079"/><font face="Times New Roman"/>Zeit.</text>
+            <text><font size="10.7079"></font><font face="Times New Roman"></font>Zeit.</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2483,7 +3830,6 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2585,7 +3931,6 @@
           <root>12</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2639,7 +3984,6 @@
         <Harmony>
           <root>11</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2719,7 +4063,6 @@
         <Harmony>
           <root>10</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2770,7 +4113,6 @@
         <Harmony>
           <root>9</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2848,7 +4190,6 @@
           <root>12</root>
           <extension>33</extension>
           <name>dim</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2899,7 +4240,6 @@
         <Harmony>
           <root>14</root>
           <extension>1</extension>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2957,7 +4297,6 @@
           <root>13</root>
           <extension>16</extension>
           <name>m</name>
-          <pos x="0" y="-4"/>
           </Harmony>
         <Chord>
           <durationType>half</durationType>

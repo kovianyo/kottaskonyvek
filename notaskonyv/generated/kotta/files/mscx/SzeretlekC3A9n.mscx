@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programVersion>2.0.3</programVersion>
+  <programRevision>3c7a69d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -84,31 +84,31 @@
       <ChordList>
         <font id="0" family="MuseJazz">
           <mag>1.33</mag>
-          <sym name="sb" code="0xe188"/>
-          <sym name="2" code="0xe192"/>
+          <sym name="11" code="0xe182"/>
+          <sym name="13" code="0xe183"/>
+          <sym name="sus4" code="0xe18d"/>
           <sym name="add" code="0xe18b"/>
-          <sym name="3" code="0xe193"/>
+          <sym name="#" code="0xe10c"/>
+          <sym name="m" code="0xe181"/>
+          <sym name="o" code="0xe187"/>
+          <sym name="sus" code="0xe185"/>
+          <sym name="Maj" code="0xe180"/>
+          <sym name="+" code="0xe186"/>
+          <sym name="add11" code="0xe18c"/>
           <sym name="accidentales" code="0x266d"/>
+          <sym name="dim" code="0xe184"/>
+          <sym name="sb" code="0xe188"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="2" code="0xe192"/>
+          <sym name="3" code="0xe193"/>
           <sym name="4" code="0xe194"/>
           <sym name="5" code="0xe195"/>
           <sym name="6" code="0xe196"/>
           <sym name="7" code="0xe197"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="sus" code="0xe185"/>
-          <sym name="Maj" code="0xe180"/>
           <sym name="9" code="0xe199"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="s#" code="0xe189"/>
           <sym name="b" code="0xe10d"/>
-          <sym name="11" code="0xe182"/>
-          <sym name="dim" code="0xe184"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="13" code="0xe183"/>
-          <sym name="#" code="0xe10c"/>
-          <sym name="m" code="0xe181"/>
-          <sym name="sus4" code="0xe18d"/>
-          <sym name="o" code="0xe187"/>
-          <sym name="add11" code="0xe18c"/>
-          <sym name="+" code="0xe186"/>
           </font>
         <renderRoot>:n :a</renderRoot>
         <renderBase>/ m:0:1 :n :a m:0:-1</renderBase>
@@ -1575,7 +1575,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <RehearsalMark>
-          <text><font size="13.6584"/><font face="Times New Roman"/><b>A</b></text>
+          <text><font size="13.6584"></font><font face="Times New Roman"></font><b>A</b></text>
           </RehearsalMark>
         <Harmony>
           <root>17</root>
@@ -1587,7 +1587,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>Be</text>
+            <text><font size="11.7072"></font>Be</text>
             </Lyrics>
           <Note>
             <pitch>57</pitch>
@@ -1602,7 +1602,7 @@
           <Beam>1</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="11.7072"/>sa</text>
+            <text><font size="11.7072"></font>sa</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1616,7 +1616,7 @@
           <Beam>1</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>me,</text>
+            <text><font size="11.7072"></font>me,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1669,7 +1669,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>bé</text>
+            <text><font size="11.7072"></font>bé</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1682,7 +1682,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="11.7072"/>sa</text>
+            <text><font size="11.7072"></font>sa</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1695,7 +1695,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>me</text>
+            <text><font size="11.7072"></font>me</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1716,7 +1716,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>mu</text>
+            <text><font size="11.7072"></font>mu</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1728,7 +1728,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>cho,</text>
+            <text><font size="11.7072"></font>cho,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1780,7 +1780,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>co</text>
+            <text><font size="11.7072"></font>co</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1793,7 +1793,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>mo</text>
+            <text><font size="11.7072"></font>mo</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1805,7 +1805,7 @@
           <Tuplet>2</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>si</text>
+            <text><font size="11.7072"></font>si</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1833,7 +1833,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>fue</text>
+            <text><font size="11.7072"></font>fue</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1846,7 +1846,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>ra es</text>
+            <text><font size="11.7072"></font>ra es</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1859,7 +1859,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>ta</text>
+            <text><font size="11.7072"></font>ta</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1890,7 +1890,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>no</text>
+            <text><font size="11.7072"></font>no</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1903,7 +1903,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>che</text>
+            <text><font size="11.7072"></font>che</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1915,7 +1915,7 @@
           <Tuplet>4</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>la</text>
+            <text><font size="11.7072"></font>la</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1943,7 +1943,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>úl</text>
+            <text><font size="11.7072"></font>úl</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1959,7 +1959,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="11.7072"/>ti</text>
+            <text><font size="11.7072"></font>ti</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1972,7 +1972,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>ma</text>
+            <text><font size="11.7072"></font>ma</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1992,7 +1992,7 @@
         <Chord>
           <durationType>whole</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>vez;</text>
+            <text><font size="11.7072"></font>vez;</text>
             </Lyrics>
           <Note>
             <Tie id="5">
@@ -2044,7 +2044,7 @@
           <durationType>whole</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>Bé</text>
+            <text><font size="11.7072"></font>Bé</text>
             </Lyrics>
           <Note>
             <Tie id="6">
@@ -2075,7 +2075,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="11.7072"/>sa</text>
+            <text><font size="11.7072"></font>sa</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2087,7 +2087,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>me</text>
+            <text><font size="11.7072"></font>me</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2108,7 +2108,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>mu</text>
+            <text><font size="11.7072"></font>mu</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2120,7 +2120,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>cho,</text>
+            <text><font size="11.7072"></font>cho,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2182,7 +2182,7 @@
           <Tuplet>6</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>que</text>
+            <text><font size="11.7072"></font>que</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2195,7 +2195,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>ten</text>
+            <text><font size="11.7072"></font>ten</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2208,7 +2208,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>go</text>
+            <text><font size="11.7072"></font>go</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2236,7 +2236,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>mie</text>
+            <text><font size="11.7072"></font>mie</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2249,7 +2249,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>do</text>
+            <text><font size="11.7072"></font>do</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2262,7 +2262,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>per</text>
+            <text><font size="11.7072"></font>per</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2292,7 +2292,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="11.7072"/>der</text>
+            <text><font size="11.7072"></font>der</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2305,7 +2305,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>te,</text>
+            <text><font size="11.7072"></font>te,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2318,7 +2318,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>per</text>
+            <text><font size="11.7072"></font>per</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2347,7 +2347,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="11.7072"/>der</text>
+            <text><font size="11.7072"></font>der</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2360,7 +2360,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>te o</text>
+            <text><font size="11.7072"></font>te o</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2373,7 +2373,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>tra</text>
+            <text><font size="11.7072"></font>tra</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2396,7 +2396,7 @@
         <Chord>
           <durationType>whole</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>vez.</text>
+            <text><font size="11.7072"></font>vez.</text>
             </Lyrics>
           <Note>
             <Tie id="8">
@@ -2414,7 +2414,7 @@
         <Marker>
           <pos x="-1.4634" y="-4.04876"/>
           <style>Repeat Text Right</style>
-          <text><font size="11.7072"/><font face="Times New Roman"/>Fine</text>
+          <text><font size="11.7072"></font><font face="Times New Roman"></font>Fine</text>
           <label>fine</label>
           </Marker>
         <Chord>
@@ -2453,7 +2453,7 @@
         <breakMultiMeasureRest/>
         <stretch>0.9</stretch>
         <RehearsalMark>
-          <text><font size="13.6584"/><font face="Times New Roman"/><b>B</b></text>
+          <text><font size="13.6584"></font><font face="Times New Roman"></font><b>B</b></text>
           </RehearsalMark>
         <Harmony>
           <root>16</root>
@@ -2465,7 +2465,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>Quie</text>
+            <text><font size="11.7072"></font>Quie</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2481,7 +2481,7 @@
           <Beam>2</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>ro</text>
+            <text><font size="11.7072"></font>ro</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2495,7 +2495,7 @@
           <Beam>2</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>te</text>
+            <text><font size="11.7072"></font>te</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2522,7 +2522,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>ner</text>
+            <text><font size="11.7072"></font>ner</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2534,7 +2534,7 @@
           <Tuplet>10</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>te</text>
+            <text><font size="11.7072"></font>te</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2546,7 +2546,7 @@
           <Tuplet>10</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>muy</text>
+            <text><font size="11.7072"></font>muy</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2568,7 +2568,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>cer</text>
+            <text><font size="11.7072"></font>cer</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2584,7 +2584,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>ca,</text>
+            <text><font size="11.7072"></font>ca,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2598,7 +2598,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>mi</text>
+            <text><font size="11.7072"></font>mi</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2625,7 +2625,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="11.7072"/>rar</text>
+            <text><font size="11.7072"></font>rar</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2637,7 +2637,7 @@
           <Tuplet>11</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>me en</text>
+            <text><font size="11.7072"></font>me en</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2649,7 +2649,7 @@
           <Tuplet>11</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>tus</text>
+            <text><font size="11.7072"></font>tus</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2671,7 +2671,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>o</text>
+            <text><font size="11.7072"></font>o</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2684,7 +2684,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>jos,</text>
+            <text><font size="11.7072"></font>jos,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2707,7 +2707,7 @@
           <Beam>4</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>ver</text>
+            <text><font size="11.7072"></font>ver</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2721,7 +2721,7 @@
           <Beam>4</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>te</text>
+            <text><font size="11.7072"></font>te</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2736,7 +2736,7 @@
           <Beam>4</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>jun</text>
+            <text><font size="11.7072"></font>jun</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2749,7 +2749,7 @@
           <durationType>16th</durationType>
           <Beam>4</Beam>
           <Lyrics>
-            <text><font size="11.7072"/>to a</text>
+            <text><font size="11.7072"></font>to a</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2774,7 +2774,7 @@
           <dots>1</dots>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>mi.</text>
+            <text><font size="11.7072"></font>mi.</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -2803,7 +2803,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>Pien</text>
+            <text><font size="11.7072"></font>Pien</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2819,7 +2819,7 @@
           <Beam>5</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>sa</text>
+            <text><font size="11.7072"></font>sa</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2832,7 +2832,7 @@
           <durationType>eighth</durationType>
           <Beam>5</Beam>
           <Lyrics>
-            <text><font size="11.7072"/>que</text>
+            <text><font size="11.7072"></font>que</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2858,7 +2858,7 @@
           <Tuplet>12</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>tal</text>
+            <text><font size="11.7072"></font>tal</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2870,7 +2870,7 @@
           <Tuplet>12</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>vez</text>
+            <text><font size="11.7072"></font>vez</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2883,7 +2883,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>ma</text>
+            <text><font size="11.7072"></font>ma</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2904,7 +2904,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="11.7072"/>ña</text>
+            <text><font size="11.7072"></font>ña</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2920,7 +2920,7 @@
           <Beam>6</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>na</text>
+            <text><font size="11.7072"></font>na</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2933,7 +2933,7 @@
           <durationType>eighth</durationType>
           <Beam>6</Beam>
           <Lyrics>
-            <text><font size="11.7072"/>yo</text>
+            <text><font size="11.7072"></font>yo</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2960,7 +2960,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>ya es</text>
+            <text><font size="11.7072"></font>ya es</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2973,7 +2973,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="11.7072"/>ta</text>
+            <text><font size="11.7072"></font>ta</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2986,7 +2986,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>re</text>
+            <text><font size="11.7072"></font>re</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3017,7 +3017,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>le</text>
+            <text><font size="11.7072"></font>le</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3030,7 +3030,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>jos,</text>
+            <text><font size="11.7072"></font>jos,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3042,7 +3042,7 @@
           <Tuplet>14</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>muy</text>
+            <text><font size="11.7072"></font>muy</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3071,7 +3071,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="11.7072"/>le</text>
+            <text><font size="11.7072"></font>le</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3084,7 +3084,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="11.7072"/>jos</text>
+            <text><font size="11.7072"></font>jos</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3096,7 +3096,7 @@
           <Tuplet>15</Tuplet>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>de</text>
+            <text><font size="11.7072"></font>de</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3112,7 +3112,8 @@
           </LayoutBreak>
         <Jump>
           <pos x="-3.36583" y="-0.68294"/>
-          <text><font size="11.7072"/><font face="Times New Roman"/>D.C. al Fine</text>
+          <style>Repeat Text Right</style>
+          <text><font size="11.7072"></font><font face="Times New Roman"></font>D.C. al Fine</text>
           <jumpTo>start</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
@@ -3127,7 +3128,7 @@
         <Chord>
           <durationType>whole</durationType>
           <Lyrics>
-            <text><font size="11.7072"/>ti.</text>
+            <text><font size="11.7072"></font>ti.</text>
             </Lyrics>
           <Note>
             <pitch>59</pitch>
