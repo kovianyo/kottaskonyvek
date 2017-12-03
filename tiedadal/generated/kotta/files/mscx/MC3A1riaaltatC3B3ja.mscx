@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programVersion>2.0.3</programVersion>
+  <programRevision>3c7a69d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -41,6 +41,1387 @@
         <size>12</size>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         </TextStyle>
+      <ChordList>
+        <font id="0" family="default">
+          <mag>1</mag>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          </font>
+        <font id="1" family="FreeSerif">
+          <mag>1.2</mag>
+          <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
+          </font>
+        <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
+        <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
+        <chord id="1">
+          <name></name>
+          <name></name>
+          <xml>major</xml>
+          <voicing>C E G</voicing>
+          <render></render>
+          </chord>
+        <chord id="2">
+          <name>Maj</name>
+          <xml>major</xml>
+          <voicing>C E G</voicing>
+          <render>Maj</render>
+          </chord>
+        <chord id="3">
+          <name>5b</name>
+          <xml>major</xml>
+          <voicing>C E Gb</voicing>
+          <degree>altb5</degree>
+          <render>5 b</render>
+          </chord>
+        <chord id="4">
+          <name>+</name>
+          <xml>augmented</xml>
+          <voicing>C E Ab</voicing>
+          <render>+</render>
+          </chord>
+        <chord id="5">
+          <name>6</name>
+          <xml>major-sixth</xml>
+          <voicing>C E G A</voicing>
+          <render>6</render>
+          </chord>
+        <chord id="6">
+          <name>Maj7</name>
+          <xml>major-seventh</xml>
+          <voicing>C E G B</voicing>
+          <render>Maj 7</render>
+          </chord>
+        <chord id="7">
+          <name>Maj9</name>
+          <xml>major-ninth</xml>
+          <voicing>C D E G B</voicing>
+          <render>Maj 9</render>
+          </chord>
+        <chord id="8">
+          <name>Maj9#11</name>
+          <xml>major-ninth</xml>
+          <voicing>C D E Gb G B</voicing>
+          <degree>add#11</degree>
+          <render>Maj 9 # 11</render>
+          </chord>
+        <chord id="9">
+          <name>Maj13#11</name>
+          <xml>major-13th</xml>
+          <voicing>C D E Gb G A B</voicing>
+          <degree>add#11</degree>
+          <render>Maj 13 # 11</render>
+          </chord>
+        <chord id="10">
+          <name>Maj13</name>
+          <xml>major-13th</xml>
+          <voicing>C D E Gb G A B</voicing>
+          <render>Maj 13</render>
+          </chord>
+        <chord id="11">
+          <name>Maj9(no 3)</name>
+          <xml>major-ninth</xml>
+          <voicing>C D G B</voicing>
+          <degree>sub3</degree>
+          <render>Maj 9 (no 3)</render>
+          </chord>
+        <chord id="12">
+          <name>+</name>
+          <xml>augmented</xml>
+          <voicing>C E Ab</voicing>
+          <render>+</render>
+          </chord>
+        <chord id="13">
+          <name>Maj7#5</name>
+          <xml>major-seventh</xml>
+          <voicing>C E Ab B</voicing>
+          <degree>alt#5</degree>
+          <render>Maj 7 # 5</render>
+          </chord>
+        <chord id="14">
+          <name>69</name>
+          <xml>major-sixth</xml>
+          <voicing>C D E G A</voicing>
+          <degree>add9</degree>
+          <render>69</render>
+          </chord>
+        <chord id="15">
+          <name>2</name>
+          <xml>major</xml>
+          <voicing>C D E G</voicing>
+          <degree>add2</degree>
+          <render>2</render>
+          </chord>
+        <chord id="16">
+          <name>m</name>
+          <xml>minor</xml>
+          <voicing>C Eb G</voicing>
+          <render>m</render>
+          </chord>
+        <chord id="17">
+          <name>m+</name>
+          <xml>minor</xml>
+          <voicing>C Eb Ab</voicing>
+          <degree>alt#5</degree>
+          <render>m+</render>
+          </chord>
+        <chord id="18">
+          <name>mMaj7</name>
+          <xml>major-minor</xml>
+          <voicing>C Eb G B</voicing>
+          <render>m Maj 7</render>
+          </chord>
+        <chord id="19">
+          <name>m7</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Eb G Bb</voicing>
+          <render>m7</render>
+          </chord>
+        <chord id="20">
+          <name>m9</name>
+          <xml>minor-ninth</xml>
+          <voicing>C D Eb G Bb</voicing>
+          <render>m9</render>
+          </chord>
+        <chord id="21">
+          <name>m11</name>
+          <xml>minor-11th</xml>
+          <voicing>C D Eb F G Bb</voicing>
+          <render>m11</render>
+          </chord>
+        <chord id="22">
+          <name>m13</name>
+          <xml>minor-13th</xml>
+          <voicing>C D Eb F G A Bb</voicing>
+          <render>m13</render>
+          </chord>
+        <chord id="23">
+          <name>m6</name>
+          <xml>minor-sixth</xml>
+          <voicing>C Eb G A</voicing>
+          <render>m6</render>
+          </chord>
+        <chord id="24">
+          <name>m#5</name>
+          <xml>minor</xml>
+          <voicing>C Eb Ab</voicing>
+          <degree>alt#5</degree>
+          <render>m # 5</render>
+          </chord>
+        <chord id="25">
+          <name>m7#5</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Eb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <render>m 7 # 5</render>
+          </chord>
+        <chord id="26">
+          <name>m69</name>
+          <xml>minor-sixth</xml>
+          <voicing>C D Eb G A</voicing>
+          <degree>add9</degree>
+          <render>m69</render>
+          </chord>
+        <chord id="27">
+          <name>Lyd</name>
+          <xml>major</xml>
+          <voicing>C E Gb G</voicing>
+          <degree>add#11</degree>
+          <render>Lyd</render>
+          </chord>
+        <chord id="28">
+          <name>Maj7Lyd</name>
+          <xml>major-seventh</xml>
+          <voicing>C D E G A</voicing>
+          <degree>add#11</degree>
+          <render>Maj 7 Lyd</render>
+          </chord>
+        <chord id="29">
+          <name>Maj7b5</name>
+          <xml>major-seventh</xml>
+          <voicing>C E Gb B</voicing>
+          <degree>altb5</degree>
+          <render>Maj 7 b 5</render>
+          </chord>
+        <chord id="32">
+          <name>m7b5</name>
+          <xml>half-diminished</xml>
+          <voicing>C Eb Gb Bb</voicing>
+          <render>m7 b 5</render>
+          </chord>
+        <chord id="33">
+          <name>dim</name>
+          <xml>diminished</xml>
+          <voicing>C Eb Gb</voicing>
+          <render>dim</render>
+          </chord>
+        <chord id="34">
+          <name>m9b5</name>
+          <xml>minor-ninth</xml>
+          <voicing>C D Eb Gb Bb</voicing>
+          <degree>altb5</degree>
+          <render>m9 b 5</render>
+          </chord>
+        <chord id="40">
+          <name>5</name>
+          <xml>power</xml>
+          <voicing>C G</voicing>
+          <render>5</render>
+          </chord>
+        <chord id="56">
+          <name>7+</name>
+          <xml>augmented-seventh</xml>
+          <voicing>C E Ab</voicing>
+          <render>7+</render>
+          </chord>
+        <chord id="57">
+          <name>9+</name>
+          <xml>augmented-ninth</xml>
+          <voicing>C D E Ab Bb</voicing>
+          <render>9+</render>
+          </chord>
+        <chord id="58">
+          <name>13+</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <render>13+</render>
+          </chord>
+        <chord id="59">
+          <name>(blues)</name>
+          <xml>major</xml>
+          <voicing>C Eb E G</voicing>
+          <degree>add#9</degree>
+          <render>(blues)</render>
+          </chord>
+        <chord id="60">
+          <name>7(Blues)</name>
+          <xml>dominant</xml>
+          <voicing>C E G Bb</voicing>
+          <degree>add#9</degree>
+          <render>7(blues)</render>
+          </chord>
+        <chord id="64">
+          <name>7</name>
+          <xml>dominant</xml>
+          <voicing>C E G Bb</voicing>
+          <render>7</render>
+          </chord>
+        <chord id="65">
+          <name>13</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E F G A Bb</voicing>
+          <render>13</render>
+          </chord>
+        <chord id="66">
+          <name>7b13</name>
+          <xml>dominant</xml>
+          <voicing>C E G Ab Bb</voicing>
+          <degree>addb13</degree>
+          <render>7 b 13</render>
+          </chord>
+        <chord id="67">
+          <name>7#11</name>
+          <xml>dominant</xml>
+          <voicing>C E Gb G Bb</voicing>
+          <degree>add#11</degree>
+          <render>7 # 11</render>
+          </chord>
+        <chord id="68">
+          <name>13#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E F Gb G A Bb</voicing>
+          <degree>add#11</degree>
+          <render>13 # 11</render>
+          </chord>
+        <chord id="69">
+          <name>7#11b13</name>
+          <xml>dominant</xml>
+          <voicing>C E Gb G Ab Bb</voicing>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 # 11 b 13</render>
+          </chord>
+        <chord id="70">
+          <name>9</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E G Bb</voicing>
+          <render>9</render>
+          </chord>
+        <chord id="72">
+          <name>9b13</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E G Ab Bb</voicing>
+          <degree>addb13</degree>
+          <render>9 b 13</render>
+          </chord>
+        <chord id="73">
+          <name>9#11</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb G Bb</voicing>
+          <degree>add#11</degree>
+          <render>9 # 11</render>
+          </chord>
+        <chord id="74">
+          <name>13#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E Gb G A Bb</voicing>
+          <degree>alt#11</degree>
+          <render>13 # 11</render>
+          </chord>
+        <chord id="75">
+          <name>9#11b13</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb G Ab Bb</voicing>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>9 # 11 b 13</render>
+          </chord>
+        <chord id="76">
+          <name>7b9</name>
+          <xml>dominant</xml>
+          <voicing>C Db E G Bb</voicing>
+          <degree>addb9</degree>
+          <render>7 b 9</render>
+          </chord>
+        <chord id="77">
+          <name>13b9</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Db E F G A Bb</voicing>
+          <degree>altb9</degree>
+          <render>13 b 9</render>
+          </chord>
+        <chord id="78">
+          <name>7b9b13</name>
+          <xml>dominant</xml>
+          <voicing>C Db E G Ab Bb</voicing>
+          <degree>addb9</degree>
+          <degree>addb13</degree>
+          <render>7 b 9 b 13</render>
+          </chord>
+        <chord id="79">
+          <name>7b9#11</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Gb G Bb</voicing>
+          <degree>addb9</degree>
+          <degree>alt#11</degree>
+          <render>7 b 9 # 11</render>
+          </chord>
+        <chord id="80">
+          <name>13b9#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Db E Gb G A Bb</voicing>
+          <degree>altb9</degree>
+          <degree>alt#11</degree>
+          <render>13 b 9 # 11</render>
+          </chord>
+        <chord id="81">
+          <name>7b9#11b13</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Gb G Ab Bb</voicing>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 b 9 # 11 b 13</render>
+          </chord>
+        <chord id="82">
+          <name>7#9</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E G Bb</voicing>
+          <degree>add#9</degree>
+          <render>7 # 9</render>
+          </chord>
+        <chord id="83">
+          <name>13#9</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Eb E F G A Bb</voicing>
+          <degree>alt#9</degree>
+          <render>13 # 9</render>
+          </chord>
+        <chord id="84">
+          <name>7#9b13</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E G Ab Bb</voicing>
+          <degree>add#9</degree>
+          <degree>addb13</degree>
+          <render>7 # 9 b 13</render>
+          </chord>
+        <chord id="85">
+          <name>9#11</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb G Bb</voicing>
+          <degree>add#11</degree>
+          <render>9 # 11</render>
+          </chord>
+        <chord id="86">
+          <name>13#9#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Eb E Gb G A Bb</voicing>
+          <degree>alt#9</degree>
+          <degree>alt#11</degree>
+          <render>13 # 9 # 11</render>
+          </chord>
+        <chord id="87">
+          <name>7#9#11b13</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Gb G Ab Bb</voicing>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 # 9 # 11 b 13</render>
+          </chord>
+        <chord id="88">
+          <name>7b5</name>
+          <xml>dominant</xml>
+          <voicing>C E Gb Bb</voicing>
+          <degree>altb5</degree>
+          <render>7 b 5</render>
+          </chord>
+        <chord id="89">
+          <name>13b5</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E F Gb A Bb</voicing>
+          <degree>altb5</degree>
+          <render>13 b 5</render>
+          </chord>
+        <chord id="90">
+          <name>7b5b13</name>
+          <xml>dominant</xml>
+          <voicing>C E Gb A Bb</voicing>
+          <degree>altb5</degree>
+          <degree>addb13</degree>
+          <render>7 b 5 b 13</render>
+          </chord>
+        <chord id="91">
+          <name>9b5</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb Bb</voicing>
+          <degree>altb5</degree>
+          <render>9 b 5</render>
+          </chord>
+        <chord id="92">
+          <name>9b5b13</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb Ab Bb</voicing>
+          <degree>altb5</degree>
+          <degree>addb13</degree>
+          <render>9 b 5 b 13</render>
+          </chord>
+        <chord id="93">
+          <name>7b5b9</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Gb Bb</voicing>
+          <degree>altb5</degree>
+          <degree>addb9</degree>
+          <render>7 b 5 b 9</render>
+          </chord>
+        <chord id="94">
+          <name>13b5b9</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Db E F Gb A Bb</voicing>
+          <degree>altb5</degree>
+          <degree>addb9</degree>
+          <render>13 b 5 b 9</render>
+          </chord>
+        <chord id="95">
+          <name>7b5b9b13</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Gb Ab Bb</voicing>
+          <degree>altb5</degree>
+          <degree>addb9</degree>
+          <degree>addb13</degree>
+          <render>7 b 5 b 9 b 13</render>
+          </chord>
+        <chord id="96">
+          <name>7b5#9</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Gb Bb</voicing>
+          <degree>altb5</degree>
+          <degree>add#9</degree>
+          <render>7 b 5 # 9</render>
+          </chord>
+        <chord id="97">
+          <name>13b5#9</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Eb E F Gb A Bb</voicing>
+          <degree>altb5</degree>
+          <degree>alt#9</degree>
+          <render>13 b 5 # 9</render>
+          </chord>
+        <chord id="98">
+          <name>7b5#9b13</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Gb Ab Bb</voicing>
+          <degree>altb5</degree>
+          <degree>add#9</degree>
+          <degree>addb13</degree>
+          <render>7 b 5 # 9 b 13</render>
+          </chord>
+        <chord id="99">
+          <name>7#5</name>
+          <xml>augmented-seventh</xml>
+          <voicing>C E Ab Bb</voicing>
+          <render>7 # 5</render>
+          </chord>
+        <chord id="100">
+          <name>13#5</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E F Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <render>13 # 5</render>
+          </chord>
+        <chord id="101">
+          <name>7#5#11</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add#11</degree>
+          <render>7 # 5 # 11</render>
+          </chord>
+        <chord id="102">
+          <name>13#5#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>alt#11</degree>
+          <render>13 # 5 # 11</render>
+          </chord>
+        <chord id="103">
+          <name>9#5</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <render>9 # 5</render>
+          </chord>
+        <chord id="104">
+          <name>9#5#11</name>
+          <xml>dominant-ninth</xml>
+          <voicing>C D E Gb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add#11</degree>
+          <render>9 # 5 # 11</render>
+          </chord>
+        <chord id="105">
+          <name>7#5b9</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>addb9</degree>
+          <render>7 # 5 b 9</render>
+          </chord>
+        <chord id="106">
+          <name>13#5b9</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Db E F Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>altb9</degree>
+          <render>13 # 5 b 9</render>
+          </chord>
+        <chord id="107">
+          <name>7#5b9#11</name>
+          <xml>dominant</xml>
+          <voicing>C Db E Gb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>addb9</degree>
+          <degree>add#11</degree>
+          <render>7 # 5 b 9 # 11</render>
+          </chord>
+        <chord id="108">
+          <name>13#5b9#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Db E Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>altb9</degree>
+          <degree>alt#11</degree>
+          <render>13 # 5 b 9 # 11</render>
+          </chord>
+        <chord id="109">
+          <name>7#5#9</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add#9</degree>
+          <render>7 # 5 # 9</render>
+          </chord>
+        <chord id="110">
+          <name>13#5#9#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Eb E Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>alt#9</degree>
+          <degree>alt#11</degree>
+          <render>13 # 5 # 9 # 11</render>
+          </chord>
+        <chord id="111">
+          <name>7#5#9#11</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Gb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <render>7 # 5 # 9 # 11</render>
+          </chord>
+        <chord id="112">
+          <name>13#5#9#11</name>
+          <xml>dominant-13th</xml>
+          <voicing>C Eb E Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>alt#9</degree>
+          <degree>alt#11</degree>
+          <render>13 # 5 # 9 # 11</render>
+          </chord>
+        <chord id="113">
+          <name>7alt</name>
+          <xml>dominant</xml>
+          <voicing>C Eb E Gb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <render>7 alt</render>
+          </chord>
+        <chord id="128">
+          <name>7sus</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F G Bb</voicing>
+          <degree>add7</degree>
+          <render>7 sus</render>
+          </chord>
+        <chord id="129">
+          <name>13sus</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>add13</degree>
+          <render>13 sus</render>
+          </chord>
+        <chord id="130">
+          <name>7susb13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 13</render>
+          </chord>
+        <chord id="131">
+          <name>7sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F G Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#11</degree>
+          <render>7 sus # 11</render>
+          </chord>
+        <chord id="132">
+          <name>13sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G A Bb</voicing>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 11</render>
+          </chord>
+        <chord id="133">
+          <name>7sus#11b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Gb G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 sus # 11 b 13</render>
+          </chord>
+        <chord id="134">
+          <name>9sus</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F G Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <render>9 sus</render>
+          </chord>
+        <chord id="135">
+          <name>9susb13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>addb13</degree>
+          <render>9 sus b 13</render>
+          </chord>
+        <chord id="136">
+          <name>9sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <render>9 sus # 11</render>
+          </chord>
+        <chord id="137">
+          <name>13sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 11</render>
+          </chord>
+        <chord id="138">
+          <name>13sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 11</render>
+          </chord>
+        <chord id="139">
+          <name>9sus#11b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>9 sus # 11 b 13</render>
+          </chord>
+        <chord id="140">
+          <name>7susb9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F G Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <render>7 sus b 9</render>
+          </chord>
+        <chord id="141">
+          <name>13susb9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <degree>add11</degree>
+          <degree>add13</degree>
+          <render>13 sus b 9</render>
+          </chord>
+        <chord id="142">
+          <name>7susb9b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 9 b 13</render>
+          </chord>
+        <chord id="143">
+          <name>7susb9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb G Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <degree>add#11</degree>
+          <render>7 sus b 9 # 11</render>
+          </chord>
+        <chord id="144">
+          <name>13susb9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Gb G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus b 9 # 11</render>
+          </chord>
+        <chord id="145">
+          <name>7susb9#11b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>addb9</degree>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 9 # 11 b 13</render>
+          </chord>
+        <chord id="146">
+          <name>7sus#9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F G Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <render>7 sus # 9</render>
+          </chord>
+        <chord id="147">
+          <name>13sus#9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add13</degree>
+          <render>13 sus # 9</render>
+          </chord>
+        <chord id="148">
+          <name>7sus#9b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>addb13</degree>
+          <render>7 sus # 9 b 13</render>
+          </chord>
+        <chord id="149">
+          <name>9sus#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb G Bb</voicing>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <render>9 sus # 11</render>
+          </chord>
+        <chord id="150">
+          <name>13sus#9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb G A Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 9 # 11</render>
+          </chord>
+        <chord id="151">
+          <name>7sus#9#11b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb G Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <degree>addb13</degree>
+          <render>7 sus # 9 # 11 b 13</render>
+          </chord>
+        <chord id="152">
+          <name>7susb5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Gb Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <render>7 sus b 5</render>
+          </chord>
+        <chord id="153">
+          <name>13susb5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb A Bb</voicing>
+          <degree>alt5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add13</degree>
+          <render>13 sus b 5</render>
+          </chord>
+        <chord id="154">
+          <name>7susb5b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Gb Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 5 b 13</render>
+          </chord>
+        <chord id="155">
+          <name>9susb5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb Bb</voicing>
+          <degree>alt5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <render>9 sus b 5</render>
+          </chord>
+        <chord id="156">
+          <name>9susb5b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb Ab Bb</voicing>
+          <degree>alt5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add13</degree>
+          <render>9 sus b 5 b 13</render>
+          </chord>
+        <chord id="157">
+          <name>7susb5b9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <degree>addb9</degree>
+          <render>7 sus b 5 b 9</render>
+          </chord>
+        <chord id="158">
+          <name>13susb5b9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb A Bb</voicing>
+          <degree>alt5</degree>
+          <degree>add7</degree>
+          <degree>altb9</degree>
+          <degree>add13</degree>
+          <render>13 sus b 5 b 9</render>
+          </chord>
+        <chord id="159">
+          <name>7susb5b9b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <degree>addb9</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 5 b 9 b 13</render>
+          </chord>
+        <chord id="160">
+          <name>7susb5#9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <degree>add#9</degree>
+          <render>7 sus b 5 # 9</render>
+          </chord>
+        <chord id="161">
+          <name>13susb5#9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb A Bb</voicing>
+          <degree>altb5</degree>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add13</degree>
+          <render>13 sus b 5 # 9</render>
+          </chord>
+        <chord id="162">
+          <name>7susb5#9b13</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>altb5</degree>
+          <degree>add#9</degree>
+          <degree>addb13</degree>
+          <render>7 sus b 5 # 9 b 13</render>
+          </chord>
+        <chord id="163">
+          <name>7sus#5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <render>7 sus # 5</render>
+          </chord>
+        <chord id="164">
+          <name>13sus#5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5</render>
+          </chord>
+        <chord id="165">
+          <name>7sus#5#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <degree>add#11</degree>
+          <render>7 sus # 5 # 11</render>
+          </chord>
+        <chord id="166">
+          <name>13sus#5#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5 # 11</render>
+          </chord>
+        <chord id="167">
+          <name>9sus#5</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <render>9 sus # 5</render>
+          </chord>
+        <chord id="168">
+          <name>9sus#5#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C D F Gb Ab Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <render>9 sus # 5 # 11</render>
+          </chord>
+        <chord id="169">
+          <name>7sus#5b9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <degree>addb9</degree>
+          <render>7 sus # 5 b 9</render>
+          </chord>
+        <chord id="170">
+          <name>13sus#5b9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5 b 9</render>
+          </chord>
+        <chord id="171">
+          <name>7sus#5b9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <degree>addb9</degree>
+          <degree>add#11</degree>
+          <render>7 sus # 5 b 9 # 11</render>
+          </chord>
+        <chord id="172">
+          <name>13sus#5b9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5 b 9 # 11</render>
+          </chord>
+        <chord id="173">
+          <name>7sus#5#9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <degree>add#9</degree>
+          <render>7 sus # 5 # 9</render>
+          </chord>
+        <chord id="174">
+          <name>13sus#5#9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5 # 9 # 11</render>
+          </chord>
+        <chord id="175">
+          <name>7sus#5#9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb Ab Bb</voicing>
+          <degree>add7</degree>
+          <degree>alt#5</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <render>7 sus # 5 # 9 # 11</render>
+          </chord>
+        <chord id="176">
+          <name>13sus#5#9#11</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Eb F Gb Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <degree>add7</degree>
+          <degree>add#9</degree>
+          <degree>add#11</degree>
+          <degree>add13</degree>
+          <render>13 sus # 5 # 9 # 11</render>
+          </chord>
+        <chord id="177">
+          <name>4</name>
+          <xml>major</xml>
+          <voicing>C E F G</voicing>
+          <degree>add4</degree>
+          <render>4</render>
+          </chord>
+        <chord id="184">
+          <name>sus</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F G</voicing>
+          <render>sus</render>
+          </chord>
+        <chord id="185">
+          <name>dim7</name>
+          <xml>diminished-seventh</xml>
+          <voicing>C Eb Gb</voicing>
+          <render>dim 7</render>
+          </chord>
+        <chord id="186">
+          <name>sus2</name>
+          <xml>suspended-second</xml>
+          <voicing>C D G</voicing>
+          <render>sus 2</render>
+          </chord>
+        <chord id="187">
+          <name>maddb13</name>
+          <xml>minor</xml>
+          <voicing>C Eb Ab</voicing>
+          <degree>addb13</degree>
+          <render>m add b 13</render>
+          </chord>
+        <chord id="188">
+          <name>add#13</name>
+          <xml>major</xml>
+          <voicing>C E G Bb</voicing>
+          <degree>add#13</degree>
+          <render># 13</render>
+          </chord>
+        <chord id="189">
+          <name>add#11#13</name>
+          <xml>major</xml>
+          <voicing>C E Gb G Bb</voicing>
+          <degree>add#11</degree>
+          <degree>add#13</degree>
+          <render>add # 11 # 13</render>
+          </chord>
+        <chord id="190">
+          <name>add#13</name>
+          <xml>major</xml>
+          <voicing>C E G Bb</voicing>
+          <degree>add#13</degree>
+          <render>add # 13</render>
+          </chord>
+        <chord id="191">
+          <name>6add9</name>
+          <xml>major-sixth</xml>
+          <voicing>C D E G A</voicing>
+          <degree>add9</degree>
+          <render>6 add 9</render>
+          </chord>
+        <chord id="192">
+          <name>sus4</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C F G</voicing>
+          <render>sus 4</render>
+          </chord>
+        <chord id="193">
+          <name>11</name>
+          <xml>dominant-11th</xml>
+          <voicing>C D E F G Bb</voicing>
+          <render>11</render>
+          </chord>
+        <chord id="194">
+          <name>Maj11</name>
+          <xml>major-11th</xml>
+          <voicing>C D E F G B</voicing>
+          <render>Maj 11</render>
+          </chord>
+        <chord id="195">
+          <name>Tristan</name>
+          <xml>Tristan</xml>
+          <voicing>C D Gb Bb</voicing>
+          <render>Tristan</render>
+          </chord>
+        <chord id="196">
+          <name>m7add11</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Eb F G Bb</voicing>
+          <degree>add11</degree>
+          <render>m 7 add 11</render>
+          </chord>
+        <chord id="197">
+          <name>Maj7add13</name>
+          <xml>major-seventh</xml>
+          <voicing>C E G A B</voicing>
+          <degree>add13</degree>
+          <render>Maj 7 add 13</render>
+          </chord>
+        <chord id="198">
+          <name>madd9</name>
+          <xml>minor</xml>
+          <voicing>C D Eb G</voicing>
+          <degree>add9</degree>
+          <render>m add 9</render>
+          </chord>
+        <chord id="199">
+          <name>m9Maj7</name>
+          <xml>major-minor</xml>
+          <voicing>C D Eb G B</voicing>
+          <degree>add9</degree>
+          <render>m 9 Maj 7</render>
+          </chord>
+        <chord id="200">
+          <name>5</name>
+          <xml>pedal</xml>
+          <voicing>C G</voicing>
+          <degree>add5</degree>
+          <render>5</render>
+          </chord>
+        <chord id="201">
+          <name>m11b5</name>
+          <xml>minor-11th</xml>
+          <voicing>C D Eb F Gb Bb</voicing>
+          <degree>altb5</degree>
+          <render>m 11 b 5</render>
+          </chord>
+        <chord id="202">
+          <name>dim7add#7</name>
+          <xml>diminished-seventh</xml>
+          <voicing>C Eb Gb A B</voicing>
+          <degree>add#7</degree>
+          <render>dim 7 add # 7</render>
+          </chord>
+        <chord id="203">
+          <name>aug9</name>
+          <xml>augmented-seventh</xml>
+          <voicing>C D E Ab</voicing>
+          <degree>add9</degree>
+          <render># 5 9</render>
+          </chord>
+        <chord id="204">
+          <name>omit5</name>
+          <xml>major</xml>
+          <voicing>C E</voicing>
+          <degree>sub5</degree>
+          <render>omit 5</render>
+          </chord>
+        <chord id="205">
+          <name>aug7</name>
+          <xml>augmented-seventh</xml>
+          <voicing>C E Ab</voicing>
+          <render>aug 7</render>
+          </chord>
+        <chord id="206">
+          <name>aug9</name>
+          <xml>augmented-ninth</xml>
+          <voicing>C D E Ab Bb</voicing>
+          <render>aug 9</render>
+          </chord>
+        <chord id="207">
+          <name>aug13</name>
+          <xml>dominant-13th</xml>
+          <voicing>C D E Ab A Bb</voicing>
+          <degree>alt#5</degree>
+          <render>aug 13</render>
+          </chord>
+        <chord id="210">
+          <name>Maj7#11</name>
+          <xml>major-seventh</xml>
+          <voicing>C E Gb G B</voicing>
+          <degree>add#11</degree>
+          <render>Maj 7 # 11</render>
+          </chord>
+        <chord id="211">
+          <name>Maj9#5</name>
+          <xml>major-ninth</xml>
+          <voicing>C D E Ab B</voicing>
+          <degree>alt#5</degree>
+          <render>Maj 9 # 5</render>
+          </chord>
+        <chord id="212">
+          <name>Maj7#9</name>
+          <xml>major-seventh</xml>
+          <voicing>C Eb E G B</voicing>
+          <degree>add#9</degree>
+          <render>Maj 7 # 9</render>
+          </chord>
+        <chord id="213">
+          <name>add2</name>
+          <xml>major</xml>
+          <voicing>C D E G</voicing>
+          <degree>add2</degree>
+          <render>add 2</render>
+          </chord>
+        <chord id="214">
+          <name>add9</name>
+          <xml>major</xml>
+          <voicing>C D E G</voicing>
+          <degree>add9</degree>
+          <render>add 9</render>
+          </chord>
+        <chord id="215">
+          <name>susb9</name>
+          <xml>suspended-fourth</xml>
+          <voicing>C Db F G</voicing>
+          <degree>addb9</degree>
+          <render>sus b 9</render>
+          </chord>
+        <chord id="216">
+          <name>Maj7sus</name>
+          <xml>major-seventh</xml>
+          <voicing>C F G B</voicing>
+          <degree>sub3</degree>
+          <degree>add4</degree>
+          <render>Maj 7 sus</render>
+          </chord>
+        <chord id="217">
+          <name>Maj9sus</name>
+          <xml>major-ninth</xml>
+          <voicing>C D F G B</voicing>
+          <degree>sub3</degree>
+          <degree>add4</degree>
+          <render>Maj 9 sus</render>
+          </chord>
+        <chord id="220">
+          <name>m7b9</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Db Eb G Bb</voicing>
+          <degree>addb9</degree>
+          <render>m 7 b 9</render>
+          </chord>
+        <chord id="221">
+          <name>m7b13</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Eb G Ab Bb</voicing>
+          <degree>addb13</degree>
+          <render>m 7 b 13</render>
+          </chord>
+        <chord id="222">
+          <name>Phryg</name>
+          <xml>minor-seventh</xml>
+          <voicing>C Db Eb F G Bb</voicing>
+          <degree>addb9</degree>
+          <degree>add4</degree>
+          <render>Phryg</render>
+          </chord>
+        <chord id="223">
+          <name>madd2</name>
+          <xml>minor</xml>
+          <voicing>C D Eb G</voicing>
+          <degree>add9</degree>
+          <render>m add 2</render>
+          </chord>
+        <chord id="230">
+          <name>7b9#9</name>
+          <xml>dominant</xml>
+          <voicing>C Db Eb E G Bb</voicing>
+          <degree>addb9</degree>
+          <degree>add#9</degree>
+          <render>7 b 9 # 9</render>
+          </chord>
+        <chord id="240">
+          <name>sus#4</name>
+          <xml>major</xml>
+          <voicing>C Gb G</voicing>
+          <degree>sub3</degree>
+          <degree>add#4</degree>
+          <render>sus # 4</render>
+          </chord>
+        <chord id="241">
+          <name>Maj7b13</name>
+          <xml>major-seventh</xml>
+          <voicing>C E G Ab B</voicing>
+          <degree>addb13</degree>
+          <render>Maj 7 b 13</render>
+          </chord>
+        </ChordList>
       <page-layout>
         <page-height>1683.78</page-height>
         <page-width>1190.55</page-width>
@@ -135,11 +1516,11 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"/>Mária altatója</text>
+          <text><font face="Times New Roman"></font>Mária altatója</text>
           </Text>
         <Text>
           <style>Composer</style>
-          <text><font face="Times New Roman"/>Ghymes</text>
+          <text><font face="Times New Roman"></font>Ghymes</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -165,7 +1546,7 @@
           <durationType>eighth</durationType>
           <Beam>1</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>1. Jó</text>
+            <text><font face="Times New Roman"></font>1. Jó</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -177,7 +1558,7 @@
           <Beam>1</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>es</text>
+            <text><font face="Times New Roman"></font>es</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -189,7 +1570,7 @@
           <Beam>1</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>tét,</text>
+            <text><font face="Times New Roman"></font>tét,</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -200,7 +1581,7 @@
           <durationType>eighth</durationType>
           <Beam>1</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>jó</text>
+            <text><font face="Times New Roman"></font>jó</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -214,7 +1595,7 @@
           <Beam>2</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>es</text>
+            <text><font face="Times New Roman"></font>es</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -226,7 +1607,7 @@
           <Beam>2</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>tét,</text>
+            <text><font face="Times New Roman"></font>tét,</text>
             </Lyrics>
           <Note>
             <pitch>68</pitch>
@@ -241,7 +1622,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>ég s</text>
+            <text><font face="Times New Roman"></font>ég s</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -255,7 +1636,7 @@
           <durationType>eighth</durationType>
           <Beam>3</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>föld</text>
+            <text><font face="Times New Roman"></font>föld</text>
             </Lyrics>
           <Note>
             <pitch>68</pitch>
@@ -267,7 +1648,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Fi</text>
+            <text><font face="Times New Roman"></font>Fi</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -278,7 +1659,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>a!</text>
+            <text><font face="Times New Roman"></font>a!</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -306,7 +1687,7 @@
           <durationType>eighth</durationType>
           <Beam>4</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>Te</text>
+            <text><font face="Times New Roman"></font>Te</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -318,7 +1699,7 @@
           <durationType>eighth</durationType>
           <Beam>4</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>vagy</text>
+            <text><font face="Times New Roman"></font>vagy</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -330,7 +1711,7 @@
           <durationType>eighth</durationType>
           <Beam>4</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -341,7 +1722,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Jé</text>
+            <text><font face="Times New Roman"></font>Jé</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -355,7 +1736,7 @@
           <Beam>5</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>zus</text>
+            <text><font face="Times New Roman"></font>zus</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -367,7 +1748,7 @@
           <Beam>5</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ka,</text>
+            <text><font face="Times New Roman"></font>ka,</text>
             </Lyrics>
           <Note>
             <pitch>68</pitch>
@@ -386,7 +1767,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>ő</text>
+            <text><font face="Times New Roman"></font>ő</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -405,7 +1786,7 @@
           <Beam>6</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Má</text>
+            <text><font face="Times New Roman"></font>Má</text>
             </Lyrics>
           <Note>
             <pitch>66</pitch>
@@ -417,7 +1798,7 @@
           <Beam>6</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>ri</text>
+            <text><font face="Times New Roman"></font>ri</text>
             </Lyrics>
           <Note>
             <pitch>66</pitch>
@@ -432,7 +1813,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>a.</text>
+            <text><font face="Times New Roman"></font>a.</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -453,7 +1834,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Bá</text>
+            <text><font face="Times New Roman"></font>Bá</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -464,7 +1845,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>tyád</text>
+            <text><font face="Times New Roman"></font>tyád</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -478,7 +1859,7 @@
           <Beam>7</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -490,7 +1871,7 @@
           <Beam>7</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>ra</text>
+            <text><font face="Times New Roman"></font>ra</text>
             </Lyrics>
           <Note>
             <pitch>68</pitch>
@@ -502,7 +1883,7 @@
           <Beam>7</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>nyos</text>
+            <text><font face="Times New Roman"></font>nyos</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -518,7 +1899,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>nap</text>
+            <text><font face="Times New Roman"></font>nap</text>
             </Lyrics>
           <Note>
             <pitch>68</pitch>
@@ -542,7 +1923,7 @@
           <Beam>8</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>su</text>
+            <text><font face="Times New Roman"></font>su</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -555,7 +1936,7 @@
           <Beam>8</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>ga</text>
+            <text><font face="Times New Roman"></font>ga</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -568,7 +1949,7 @@
           <Beam>8</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ra,</text>
+            <text><font face="Times New Roman"></font>ra,</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -588,7 +1969,7 @@
           <Beam>9</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Hú</text>
+            <text><font face="Times New Roman"></font>Hú</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -600,7 +1981,7 @@
           <Beam>9</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>gocs</text>
+            <text><font face="Times New Roman"></font>gocs</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -612,7 +1993,7 @@
           <Beam>9</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>kád</text>
+            <text><font face="Times New Roman"></font>kád</text>
             </Lyrics>
           <Note>
             <Tie id="2">
@@ -638,7 +2019,7 @@
           <Beam>10</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>e</text>
+            <text><font face="Times New Roman"></font>e</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -652,7 +2033,7 @@
           <Beam>11</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>züs</text>
+            <text><font face="Times New Roman"></font>züs</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -664,7 +2045,7 @@
           <Beam>11</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>tös</text>
+            <text><font face="Times New Roman"></font>tös</text>
             </Lyrics>
           <Note>
             <pitch>68</pitch>
@@ -684,7 +2065,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>hold</text>
+            <text><font face="Times New Roman"></font>hold</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -705,7 +2086,7 @@
           <Beam>12</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>su</text>
+            <text><font face="Times New Roman"></font>su</text>
             </Lyrics>
           <Note>
             <pitch>66</pitch>
@@ -717,7 +2098,7 @@
           <Beam>12</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>ga</text>
+            <text><font face="Times New Roman"></font>ga</text>
             </Lyrics>
           <Note>
             <pitch>66</pitch>
@@ -732,7 +2113,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ra.</text>
+            <text><font face="Times New Roman"></font>ra.</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -750,7 +2131,7 @@
           </KeySig>
         <StaffText>
           <style>System</style>
-          <text><font face="Times New Roman"/>Refrén</text>
+          <text><font face="Times New Roman"></font>Refrén</text>
           </StaffText>
         <Rest>
           <dots>1</dots>
@@ -763,17 +2144,17 @@
           <Beam>13</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>R. Fa</text>
+            <text><font face="Times New Roman"></font>R. Fa</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>A</text>
+            <text><font face="Times New Roman"></font>A</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>A</text>
+            <text><font face="Times New Roman"></font>A</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -785,18 +2166,18 @@
           <Beam>13</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>lu</text>
+            <text><font face="Times New Roman"></font>lu</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>lá</text>
+            <text><font face="Times New Roman"></font>lá</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ludj,</text>
+            <text><font face="Times New Roman"></font>ludj,</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -817,18 +2198,18 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>vé</text>
+            <text><font face="Times New Roman"></font>vé</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>bá</text>
+            <text><font face="Times New Roman"></font>bá</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -839,18 +2220,18 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>gén</text>
+            <text><font face="Times New Roman"></font>gén</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>val</text>
+            <text><font face="Times New Roman"></font>val</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ludj,</text>
+            <text><font face="Times New Roman"></font>ludj,</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -863,18 +2244,18 @@
           <durationType>16th</durationType>
           <Beam>14</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>van</text>
+            <text><font face="Times New Roman"></font>van</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>ren</text>
+            <text><font face="Times New Roman"></font>ren</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Is</text>
+            <text><font face="Times New Roman"></font>Is</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -886,18 +2267,18 @@
           <durationType>eighth</durationType>
           <Beam>14</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>egy</text>
+            <text><font face="Times New Roman"></font>egy</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>get</text>
+            <text><font face="Times New Roman"></font>get</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>ten</text>
+            <text><font face="Times New Roman"></font>ten</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -909,18 +2290,18 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>há</text>
+            <text><font face="Times New Roman"></font>há</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>ge</text>
+            <text><font face="Times New Roman"></font>ge</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>nek</text>
+            <text><font face="Times New Roman"></font>nek</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -931,17 +2312,17 @@
           <durationType>16th</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>zi</text>
+            <text><font face="Times New Roman"></font>zi</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>ti</text>
+            <text><font face="Times New Roman"></font>ti</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>Bá</text>
+            <text><font face="Times New Roman"></font>Bá</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -959,17 +2340,17 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>kócs</text>
+            <text><font face="Times New Roman"></font>kócs</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>va</text>
+            <text><font face="Times New Roman"></font>va</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>rá</text>
+            <text><font face="Times New Roman"></font>rá</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -980,17 +2361,17 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ka,</text>
+            <text><font face="Times New Roman"></font>ka,</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>la,</text>
+            <text><font face="Times New Roman"></font>la,</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>nya,</text>
+            <text><font face="Times New Roman"></font>nya,</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -1007,16 +2388,16 @@
           <Beam>15</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>fa</text>
+            <text><font face="Times New Roman"></font>fa</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -1028,17 +2409,17 @@
           <Beam>15</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>lu</text>
+            <text><font face="Times New Roman"></font>lu</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>lá</text>
+            <text><font face="Times New Roman"></font>lá</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>ludj,</text>
+            <text><font face="Times New Roman"></font>ludj,</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -1056,17 +2437,17 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>vé</text>
+            <text><font face="Times New Roman"></font>vé</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>bá</text>
+            <text><font face="Times New Roman"></font>bá</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -1077,17 +2458,17 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>gén</text>
+            <text><font face="Times New Roman"></font>gén</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>val</text>
+            <text><font face="Times New Roman"></font>val</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>ludj,</text>
+            <text><font face="Times New Roman"></font>ludj,</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -1100,17 +2481,17 @@
           <durationType>16th</durationType>
           <Beam>16</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>van</text>
+            <text><font face="Times New Roman"></font>van</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>ren</text>
+            <text><font face="Times New Roman"></font>ren</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>Is</text>
+            <text><font face="Times New Roman"></font>Is</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -1122,17 +2503,17 @@
           <durationType>eighth</durationType>
           <Beam>16</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>egy</text>
+            <text><font face="Times New Roman"></font>egy</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>get</text>
+            <text><font face="Times New Roman"></font>get</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>ten</text>
+            <text><font face="Times New Roman"></font>ten</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -1144,17 +2525,17 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>há</text>
+            <text><font face="Times New Roman"></font>há</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>ge</text>
+            <text><font face="Times New Roman"></font>ge</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>nek</text>
+            <text><font face="Times New Roman"></font>nek</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -1165,17 +2546,17 @@
           <durationType>16th</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>zi</text>
+            <text><font face="Times New Roman"></font>zi</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>ti</text>
+            <text><font face="Times New Roman"></font>ti</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>Bá</text>
+            <text><font face="Times New Roman"></font>Bá</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -1193,17 +2574,17 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>kócs</text>
+            <text><font face="Times New Roman"></font>kócs</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>va</text>
+            <text><font face="Times New Roman"></font>va</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>rá</text>
+            <text><font face="Times New Roman"></font>rá</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -1214,17 +2595,17 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ka.</text>
+            <text><font face="Times New Roman"></font>ka.</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>la.</text>
+            <text><font face="Times New Roman"></font>la.</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>nya!</text>
+            <text><font face="Times New Roman"></font>nya!</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -1241,17 +2622,17 @@
           <Beam>17</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Ab</text>
+            <text><font face="Times New Roman"></font>Ab</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>A</text>
+            <text><font face="Times New Roman"></font>A</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Sze</text>
+            <text><font face="Times New Roman"></font>Sze</text>
             </Lyrics>
           <Note>
             <pitch>71</pitch>
@@ -1263,18 +2644,18 @@
           <Beam>17</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ban</text>
+            <text><font face="Times New Roman"></font>ban</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>szá</text>
+            <text><font face="Times New Roman"></font>szá</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>re</text>
+            <text><font face="Times New Roman"></font>re</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -1291,18 +2672,18 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>van</text>
+            <text><font face="Times New Roman"></font>van</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>já</text>
+            <text><font face="Times New Roman"></font>já</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>lem</text>
+            <text><font face="Times New Roman"></font>lem</text>
             </Lyrics>
           <Note>
             <pitch>74</pitch>
@@ -1312,18 +2693,18 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>egy</text>
+            <text><font face="Times New Roman"></font>egy</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>val</text>
+            <text><font face="Times New Roman"></font>val</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ből</text>
+            <text><font face="Times New Roman"></font>ből</text>
             </Lyrics>
           <Note>
             <pitch>74</pitch>
@@ -1341,18 +2722,18 @@
           <Beam>18</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>ren</text>
+            <text><font face="Times New Roman"></font>ren</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>fuj</text>
+            <text><font face="Times New Roman"></font>fuj</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>jöt</text>
+            <text><font face="Times New Roman"></font>jöt</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -1364,18 +2745,18 @@
           <Beam>18</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>gen</text>
+            <text><font face="Times New Roman"></font>gen</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>do</text>
+            <text><font face="Times New Roman"></font>do</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>tél</text>
+            <text><font face="Times New Roman"></font>tél</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -1387,17 +2768,17 @@
           <Beam>18</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>gő</text>
+            <text><font face="Times New Roman"></font>gő</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>gál</text>
+            <text><font face="Times New Roman"></font>gál</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>e</text>
+            <text><font face="Times New Roman"></font>e</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -1409,18 +2790,18 @@
           <Beam>18</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>böl</text>
+            <text><font face="Times New Roman"></font>böl</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>ja</text>
+            <text><font face="Times New Roman"></font>ja</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>vi</text>
+            <text><font face="Times New Roman"></font>vi</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -1438,18 +2819,18 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>csőcs</text>
+            <text><font face="Times New Roman"></font>csőcs</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>va</text>
+            <text><font face="Times New Roman"></font>va</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>lág</text>
+            <text><font face="Times New Roman"></font>lág</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -1460,18 +2841,18 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ke,</text>
+            <text><font face="Times New Roman"></font>ke,</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>la,</text>
+            <text><font face="Times New Roman"></font>la,</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ra,</text>
+            <text><font face="Times New Roman"></font>ra,</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -1488,17 +2869,17 @@
           <Beam>19</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>ab</text>
+            <text><font face="Times New Roman"></font>ab</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>sze</text>
+            <text><font face="Times New Roman"></font>sze</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -1510,18 +2891,18 @@
           <Beam>19</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ban</text>
+            <text><font face="Times New Roman"></font>ban</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>szá</text>
+            <text><font face="Times New Roman"></font>szá</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>re</text>
+            <text><font face="Times New Roman"></font>re</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -1538,18 +2919,18 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>van</text>
+            <text><font face="Times New Roman"></font>van</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>já</text>
+            <text><font face="Times New Roman"></font>já</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>lem</text>
+            <text><font face="Times New Roman"></font>lem</text>
             </Lyrics>
           <Note>
             <pitch>78</pitch>
@@ -1559,18 +2940,18 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>egy</text>
+            <text><font face="Times New Roman"></font>egy</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>val</text>
+            <text><font face="Times New Roman"></font>val</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ből</text>
+            <text><font face="Times New Roman"></font>ből</text>
             </Lyrics>
           <Note>
             <pitch>78</pitch>
@@ -1588,18 +2969,18 @@
           <Beam>20</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>ren</text>
+            <text><font face="Times New Roman"></font>ren</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>fuj</text>
+            <text><font face="Times New Roman"></font>fuj</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>jöt</text>
+            <text><font face="Times New Roman"></font>jöt</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -1611,18 +2992,18 @@
           <Beam>20</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>gen</text>
+            <text><font face="Times New Roman"></font>gen</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>do</text>
+            <text><font face="Times New Roman"></font>do</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>tél</text>
+            <text><font face="Times New Roman"></font>tél</text>
             </Lyrics>
           <Note>
             <pitch>73</pitch>
@@ -1634,17 +3015,17 @@
           <Beam>20</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>gő</text>
+            <text><font face="Times New Roman"></font>gő</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>gál</text>
+            <text><font face="Times New Roman"></font>gál</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
-            <text><font face="Times New Roman"/>e</text>
+            <text><font face="Times New Roman"></font>e</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -1656,18 +3037,18 @@
           <Beam>20</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>böl</text>
+            <text><font face="Times New Roman"></font>böl</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>ja</text>
+            <text><font face="Times New Roman"></font>ja</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>vi</text>
+            <text><font face="Times New Roman"></font>vi</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -1685,18 +3066,18 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>csőcs</text>
+            <text><font face="Times New Roman"></font>csőcs</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>va</text>
+            <text><font face="Times New Roman"></font>va</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>lág</text>
+            <text><font face="Times New Roman"></font>lág</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -1707,18 +3088,18 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ke.</text>
+            <text><font face="Times New Roman"></font>ke.</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>la.</text>
+            <text><font face="Times New Roman"></font>la.</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ra.</text>
+            <text><font face="Times New Roman"></font>ra.</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -1746,7 +3127,7 @@
             <pos x="0.389975" y="0"/>
             <style></style>
             <valign>top</valign>
-            <text><font size="11"/><font face="MS Shell Dlg 2"/>A lábával rengetgeti vala, A lábával rengetgeti vala,
+            <text><font size="11"></font><font face="MS Shell Dlg 2"></font>A lábával rengetgeti vala, A lábával rengetgeti vala,
 A szájával fujdogálja vala, A szájával fujdogálja vala:
 Aludj, aludj, Istennek báránya, Aludj, aludj, Istennek báránya,
 Szerelemből jöttél a világra, Szerelmből jöttél a világra.
