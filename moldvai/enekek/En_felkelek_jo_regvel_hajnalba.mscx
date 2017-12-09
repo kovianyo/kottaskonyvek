@@ -90,33 +90,46 @@
           </StaffType>
         <bracket type="-1" span="1"/>
         </Staff>
-      <trackName>Voice</trackName>
+      <trackName>Piano</trackName>
       <Instrument>
-        <trackName>Voice</trackName>
-        <minPitchP>36</minPitchP>
-        <maxPitchP>94</maxPitchP>
-        <minPitchA>40</minPitchA>
-        <maxPitchA>79</maxPitchA>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
+        <minPitchP>21</minPitchP>
+        <maxPitchP>108</maxPitchP>
+        <minPitchA>21</minPitchA>
+        <maxPitchA>108</maxPitchA>
+        <instrumentId>keyboard.piano</instrumentId>
+        <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
-          <gateTime>100</gateTime>
+          <gateTime>95</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
           </Articulation>
         <Articulation name="staccato">
           <velocity>100</velocity>
           <gateTime>50</gateTime>
           </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
         <Articulation name="tenuto">
           <velocity>100</velocity>
           <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
           </Articulation>
         <Articulation name="sforzato">
           <velocity>120</velocity>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
-          <controller ctrl="93" value="30"/>
-          <controller ctrl="91" value="30"/>
+          <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -136,15 +149,12 @@
           <transposingClefType>G</transposingClefType>
           </Clef>
         <TimeSig>
-          <sigN>7</sigN>
+          <sigN>4</sigN>
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
-        <Beam id="1">
-          </Beam>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>1</Beam>
           <Lyrics>
             <text><font face="Times New Roman"/>Én</text>
             </Lyrics>
@@ -155,7 +165,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>1</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"/>fel</text>
@@ -178,6 +187,7 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
@@ -188,13 +198,15 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Beam id="2">
-          </Beam>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="2">
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>2</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>jó</text>
+            <text><font face="Times New Roman"></font>jó</text>
             </Lyrics>
           <Note>
             <pitch>74</pitch>
@@ -203,10 +215,9 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>2</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>reg</text>
+            <text><font face="Times New Roman"></font>reg</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -215,25 +226,21 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>2</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>vel</text>
+            <text><font face="Times New Roman"></font>vel</text>
             </Lyrics>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Beam id="3">
-          </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>3</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>haj</text>
+            <text><font face="Times New Roman"></font>haj</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
@@ -242,10 +249,9 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>3</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>nal</text>
+            <text><font face="Times New Roman"></font>nal</text>
             </Lyrics>
           <Note>
             <pitch>74</pitch>
@@ -256,7 +262,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ba,</text>
+            <text><font face="Times New Roman"></font>ba,</text>
             </Lyrics>
           <Note>
             <pitch>72</pitch>
@@ -264,18 +270,15 @@
             </Note>
           </Chord>
         <Rest>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="2">
-        <Beam id="4">
-          </Beam>
+      <Measure number="3">
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>4</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Meg</text>
+            <text><font face="Times New Roman"></font>Meg</text>
             </Lyrics>
           <Note>
             <pitch>72</pitch>
@@ -284,7 +287,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>4</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>mos</text>
@@ -296,7 +298,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>4</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>dott</text>
@@ -307,6 +308,7 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
@@ -317,14 +319,16 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Beam id="5">
-          </Beam>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="4">
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>5</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>min</text>
+            <text><font face="Times New Roman"></font>min</text>
             </Lyrics>
           <Note>
             <pitch>72</pitch>
@@ -333,7 +337,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>5</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>den</text>
@@ -345,22 +348,18 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>5</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>bű</text>
+            <text><font face="Times New Roman"></font>bű</text>
             </Lyrics>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Beam id="6">
-          </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>6</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>ne</text>
@@ -372,7 +371,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>6</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>im</text>
@@ -395,7 +393,7 @@
             </Note>
           </Chord>
         <Rest>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           </Rest>
         <BarLine>
           <subtype>end</subtype>
