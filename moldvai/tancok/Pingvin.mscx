@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="notea" value="a"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1524,6 +1524,13 @@
           <extension>16</extension>
           <name>m</name>
           </Harmony>
+        <Tempo>
+          <tempo>2.33333</tempo>
+          <followText>1</followText>
+          <pos x="-8.1499" y="-3.31334"/>
+          <visible>0</visible>
+          <text><sym>unicodeNoteQuarterUp</sym> = 140</text>
+          </Tempo>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
