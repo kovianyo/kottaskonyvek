@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1518,10 +1518,6 @@
           <style>Title</style>
           <text><font face="Times New Roman"></font>A diófa árnyékában</text>
           </Text>
-        <Text>
-          <style>Composer</style>
-          <text><font face="Times New Roman"></font>Hungarian folk song</text>
-          </Text>
         </VBox>
       <Measure number="1">
         <breakMultiMeasureRest/>
@@ -1537,7 +1533,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>A</text>
+            <text><font face="Times New Roman"></font>A</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1562,7 +1558,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>ó</text>
+            <text><font face="Times New Roman"></font>ó</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1664,7 +1660,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>fe</text>
+            <text><font face="Times New Roman"></font>fe</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1692,7 +1688,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>tünk</text>
+            <text><font face="Times New Roman"></font>tünk</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1799,7 +1795,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ra</text>
+            <text><font face="Times New Roman"></font>ra</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1827,7 +1823,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>tünk</text>
+            <text><font face="Times New Roman"></font>tünk</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1926,7 +1922,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1951,7 +1947,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>ká</text>
+            <text><font face="Times New Roman"></font>ká</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
