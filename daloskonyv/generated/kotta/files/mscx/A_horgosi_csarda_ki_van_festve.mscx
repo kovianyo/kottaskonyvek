@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1518,7 +1518,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"></font>A tunyogi csárda ki van festve</text>
+          <text><font face="Times New Roman"/>A horgosi csárda ki van festve</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -1558,7 +1558,7 @@
           <Beam>1</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>tu</text>
+            <text><font face="Times New Roman"/>hor</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1572,7 +1572,7 @@
           <Beam>1</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>nyo</text>
+            <text>go</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1586,7 +1586,7 @@
           <Beam>1</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>gi</text>
+            <text>si</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1598,7 +1598,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>csár</text>
+            <text><font face="Times New Roman"/>csár</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
