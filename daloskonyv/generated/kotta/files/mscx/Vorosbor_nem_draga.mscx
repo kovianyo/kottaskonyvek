@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1948,8 +1948,7 @@
           <durationType>eighth</durationType>
           <Beam>9</Beam>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>Az</text>
+            <text><font face="Times New Roman"/>Majd</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1962,8 +1961,8 @@
           <durationType>eighth</durationType>
           <Beam>9</Beam>
           <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>u</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>az</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1975,8 +1974,8 @@
           <durationType>eighth</durationType>
           <Beam>9</Beam>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>után</text>
+            <syllabic>middle</syllabic>
+            <text>ut</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1987,6 +1986,10 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>9</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>án</text>
+            </Lyrics>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -1996,7 +1999,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>el</text>
+            <text><font face="Times New Roman"/>el</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2006,6 +2009,10 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>me</text>
+            </Lyrics>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2013,6 +2020,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>gyek.</text>
+            </Lyrics>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
