@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
-          <sym name="noted" value="d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1518,10 +1518,6 @@
           <style>Title</style>
           <text><font face="Times New Roman"></font>Esik eső, de nem ázok</text>
           </Text>
-        <Text>
-          <style>Composer</style>
-          <text><font face="Times New Roman"></font>Hungarian folk song</text>
-          </Text>
         </VBox>
       <Measure number="1">
         <breakMultiMeasureRest/>
@@ -1539,7 +1535,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Es</text>
+            <text><font face="Times New Roman"></font>Es</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1567,7 +1563,7 @@
           <Beam>1</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>es</text>
+            <text><font face="Times New Roman"></font>es</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1650,7 +1646,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>cse</text>
+            <text><font face="Times New Roman"></font>cse</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1678,7 +1674,7 @@
           <Beam>2</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>nye</text>
+            <text><font face="Times New Roman"></font>nye</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1737,7 +1733,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>ál</text>
+            <text><font face="Times New Roman"></font>ál</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1749,7 +1745,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>lok,</text>
+            <text><font face="Times New Roman"></font>lok,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1768,7 +1764,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>O</text>
+            <text><font face="Times New Roman"></font>O</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1795,7 +1791,7 @@
           <durationType>eighth</durationType>
           <Beam>3</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>is</text>
+            <text><font face="Times New Roman"></font>is</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1905,7 +1901,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>ar</text>
+            <text><font face="Times New Roman"></font>ar</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1933,7 +1929,7 @@
           <Beam>4</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>men</text>
+            <text><font face="Times New Roman"></font>men</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
