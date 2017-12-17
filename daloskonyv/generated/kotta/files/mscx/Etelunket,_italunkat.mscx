@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1534,6 +1534,16 @@
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>É</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>É</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -1542,6 +1552,16 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>te</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>middle</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>te</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -1553,6 +1573,16 @@
         <breakMultiMeasureRest/>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>lün</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>middle</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>lün</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -1561,6 +1591,16 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>ket,</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>ket,</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
@@ -1576,6 +1616,16 @@
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>i</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>i</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -1584,6 +1634,16 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>ta</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>middle</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>ta</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -1595,6 +1655,16 @@
         <breakMultiMeasureRest/>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>lun</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>middle</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>lun</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -1603,6 +1673,16 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>kat</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>kat,</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1618,6 +1698,15 @@
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <text>áldd</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>kö</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1626,6 +1715,15 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <text>meg,</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>middle</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>szön</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1641,6 +1739,16 @@
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>Is</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>jük,</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1649,6 +1757,16 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>te</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>U</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>59</pitch>
@@ -1664,6 +1782,16 @@
           </Harmony>
         <Chord>
           <durationType>half</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>nünk!</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>runk!</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>

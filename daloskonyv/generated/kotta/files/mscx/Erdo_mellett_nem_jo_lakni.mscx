@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1531,11 +1531,21 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Beam id="1">
+          <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>1</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>Er</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <style>Lyrics Even Lines</style>
+            <text>Mert</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>74</pitch>
@@ -1546,6 +1556,15 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>1</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>dő</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <style>Lyrics Even Lines</style>
+            <text>sok</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>74</pitch>
@@ -1554,6 +1573,15 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>mel</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <style>Lyrics Even Lines</style>
+            <text>fát</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
@@ -1565,8 +1593,17 @@
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>lett</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <style>Lyrics Even Lines</style>
+            <text>kell</text>
+            </Lyrics>
           <Slur type="start" id="2"/>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -1584,11 +1621,21 @@
       <Measure number="2">
         <breakMultiMeasureRest/>
         <Beam id="2">
+          <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>2</Beam>
+          <Lyrics>
+            <text>nem</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>ha</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>72</pitch>
@@ -1599,6 +1646,15 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>2</Beam>
+          <Lyrics>
+            <text>jó</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>middle</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>so</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>71</pitch>
@@ -1607,6 +1663,16 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>lak</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>middle</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>gat</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -1615,6 +1681,16 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>ni,</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>ni,</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
@@ -1633,7 +1709,17 @@
           </LayoutBreak>
         <Chord>
           <durationType>eighth</durationType>
-          <StemDirection>up</StemDirection>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>Ha</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>Ha</text>
+            </Lyrics>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -1642,6 +1728,16 @@
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>hó!</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>hó!</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
@@ -1655,11 +1751,16 @@
       <Measure number="4">
         <breakMultiMeasureRest/>
         <Beam id="3">
+          <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>3</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>Há</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>74</pitch>
@@ -1670,6 +1771,10 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>3</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>rom</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>74</pitch>
@@ -1678,6 +1783,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>ö</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
@@ -1687,7 +1796,11 @@
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>let,</text>
+            </Lyrics>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -1697,11 +1810,15 @@
       <Measure number="5">
         <breakMultiMeasureRest/>
         <Beam id="4">
+          <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>4</Beam>
+          <Lyrics>
+            <text>meg</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>72</pitch>
@@ -1712,6 +1829,9 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>4</Beam>
+          <Lyrics>
+            <text>egy</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>71</pitch>
@@ -1720,6 +1840,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>fe</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -1729,6 +1853,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>let,</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
@@ -1744,6 +1872,10 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>5</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>ö</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
@@ -1754,6 +1886,10 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>5</Beam>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>lel</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
@@ -1762,6 +1898,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>jen</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1771,6 +1911,9 @@
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <text>meg,</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -1786,6 +1929,10 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>6</Beam>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>a</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
@@ -1796,6 +1943,10 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>6</Beam>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>ki</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -1804,6 +1955,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>sze</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1813,6 +1968,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>ret,</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1824,6 +1983,10 @@
         <breakMultiMeasureRest/>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>Ha</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -1833,6 +1996,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>hó!</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>

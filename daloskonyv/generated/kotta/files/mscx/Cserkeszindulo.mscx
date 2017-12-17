@@ -51,11 +51,11 @@
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1590,12 +1590,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Beam id="2">
-          </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>2</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>jó</text>
             </Lyrics>
@@ -1605,8 +1602,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <Beam id="2">
+          </Beam>
         <Chord>
-          <BeamMode>mid</BeamMode>
+          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>2</Beam>
           <Lyrics>
@@ -2330,6 +2329,9 @@
       <Measure number="10">
         <breakMultiMeasureRest/>
         <stretch>0.9</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
@@ -2523,6 +2525,9 @@
         </Measure>
       <Measure number="14">
         <breakMultiMeasureRest/>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
