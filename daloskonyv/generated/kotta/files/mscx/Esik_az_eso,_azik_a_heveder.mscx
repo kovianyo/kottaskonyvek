@@ -9,6 +9,7 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <lyricsDistance>3</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -45,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
           <sym name="accidentales" code="0x266d"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1530,7 +1531,7 @@
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>Gyen</text>
+            <text><font face="Times New Roman"/>Ne</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1548,7 +1549,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>ge</text>
+            <text>héz</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1569,7 +1570,7 @@
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>lá</text>
+            <text><font face="Times New Roman"/>ka</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1589,7 +1590,7 @@
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>ba</text>
+            <text>ra</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1601,13 +1602,13 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>sõ,</text>
+            <text><font face="Times New Roman"/>ső,</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>mat</text>
+            <text>bély</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1643,9 +1644,8 @@
             </Lyrics>
           <Lyrics>
             <no>1</no>
-            <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>vas</text>
+            <text><font face="Times New Roman"/>a</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1663,9 +1663,9 @@
             </Lyrics>
           <Lyrics>
             <no>1</no>
-            <syllabic>middle</syllabic>
+            <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>ken</text>
+            <text>vál</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1680,9 +1680,9 @@
             </Lyrics>
           <Lyrics>
             <no>1</no>
-            <syllabic>end</syllabic>
+            <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>gyel</text>
+            <text>la</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1707,9 +1707,9 @@
             </Lyrics>
           <Lyrics>
             <no>1</no>
-            <syllabic>begin</syllabic>
+            <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>szo</text>
+            <text>mat</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1727,9 +1727,9 @@
             </Lyrics>
           <Lyrics>
             <no>1</no>
-            <syllabic>middle</syllabic>
+            <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>rít</text>
+            <text>nyom</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1747,7 +1747,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>ja,</text>
+            <text>ja.</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1777,7 +1777,7 @@
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>Ne</text>
+            <text><font face="Times New Roman"/>Gyen</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1795,7 +1795,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>néz</text>
+            <text>ge</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1817,7 +1817,7 @@
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>ka</text>
+            <text><font face="Times New Roman"/>lá</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1837,7 +1837,7 @@
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>ra</text>
+            <text>ba</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1855,7 +1855,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>bély</text>
+            <text>mat</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1892,7 +1892,7 @@
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>nyom</text>
+            <text><font face="Times New Roman"/>vas</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1910,9 +1910,9 @@
             </Lyrics>
           <Lyrics>
             <no>1</no>
-            <syllabic>end</syllabic>
+            <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>ja</text>
+            <text>ken</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1928,8 +1928,9 @@
             </Lyrics>
           <Lyrics>
             <no>1</no>
+            <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>a</text>
+            <text>gyel</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1954,7 +1955,7 @@
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>vál</text>
+            <text><font face="Times New Roman"/>szo</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1974,7 +1975,7 @@
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>la</text>
+            <text>rít</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1992,7 +1993,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>mat.</text>
+            <text>ja,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

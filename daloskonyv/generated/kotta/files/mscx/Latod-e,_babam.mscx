@@ -9,6 +9,7 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <lyricsDistance>3.5</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -45,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
           <sym name="accidentales" code="0x266d"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1502,7 +1503,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"/>Látod-e, babám</text>
+          <text><font face="Times New Roman"></font>Látod-e, babám</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -1526,6 +1527,12 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>Lá</text>
             </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>Még</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>55</pitch>
@@ -1542,6 +1549,12 @@
             <syllabic>middle</syllabic>
             <text><font face="Times New Roman"></font>tod</text>
             </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>is</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>55</pitch>
@@ -1555,6 +1568,11 @@
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>e</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <style>Lyrics Even Lines</style>
+            <text>az</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1571,6 +1589,12 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>ba</text>
             </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>e</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1583,6 +1607,12 @@
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>bám,</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>nyém,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1603,6 +1633,12 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>lá</text>
             </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>még</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1619,6 +1655,12 @@
             <syllabic>middle</syllabic>
             <text><font face="Times New Roman"></font>tod</text>
             </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>is</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1632,6 +1674,11 @@
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>e</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <style>Lyrics Even Lines</style>
+            <text>az</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1648,6 +1695,12 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>ba</text>
             </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>e</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -1660,6 +1713,12 @@
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>bám,</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>nyém</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1680,6 +1739,12 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>le</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
@@ -1693,6 +1758,12 @@
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>mott</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>szel,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1709,6 +1780,12 @@
           <Lyrics>
             <text><font face="Times New Roman"></font>azt</text>
             </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>é</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1721,6 +1798,12 @@
           <Beam>4</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>a</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>des</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1740,6 +1823,12 @@
           <Lyrics>
             <text><font face="Times New Roman"></font>nagy</text>
             </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>ga</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1752,6 +1841,12 @@
           <Lyrics>
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>he</text>
+            </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>middle</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>lam</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1776,6 +1871,12 @@
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>gyet?</text>
             </Lyrics>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>bom!</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1794,8 +1895,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>Lá</text>
+            <text><font face="Times New Roman"/>Míg</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1807,8 +1907,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>quarter</durationType>
           <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>tod</text>
+            <text><font face="Times New Roman"/>azt</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1822,7 +1921,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ba</text>
+            <text><font face="Times New Roman"/>lá</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1832,6 +1931,10 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>tod,</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1847,8 +1950,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>lá</text>
+            <text><font face="Times New Roman"/>míg</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1860,8 +1962,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>quarter</durationType>
           <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>tod</text>
+            <text><font face="Times New Roman"/>azt</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1875,7 +1976,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ba</text>
+            <text><font face="Times New Roman"/>lá</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1885,6 +1986,10 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>tod,</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -1900,8 +2005,7 @@
           <durationType>eighth</durationType>
           <Beam>5</Beam>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>a</text>
+            <text><font face="Times New Roman"/>én</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1914,8 +2018,7 @@
           <durationType>eighth</durationType>
           <Beam>5</Beam>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>mott</text>
+            <text><font face="Times New Roman"/>a</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1930,7 +2033,8 @@
           <durationType>eighth</durationType>
           <Beam>6</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>azt</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>ti</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1943,7 +2047,8 @@
           <durationType>eighth</durationType>
           <Beam>6</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>a</text>
+            <syllabic>end</syllabic>
+            <text>ed</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1960,7 +2065,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>nagy</text>
+            <text><font face="Times New Roman"/>nem</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1973,7 +2078,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>he</text>
+            <text><font face="Times New Roman"/>le</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1990,7 +2095,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>gyet?</text>
+            <text>szek!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2012,7 +2117,7 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>Azt</text>
+            <text><font face="Times New Roman"/>Azt</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2022,6 +2127,9 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <text>a</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
@@ -2035,7 +2143,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>he</text>
+            <text><font face="Times New Roman"/>he</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2045,6 +2153,10 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>gyet</text>
+            </Lyrics>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2054,7 +2166,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>a</text>
+            <text><font face="Times New Roman"/>a</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2100,7 +2212,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>dõm</text>
+            <text><font face="Times New Roman"/>dőm</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
