@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1531,6 +1531,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Beam id="1">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -1565,7 +1566,7 @@
           <Lyrics>
             <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -1619,8 +1620,9 @@
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Marker>
+          <pos x="-0.659194" y="-3.12604"/>
           <style>Repeat Text Left</style>
-          <text><font size="19.9987"></font><font face="MScore"></font></text>
+          <text><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <Volta id="2">
@@ -1723,7 +1725,7 @@
             <style>Lyrics Even Lines</style>
             <text><font face="Times New Roman"></font>né</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -1741,7 +1743,7 @@
             <style>Lyrics Even Lines</style>
             <text><font face="Times New Roman"></font>kem,</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -1752,6 +1754,7 @@
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Marker>
+          <pos x="0.563022" y="-2.98529"/>
           <style>Repeat Text Right</style>
           <text><font face="Times New Roman"></font>Fine</text>
           <label>fine</label>
