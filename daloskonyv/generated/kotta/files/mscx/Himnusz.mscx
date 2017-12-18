@@ -9,6 +9,7 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <lyricsDistance>2.5</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -59,8 +60,8 @@
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1644,7 +1645,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>kedv</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>kedv</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1655,7 +1657,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>vel,</text>
+            <syllabic>end</syllabic>
+            <text><font face="Times New Roman"/>vel,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1666,7 +1669,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>bő</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>bő</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1686,7 +1690,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>ség</text>
+            <syllabic>middle</syllabic>
+            <text><font face="Times New Roman"/>ség</text>
             </Lyrics>
           <Slur type="start" id="2"/>
           <StemDirection>up</StemDirection>
@@ -1707,7 +1712,8 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>gel,</text>
+            <syllabic>end</syllabic>
+            <text><font face="Times New Roman"/>gel,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1859,24 +1865,25 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Slur id="3">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ség</text>
+            <syllabic>middle</syllabic>
+            <text><font face="Times New Roman"/>ség</text>
             </Lyrics>
+          <Slur type="start" id="3"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Slur id="3">
-          <track>0</track>
-          </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="3"/>
+          <Slur type="stop" id="3"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1886,9 +1893,9 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>el;</text>
+            <syllabic>end</syllabic>
+            <text>gel;</text>
             </Lyrics>
-          <Slur type="stop" id="3"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -1903,7 +1910,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>Bal</text>
+            <text><font face="Times New Roman"/>Bal</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>

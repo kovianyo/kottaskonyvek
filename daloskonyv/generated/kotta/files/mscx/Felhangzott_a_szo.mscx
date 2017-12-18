@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="notee" value="e"/>
           <sym name="accidentales" code="0x266d"/>
+          <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1500,7 +1500,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"/>Felhangzott a szó</text>
+          <text><font face="Times New Roman"></font>Felhangzott a szó</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -1710,6 +1710,7 @@
           </Chord>
         </Measure>
       <Measure number="4">
+        <endRepeat>2</endRepeat>
         <breakMultiMeasureRest/>
         <LayoutBreak>
           <subtype>line</subtype>
@@ -1792,6 +1793,7 @@
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>9</Beam>
           <StemDirection>up</StemDirection>
@@ -1802,7 +1804,7 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>9</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1812,6 +1814,7 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>9</Beam>
           <StemDirection>up</StemDirection>
@@ -1822,7 +1825,7 @@
           </Chord>
         <Chord>
           <BeamMode>end</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>9</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1839,6 +1842,7 @@
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>10</Beam>
           <StemDirection>up</StemDirection>
@@ -1849,7 +1853,7 @@
           </Chord>
         <Chord>
           <BeamMode>end</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>10</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1876,6 +1880,7 @@
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>11</Beam>
           <StemDirection>up</StemDirection>
@@ -1886,7 +1891,7 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>11</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1896,6 +1901,7 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>11</Beam>
           <StemDirection>up</StemDirection>
@@ -1906,7 +1912,7 @@
           </Chord>
         <Chord>
           <BeamMode>end</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>11</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1922,6 +1928,7 @@
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>12</Beam>
           <StemDirection>up</StemDirection>
@@ -1932,7 +1939,7 @@
           </Chord>
         <Chord>
           <BeamMode>end</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>12</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1960,6 +1967,7 @@
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>13</Beam>
           <StemDirection>up</StemDirection>
@@ -1970,7 +1978,7 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>13</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1980,6 +1988,7 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>13</Beam>
           <StemDirection>up</StemDirection>
@@ -1990,7 +1999,7 @@
           </Chord>
         <Chord>
           <BeamMode>end</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>13</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2007,6 +2016,7 @@
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>14</Beam>
           <StemDirection>up</StemDirection>
@@ -2017,7 +2027,7 @@
           </Chord>
         <Chord>
           <BeamMode>end</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>14</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2044,6 +2054,7 @@
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>15</Beam>
           <StemDirection>up</StemDirection>
@@ -2054,7 +2065,7 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>15</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2064,6 +2075,7 @@
           </Chord>
         <Chord>
           <BeamMode>mid</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>15</Beam>
           <StemDirection>up</StemDirection>
@@ -2074,7 +2086,7 @@
           </Chord>
         <Chord>
           <BeamMode>end</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>15</Beam>
           <StemDirection>up</StemDirection>
           <Note>
