@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1542,6 +1542,11 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
+        <Tempo>
+          <tempo>0.666667</tempo>
+          <followText>1</followText>
+          <text><sym>unicodeNoteQuarterUp</sym> = 40</text>
+          </Tempo>
         <Beam id="1">
           </Beam>
         <Chord>
@@ -1597,7 +1602,8 @@
           <durationType>eighth</durationType>
           <Beam>2</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>ren</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>ren</text>
             </Lyrics>
           <Slur type="start" id="2"/>
           <StemDirection>up</StemDirection>
@@ -1630,8 +1636,8 @@
           <durationType>16th</durationType>
           <Beam>3</Beam>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>dü</text>
+            <syllabic>middle</syllabic>
+            <text><font face="Times New Roman"/>dü</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1647,8 +1653,8 @@
           <durationType>eighth</durationType>
           <Beam>3</Beam>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>let</text>
+            <syllabic>middle</syllabic>
+            <text><font face="Times New Roman"/>let</text>
             </Lyrics>
           <Slur type="start" id="3"/>
           <StemDirection>up</StemDirection>
@@ -1675,8 +1681,8 @@
           <durationType>16th</durationType>
           <Beam>4</Beam>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>le</text>
+            <syllabic>middle</syllabic>
+            <text><font face="Times New Roman"/>le</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1691,7 +1697,7 @@
           <Beam>4</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>nül</text>
+            <text><font face="Times New Roman"/>nül</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1705,7 +1711,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>légy</text>
+            <text><font face="Times New Roman"/>légy</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1717,7 +1723,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>hí</text>
+            <text><font face="Times New Roman"/>hí</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1737,7 +1743,7 @@
           <Beam>5</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ve</text>
+            <text><font face="Times New Roman"/>ve</text>
             </Lyrics>
           <Slur type="start" id="4"/>
           <StemDirection>up</StemDirection>
@@ -1945,7 +1951,8 @@
           <durationType>16th</durationType>
           <Beam>9</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>sí</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>sí</text>
             </Lyrics>
           <Slur type="start" id="8"/>
           <StemDirection>down</StemDirection>
@@ -2032,7 +2039,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>á</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>á</text>
             </Lyrics>
           <Slur type="start" id="10"/>
           <StemDirection>up</StemDirection>
@@ -2085,7 +2093,8 @@
           <durationType>16th</durationType>
           <Beam>12</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>el</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>el</text>
             </Lyrics>
           <Slur type="start" id="11"/>
           <StemDirection>up</StemDirection>
@@ -2114,7 +2123,8 @@
           <durationType>16th</durationType>
           <Beam>12</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>ta</text>
+            <syllabic>middle</syllabic>
+            <text><font face="Times New Roman"/>ta</text>
             </Lyrics>
           <Slur type="start" id="12"/>
           <StemDirection>up</StemDirection>
@@ -2140,7 +2150,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>kar.</text>
+            <syllabic>end</syllabic>
+            <text><font face="Times New Roman"/>kar!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2265,7 +2276,8 @@
           <durationType>16th</durationType>
           <Beam>15</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>e</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>e</text>
             </Lyrics>
           <Slur type="start" id="14"/>
           <StemDirection>up</StemDirection>
@@ -2296,7 +2308,8 @@
           <durationType>eighth</durationType>
           <Beam>16</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>kí</text>
+            <syllabic>middle</syllabic>
+            <text><font face="Times New Roman"/>kí</text>
             </Lyrics>
           <Slur type="start" id="15"/>
           <StemDirection>up</StemDirection>
@@ -2322,7 +2335,8 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>vül</text>
+            <syllabic>end</syllabic>
+            <text><font face="Times New Roman"/>vül</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2337,7 +2351,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>nin</text>
+            <text><font face="Times New Roman"/>nin</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2349,7 +2363,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>csen</text>
+            <text><font face="Times New Roman"/>csen</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2371,7 +2385,8 @@
           <durationType>16th</durationType>
           <Beam>17</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>szá</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>szá</text>
             </Lyrics>
           <Slur type="start" id="16"/>
           <StemDirection>up</StemDirection>
@@ -2403,7 +2418,8 @@
           <durationType>16th</durationType>
           <Beam>17</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>mod</text>
+            <syllabic>middle</syllabic>
+            <text><font face="Times New Roman"/>mod</text>
             </Lyrics>
           <Slur type="start" id="17"/>
           <StemDirection>up</StemDirection>
@@ -2434,7 +2450,8 @@
           <durationType>eighth</durationType>
           <Beam>18</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>ra</text>
+            <syllabic>end</syllabic>
+            <text><font face="Times New Roman"/>ra</text>
             </Lyrics>
           <Slur type="start" id="18"/>
           <StemDirection>up</StemDirection>
@@ -2463,7 +2480,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>hely.</text>
+            <text><font face="Times New Roman"/>hely.</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2481,7 +2498,8 @@
           <durationType>16th</durationType>
           <Beam>19</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>Áld</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>Áld</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2495,7 +2513,8 @@
           <durationType>eighth</durationType>
           <Beam>19</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>jon</text>
+            <syllabic>end</syllabic>
+            <text><font face="Times New Roman"/>jon</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2510,7 +2529,7 @@
           <durationType>16th</durationType>
           <Beam>20</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>vagy</text>
+            <text><font face="Times New Roman"/>vagy</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2525,7 +2544,7 @@
           <Beam>20</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ver</text>
+            <text><font face="Times New Roman"/>ver</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2544,7 +2563,7 @@
           <Beam>21</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>jen</text>
+            <text><font face="Times New Roman"/>jen</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2558,7 +2577,7 @@
           <durationType>eighth</durationType>
           <Beam>21</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>sors</text>
+            <text><font face="Times New Roman"/>sors</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2574,7 +2593,7 @@
           <Beam>22</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ke</text>
+            <text><font face="Times New Roman"/>ke</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2589,7 +2608,7 @@
           <Beam>22</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ze,</text>
+            <text><font face="Times New Roman"/>ze,</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2611,7 +2630,7 @@
           <durationType>16th</durationType>
           <Beam>23</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>itt</text>
+            <text><font face="Times New Roman"/>itt</text>
             </Lyrics>
           <Slur type="start" id="19"/>
           <StemDirection>down</StemDirection>
@@ -2640,7 +2659,8 @@
           <durationType>16th</durationType>
           <Beam>23</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>él</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>él</text>
             </Lyrics>
           <Slur type="start" id="20"/>
           <StemDirection>down</StemDirection>
@@ -2671,7 +2691,7 @@
           <durationType>16th</durationType>
           <Beam>24</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>ned,</text>
+            <text><font face="Times New Roman"/>ned,</text>
             </Lyrics>
           <Slur type="start" id="21"/>
           <StemDirection>down</StemDirection>

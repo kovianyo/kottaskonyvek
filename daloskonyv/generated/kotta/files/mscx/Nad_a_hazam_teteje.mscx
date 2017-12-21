@@ -9,6 +9,7 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <lyricsDistance>3</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -44,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1959,7 +1960,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ge,</text>
+            <text><font face="Times New Roman"/>ge!</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1976,6 +1977,9 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>3</Beam>
+          <Lyrics>
+            <text>De</text>
+            </Lyrics>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -2012,10 +2016,6 @@
           <durationType>eighth</durationType>
           <Beam>4</Beam>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ci</text>
-            </Lyrics>
-          <Lyrics>
             <no>1</no>
             <syllabic>begin</syllabic>
             <style>Lyrics Even Lines</style>
@@ -2032,10 +2032,6 @@
           <durationType>eighth</durationType>
           <Beam>4</Beam>
           <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>ne</text>
-            </Lyrics>
-          <Lyrics>
             <no>1</no>
             <syllabic>middle</syllabic>
             <style>Lyrics Even Lines</style>
@@ -2050,14 +2046,10 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ge,</text>
-            </Lyrics>
-          <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>je.</text>
+            <text><font face="Times New Roman"/>je!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2224,7 +2216,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>lá</text>
+            <text><font face="Times New Roman"/>lá</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2234,6 +2226,10 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>bú</text>
+            </Lyrics>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -2325,7 +2321,7 @@
           <Beam>5</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ge,</text>
+            <text><font face="Times New Roman"/>ge!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2341,7 +2337,7 @@
           <durationType>eighth</durationType>
           <Beam>5</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>de</text>
+            <text><font face="Times New Roman"/>De</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
