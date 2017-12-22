@@ -1479,33 +1479,45 @@
           </StaffType>
         <bracket type="-1" span="1"/>
         </Staff>
-      <trackName>Voice</trackName>
+      <trackName>Piano</trackName>
       <Instrument>
-        <trackName>Voice</trackName>
-        <minPitchP>36</minPitchP>
-        <maxPitchP>94</maxPitchP>
-        <minPitchA>40</minPitchA>
-        <maxPitchA>79</maxPitchA>
+        <trackName>Piano</trackName>
+        <minPitchP>21</minPitchP>
+        <maxPitchP>108</maxPitchP>
+        <minPitchA>21</minPitchA>
+        <maxPitchA>108</maxPitchA>
+        <instrumentId>keyboard.piano</instrumentId>
+        <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
-          <gateTime>100</gateTime>
+          <gateTime>95</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
           </Articulation>
         <Articulation name="staccato">
           <velocity>100</velocity>
           <gateTime>50</gateTime>
           </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
         <Articulation name="tenuto">
           <velocity>100</velocity>
           <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
           </Articulation>
         <Articulation name="sforzato">
           <velocity>120</velocity>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
-          <controller ctrl="93" value="30"/>
-          <controller ctrl="91" value="30"/>
+          <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -1877,8 +1889,8 @@
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>8</Beam>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -1886,7 +1898,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>8</Beam>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -2376,8 +2387,8 @@
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>17</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>fé</text>
@@ -2389,7 +2400,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>17</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>lek,</text>
@@ -2533,8 +2543,8 @@
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>19</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>tok</text>
@@ -2546,7 +2556,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>19</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>ki</text>
             </Lyrics>

@@ -1471,8 +1471,6 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       </PageList>
     <Part>
@@ -1481,33 +1479,45 @@
           </StaffType>
         <bracket type="-1" span="1"/>
         </Staff>
-      <trackName>Voice</trackName>
+      <trackName>Piano</trackName>
       <Instrument>
-        <trackName>Voice</trackName>
-        <minPitchP>36</minPitchP>
-        <maxPitchP>94</maxPitchP>
-        <minPitchA>40</minPitchA>
-        <maxPitchA>79</maxPitchA>
+        <trackName>Piano</trackName>
+        <minPitchP>21</minPitchP>
+        <maxPitchP>108</maxPitchP>
+        <minPitchA>21</minPitchA>
+        <maxPitchA>108</maxPitchA>
+        <instrumentId>keyboard.piano</instrumentId>
+        <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
-          <gateTime>100</gateTime>
+          <gateTime>95</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
           </Articulation>
         <Articulation name="staccato">
           <velocity>100</velocity>
           <gateTime>50</gateTime>
           </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
         <Articulation name="tenuto">
           <velocity>100</velocity>
           <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
           </Articulation>
         <Articulation name="sforzato">
           <velocity>120</velocity>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
-          <controller ctrl="93" value="30"/>
-          <controller ctrl="91" value="30"/>
+          <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -1538,6 +1548,10 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
+        <Rest>
+          <dots>1</dots>
+          <durationType>half</durationType>
+          </Rest>
         <Beam id="1">
           </Beam>
         <Chord>
@@ -1564,10 +1578,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <dots>1</dots>
-          <durationType>half</durationType>
-          </Rest>
         </Measure>
       <Measure number="2">
         <Harmony>
@@ -1913,6 +1923,7 @@
           </Chord>
         </Measure>
       <Measure number="5">
+        <stretch>0.9</stretch>
         <Beam id="13">
           </Beam>
         <Tuplet id="7">
@@ -2017,6 +2028,7 @@
           </Chord>
         </Measure>
       <Measure number="6">
+        <stretch>0.9</stretch>
         <Harmony>
           <root>10</root>
           <extension>1</extension>
@@ -2117,6 +2129,7 @@
           </Chord>
         </Measure>
       <Measure number="7">
+        <stretch>0.9</stretch>
         <Harmony>
           <root>11</root>
           <extension>1</extension>
@@ -2176,6 +2189,7 @@
           </Chord>
         </Measure>
       <Measure number="8">
+        <stretch>0.9</stretch>
         <Harmony>
           <root>10</root>
           <extension>1</extension>
@@ -2276,6 +2290,7 @@
           </Chord>
         </Measure>
       <Measure number="9">
+        <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -2339,6 +2354,7 @@
           </Chord>
         </Measure>
       <Measure number="10">
+        <stretch>0.6</stretch>
         <Harmony>
           <root>14</root>
           <extension>16</extension>
@@ -2430,6 +2446,7 @@
           </Chord>
         </Measure>
       <Measure number="11">
+        <stretch>0.6</stretch>
         <Beam id="24">
           </Beam>
         <Chord>
@@ -2517,6 +2534,7 @@
           </Chord>
         </Measure>
       <Measure number="12">
+        <stretch>0.6</stretch>
         <Beam id="26">
           </Beam>
         <Chord>
@@ -2604,6 +2622,7 @@
           </Chord>
         </Measure>
       <Measure number="13">
+        <stretch>0.6</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
