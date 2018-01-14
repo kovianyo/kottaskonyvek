@@ -44,17 +44,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
-          <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notee" value="e"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1555,6 +1555,13 @@
           <root>14</root>
           <extension>1</extension>
           </Harmony>
+        <Tempo>
+          <tempo>1.33333</tempo>
+          <followText>1</followText>
+          <pos x="-7.85418" y="-3.29622"/>
+          <visible>0</visible>
+          <text><sym>unicodeNoteQuarterUp</sym> = 80</text>
+          </Tempo>
         <Beam id="1">
           </Beam>
         <Chord>
@@ -3748,8 +3755,6 @@
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
-            <velocity>107</velocity>
-            <veloType>user</veloType>
             </Note>
           </Chord>
         </Measure>
@@ -3801,8 +3806,6 @@
               </Events>
             <pitch>60</pitch>
             <tpc>14</tpc>
-            <velocity>113</velocity>
-            <veloType>user</veloType>
             </Note>
           </Chord>
         <Rest>

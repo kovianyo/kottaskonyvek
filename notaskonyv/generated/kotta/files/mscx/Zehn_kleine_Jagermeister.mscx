@@ -46,13 +46,13 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
@@ -1427,13 +1427,13 @@
         <page-height>1584</page-height>
         <page-width>1224</page-width>
         <page-margins type="both">
-          <left-margin>72.1599</left-margin>
-          <right-margin>72.1599</right-margin>
-          <top-margin>90.1998</top-margin>
-          <bottom-margin>90.1998</bottom-margin>
+          <left-margin>72.1701</left-margin>
+          <right-margin>72.1701</right-margin>
+          <top-margin>90.1984</top-margin>
+          <bottom-margin>90.1984</bottom-margin>
           </page-margins>
         </page-layout>
-      <Spatium>1.59102</Spatium>
+      <Spatium>1.768</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -1454,6 +1454,8 @@
     <metaTag name="workTitle"></metaTag>
     <PageList>
       <Page>
+        <System>
+          </System>
         <System>
           </System>
         <System>
@@ -1503,7 +1505,7 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <bottomGap>7</bottomGap>
+        <bottomGap>6.29929</bottomGap>
         <Text>
           <style>Title</style>
           <text><font face="Times New Roman"></font>Zehn Kleine Jägermeister</text>
@@ -1699,6 +1701,9 @@
         </Measure>
       <Measure number="4">
         <breakMultiMeasureRest/>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
@@ -1792,9 +1797,6 @@
         </Measure>
       <Measure number="6">
         <breakMultiMeasureRest/>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <root>15</root>
           <extension>1</extension>
@@ -1929,6 +1931,9 @@
       <Measure number="8">
         <endRepeat>2</endRepeat>
         <breakMultiMeasureRest/>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <root>15</root>
           <extension>1</extension>
@@ -2158,9 +2163,6 @@
         </Measure>
       <Measure number="14">
         <breakMultiMeasureRest/>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -2428,9 +2430,6 @@
         </Measure>
       <Measure number="22">
         <breakMultiMeasureRest/>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
@@ -2737,9 +2736,6 @@
         </Measure>
       <Measure number="31">
         <breakMultiMeasureRest/>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <root>15</root>
           <extension>1</extension>
