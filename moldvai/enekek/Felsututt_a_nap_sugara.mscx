@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noteg" value="g"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="noteh" value="h"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="noteb" value="b"/>
           <sym name="accidentals" code="0x266d"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1632,6 +1632,10 @@
           </Chord>
         </Measure>
       <Measure number="2">
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          </Harmony>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
@@ -1998,7 +2002,6 @@ Azért nyílik háromfelé, mer' én menek hazafelé.
 
 Talán meg vagyok átkozva, az Istentől szomorítva,
 Vagy apámtól, vagy anyámtól, vagy a legelső babámtól.
-
 
 Babám, babám, kedves babám, több átkot ne kiálts reám,
 S olyan átok alatt vagyok, mer' idegen földön vagyok.
