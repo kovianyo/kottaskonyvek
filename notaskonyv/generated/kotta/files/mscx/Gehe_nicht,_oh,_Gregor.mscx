@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1504,10 +1504,6 @@
           <style>Title</style>
           <text><font face="Times New Roman"></font>Gehe nicht, oh Gregor</text>
           </Text>
-        <Text>
-          <style>Composer</style>
-          <text><font face="Times New Roman"></font>Ukrainian folksong</text>
-          </Text>
         </VBox>
       <Measure number="1">
         <breakMultiMeasureRest/>
@@ -1994,12 +1990,16 @@
           <root>13</root>
           <extension>1</extension>
           </Harmony>
+        <Slur id="4">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>kräu</text>
             </Lyrics>
+          <Slur type="start" id="4"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
@@ -2008,6 +2008,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="4"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -2019,12 +2020,16 @@
           <extension>64</extension>
           <name>7</name>
           </Harmony>
+        <Slur id="5">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>tern,</text>
             </Lyrics>
+          <Slur type="start" id="5"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
@@ -2033,6 +2038,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="5"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -2210,7 +2216,7 @@
           <extension>16</extension>
           <name>m</name>
           </Harmony>
-        <Volta id="4">
+        <Volta id="6">
           <endHook>1</endHook>
           <beginText>
             <text><font size="10.7317"></font><font face="Times New Roman"></font><b>1</b></text>
@@ -2248,8 +2254,8 @@
           <extension>16</extension>
           <name>m</name>
           </Harmony>
-        <endSpanner id="4"/>
-        <Volta id="5">
+        <endSpanner id="6"/>
+        <Volta id="7">
           <beginText>
             <text><font size="10.7317"></font><font face="Times New Roman"></font><b>2</b></text>
             </beginText>
@@ -2269,7 +2275,7 @@
           <subtype>end</subtype>
           <span>1</span>
           </BarLine>
-        <endSpanner id="5"/>
+        <endSpanner id="7"/>
         </Measure>
       </Staff>
     </Score>
