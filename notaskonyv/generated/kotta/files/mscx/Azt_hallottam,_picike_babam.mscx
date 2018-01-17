@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
           <sym name="accidentales" code="0x266d"/>
+          <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1914,7 +1914,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>zán.</text>
+            <text><font face="Times New Roman"/>zán!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1927,8 +1927,13 @@
           </Rest>
         </Measure>
       <Measure number="9">
+        <startRepeat/>
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Harmony>
           <root>12</root>
           <extension>1</extension>
@@ -2331,6 +2336,7 @@
           </Chord>
         </Measure>
       <Measure number="16">
+        <endRepeat>2</endRepeat>
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Harmony>
@@ -2354,7 +2360,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <BarLine>
-          <subtype>end</subtype>
+          <subtype>end-repeat</subtype>
           <span>1</span>
           </BarLine>
         </Measure>

@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1467,6 +1467,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1502,6 +1504,18 @@
         </Instrument>
       </Part>
     <Staff id="1">
+      <VBox>
+        <height>10</height>
+        <bottomGap>7</bottomGap>
+        <Text>
+          <style>Title</style>
+          <text>A dédapám</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Skorpió</text>
+          </Text>
+        </VBox>
       <Measure number="1">
         <breakMultiMeasureRest/>
         <Clef>
@@ -1519,6 +1533,13 @@
           <extension>16</extension>
           <name>m</name>
           </Harmony>
+        <Tempo>
+          <tempo>2.33333</tempo>
+          <followText>1</followText>
+          <pos x="-7.79527" y="-3.17601"/>
+          <visible>0</visible>
+          <text><sym>unicodeNoteQuarterUp</sym> = 140</text>
+          </Tempo>
         <Chord>
           <durationType>whole</durationType>
           <Note>
@@ -2129,7 +2150,7 @@
           <name>m</name>
           </Harmony>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>Húsz</text>
             </Lyrics>
@@ -2140,7 +2161,6 @@
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
@@ -2180,7 +2200,7 @@
       <Measure number="18">
         <breakMultiMeasureRest/>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>több</text>
             </Lyrics>
@@ -2191,7 +2211,6 @@
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>is</text>

@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1807,7 +1807,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>kék.</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>kék!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1817,13 +1817,8 @@
           </Chord>
         </Measure>
       <Measure number="5">
-        <startRepeat/>
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
-        <BarLine>
-          <subtype>start-repeat</subtype>
-          <span>1</span>
-          </BarLine>
         <Harmony>
           <root>14</root>
           <extension>1</extension>
@@ -2106,7 +2101,6 @@
           </Chord>
         </Measure>
       <Measure number="8">
-        <endRepeat>2</endRepeat>
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Jump>
@@ -2148,7 +2142,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>szép,</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>szép!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2156,6 +2150,10 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>end</subtype>
+          <span>1</span>
+          </BarLine>
         </Measure>
       </Staff>
     </Score>

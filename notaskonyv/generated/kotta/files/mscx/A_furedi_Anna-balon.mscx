@@ -9,6 +9,7 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <lyricsDistance>2.5</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -45,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1504,7 +1505,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"></font>A füredi Annabálban
+          <text><font face="Times New Roman"/>A füredi Annabálon
 </text>
           </Text>
         </VBox>
@@ -1528,6 +1529,13 @@
           <extension>16</extension>
           <name>m</name>
           </Harmony>
+        <Tempo>
+          <tempo>1.33333</tempo>
+          <followText>1</followText>
+          <pos x="-8.26601" y="-4"/>
+          <visible>0</visible>
+          <text><sym>unicodeNoteQuarterUp</sym> = 80</text>
+          </Tempo>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -1633,7 +1641,7 @@
           <Beam>2</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>ban</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>bon</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2064,7 +2072,7 @@
           <durationType>eighth</durationType>
           <Beam>9</Beam>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>õ</text>
+            <text>ő</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
