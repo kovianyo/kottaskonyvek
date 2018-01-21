@@ -10,6 +10,7 @@
     <Division>480</Division>
     <Style>
       <minSystemDistance>12.1</minSystemDistance>
+      <lyricsDistance>3</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -46,17 +47,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
           <sym name="accidentales" code="0x266d"/>
+          <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -2019,8 +2020,8 @@
           <durationType>16th</durationType>
           <Beam>9</Beam>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>la.</text>
+            <syllabic>middle</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>la</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2031,7 +2032,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>She</text>
+            <syllabic>end</syllabic>
+            <text>la,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2041,6 +2043,9 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <text>She</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -2454,6 +2459,9 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <Slur id="6">
+          <track>0</track>
+          </Slur>
         <Beam id="19">
           </Beam>
         <Chord>
@@ -2464,6 +2472,7 @@
             <syllabic>begin</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>mo</text>
             </Lyrics>
+          <Slur type="start" id="6"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>59</pitch>
@@ -2474,10 +2483,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>19</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>tion</text>
-            </Lyrics>
+          <Slur type="stop" id="6"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>57</pitch>
@@ -2487,7 +2493,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>la</text>
+            <syllabic>end</syllabic>
+            <text>tion,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2713,8 +2720,8 @@
           <durationType>16th</durationType>
           <Beam>23</Beam>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>la,</text>
+            <syllabic>middle</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>la</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2725,7 +2732,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>She</text>
+            <syllabic>end</syllabic>
+            <text><font size="10.7317"/><font face="Times New Roman"/>la,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2735,6 +2743,9 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <text>She</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -2872,7 +2883,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="6">
+            <Tie id="7">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -2887,7 +2898,7 @@
           <Beam>27</Beam>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="6"/>
+            <endSpanner id="7"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -3001,7 +3012,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="7">
+            <Tie id="8">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -3012,7 +3023,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="7"/>
+            <endSpanner id="8"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>

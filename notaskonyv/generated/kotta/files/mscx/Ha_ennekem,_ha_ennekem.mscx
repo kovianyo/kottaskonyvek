@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1653,7 +1653,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>rin</text>
@@ -1665,7 +1665,6 @@
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
@@ -1850,7 +1849,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>rany</text>
@@ -1862,7 +1861,6 @@
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
@@ -1918,9 +1916,9 @@
           <span>1</span>
           </BarLine>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>De</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>De</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1929,12 +1927,12 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>mi</text>
+            <text>mi</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -1944,7 +1942,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>vel,</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>vel,</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>

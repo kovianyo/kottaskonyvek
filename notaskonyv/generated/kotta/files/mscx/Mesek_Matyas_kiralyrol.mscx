@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1609,7 +1609,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>jõ</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>jő</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -2106,7 +2106,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>gyûl</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>gyűl</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -2435,7 +2435,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>csõ</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>cső</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2602,7 +2602,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>õ,</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>ő,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

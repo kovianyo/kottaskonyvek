@@ -44,17 +44,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1532,7 +1532,7 @@
         </VBox>
       <Measure number="1">
         <startRepeat/>
-        <stretch>0.8</stretch>
+        <stretch>0.2</stretch>
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -1568,7 +1568,7 @@
         </Measure>
       <Measure number="2">
         <endRepeat>2</endRepeat>
-        <stretch>0.8</stretch>
+        <stretch>0.2</stretch>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -1596,7 +1596,7 @@
         </Measure>
       <Measure number="3">
         <startRepeat/>
-        <stretch>0.8</stretch>
+        <stretch>0.2</stretch>
         <Harmony>
           <root>17</root>
           <extension>16</extension>
@@ -1669,7 +1669,7 @@
           </Chord>
         </Measure>
       <Measure number="4">
-        <stretch>0.8</stretch>
+        <stretch>0.2</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -1737,7 +1737,7 @@
           </Rest>
         </Measure>
       <Measure number="5">
-        <stretch>0.8</stretch>
+        <stretch>0.2</stretch>
         <Harmony>
           <root>18</root>
           <extension>64</extension>
@@ -1783,7 +1783,10 @@
           </Chord>
         </Measure>
       <Measure number="6">
-        <stretch>0.8</stretch>
+        <stretch>0.2</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <root>17</root>
           <extension>16</extension>
@@ -1847,7 +1850,7 @@
           </Rest>
         </Measure>
       <Measure number="7">
-        <stretch>0.8</stretch>
+        <stretch>0.2</stretch>
         <Harmony>
           <root>17</root>
           <extension>16</extension>
@@ -1920,7 +1923,7 @@
           </Chord>
         </Measure>
       <Measure number="8">
-        <stretch>0.8</stretch>
+        <stretch>0.2</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -1988,7 +1991,7 @@
           </Rest>
         </Measure>
       <Measure number="9">
-        <stretch>0.8</stretch>
+        <stretch>0.2</stretch>
         <Harmony>
           <root>18</root>
           <extension>64</extension>
@@ -2034,7 +2037,7 @@
           </Chord>
         </Measure>
       <Measure number="10">
-        <stretch>0.8</stretch>
+        <stretch>0.2</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>

@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -2374,10 +2374,8 @@
         <breakMultiMeasureRest/>
         <stretch>0.9</stretch>
         <StaffText>
-          <style>Technique</style>
-          <xoffset>0</xoffset>
-          <yoffset>-10</yoffset>
-          <text><font face="Times New Roman"></font><i>Fm</i></text>
+          <style>Chord Symbol</style>
+          <text>Fm</text>
           </StaffText>
         <Chord>
           <durationType>eighth</durationType>

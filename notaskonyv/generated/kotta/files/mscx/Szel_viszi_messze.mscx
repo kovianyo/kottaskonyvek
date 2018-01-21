@@ -10,7 +10,7 @@
     <Division>480</Division>
     <Style>
       <minSystemDistance>12.1</minSystemDistance>
-      <lyricsDistance>3</lyricsDistance>
+      <lyricsDistance>3.5</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -47,17 +47,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1893,13 +1893,13 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>ég.</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>ég,</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>vább.</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>vább!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2196,7 +2196,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>még,</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>még!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

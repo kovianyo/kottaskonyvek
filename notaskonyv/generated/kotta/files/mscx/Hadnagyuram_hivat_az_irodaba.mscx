@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1519,7 +1519,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"/>Hadnagyuram hívat az irodába</text>
+          <text><font face="Times New Roman"></font>Hadnagyuram hívat az irodába</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -1870,10 +1870,10 @@
       <Measure number="10">
         <breakMultiMeasureRest/>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>fi</text>
+            <text><font face="Times New Roman"/>fi</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1882,12 +1882,12 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>am</text>
+            <text>am</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
           <Note>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -1904,7 +1904,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>to</text>
+            <text><font face="Times New Roman"/>to</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1935,7 +1935,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ra,</text>
+            <text><font face="Times New Roman"/>ra!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1954,7 +1954,7 @@
           <extension>1</extension>
           </Harmony>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>Há</text>
@@ -1966,7 +1966,6 @@
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>

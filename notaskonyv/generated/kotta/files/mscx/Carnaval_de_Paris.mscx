@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1427,13 +1427,13 @@
         <page-height>1584</page-height>
         <page-width>1224</page-width>
         <page-margins type="both">
-          <left-margin>72.5697</left-margin>
-          <right-margin>72.5697</right-margin>
-          <top-margin>89.7897</top-margin>
-          <bottom-margin>89.7897</bottom-margin>
+          <left-margin>72.5669</left-margin>
+          <right-margin>72.5669</right-margin>
+          <top-margin>89.8016</top-margin>
+          <bottom-margin>89.8016</bottom-margin>
           </page-margins>
         </page-layout>
-      <Spatium>2.16958</Spatium>
+      <Spatium>1.808</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -1470,8 +1470,6 @@
           </System>
         <System>
           </System>
-        </Page>
-      <Page>
         <System>
           </System>
         </Page>
@@ -1511,7 +1509,7 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <bottomGap>7</bottomGap>
+        <bottomGap>8.39992</bottomGap>
         <Text>
           <style>Title</style>
           <text><font face="Times New Roman"></font>Carneval de Paris
@@ -1864,8 +1862,10 @@
           <root>14</root>
           <extension>16</extension>
           <name>m</name>
+          <pos x="-0.13733" y="-4"/>
           </Harmony>
         <Tuplet id="1">
+          <pos x="0.54932" y="0.13733"/>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>quarter</baseNote>
@@ -1873,11 +1873,12 @@
             <style>Tuplet</style>
             <text>3</text>
             </Number>
+          <offset x="0.54932" y="0.13733"/>
           </Tuplet>
         <Chord>
           <Tuplet>1</Tuplet>
           <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -1886,7 +1887,7 @@
         <Chord>
           <Tuplet>1</Tuplet>
           <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -1895,7 +1896,7 @@
         <Chord>
           <Tuplet>1</Tuplet>
           <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -2583,7 +2584,7 @@
         <Chord>
           <Tuplet>2</Tuplet>
           <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>75</pitch>
             <tpc>11</tpc>
@@ -2592,7 +2593,7 @@
         <Chord>
           <Tuplet>2</Tuplet>
           <durationType>eighth</durationType>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -2716,7 +2717,7 @@
         <Chord>
           <Tuplet>3</Tuplet>
           <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -2725,7 +2726,7 @@
         <Chord>
           <Tuplet>3</Tuplet>
           <durationType>eighth</durationType>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>75</pitch>
             <tpc>11</tpc>

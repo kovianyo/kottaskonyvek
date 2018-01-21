@@ -47,17 +47,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1591,6 +1591,9 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Slur id="3">
+          <track>0</track>
+          </Slur>
         <Beam id="2">
           </Beam>
         <Chord>
@@ -1600,6 +1603,7 @@
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>egy</text>
             </Lyrics>
+          <Slur type="start" id="3"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1610,6 +1614,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>2</Beam>
+          <Slur type="stop" id="3"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1677,7 +1682,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>lõtt</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>lőtt</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1722,7 +1727,7 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <Slur id="3">
+        <Slur id="4">
           <track>0</track>
           </Slur>
         <Beam id="4">
@@ -1734,7 +1739,7 @@
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>Kell</text>
             </Lyrics>
-          <Slur type="start" id="3"/>
+          <Slur type="start" id="4"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1745,7 +1750,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>4</Beam>
-          <Slur type="stop" id="3"/>
+          <Slur type="stop" id="4"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>59</pitch>
@@ -1900,7 +1905,7 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Slur id="4">
+        <Slur id="5">
           <track>0</track>
           </Slur>
         <Beam id="7">
@@ -1913,7 +1918,7 @@
             <syllabic>begin</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>el</text>
             </Lyrics>
-          <Slur type="start" id="4"/>
+          <Slur type="start" id="5"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -1924,14 +1929,14 @@
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Beam>7</Beam>
-          <Slur type="stop" id="4"/>
+          <Slur type="stop" id="5"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="5">
+        <Slur id="6">
           <track>0</track>
           </Slur>
         <Chord>
@@ -1942,7 +1947,7 @@
             <syllabic>middle</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>kí</text>
             </Lyrics>
-          <Slur type="start" id="5"/>
+          <Slur type="start" id="6"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1953,7 +1958,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>7</Beam>
-          <Slur type="stop" id="5"/>
+          <Slur type="stop" id="6"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -2138,7 +2143,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="6">
+            <Tie id="7">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -2156,7 +2161,7 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="6"/>
+            <endSpanner id="7"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -2366,7 +2371,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Slur id="7">
+        <Slur id="8">
           <track>0</track>
           </Slur>
         <Beam id="12">
@@ -2383,7 +2388,7 @@
             <style>Lyrics Even Lines</style>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>Úgy</text>
             </Lyrics>
-          <Slur type="start" id="7"/>
+          <Slur type="start" id="8"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -2394,7 +2399,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>12</Beam>
-          <Slur type="stop" id="7"/>
+          <Slur type="stop" id="8"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>59</pitch>
@@ -2426,7 +2431,7 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Slur id="8">
+        <Slur id="9">
           <track>0</track>
           </Slur>
         <Beam id="13">
@@ -2443,7 +2448,7 @@
             <style>Lyrics Even Lines</style>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>te</text>
             </Lyrics>
-          <Slur type="start" id="8"/>
+          <Slur type="start" id="9"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -2459,7 +2464,7 @@
             <style>Lyrics Even Lines</style>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>is</text>
             </Lyrics>
-          <Slur type="stop" id="8"/>
+          <Slur type="stop" id="9"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -2592,7 +2597,7 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
-        <Slur id="9">
+        <Slur id="10">
           <track>0</track>
           </Slur>
         <Beam id="14">
@@ -2609,7 +2614,7 @@
             <style>Lyrics Even Lines</style>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>Ez</text>
             </Lyrics>
-          <Slur type="start" id="9"/>
+          <Slur type="start" id="10"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -2625,7 +2630,7 @@
             <style>Lyrics Even Lines</style>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>a</text>
             </Lyrics>
-          <Slur type="stop" id="9"/>
+          <Slur type="stop" id="10"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>59</pitch>
@@ -2713,7 +2718,7 @@
           <dots>1</dots>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>tûnt</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>tűnt</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -2838,7 +2843,7 @@
           <Beam>16</Beam>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="10">
+            <Tie id="11">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -2866,7 +2871,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="10"/>
+            <endSpanner id="11"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -2963,7 +2968,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>rõ</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>rő</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2997,7 +3002,7 @@
           <root>14</root>
           <extension>1</extension>
           </Harmony>
-        <Slur id="11">
+        <Slur id="12">
           <track>0</track>
           </Slur>
         <Beam id="18">
@@ -3016,7 +3021,7 @@
             <style>Lyrics Even Lines</style>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>nak,</text>
             </Lyrics>
-          <Slur type="start" id="11"/>
+          <Slur type="start" id="12"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -3027,7 +3032,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>18</Beam>
-          <Slur type="stop" id="11"/>
+          <Slur type="stop" id="12"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -3091,7 +3096,7 @@
           <Lyrics>
             <no>1</no>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>nõ</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>nő</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3166,7 +3171,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="12">
+            <Tie id="13">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -3190,7 +3195,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="12"/>
+            <endSpanner id="13"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -3829,7 +3834,7 @@
             <text><font size="10.7317"></font><font face="Times New Roman"></font>út.</text>
             </Lyrics>
           <Note>
-            <Tie id="13">
+            <Tie id="14">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -3850,12 +3855,12 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="13"/>
+            <endSpanner id="14"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Slur id="14">
+        <Slur id="15">
           <track>0</track>
           </Slur>
         <Beam id="25">
@@ -3867,7 +3872,7 @@
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>Nézz</text>
             </Lyrics>
-          <Slur type="start" id="14"/>
+          <Slur type="start" id="15"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -3878,7 +3883,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>25</Beam>
-          <Slur type="stop" id="14"/>
+          <Slur type="stop" id="15"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>59</pitch>
@@ -3954,7 +3959,7 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Slur id="15">
+        <Slur id="16">
           <track>0</track>
           </Slur>
         <Beam id="27">
@@ -3966,7 +3971,7 @@
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>Nézz</text>
             </Lyrics>
-          <Slur type="start" id="15"/>
+          <Slur type="start" id="16"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -3977,7 +3982,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>27</Beam>
-          <Slur type="stop" id="15"/>
+          <Slur type="stop" id="16"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>59</pitch>
@@ -4070,7 +4075,7 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="16">
+        <Slur id="17">
           <track>0</track>
           </Slur>
         <Chord>
@@ -4080,7 +4085,7 @@
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>nincs</text>
             </Lyrics>
-          <Slur type="start" id="16"/>
+          <Slur type="start" id="17"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -4091,7 +4096,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>29</Beam>
-          <Slur type="stop" id="16"/>
+          <Slur type="stop" id="17"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>59</pitch>
@@ -4257,11 +4262,11 @@
           <Beam>32</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>lé.</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>lé!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="17">
+            <Tie id="18">
               </Tie>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -4278,7 +4283,7 @@
         <Chord>
           <durationType>whole</durationType>
           <Note>
-            <endSpanner id="17"/>
+            <endSpanner id="18"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>

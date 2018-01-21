@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1631,6 +1631,11 @@
           </Harmony>
         <Volta id="2">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0.0215102" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font size="10.7317"></font><font face="Times New Roman"></font><b>1</b></text>
             </beginText>
@@ -1741,8 +1746,14 @@
           </Harmony>
         <endSpanner id="2"/>
         <Volta id="3">
+          <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font><b>2</b></text>
+            <text>2.</text>
             </beginText>
           <endings>2</endings>
           </Volta>
@@ -1815,7 +1826,6 @@
           <root>14</root>
           <extension>1</extension>
           </Harmony>
-        <endSpanner id="3"/>
         <Chord>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
@@ -1836,6 +1846,7 @@
           <subtype>end</subtype>
           <span>1</span>
           </BarLine>
+        <endSpanner id="3"/>
         </Measure>
       </Staff>
     </Score>

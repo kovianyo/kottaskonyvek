@@ -9,6 +9,7 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <lyricsDistance>3</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -45,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1528,6 +1529,13 @@
           <extension>16</extension>
           <name>m</name>
           </Harmony>
+        <Tempo>
+          <tempo>2.33333</tempo>
+          <followText>1</followText>
+          <pos x="-9.99417" y="-3.17601"/>
+          <visible>0</visible>
+          <text><sym>unicodeNoteQuarterUp</sym> = 160</text>
+          </Tempo>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
@@ -2231,12 +2239,16 @@
         </Measure>
       <Measure number="23">
         <breakMultiMeasureRest/>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>tõ</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>tő</text>
             </Lyrics>
+          <Slur type="start" id="2"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -2245,6 +2257,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="2"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>

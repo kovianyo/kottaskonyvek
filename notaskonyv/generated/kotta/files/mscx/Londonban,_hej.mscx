@@ -10,6 +10,7 @@
     <Division>480</Division>
     <Style>
       <minSystemDistance>12.1</minSystemDistance>
+      <lyricsDistance>2.5</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -46,17 +47,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1503,7 +1504,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Composer</style>
-          <text><font face="Times New Roman"/>Huszka Jenő - Martos Ferenc - Bakonyi Károly</text>
+          <text><font face="Times New Roman"></font>Huszka Jenő - Martos Ferenc - Bakonyi Károly</text>
           </Text>
         <Text>
           <style>Title</style>
@@ -1575,7 +1576,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ban,</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ban,</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1899,7 +1900,12 @@
           </Chord>
         </Measure>
       <Measure number="5">
+        <startRepeat/>
         <breakMultiMeasureRest/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Harmony>
           <root>12</root>
           <extension>1</extension>
@@ -2359,6 +2365,7 @@
           </Chord>
         </Measure>
       <Measure number="12">
+        <endRepeat>2</endRepeat>
         <breakMultiMeasureRest/>
         <Chord>
           <durationType>quarter</durationType>
@@ -2394,7 +2401,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>rít.</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>rít!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2403,7 +2410,7 @@
             </Note>
           </Chord>
         <BarLine>
-          <subtype>end</subtype>
+          <subtype>end-repeat</subtype>
           <span>1</span>
           </BarLine>
         </Measure>

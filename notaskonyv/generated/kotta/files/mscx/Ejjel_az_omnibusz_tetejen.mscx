@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1912,13 +1912,13 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>volt,</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>volt!</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>hold.</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>hold!</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2168,8 +2168,11 @@
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
-            <pitch>78</pitch>
-            <tpc>20</tpc>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -2345,8 +2348,11 @@
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
-            <pitch>75</pitch>
-            <tpc>23</tpc>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <BarLine>

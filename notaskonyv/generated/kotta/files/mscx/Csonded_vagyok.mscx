@@ -44,17 +44,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
-          <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notee" value="e"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1473,8 +1473,6 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       </PageList>
     <Part>
@@ -1483,33 +1481,45 @@
           </StaffType>
         <bracket type="-1" span="1"/>
         </Staff>
-      <trackName>Voice</trackName>
+      <trackName>Piano</trackName>
       <Instrument>
-        <trackName>Voice</trackName>
-        <minPitchP>36</minPitchP>
-        <maxPitchP>94</maxPitchP>
-        <minPitchA>40</minPitchA>
-        <maxPitchA>79</maxPitchA>
+        <trackName>Piano</trackName>
+        <minPitchP>21</minPitchP>
+        <maxPitchP>108</maxPitchP>
+        <minPitchA>21</minPitchA>
+        <maxPitchA>108</maxPitchA>
+        <instrumentId>keyboard.piano</instrumentId>
+        <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
-          <gateTime>100</gateTime>
+          <gateTime>95</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
           </Articulation>
         <Articulation name="staccato">
           <velocity>100</velocity>
           <gateTime>50</gateTime>
           </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
         <Articulation name="tenuto">
           <velocity>100</velocity>
           <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
           </Articulation>
         <Articulation name="sforzato">
           <velocity>120</velocity>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="52"/>
-          <controller ctrl="93" value="30"/>
-          <controller ctrl="91" value="30"/>
+          <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -1680,6 +1690,7 @@
           </Rest>
         </Measure>
       <Measure number="9">
+        <stretch>0.9</stretch>
         <KeySig>
           <accidental>-2</accidental>
           </KeySig>
@@ -1707,6 +1718,7 @@
           </Chord>
         </Measure>
       <Measure number="10">
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -1731,6 +1743,7 @@
           </Chord>
         </Measure>
       <Measure number="11">
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -1755,6 +1768,7 @@
           </Chord>
         </Measure>
       <Measure number="12">
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -1767,6 +1781,7 @@
           </Rest>
         </Measure>
       <Measure number="13">
+        <stretch>0.9</stretch>
         <KeySig>
           <accidental>-3</accidental>
           </KeySig>
@@ -1793,6 +1808,7 @@
           </Chord>
         </Measure>
       <Measure number="14">
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -1809,6 +1825,7 @@
           </Chord>
         </Measure>
       <Measure number="15">
+        <stretch>0.9</stretch>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
@@ -1819,6 +1836,7 @@
           </Chord>
         </Measure>
       <Measure number="16">
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -1831,6 +1849,7 @@
           </Rest>
         </Measure>
       <Measure number="17">
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -1854,6 +1873,7 @@
           </Chord>
         </Measure>
       <Measure number="18">
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -1881,6 +1901,7 @@
           </Chord>
         </Measure>
       <Measure number="19">
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -1899,6 +1920,7 @@
           </Chord>
         </Measure>
       <Measure number="20">
+        <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>

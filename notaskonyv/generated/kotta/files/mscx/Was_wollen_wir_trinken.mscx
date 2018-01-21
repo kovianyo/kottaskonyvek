@@ -9,6 +9,7 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <lyricsDistance>3</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -44,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1535,7 +1536,7 @@
           <transposingClefType>G</transposingClefType>
           </Clef>
         <KeySig>
-          <accidental>1</accidental>
+          <accidental>0</accidental>
           </KeySig>
         <TimeSig>
           <sigN>3</sigN>
@@ -1547,7 +1548,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <root>16</root>
+          <root>15</root>
           <extension>1</extension>
           </Harmony>
         <Chord>
@@ -1556,8 +1557,8 @@
             <text><font face="Times New Roman"></font>Was</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Beam id="1">
@@ -1580,8 +1581,8 @@
             <text><font face="Times New Roman"></font>wol</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1593,8 +1594,8 @@
             <text><font face="Times New Roman"></font>len</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1605,15 +1606,15 @@
             <text><font face="Times New Roman"></font>wir</text>
             </Lyrics>
           <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="2">
         <startRepeat/>
         <Harmony>
-          <root>18</root>
+          <root>17</root>
           <extension>16</extension>
           <name>m</name>
           </Harmony>
@@ -1624,8 +1625,8 @@
             <text><font face="Times New Roman"></font>trin</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1635,8 +1636,8 @@
             <text><font face="Times New Roman"></font>ken,</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Beam id="2">
@@ -1649,8 +1650,8 @@
             <text><font face="Times New Roman"></font>sie</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1661,8 +1662,8 @@
             <text><font face="Times New Roman"></font>ben</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -1671,7 +1672,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <root>16</root>
+          <root>15</root>
           <extension>1</extension>
           </Harmony>
         <Beam id="3">
@@ -1684,8 +1685,8 @@
             <text><font face="Times New Roman"></font>Ta</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1696,8 +1697,8 @@
             <text><font face="Times New Roman"></font>ge</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Beam id="4">
@@ -1709,8 +1710,8 @@
             <text><font face="Times New Roman"></font>lang,</text>
             </Lyrics>
           <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1720,8 +1721,8 @@
             <text><font face="Times New Roman"></font>was</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Beam id="5">
@@ -1744,8 +1745,8 @@
             <text><font face="Times New Roman"></font>wol</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1757,8 +1758,8 @@
             <text><font face="Times New Roman"></font>len</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1769,14 +1770,14 @@
             <text><font face="Times New Roman"></font>wir</text>
             </Lyrics>
           <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="4">
         <Harmony>
-          <root>18</root>
+          <root>17</root>
           <extension>16</extension>
           <name>m</name>
           </Harmony>
@@ -1787,8 +1788,8 @@
             <text><font face="Times New Roman"></font>trin</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1798,12 +1799,12 @@
             <text><font face="Times New Roman"></font>ken,</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <root>16</root>
+          <root>15</root>
           <extension>1</extension>
           </Harmony>
         <Beam id="6">
@@ -1815,8 +1816,8 @@
             <text><font face="Times New Roman"></font>so</text>
             </Lyrics>
           <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1826,15 +1827,15 @@
             <text><font face="Times New Roman"></font>ein</text>
             </Lyrics>
           <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="5">
         <endRepeat>2</endRepeat>
         <Harmony>
-          <root>18</root>
+          <root>17</root>
           <extension>16</extension>
           <name>m</name>
           </Harmony>
@@ -1857,8 +1858,8 @@
             <text><font face="Times New Roman"></font>Drust!</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1867,12 +1868,12 @@
             <text><font face="Times New Roman"></font>Was</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <root>16</root>
+          <root>15</root>
           <extension>1</extension>
           </Harmony>
         <Beam id="7">
@@ -1895,8 +1896,8 @@
             <text><font face="Times New Roman"></font>woll</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1908,8 +1909,8 @@
             <text><font face="Times New Roman"></font>len</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1920,8 +1921,8 @@
             <text><font face="Times New Roman"></font>wir</text>
             </Lyrics>
           <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -1930,7 +1931,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <root>18</root>
+          <root>17</root>
           <extension>16</extension>
           <name>m</name>
           </Harmony>
@@ -1954,8 +1955,8 @@
             <text><font face="Times New Roman"></font>Durst!</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1964,8 +1965,8 @@
             <text><font face="Times New Roman"></font>Es</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Beam id="8">
@@ -1977,8 +1978,8 @@
             <text><font face="Times New Roman"></font>wird</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1989,8 +1990,8 @@
             <text><font face="Times New Roman"></font>ge</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -2001,7 +2002,7 @@
           <span>1</span>
           </BarLine>
         <Harmony>
-          <root>15</root>
+          <root>14</root>
           <extension>1</extension>
           </Harmony>
         <endSpanner id="3"/>
@@ -2012,8 +2013,8 @@
             <text><font face="Times New Roman"></font>nug</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2022,12 +2023,12 @@
             <text><font face="Times New Roman"></font>für</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <root>17</root>
+          <root>16</root>
           <extension>16</extension>
           <name>m</name>
           </Harmony>
@@ -2041,8 +2042,8 @@
             <text><font face="Times New Roman"></font>al</text>
             </Lyrics>
           <Note>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2053,14 +2054,14 @@
             <text><font face="Times New Roman"></font>le</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="8">
         <Harmony>
-          <root>16</root>
+          <root>15</root>
           <extension>1</extension>
           </Harmony>
         <Chord>
@@ -2070,8 +2071,8 @@
             <text><font face="Times New Roman"></font>sein,</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2080,8 +2081,8 @@
             <text><font face="Times New Roman"></font>wir</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Beam id="10">
@@ -2104,8 +2105,8 @@
             <text><font face="Times New Roman"></font>trin</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2117,8 +2118,8 @@
             <text><font face="Times New Roman"></font>ken</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2130,14 +2131,14 @@
             <text><font face="Times New Roman"></font>zu</text>
             </Lyrics>
           <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="9">
         <Harmony>
-          <root>18</root>
+          <root>17</root>
           <extension>16</extension>
           <name>m</name>
           </Harmony>
@@ -2148,8 +2149,8 @@
             <text><font face="Times New Roman"></font>sam</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2159,8 +2160,8 @@
             <text><font face="Times New Roman"></font>men,</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Beam id="11">
@@ -2172,8 +2173,8 @@
             <text><font face="Times New Roman"></font>roll</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2183,14 +2184,14 @@
             <text><font face="Times New Roman"></font>das</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="10">
         <Harmony>
-          <root>16</root>
+          <root>15</root>
           <extension>1</extension>
           </Harmony>
         <Beam id="12">
@@ -2202,8 +2203,8 @@
             <text><font face="Times New Roman"></font>Faß</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2213,8 +2214,8 @@
             <text><font face="Times New Roman"></font>mal</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Beam id="13">
@@ -2226,8 +2227,8 @@
             <text><font face="Times New Roman"></font>rein,</text>
             </Lyrics>
           <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2237,8 +2238,8 @@
             <text><font face="Times New Roman"></font>wir</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Beam id="14">
@@ -2261,8 +2262,8 @@
             <text><font face="Times New Roman"></font>trin</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2274,8 +2275,8 @@
             <text><font face="Times New Roman"></font>ken</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2287,14 +2288,14 @@
             <text><font face="Times New Roman"></font>zu</text>
             </Lyrics>
           <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="11">
         <Harmony>
-          <root>18</root>
+          <root>17</root>
           <extension>16</extension>
           <name>m</name>
           </Harmony>
@@ -2305,8 +2306,8 @@
             <text><font face="Times New Roman"></font>sam</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2316,12 +2317,12 @@
             <text><font face="Times New Roman"></font>men,</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <root>16</root>
+          <root>15</root>
           <extension>1</extension>
           </Harmony>
         <Beam id="15">
@@ -2333,8 +2334,8 @@
             <text><font face="Times New Roman"></font>nicht</text>
             </Lyrics>
           <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2345,15 +2346,15 @@
             <text><font face="Times New Roman"></font>al</text>
             </Lyrics>
           <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="12">
         <endRepeat>2</endRepeat>
         <Harmony>
-          <root>18</root>
+          <root>17</root>
           <extension>16</extension>
           <name>m</name>
           </Harmony>
@@ -2377,8 +2378,8 @@
             <text><font face="Times New Roman"></font>lein!</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2387,8 +2388,8 @@
             <text><font face="Times New Roman"></font>Es</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Beam id="16">
@@ -2400,8 +2401,8 @@
             <text><font face="Times New Roman"></font>wird</text>
             </Lyrics>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2412,14 +2413,14 @@
             <text><font face="Times New Roman"></font>ge</text>
             </Lyrics>
           <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="13">
         <Harmony>
-          <root>18</root>
+          <root>17</root>
           <extension>16</extension>
           <name>m</name>
           </Harmony>
@@ -2444,8 +2445,8 @@
             <text><font face="Times New Roman"></font>lein!</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Rest>

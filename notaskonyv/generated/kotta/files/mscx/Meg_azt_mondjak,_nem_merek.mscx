@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1507,10 +1507,6 @@
           <style>Title</style>
           <text><font face="Times New Roman"></font>Még azt mondják, nem merek</text>
           </Text>
-        <Text>
-          <style>Composer</style>
-          <text><font face="Times New Roman"></font>Hungarian song</text>
-          </Text>
         </VBox>
       <Measure number="1">
         <breakMultiMeasureRest/>
@@ -1767,7 +1763,7 @@
           <Beam>5</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>fő</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>fő</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>

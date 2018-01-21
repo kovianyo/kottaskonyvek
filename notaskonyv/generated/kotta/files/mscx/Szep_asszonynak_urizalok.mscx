@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1858,7 +1858,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>nyok.</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>nyok!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2313,7 +2313,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>õ</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>ő</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2420,7 +2420,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>dül.</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>dül!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1960,7 +1960,7 @@
           <extension>1</extension>
           </Harmony>
         <StaffText>
-          <style>Technique</style>
+          <pos x="-6.17923" y="-9.05573"/>
           <text><font size="13.3038"></font><font face="Times New Roman"></font><i>Refrain</i></text>
           </StaffText>
         <Tuplet id="1">
@@ -2529,6 +2529,7 @@
           <extension>1</extension>
           </Harmony>
         <StaffText>
+          <pos x="-7.16229" y="-6.35355"/>
           <style>Technique</style>
           <text><font size="13.3038"></font><font face="Times New Roman"></font><i>Bridge</i></text>
           </StaffText>
