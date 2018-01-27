@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1460,6 +1460,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1882,7 +1884,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>nyon!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>nyon!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2098,6 +2100,21 @@
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Lenn, a délibábos Hortobágyon,
+Megakadt a szemem egy barna lányon.
+Hullámzott a göndör haja a sötétbe',
+Mikor belenéztem a szemébe.
+
+El is megyek hozzá, meg is kérem:
+Legyen az én drága feleségem!
+Boldogságom, tudom, nála megtalálom,
+Lenn, a délibábos Hortobágyon.</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

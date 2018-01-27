@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1463,6 +1463,10 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1519,7 +1523,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"></font>Hadnagyuram hívat az irodába</text>
+          <text><font face="Times New Roman"/>Hadnagy uram hívat az irodába</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -1547,12 +1551,6 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>Had</text>
             </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>begin</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>E</text>
-            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1564,12 +1562,6 @@
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>nagy</text>
-            </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>end</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>gész</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1586,12 +1578,6 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>u</text>
             </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>begin</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>szá</text>
-            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -1607,12 +1593,6 @@
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>ram</text>
-            </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>end</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>zad</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1633,12 +1613,6 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>hí</text>
             </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>begin</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>hall</text>
-            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
@@ -1650,12 +1624,6 @@
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>vat</text>
-            </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>end</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>gat</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1672,11 +1640,6 @@
           <Lyrics>
             <text><font face="Times New Roman"></font>az</text>
             </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>majd</text>
-            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1688,11 +1651,6 @@
           <Lyrics>
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>i</text>
-            </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1714,12 +1672,6 @@
             <syllabic>middle</syllabic>
             <text><font face="Times New Roman"></font>ro</text>
             </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>begin</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>sza</text>
-            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1733,12 +1685,6 @@
             <syllabic>middle</syllabic>
             <text><font face="Times New Roman"></font>dá</text>
             </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>middle</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>vad</text>
-            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1748,11 +1694,6 @@
         </Measure>
       <Measure number="6">
         <breakMultiMeasureRest/>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <text><font face="Times New Roman"></font>Fine</text>
-          <label>fine</label>
-          </Marker>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1760,13 +1701,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ba,</text>
-            </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>end</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>ra!</text>
+            <text><font face="Times New Roman"/>ba:</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1873,7 +1808,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>fi</text>
+            <text><font face="Times New Roman"></font>fi</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1904,7 +1839,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>to</text>
+            <text><font face="Times New Roman"></font>to</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1935,7 +1870,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ra!</text>
+            <text><font face="Times New Roman"></font>ra!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2146,7 +2081,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>varr</text>
+            <text><font face="Times New Roman"/>varr</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2157,13 +2092,9 @@
         </Measure>
       <Measure number="20">
         <breakMultiMeasureRest/>
-        <Jump>
-          <style>Repeat Text Right</style>
-          <text><font face="Times New Roman"></font>D.C. al Fine</text>
-          <jumpTo>start</jumpTo>
-          <playUntil>fine</playUntil>
-          <continueAt></continueAt>
-          </Jump>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <root>15</root>
           <extension>1</extension>
@@ -2172,7 +2103,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>va,</text>
+            <text>va,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2183,11 +2114,190 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        </Measure>
+      <Measure number="21">
+        <Harmony>
+          <root>14</root>
+          <extension>16</extension>
+          <name>m</name>
+          </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>E</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>gész</text>
+            </Lyrics>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="22">
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>szá</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>zad</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="23">
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>hall</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>gat</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="24">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text><font face="Times New Roman"/>majd</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text><font face="Times New Roman"/>a</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="25">
+        <Harmony>
+          <root>14</root>
+          <extension>16</extension>
+          <name>m</name>
+          </Harmony>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>sza</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>vad</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="26">
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>ra!</text>
+            </Lyrics>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Hadnagy uram hívat az irodába:
+Maradjál benn édes fiam továbbra! 
+Három csillag lesz a válladra varrva, de rávarrva, 
+Egész század hallgat majd a szavadra!
+
+Hadnagy uramm köszönöm a jóságát,
+Adja másnak azt a három csillagját!
+Van már nékem odahaza kökény szemű galambom,
+A két szeme az én édes csillagom!</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>
