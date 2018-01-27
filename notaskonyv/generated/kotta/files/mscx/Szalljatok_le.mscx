@@ -52,15 +52,15 @@
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1917,7 +1917,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>kot!</text>
+            <text><font face="Times New Roman"></font>kot!</text>
             </Lyrics>
           <Note>
             <pitch>67</pitch>
@@ -2161,6 +2161,10 @@
           </Chord>
         <Slur id="2">
           <track>0</track>
+          <SlurSegment no="0">
+            <o2 x="-0.349592" y="-0.524389"/>
+            <o3 x="-0.349592" y="-0.524389"/>
+            </SlurSegment>
           </Slur>
         <Beam id="1">
           </Beam>
@@ -2219,7 +2223,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>pet!</text>
+            <text><font face="Times New Roman"></font>pet!</text>
             </Lyrics>
           <Note>
             <pitch>57</pitch>

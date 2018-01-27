@@ -53,15 +53,15 @@
           <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1933,7 +1933,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"/><font face="Times New Roman"/>je!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>je!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2087,11 +2087,10 @@
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>lá</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>lá</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2100,12 +2099,11 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>bú</text>
+            <text>bú</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
           <Note>
             <pitch>68</pitch>
             <tpc>10</tpc>

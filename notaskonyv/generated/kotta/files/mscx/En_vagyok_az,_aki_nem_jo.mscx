@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1460,6 +1460,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1865,7 +1867,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>na,</text>
+            <text><font face="Times New Roman"></font>na!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2234,7 +2236,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>na.</text>
+            <text><font face="Times New Roman"></font>na!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2250,6 +2252,27 @@
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Én vagyok az, aki nem jó,
+Fellegajtót nyitogató,
+Nyitogatom a felleget,
+Sírok alatta eleget!
+
+Ifiúságom telik el,
+Azért a szívem hasad el!
+(Az anyád ragyogós csillaga.)
+Ifiúság gyöngykoszorú, 
+Ki elveszti, de szomorú!
+
+De bolond volnék, ha búsulnék,
+Ha a búnak helyet adnék,
+Én a búnak utat adok,
+Magam pedig vígan járok!</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

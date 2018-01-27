@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1460,6 +1460,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1957,7 +1959,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>jó!</text>
+            <text><font face="Times New Roman"></font>jó!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1973,6 +1975,76 @@
           <span>1</span>
           </BarLine>
         </Measure>
+      <VBox>
+        <height>81.8828</height>
+        <HBox>
+          <width>52.9557</width>
+          <Text>
+            <style>Frame</style>
+            <text>Ha majd a nyarunknak vége, csendesen szitál a hó,
+Lennék még tenéked édes, lennék még tenéked jó.
+
+Csendes kis legénylakásban, az óra búcsúra int,
+Kívülről zajlik az utca, hangos az éljen szó kint.
+
+Hallod, hogy fújják a kürtöt, hallod-e a zene szót?
+Azt fújják előre, rajta, fújják már a riadót.
+
+Borulj a vállamra kedves, estére másé lehetsz,
+Estére indul az ezred, estére én is megyek.
+
+Amikor leszáll az alkony, masíroz az ezredünk,
+Csókolj meg mégegyszer édes, 
+Ki tudja hová megyünk.
+
+Pislogó távoli tűznél, az ezred pihenni tér,
+Nem tud aludni a hadnagy, papírt és ceruzát kér.
+
+Otthon őt valaki várja, úgy hallja valaki sír,
+Fejét a kezére hajtja, és aztán csendesen ír.
+
+Másnap a kórházi ágyon, fekszik a hadnagy szegény,
+Golyó ment a tüdejébe, életre nincs már remény.
+</text>
+            </Text>
+          </HBox>
+        <HBox>
+          <width>48.7331</width>
+          <pos x="58.9766" y="0"/>
+          <Text>
+            <pos x="-5.91173" y="0.281511"/>
+            <style>Frame</style>
+            <text>Doktor úr szeretnék írni, magam sem tudom miért,
+Szeretnék egy kislányt látni, aki tán nem is enyém.
+
+Doktor úr az égre kérem, adja ki tiszti ruhám,
+Nem fekszem többé az ágyon, 
+Megvédem magyar hazám.
+
+Nem lehet, mondja az orvos, beteg még a hadnagy úr,
+A hadnagy az éj leple alatt, kiszökött a kórházból.
+
+Vége van az ütközetnek, véresen száll le a Nap,
+A hadnagy hordágya mellett, imádkozik már a pap.
+
+Biztatja csendesen, halkan, a hadnagy nem hallja már,
+A szíve lázasan dobban, s lelke a mennyekbe száll.
+
+Levelet hozott a posta, ami a hadnagyról szólt,
+A kapitány elolvasta, azután csendesen szólt.
+
+Írjátok meg a leánynak, ne várja a hadnagyát,
+Itt ássák örökös ágyát, itt ásták meg a sírját.
+
+Csendesen leszáll az éjjel, megperdülnek a dobok,
+Nem tudja senki, hogy otthon, valaki halkan zokog.
+
+Csendes kis legénylakásban, 
+Meghalt egy gyönyörű lány,
+Éles tőrt szúrt a szívébe, elment a hadnagy után.</text>
+            </Text>
+          </HBox>
+        </VBox>
       </Staff>
     </Score>
   </museScore>

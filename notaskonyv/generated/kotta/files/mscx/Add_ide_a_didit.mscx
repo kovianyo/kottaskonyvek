@@ -9,6 +9,7 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <lyricsDistance>3</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -46,15 +47,15 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1701,7 +1702,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>de,</text>
+            <text><font face="Times New Roman"/>de!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1723,7 +1724,7 @@
           <durationType>eighth</durationType>
           <Beam>5</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>én</text>
+            <text><font face="Times New Roman"/>Én</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1862,7 +1863,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>dom.</text>
+            <text><font face="Times New Roman"/>dom!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2273,7 +2274,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>jó</text>
+            <text><font face="Times New Roman"/>jó!</text>
             </Lyrics>
           <Slur type="start" id="5"/>
           <StemDirection>up</StemDirection>

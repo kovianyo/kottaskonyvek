@@ -44,17 +44,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1863,12 +1863,12 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>gyunk,</text>
+            <text><font face="Times New Roman"></font>gyunk,</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>gyog!</text>
+            <text><font face="Times New Roman"></font>gyog!</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -1880,7 +1880,12 @@
           </Rest>
         </Measure>
       <Measure number="9">
+        <startRepeat/>
         <stretch>0.9</stretch>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Harmony>
           <root>14</root>
           <extension>16</extension>
@@ -2404,6 +2409,7 @@
           </Chord>
         </Measure>
       <Measure number="24">
+        <endRepeat>2</endRepeat>
         <Harmony>
           <root>14</root>
           <extension>16</extension>
@@ -2435,6 +2441,7 @@
         </Measure>
       <Measure number="25">
         <StaffText>
+          <pos x="0.837963" y="-3.18382"/>
           <style>System</style>
           <text><font face="Times New Roman"></font>Legvégén</text>
           </StaffText>
@@ -2505,7 +2512,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>gyen!</text>
+            <text><font face="Times New Roman"></font>gyen!</text>
             </Lyrics>
           <Note>
             <pitch>72</pitch>

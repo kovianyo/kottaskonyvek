@@ -47,15 +47,15 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1465,6 +1465,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1751,7 +1753,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>Azt</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>Azt</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1763,7 +1765,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>hal</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>hal</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1806,7 +1808,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>kis</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>kis</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1863,7 +1865,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>vé</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>vé</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1887,7 +1889,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>e</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>e</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1921,7 +1923,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>el</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>el</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1943,7 +1945,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ló!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ló!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2189,7 +2191,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>Így</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>Így</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2200,7 +2202,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>hát</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>hát</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2299,7 +2301,7 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>nem</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>nem</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2354,7 +2356,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>a</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2394,6 +2396,26 @@
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>A csitári hegyek alatt régen leesett a hó,
+Azt hallottam, kisangyalom, véled esett el a ló!
+Kitörted a kezedet, mivel ölelsz engemet?
+Így hát kedves kisangyalom, nem lehetek a tied!
+
+Amott látok az ég alatt egy madarat repülni,
+De szeretnék a rózsámnak egy levelet küldeni!
+Repülj madár, ha lehet, vidd el ezt a levelet,
+Mondd meg az én galambomnak, ne sirasson engemet!
+
+Arra alá van egy erdő, jajj, de nagyon messze van!
+Közepében, közepében két rozmaring bokor van.
+Egyik hajlik vállamra, másik a babáméra,
+Így hát kedves kisangyalom, tiéd leszek valaha.</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1467,6 +1467,10 @@
         <System>
           </System>
         </Page>
+      <Page>
+        <System>
+          </System>
+        </Page>
       </PageList>
     <Part>
       <Staff id="1">
@@ -2538,7 +2542,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>nak!</text>
+            <text><font face="Times New Roman"></font>nak!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2554,6 +2558,36 @@
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Ha én rózsa volnék, nem csak egyszer nyilnék,
+Minden évben négyszer virágba borulnék,
+Nyílnék a fiúnak nyílnék én a lánynak
+Az igaz szerelemnek és az elmúlásnak.
+
+Ha én kapu volnék, mindig nyitva állnék,
+Akárhonnan jönne, bárkit beengednék,
+Nem kérdezném tőle, hát téged ki küldött,
+Akkor lennék boldog, ha mindenki eljött.
+
+Ha én ablak volnék, akkora nagy lennék,
+Hogy az egész világ láthatóvá váljék,
+Megértő szemekkel átnéznének rajtam,
+Akkor lennék boldog, ha mindent megmutattam.
+
+Ha én utca volnék, mindig tiszta lennék,
+Minden áldott este fényben megfürödnék,
+És ha egyszer rajtam lánckerék taposna,
+Alattam a föld is sírva beomolna.
+
+Ha én zászló volnék, sohasem lobognék,
+Mindenféle szélnek haragosa lennék,
+Akkor lennék boldog, ha kifeszítenének,
+S nem lennék játéka mindenféle szélnek.</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

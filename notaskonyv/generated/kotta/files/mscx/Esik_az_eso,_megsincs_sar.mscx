@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1466,6 +1466,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1747,6 +1749,11 @@
           </Chord>
         </Measure>
       <Measure number="5">
+        <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Harmony>
           <root>14</root>
           <extension>16</extension>
@@ -1959,6 +1966,7 @@
           </Chord>
         </Measure>
       <Measure number="8">
+        <endRepeat>2</endRepeat>
         <Harmony>
           <root>14</root>
           <extension>16</extension>
@@ -2002,10 +2010,27 @@
           <durationType>quarter</durationType>
           </Rest>
         <BarLine>
-          <subtype>end</subtype>
+          <subtype>end-repeat</subtype>
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Esik az eső, mégsincs sár,
+Csak a babám udvarán!
+Elhordanám, de nincs annyi erőm,
+Mással csalogat a szeretőm!
+
+Föl van a lovam nyergelve,
+Én ülök a nyeregbe!
+Én ülök a szeretőm ölibe,
+Másnak kacsingat a szemébe!
+Én ülök a szeretőm ölibe
+Te meg babám elmehetsz a fenébe!</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

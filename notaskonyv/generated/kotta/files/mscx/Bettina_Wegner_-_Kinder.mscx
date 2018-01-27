@@ -302,10 +302,7 @@
         </Measure>
       <Measure number="6">
         <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           </Rest>
         <Harmony>
           <root>15</root>
@@ -382,10 +379,7 @@
             </Note>
           </Chord>
         <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           </Rest>
         </Measure>
       <Measure number="9">
@@ -463,10 +457,7 @@
         </Measure>
       <Measure number="11">
         <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           </Rest>
         <Harmony>
           <root>12</root>
@@ -619,10 +610,7 @@
         </Measure>
       <Measure number="16">
         <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           </Rest>
         <Harmony>
           <root>12</root>
@@ -711,14 +699,26 @@
             </Note>
           </Chord>
         <Rest>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           </Rest>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>kön</text>
+            </Lyrics>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
         </Measure>
       <Measure number="19">
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text>können</text>
+            <syllabic>end</syllabic>
+            <text>nen</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -777,7 +777,12 @@
         <height>1</height>
         <Text>
           <style>Frame</style>
-          <text>Sind so kleine Ohren, scharf - und ihr erlaubt:
+          <text>Sind so kleine Hände, winz'ge Finger dran.
+Darf man nie drauf schlagen, die zerbrechen dann.
+Sind so kleine Füße, mit so kleinen Zehn.
+Darf man nie drauf treten, könn' sie sonst nicht gehn.
+
+Sind so kleine Ohren, scharf - und ihr erlaubt:
 Darf man nie zerbrüllen, werden davon taub.
 Sind so schöne Münder, sprechen alles aus,
 Darf man nie verbieten, kommt sonst nichts mehr raus.

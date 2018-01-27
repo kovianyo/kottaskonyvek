@@ -53,15 +53,15 @@
           <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1541,10 +1541,8 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -1627,7 +1625,7 @@
       <Measure number="4">
         <breakMultiMeasureRest/>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Lyrics>
             <text><font face="Times New Roman"></font>rám,</text>
             </Lyrics>
@@ -1642,9 +1640,6 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="5">
         <breakMultiMeasureRest/>
@@ -1823,10 +1818,8 @@
       <Measure number="9">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -2025,7 +2018,7 @@
           <Lyrics>
             <no>1</no>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>kad!</text>
+            <text><font face="Times New Roman"></font>kad!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2051,10 +2044,8 @@
       <Measure number="17">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -2112,7 +2103,7 @@
       <Measure number="20">
         <breakMultiMeasureRest/>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Lyrics>
             <text><font face="Times New Roman"></font>ját</text>
             </Lyrics>
@@ -2122,17 +2113,12 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="21">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -2227,10 +2213,8 @@
       <Measure number="24">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -2288,7 +2272,7 @@
       <Measure number="27">
         <breakMultiMeasureRest/>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Lyrics>
             <text><font face="Times New Roman"></font>ván,</text>
             </Lyrics>
@@ -2298,17 +2282,12 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="28">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -2401,7 +2380,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>mert</text>
+            <text><font face="Times New Roman"/>mert</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2414,6 +2393,10 @@
         <breakMultiMeasureRest/>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>ma</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
@@ -2422,6 +2405,10 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>gát</text>
+            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>63</pitch>
@@ -2436,7 +2423,7 @@
           <Beam>5</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>sze</text>
+            <text><font face="Times New Roman"/>sze</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2471,7 +2458,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>tem.</text>
+            <text><font face="Times New Roman"/>tem!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2483,10 +2470,8 @@
       <Measure number="33">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>

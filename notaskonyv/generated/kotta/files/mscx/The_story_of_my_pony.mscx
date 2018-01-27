@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1554,7 +1554,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>16th</durationType>
+          <durationType>eighth</durationType>
           <Beam>1</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>is</text>
@@ -1565,7 +1565,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>1</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>the</text>
@@ -1623,7 +1623,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>2</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>po</text>
@@ -1634,11 +1633,20 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
-          <Beam>2</Beam>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ny,</text>
+            <text><font face="Times New Roman"/>ny,</text>
+            </Lyrics>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Lyrics>
+            <text>the</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -1657,11 +1665,12 @@
         <Beam id="3">
           </Beam>
         <Chord>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>the sto</text>
+            <text>sto</text>
             </Lyrics>
           <Note>
             <pitch>62</pitch>
@@ -1669,11 +1678,11 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ry</text>
+            <text>ry</text>
             </Lyrics>
           <Note>
             <pitch>62</pitch>
@@ -1682,7 +1691,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>3</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>of</text>
             </Lyrics>
@@ -1693,7 +1701,6 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Beam>3</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>my</text>
             </Lyrics>
@@ -1770,7 +1777,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>16th</durationType>
+          <durationType>eighth</durationType>
           <Beam>5</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>is</text>
@@ -1781,7 +1788,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>5</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>the</text>

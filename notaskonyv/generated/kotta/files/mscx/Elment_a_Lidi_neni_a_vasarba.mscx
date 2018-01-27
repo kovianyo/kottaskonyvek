@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1460,8 +1460,6 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       </PageList>
     <Part>
@@ -1507,6 +1505,7 @@
         </VBox>
       <Measure number="1">
         <breakMultiMeasureRest/>
+        <stretch>0.9</stretch>
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -1627,6 +1626,7 @@
         </Measure>
       <Measure number="2">
         <breakMultiMeasureRest/>
+        <stretch>0.9</stretch>
         <Harmony>
           <root>15</root>
           <extension>1</extension>
@@ -1682,9 +1682,7 @@
         </Measure>
       <Measure number="3">
         <breakMultiMeasureRest/>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+        <stretch>0.9</stretch>
         <Harmony>
           <root>14</root>
           <extension>16</extension>
@@ -1719,7 +1717,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ja!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ja!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1730,6 +1728,7 @@
         </Measure>
       <Measure number="4">
         <breakMultiMeasureRest/>
+        <stretch>0.9</stretch>
         <Harmony>
           <root>11</root>
           <extension>1</extension>
@@ -1787,6 +1786,7 @@
         </Measure>
       <Measure number="5">
         <breakMultiMeasureRest/>
+        <stretch>0.9</stretch>
         <Harmony>
           <root>12</root>
           <extension>1</extension>
@@ -1842,6 +1842,7 @@
         </Measure>
       <Measure number="6">
         <breakMultiMeasureRest/>
+        <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1878,7 +1879,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ja!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ja!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1898,7 +1899,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>Ba</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>Ba</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1922,7 +1923,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>já</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>já</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1934,7 +1935,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ba'</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ba'</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2198,7 +2199,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ja!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ja!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

@@ -52,15 +52,15 @@
           <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1860,7 +1860,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ta,</text>
+            <text><font face="Times New Roman"/>ta!</text>
             </Lyrics>
           <Note>
             <pitch>62</pitch>
@@ -2210,7 +2210,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ta!</text>
+            <text><font face="Times New Roman"></font>ta!</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -2731,7 +2731,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>let!</text>
+            <text><font face="Times New Roman"></font>let!</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -2751,7 +2751,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Frame</style>
-          <text><font size="13"></font><font face="Times New Roman"></font>Fürgébb, mint a könnyű szél,
+          <text><font size="13"/><font face="Times New Roman"/>Fürgébb, mint a könnyű szél,
 Gyorsan jár és messze ér,
 Nincs túra, ami kifog rajta.
 Hívja erdő nyári rét,

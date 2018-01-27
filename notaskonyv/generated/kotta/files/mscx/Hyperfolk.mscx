@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
-          <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notee" value="e"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -2956,7 +2956,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>forth.</text>
+            <text><font face="Times New Roman"/>forth.</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -2983,10 +2983,8 @@
           <durationType>eighth</durationType>
           <Beam>23</Beam>
           <Lyrics>
-            <no>1</no>
             <syllabic>begin</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>Eve</text>
+            <text>Eve</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -2997,10 +2995,8 @@
           <durationType>eighth</durationType>
           <Beam>23</Beam>
           <Lyrics>
-            <no>1</no>
             <syllabic>middle</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>ry</text>
+            <text>ry</text>
             </Lyrics>
           <Note>
             <pitch>65</pitch>
@@ -3011,10 +3007,8 @@
           <durationType>eighth</durationType>
           <Beam>23</Beam>
           <Lyrics>
-            <no>1</no>
             <syllabic>middle</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>bo</text>
+            <text>bo</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -3025,10 +3019,8 @@
           <durationType>eighth</durationType>
           <Beam>23</Beam>
           <Lyrics>
-            <no>1</no>
             <syllabic>end</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>dy's</text>
+            <text>dy's</text>
             </Lyrics>
           <Note>
             <pitch>65</pitch>
@@ -3041,10 +3033,8 @@
           <durationType>eighth</durationType>
           <Beam>24</Beam>
           <Lyrics>
-            <no>1</no>
             <syllabic>begin</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>mo</text>
+            <text>mo</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -3055,10 +3045,8 @@
           <durationType>eighth</durationType>
           <Beam>24</Beam>
           <Lyrics>
-            <no>1</no>
             <syllabic>end</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>vin'</text>
+            <text>vin'</text>
             </Lyrics>
           <Note>
             <pitch>59</pitch>
@@ -3068,9 +3056,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>on</text>
+            <text>on</text>
             </Lyrics>
           <Note>
             <pitch>59</pitch>
@@ -3088,9 +3074,7 @@
           <durationType>eighth</durationType>
           <Beam>25</Beam>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>with</text>
+            <text>with</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -3101,9 +3085,7 @@
           <durationType>eighth</durationType>
           <Beam>25</Beam>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>the</text>
+            <text>the</text>
             </Lyrics>
           <Note>
             <pitch>65</pitch>
@@ -3114,10 +3096,8 @@
           <durationType>eighth</durationType>
           <Beam>25</Beam>
           <Lyrics>
-            <no>1</no>
             <syllabic>begin</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>rhy</text>
+            <text>rhy</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -3128,10 +3108,8 @@
           <durationType>eighth</durationType>
           <Beam>25</Beam>
           <Lyrics>
-            <no>1</no>
             <syllabic>end</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>thm</text>
+            <text>thm</text>
             </Lyrics>
           <Note>
             <pitch>65</pitch>
@@ -3144,9 +3122,8 @@
           <durationType>eighth</durationType>
           <Beam>26</Beam>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>go</text>
+            <syllabic>begin</syllabic>
+            <text>go</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -3157,9 +3134,8 @@
           <durationType>eighth</durationType>
           <Beam>26</Beam>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>ing</text>
+            <syllabic>end</syllabic>
+            <text>ing</text>
             </Lyrics>
           <Note>
             <pitch>59</pitch>
@@ -3169,9 +3145,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>on</text>
+            <text>on,</text>
             </Lyrics>
           <Note>
             <pitch>59</pitch>
@@ -3186,9 +3160,7 @@
           <durationType>eighth</durationType>
           <Beam>27</Beam>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>back</text>
+            <text>bakc</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -3199,9 +3171,7 @@
           <durationType>eighth</durationType>
           <Beam>27</Beam>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>and</text>
+            <text>and</text>
             </Lyrics>
           <Note>
             <pitch>65</pitch>
@@ -3211,9 +3181,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>forth,</text>
+            <text>forth,</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -3226,9 +3194,7 @@
           <durationType>eighth</durationType>
           <Beam>28</Beam>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>up</text>
+            <text>up</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -3239,9 +3205,7 @@
           <durationType>eighth</durationType>
           <Beam>28</Beam>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>and</text>
+            <text>and</text>
             </Lyrics>
           <Note>
             <pitch>65</pitch>
@@ -3251,9 +3215,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>down,</text>
+            <text>down,</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -3268,10 +3230,8 @@
           <durationType>eighth</durationType>
           <Beam>29</Beam>
           <Lyrics>
-            <no>1</no>
             <syllabic>begin</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>dan</text>
+            <text>dan</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -3282,10 +3242,8 @@
           <durationType>eighth</durationType>
           <Beam>29</Beam>
           <Lyrics>
-            <no>1</no>
             <syllabic>end</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>cing</text>
+            <text>cing</text>
             </Lyrics>
           <Note>
             <pitch>65</pitch>
@@ -3296,9 +3254,7 @@
           <durationType>eighth</durationType>
           <Beam>29</Beam>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>to</text>
+            <text>to</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -3309,9 +3265,7 @@
           <durationType>eighth</durationType>
           <Beam>29</Beam>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>the</text>
+            <text>the</text>
             </Lyrics>
           <Note>
             <pitch>65</pitch>
@@ -3321,9 +3275,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"></font>sound.</text>
+            <text>sound.</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>

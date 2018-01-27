@@ -47,16 +47,16 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1462,6 +1462,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -2184,7 +2186,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ló!</text>
+            <text><font face="Times New Roman"></font>ló!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2204,6 +2206,41 @@
             </Note>
           </Chord>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Eljött a hajnal, elébe mentem,
+Ó bella ciao, bella ciao, bella ciao, ciao, ciao,
+Eljött a hajnal, elébe mentem,
+És rámtalált a megszálló!
+
+Ha partizán vagy, vigyél el innen,
+Ó bella ciao, bella ciao, bella ciao, ciao, ciao,
+Ha partizán vagy, vigyél el innen,
+Mert már érzem, meghalok!
+
+Ha meghalok ma, mint annyi társam,
+Ó bella ciao, bella ciao, bella ciao, ciao, ciao,
+Ha meghalok ma, mint annyi társam,
+Légy te az, ki eltemet!
+
+A hegyvidéken temess el engem,
+Ó bella ciao, bella ciao, bella ciao, ciao, ciao,
+A hegyvidéken temess el engem,
+Legyen virág a síromon!
+
+Az arra járó, ha megcsodálja,
+Ó bella ciao, bella ciao, bella ciao, ciao, ciao,
+Az arra járó, ha megcsodálja,
+Mondja azt, hogy szép virág!
+
+Az ő virága, a partizáné,
+Ó bella ciao, bella ciao, bella ciao, ciao, ciao,
+Az ő virága, a partizáné,
+Ki a szabadságért halt meg!</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

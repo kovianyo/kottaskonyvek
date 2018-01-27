@@ -48,15 +48,15 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -2021,7 +2021,7 @@
           <Beam>9</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>la</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>la</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2721,7 +2721,7 @@
           <Beam>23</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>la</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>la</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2733,7 +2733,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>la,</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>la,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3032,11 +3032,22 @@
       <Measure number="19">
         <breakMultiMeasureRest/>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>Got</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>Got</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>no</text>
+            </Lyrics>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -3049,7 +3060,8 @@
           <durationType>eighth</durationType>
           <Beam>29</Beam>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>nowhere</text>
+            <syllabic>end</syllabic>
+            <text>where</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

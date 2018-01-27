@@ -44,16 +44,16 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1670,7 +1670,14 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -2526,7 +2533,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>nek,</text>
+            <text><font face="Times New Roman"/>nek!</text>
             </Lyrics>
           <Note>
             <pitch>67</pitch>
@@ -2538,7 +2545,12 @@
           </Rest>
         </Measure>
       <Measure number="13">
+        <startRepeat/>
         <stretch>0.8</stretch>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Harmony>
           <root>14</root>
           <extension>16</extension>
@@ -2843,6 +2855,7 @@
           </Chord>
         </Measure>
       <Measure number="16">
+        <endRepeat>2</endRepeat>
         <stretch>0.8</stretch>
         <Harmony>
           <root>14</root>
@@ -2876,7 +2889,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>lok!</text>
+            <text><font face="Times New Roman"></font>lok!</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -2887,7 +2900,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <BarLine>
-          <subtype>end</subtype>
+          <subtype>end-repeat</subtype>
           <span>1</span>
           </BarLine>
         </Measure>
@@ -2896,10 +2909,13 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Frame</style>
-          <text><font size="11"></font><font face="Times New Roman"></font>Ablakomba besütött a holdvilág,
+          <text>A kocsmába én már többet nem megyek,
+Attól félek, sok a cigány, megvernek!
+Álljatok ki kis paszabi híres cigányok,
+Százan vagytok, én egyedül kiállok!
+
+<font face="Times New Roman"/>Ablakomba besütött a holdvilág,
 Az én romnyim abban fésüli magát,
-Fésüld romnyim göndör hajad, hej de simára,
-Este megyünk ketten a cigánybálba.
 Fésüld romnyim göndör hajad, hej de simára,
 Este megyünk ketten a cigánybálba.
 
@@ -2907,8 +2923,7 @@ Azért vagyok, hogy én veletek legyek,
 Azért, hogy a szívem boldogabb legyen,
 Nem baj, hogyha mindig, mindig rosszat csinálok,
 Csak azért is szeretem a családom.
-Nem baj, hogyha mindig, mindig rosszat csinálok,
-Csak azért is szeretem a családom.</text>
+</text>
           </Text>
         </VBox>
       </Staff>

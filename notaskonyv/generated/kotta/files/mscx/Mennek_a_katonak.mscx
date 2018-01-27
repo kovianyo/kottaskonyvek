@@ -52,15 +52,15 @@
           <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1855,7 +1855,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>ját!</text>
+            <text><font face="Times New Roman"></font>ját!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1957,7 +1957,7 @@
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>ket</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -2006,7 +2006,7 @@
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>ják</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -2016,6 +2016,7 @@
       <Measure number="10">
         <breakMultiMeasureRest/>
         <Beam id="8">
+          <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -2121,6 +2122,7 @@
           <name>m</name>
           </Harmony>
         <Beam id="9">
+          <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -2150,6 +2152,7 @@
             </Note>
           </Chord>
         <Beam id="10">
+          <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <durationType>eighth</durationType>
@@ -2186,7 +2189,7 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>hajt</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -2336,6 +2339,7 @@
             </Note>
           </Chord>
         <Beam id="14">
+          <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -2396,6 +2400,7 @@
       <Measure number="19">
         <breakMultiMeasureRest/>
         <Jump>
+          <pos x="0" y="-1.15547"/>
           <style>Repeat Text Right</style>
           <text><font face="Times New Roman"></font>D.C. al Fine</text>
           <jumpTo>start</jumpTo>

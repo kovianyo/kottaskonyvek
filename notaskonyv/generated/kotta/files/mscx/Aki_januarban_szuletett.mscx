@@ -45,15 +45,15 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1555,7 +1555,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ki</text>
+            <text><font face="Times New Roman"></font>ki</text>
             </Lyrics>
           <Note>
             <pitch>67</pitch>
@@ -1564,6 +1564,7 @@
           </Chord>
         </Measure>
       <Measure number="2">
+        <startRepeat/>
         <Harmony>
           <root>14</root>
           <extension>1</extension>
@@ -1705,6 +1706,51 @@
         </Measure>
       <Measure number="5">
         <endRepeat>2</endRepeat>
+        <Harmony>
+          <root>14</root>
+          <extension>1</extension>
+          </Harmony>
+        <Volta id="2">
+          <endHook>1</endHook>
+          <beginText>
+            <text>1.</text>
+            </beginText>
+          <endings>1</endings>
+          </Volta>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <text><font face="Times New Roman"></font>fel!</text>
+            </Lyrics>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>A</text>
+            </Lyrics>
+          <Note>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font face="Times New Roman"></font>ki</text>
+            </Lyrics>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="6">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1712,6 +1758,18 @@
           <root>14</root>
           <extension>1</extension>
           </Harmony>
+        <endSpanner id="2"/>
+        <Volta id="3">
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0.985289" y="-0.422267"/>
+            </Segment>
+          <beginText>
+            <text>2.</text>
+            </beginText>
+          <endings>2</endings>
+          </Volta>
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
@@ -1723,11 +1781,12 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="6">
+      <Measure number="7">
         <Harmony>
           <root>14</root>
           <extension>1</extension>
           </Harmony>
+        <endSpanner id="3"/>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
@@ -1749,7 +1808,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="7">
+      <Measure number="8">
         <Harmony>
           <root>15</root>
           <extension>1</extension>
@@ -1806,7 +1865,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="8">
+      <Measure number="9">
         <Harmony>
           <root>14</root>
           <extension>1</extension>
@@ -1832,7 +1891,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="9">
+      <Measure number="10">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1892,7 +1951,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="10">
+      <Measure number="11">
         <Harmony>
           <root>14</root>
           <extension>1</extension>
@@ -1948,7 +2007,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="11">
+      <Measure number="12">
         <Harmony>
           <root>15</root>
           <extension>1</extension>
@@ -1991,7 +2050,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="12">
+      <Measure number="13">
         <Harmony>
           <root>14</root>
           <extension>1</extension>
@@ -2049,7 +2108,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="13">
+      <Measure number="14">
         <Harmony>
           <root>15</root>
           <extension>1</extension>
@@ -2077,7 +2136,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="14">
+      <Measure number="15">
         <Harmony>
           <root>14</root>
           <extension>1</extension>

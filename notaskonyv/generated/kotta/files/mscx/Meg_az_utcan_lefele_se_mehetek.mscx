@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1537,6 +1537,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
         <Beam id="1">
           </Beam>
         <Chord>
@@ -1546,6 +1549,7 @@
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>az</text>
             </Lyrics>
+          <Slur type="start" id="2"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>77</pitch>
@@ -1556,6 +1560,7 @@
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
           <Beam>1</Beam>
+          <Slur type="stop" id="2"/>
           <StemDirection>down</StemDirection>
           <Note>
             <Accidental>
@@ -1733,6 +1738,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Slur id="3">
+          <track>0</track>
+          </Slur>
         <Beam id="2">
           </Beam>
         <Chord>
@@ -1742,6 +1750,7 @@
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>azt</text>
             </Lyrics>
+          <Slur type="start" id="3"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>77</pitch>
@@ -1752,6 +1761,7 @@
           <BeamMode>end</BeamMode>
           <durationType>16th</durationType>
           <Beam>2</Beam>
+          <Slur type="stop" id="3"/>
           <StemDirection>down</StemDirection>
           <Note>
             <Accidental>
@@ -1898,7 +1908,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>sek!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>sek!</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2248,7 +2258,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ja!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ja!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

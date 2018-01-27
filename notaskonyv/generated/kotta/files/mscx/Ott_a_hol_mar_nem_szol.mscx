@@ -52,15 +52,15 @@
           <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1765,7 +1765,7 @@
             <syllabic>begin</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>szá</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -1777,7 +1777,7 @@
             <syllabic>end</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>zad,</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -1795,6 +1795,7 @@
           <extension>1</extension>
           </Harmony>
         <Beam id="4">
+          <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -1858,7 +1859,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>hó!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>hó!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1942,7 +1943,7 @@
             <syllabic>begin</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>temp</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -1954,7 +1955,7 @@
             <syllabic>end</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>lom</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -1969,6 +1970,7 @@
           <extension>1</extension>
           </Harmony>
         <Beam id="6">
+          <StemDirection>down</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -2211,7 +2213,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>véd!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>véd!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

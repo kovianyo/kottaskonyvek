@@ -46,15 +46,15 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1466,6 +1466,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1914,7 +1916,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>zán!</text>
+            <text><font face="Times New Roman"></font>zán!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2359,11 +2361,23 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <BarLine>
-          <subtype>end-repeat</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Azt hallottam picike babám, 
+Hogy te engem nem szeredtél soha igazán!
+Pedig én tégedet nagyon szeretlek, 
+Gyere vissza, gyógyítsd meg a fájó szívemet!
+
+Azt hallottam, el akarsz menni, 
+Új szeretőt, jobb szeretőt akarsz keresni!
+Ne menj el, maradj itt, picike babám, 
+Mert tégedet nem szeret így senki igazán!
+</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

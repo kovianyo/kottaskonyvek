@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1461,6 +1461,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -2234,7 +2236,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ja!</text>
+            <text><font face="Times New Roman"></font>ja!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2246,6 +2248,22 @@
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Jaj de nagyon régen volt, de soká lesz,
+Mikor nékem göndör hajú babám lesz!
+Göndör a haja, karcsú a dereka,
+Megölelném, de ő azt nem akarja!
+
+Ha befogom az ostoromat nyolc ágra,
+Rávágok a kis pejlovam hátára!
+Fújja a szél lefelé, lefelé, de lefelé,
+Látod, babám, nem igazán szerettél!
+</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

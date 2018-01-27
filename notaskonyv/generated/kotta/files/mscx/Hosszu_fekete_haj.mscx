@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1657,10 +1657,8 @@
       <Measure number="4">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -1781,10 +1779,8 @@
       <Measure number="8">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -1888,10 +1884,8 @@
       <Measure number="12">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -2004,10 +1998,8 @@
       <Measure number="16">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -2146,10 +2138,8 @@
       <Measure number="20">
         <breakMultiMeasureRest/>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
@@ -2294,13 +2284,22 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>Olyan</text>
+            <syllabic>begin</syllabic>
+            <text>O</text>
+            </Lyrics>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>lyan</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2963,7 +2962,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ma</text>
+            <text><font face="Times New Roman"/>ma</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2979,8 +2978,20 @@
           <extension>16</extension>
           <name>m</name>
           </Harmony>
+        <Slur id="4">
+          <track>0</track>
+          <SlurSegment no="0">
+            <o2 x="0" y="-0.656635"/>
+            <o3 x="0" y="-0.656635"/>
+            </SlurSegment>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>gam!</text>
+            </Lyrics>
+          <Slur type="start" id="4"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>63</pitch>
@@ -2989,10 +3000,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>gam!</text>
-            </Lyrics>
+          <Slur type="stop" id="4"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>

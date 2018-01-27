@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1758,6 +1758,11 @@
           </Harmony>
         <Volta id="2">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font size="10.7317"></font><font face="Times New Roman"></font><b>1</b></text>
             </beginText>
@@ -1779,7 +1784,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ze,</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ze,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1801,6 +1806,11 @@
         <endSpanner id="2"/>
         <Volta id="3">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font size="10.7317"></font><font face="Times New Roman"></font><b>2</b></text>
             </beginText>
@@ -1811,7 +1821,7 @@
           <Lyrics>
             <no>1</no>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"/><font face="Times New Roman"/>dort!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>dort!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2219,6 +2229,11 @@
           </Harmony>
         <Volta id="6">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font size="10.7317"></font><font face="Times New Roman"></font><b>1</b></text>
             </beginText>
@@ -2227,7 +2242,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>See!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>See!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2257,6 +2272,12 @@
           </Harmony>
         <endSpanner id="6"/>
         <Volta id="7">
+          <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font size="10.7317"></font><font face="Times New Roman"></font><b>2</b></text>
             </beginText>
@@ -2265,7 +2286,7 @@
         <Chord>
           <durationType>whole</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>See!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>See!</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>

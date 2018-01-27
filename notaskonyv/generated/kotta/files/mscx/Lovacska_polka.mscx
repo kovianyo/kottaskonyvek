@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -2450,7 +2450,7 @@
       <Measure number="19">
         <startRepeat/>
         <breakMultiMeasureRest/>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <KeySig>
           <accidental>-3</accidental>
           </KeySig>
@@ -2511,7 +2511,7 @@
         </Measure>
       <Measure number="20">
         <breakMultiMeasureRest/>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
@@ -2526,7 +2526,7 @@
         </Measure>
       <Measure number="21">
         <breakMultiMeasureRest/>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <Harmony>
           <root>10</root>
           <extension>1</extension>
@@ -2579,7 +2579,7 @@
         </Measure>
       <Measure number="22">
         <breakMultiMeasureRest/>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
@@ -2594,7 +2594,7 @@
         </Measure>
       <Measure number="23">
         <breakMultiMeasureRest/>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <Harmony>
           <root>12</root>
           <extension>1</extension>
@@ -2666,7 +2666,7 @@
         </Measure>
       <Measure number="24">
         <breakMultiMeasureRest/>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <Beam id="31">
           </Beam>
         <Chord>
@@ -2724,7 +2724,7 @@
         </Measure>
       <Measure number="25">
         <breakMultiMeasureRest/>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <Harmony>
           <root>11</root>
           <extension>1</extension>
@@ -2784,7 +2784,7 @@
       <Measure number="26">
         <endRepeat>2</endRepeat>
         <breakMultiMeasureRest/>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <Beam id="35">
           </Beam>
         <Chord>
@@ -2818,7 +2818,7 @@
         </Measure>
       <Measure number="27">
         <breakMultiMeasureRest/>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <Harmony>
           <root>11</root>
           <extension>1</extension>
@@ -2857,7 +2857,7 @@
         </Measure>
       <Measure number="28">
         <breakMultiMeasureRest/>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <Harmony>
           <root>11</root>
           <extension>1</extension>
@@ -2870,11 +2870,22 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
         <Rest>
           <durationType>eighth</durationType>
-          </Rest>
-        <Rest>
-          <durationType>quarter</durationType>
           </Rest>
         <BarLine>
           <subtype>end</subtype>

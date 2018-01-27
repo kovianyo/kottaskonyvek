@@ -44,17 +44,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1469,6 +1469,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1996,7 +1998,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>je!</text>
+            <text><font face="Times New Roman"></font>je!</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -2270,10 +2272,10 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>e</text>
+            <text><font face="Times New Roman"/>e</text>
             </Lyrics>
           <Note>
             <pitch>63</pitch>
@@ -2281,10 +2283,11 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lől,</text>
+            <text>lől,</text>
             </Lyrics>
           <Note>
             <pitch>67</pitch>
@@ -2473,7 +2476,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>rul!</text>
+            <text><font face="Times New Roman"></font>rul!</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -2485,6 +2488,31 @@
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Ezek a szép szász leányok kihúzós kendőbe járnak,
+Ki van húzva a kendőjek, elhagyta a szeretőjek,
+Illik a tánc a cudarnak, minden rongya lobog annak, 
+Lobog elől, lobog hátul, lobog minden oldalárúl! 
+
+A kisasszony azt hiszi, hogy a betyár elveszi, 
+Ne higgye el előre, semmi válik belőle! 
+A kisasszony piperéz, mindig a tükörbe néz, 
+a kisasszony gyenge teste megkívánja minden este. 
+
+Szerettelek, nem kellesz már, szidott anyád, ne szidjon már! 
+Nem fog engem meg az átka, szálljon a maga nyakába! 
+Nem kívánok egyéb átkot, egyél meg egy véka mákot, 
+Addig élj, amíg megeszed, minden napra egy-egy szemet! 
+
+Éjjel-nappal mindig iszom, soha ki nem fogyatkozom. 
+Árok, árok, keskeny árok, nem reméltem, hogy így járok! 
+Beleestem, benne vagyok, a búbánat rabja vagyok, 
+Beleestem, benne vagyok, nem láthatok, nem hallhatok!</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

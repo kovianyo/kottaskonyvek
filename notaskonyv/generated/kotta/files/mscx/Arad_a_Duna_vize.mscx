@@ -47,15 +47,15 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1732,7 +1732,7 @@
           <Beam>4</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>te</text>
+            <text><font face="Times New Roman"></font>te</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1750,7 +1750,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>ten</text>
+            <text><font face="Times New Roman"></font>ten</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2044,7 +2044,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>be',</text>
+            <text><font face="Times New Roman"/>be'!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2552,7 +2552,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>je.</text>
+            <text><font face="Times New Roman"/>je!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

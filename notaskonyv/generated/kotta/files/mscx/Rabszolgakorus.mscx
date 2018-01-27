@@ -9,7 +9,7 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <lyricsDistance>3</lyricsDistance>
+      <lyricsDistance>3.5</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -52,15 +52,15 @@
           <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1529,7 +1529,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"/>Rabszolgakórus</text>
+          <text><font face="Times New Roman"></font>Rabszolgakórus</text>
           </Text>
         <Text>
           <style>Composer</style>
@@ -2065,6 +2065,10 @@
           </Harmony>
         <Slur id="7">
           <track>0</track>
+          <SlurSegment no="0">
+            <o2 x="1.16327" y="-0.951765"/>
+            <o3 x="1.16327" y="-0.951765"/>
+            </SlurSegment>
           </Slur>
         <Beam id="3">
           </Beam>
@@ -2218,7 +2222,7 @@
           <dots>1</dots>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>táj.</text>
+            <text><font face="Times New Roman"/>táj!</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -2383,6 +2387,10 @@
           </Harmony>
         <Slur id="10">
           <track>0</track>
+          <SlurSegment no="0">
+            <o2 x="0.211503" y="-0.740262"/>
+            <o3 x="0.211503" y="-0.740262"/>
+            </SlurSegment>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
@@ -2596,6 +2604,10 @@
           </Harmony>
         <Slur id="11">
           <track>0</track>
+          <SlurSegment no="0">
+            <o2 x="-0.0722298" y="-1.15568"/>
+            <o3 x="-0.0722298" y="-1.15568"/>
+            </SlurSegment>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
@@ -2627,7 +2639,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>be.</text>
+            <text><font face="Times New Roman"/>be!</text>
             </Lyrics>
           <Note>
             <pitch>55</pitch>
