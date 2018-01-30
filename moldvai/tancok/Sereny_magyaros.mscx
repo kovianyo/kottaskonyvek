@@ -114,10 +114,6 @@
           <style>Title</style>
           <text>Serény magyaros</text>
           </Text>
-        <Text>
-          <style>Composer</style>
-          <text>Composer</text>
-          </Text>
         </VBox>
       <Measure number="1">
         <startRepeat/>
@@ -133,6 +129,7 @@
         <Tempo>
           <tempo>3</tempo>
           <followText>1</followText>
+          <visible>0</visible>
           <text><sym>unicodeNoteQuarterUp</sym> = 180</text>
           </Tempo>
         <Chord>
@@ -527,6 +524,12 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <endSpanner id="2"/>
+        <Volta id="3">
+          <beginText>
+            <text>2.</text>
+            </beginText>
+          <endings>2</endings>
+          </Volta>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -572,6 +575,7 @@
           <subtype>start-repeat</subtype>
           <span>1</span>
           </BarLine>
+        <endSpanner id="3"/>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -712,7 +716,7 @@
         </Measure>
       <Measure number="13">
         <endRepeat>2</endRepeat>
-        <Volta id="3">
+        <Volta id="4">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
@@ -766,7 +770,14 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <endSpanner id="3"/>
+        <endSpanner id="4"/>
+        <Volta id="5">
+          <endHook>1</endHook>
+          <beginText>
+            <text>2.</text>
+            </beginText>
+          <endings>2</endings>
+          </Volta>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -809,6 +820,7 @@
           <subtype>end</subtype>
           <span>1</span>
           </BarLine>
+        <endSpanner id="5"/>
         </Measure>
       </Staff>
     </Score>
