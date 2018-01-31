@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -2037,7 +2037,7 @@
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -2155,7 +2155,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <Tie id="10">
               </Tie>
@@ -2165,7 +2165,7 @@
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <endSpanner id="10"/>
             <pitch>67</pitch>
@@ -2246,6 +2246,7 @@
             </Note>
           </Chord>
         <Beam id="11">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -2293,6 +2294,7 @@
           <durationType>half</durationType>
           </Rest>
         <Beam id="12">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -2318,6 +2320,7 @@
             </Note>
           </Chord>
         <Beam id="13">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -2350,7 +2353,7 @@
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2778,10 +2781,8 @@
             </Note>
           </Chord>
         <Rest>
+          <dots>1</dots>
           <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
           </Rest>
         <Beam id="22">
           </Beam>
@@ -2985,13 +2986,14 @@
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
           </Chord>
         <Beam id="26">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -3228,7 +3230,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -3244,7 +3246,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -3307,6 +3309,7 @@
           <extension>1</extension>
           </Harmony>
         <Beam id="33">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -3345,6 +3348,7 @@
           <name>m</name>
           </Harmony>
         <Beam id="34">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -3355,6 +3359,7 @@
           <Note>
             <pitch>68</pitch>
             <tpc>10</tpc>
+            <dotPosition>down</dotPosition>
             </Note>
           </Chord>
         <Chord>
@@ -3368,6 +3373,7 @@
             </Note>
           </Chord>
         <Beam id="35">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -3395,6 +3401,7 @@
           <name>m</name>
           </Harmony>
         <Beam id="36">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -3489,7 +3496,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -3513,7 +3520,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -3529,7 +3536,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -3592,6 +3599,7 @@
           <extension>1</extension>
           </Harmony>
         <Beam id="40">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -3630,6 +3638,7 @@
           <name>m</name>
           </Harmony>
         <Beam id="41">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -3640,6 +3649,7 @@
           <Note>
             <pitch>68</pitch>
             <tpc>10</tpc>
+            <dotPosition>down</dotPosition>
             </Note>
           </Chord>
         <Chord>
@@ -3653,6 +3663,7 @@
             </Note>
           </Chord>
         <Beam id="42">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -3680,6 +3691,7 @@
           <name>m</name>
           </Harmony>
         <Beam id="43">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -4065,6 +4077,7 @@
           <extension>1</extension>
           </Harmony>
         <Beam id="47">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -4245,6 +4258,7 @@
           <name>m</name>
           </Harmony>
         <Beam id="51">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -4287,6 +4301,7 @@
             </Note>
           </Chord>
         <Beam id="52">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -4334,6 +4349,7 @@
           <name>m</name>
           </Harmony>
         <Beam id="53">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -4672,6 +4688,7 @@
           <extension>1</extension>
           </Harmony>
         <Beam id="60">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -4852,6 +4869,7 @@
           <name>m</name>
           </Harmony>
         <Beam id="64">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -4894,6 +4912,7 @@
             </Note>
           </Chord>
         <Beam id="65">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -4941,6 +4960,7 @@
           <name>m</name>
           </Harmony>
         <Beam id="66">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
