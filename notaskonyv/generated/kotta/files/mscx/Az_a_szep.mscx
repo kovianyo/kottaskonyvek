@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1636,9 +1636,8 @@
             </Note>
           </Chord>
         <Chord>
-          <BeamMode>mid</BeamMode>
+          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>3</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>nek</text>
@@ -1652,7 +1651,6 @@
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>3</Beam>
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>a</text>
             </Lyrics>
@@ -1807,7 +1805,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>kék!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>kék!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1830,7 +1828,7 @@
           <durationType>eighth</durationType>
           <Beam>5</Beam>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>Lám</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>Lám,</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1886,7 +1884,7 @@
           <durationType>eighth</durationType>
           <Beam>6</Beam>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>lám</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>lám,</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2142,7 +2140,7 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>szép!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>szép!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

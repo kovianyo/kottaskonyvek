@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1462,6 +1462,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -2231,10 +2233,10 @@
           <name>m</name>
           </Harmony>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>Ju</text>
+            <text><font face="Times New Roman"/>Ju</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2243,12 +2245,12 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>lis</text>
+            <text>lis</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2258,7 +2260,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ka,</text>
+            <text><font face="Times New Roman"/>ka,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2322,6 +2324,26 @@
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Egy asszonynak kilenc a leánya, nem győzi számlálni,
+Minden este kiáll a kapuba s elkezd kiabálni:
+Erzsi, Piri, Sári, Juliska, Rozáli, Ella, Bella, Juci, Karolina,
+Gyertek vacsorálni!
+
+Ha végig megyek a budapesti utcán, kacagnak a lányok,
+Azt kacagják, hogy én mindig csak egyedül járok.
+Kacagjatok lányok, budapesti lányok, meglátnátok a soproni babám,
+Sírva fakadnátok.
+
+Októbernek elsejével el kell masírozni,
+Majd fogsz te még kisangyalom keservesen sírni!
+Semmi, babám semmi, így kell annak lenni,
+Mindenféle bakaszerelemnek vége szokott lenni!</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

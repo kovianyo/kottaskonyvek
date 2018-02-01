@@ -47,22 +47,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -2206,7 +2206,7 @@
           <durationType>eighth</durationType>
           <Beam>13</Beam>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>plum</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>plum,</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2232,7 +2232,7 @@
           <durationType>half</durationType>
           </Rest>
         <BarLine>
-          <subtype>double</subtype>
+          <subtype>normal</subtype>
           <span>1</span>
           </BarLine>
         </Measure>
@@ -2461,6 +2461,10 @@
           </Chord>
         <Slur id="6">
           <track>0</track>
+          <SlurSegment no="0">
+            <o2 x="0.0529473" y="-0.370631"/>
+            <o3 x="0.0529473" y="-0.370631"/>
+            </SlurSegment>
           </Slur>
         <Beam id="19">
           </Beam>
@@ -2879,7 +2883,7 @@
           <durationType>16th</durationType>
           <Beam>26</Beam>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>plum</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>plum,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2920,17 +2924,12 @@
           <durationType>half</durationType>
           </Rest>
         <BarLine>
-          <subtype>double</subtype>
+          <subtype>normal</subtype>
           <span>1</span>
           </BarLine>
         </Measure>
       <Measure number="17">
-        <startRepeat/>
         <breakMultiMeasureRest/>
-        <BarLine>
-          <subtype>start-repeat</subtype>
-          <span>1</span>
-          </BarLine>
         <Harmony>
           <root>14</root>
           <extension>1</extension>
@@ -3034,7 +3033,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>Got</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>Got</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
