@@ -709,21 +709,21 @@
         </Measure>
       <Measure number="8">
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <root>18</root>
+          <pos x="0.703821" y="-0.951593"/>
           </Harmony>
+        <Volta id="4">
+          <endHook>1</endHook>
+          <beginText>
+            <text>1.</text>
+            </beginText>
+          <endings>1</endings>
+          </Volta>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
             <text>eyes</text>
-            </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text>such</text>
             </Lyrics>
           <Note>
             <pitch>74</pitch>
@@ -733,11 +733,6 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text>a</text>
-            </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
             <text>a</text>
             </Lyrics>
           <Note>
@@ -751,12 +746,6 @@
             <syllabic>begin</syllabic>
             <text>fla</text>
             </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>begin</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text>love</text>
-            </Lyrics>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -768,12 +757,6 @@
             <syllabic>end</syllabic>
             <text>ming</text>
             </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <syllabic>end</syllabic>
-            <style>Lyrics Even Lines</style>
-            <text>ly</text>
-            </Lyrics>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -782,16 +765,12 @@
         <Harmony>
           <root>17</root>
           <name>m</name>
+          <pos x="0" y="-1.09236"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
             <text>glow.</text>
-            </Lyrics>
-          <Lyrics>
-            <no>1</no>
-            <style>Lyrics Even Lines</style>
-            <text>dear.</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>
@@ -813,11 +792,98 @@
           </Chord>
         </Measure>
       <Measure number="9">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Harmony>
+          <root>18</root>
+          <pos x="0.422293" y="-0.951593"/>
+          </Harmony>
+        <endSpanner id="4"/>
+        <Volta id="5">
+          <beginText>
+            <text>2.</text>
+            </beginText>
+          <endings>2</endings>
+          </Volta>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <no>1</no>
+            <style>Lyrics Even Lines</style>
+            <text>such</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <no>1</no>
+            <style>Lyrics Even Lines</style>
+            <text>a</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>begin</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>love</text>
+            </Lyrics>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <no>1</no>
+            <syllabic>end</syllabic>
+            <style>Lyrics Even Lines</style>
+            <text>ly</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <root>17</root>
+          <name>m</name>
+          <pos x="0" y="-0.951593"/>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <no>1</no>
+            <style>Lyrics Even Lines</style>
+            <text>dear.</text>
+            </Lyrics>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="10">
         <stretch>0.6</stretch>
         <Harmony>
           <root>17</root>
           <name>m</name>
           </Harmony>
+        <endSpanner id="5"/>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -860,7 +926,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="10">
+      <Measure number="11">
         <stretch>0.6</stretch>
         <Chord>
           <durationType>eighth</durationType>
@@ -927,7 +993,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="11">
+      <Measure number="12">
         <stretch>0.6</stretch>
         <Harmony>
           <root>16</root>
@@ -1000,7 +1066,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="12">
+      <Measure number="13">
         <stretch>0.6</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
@@ -1022,7 +1088,7 @@
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="13">
+      <Measure number="14">
         <Harmony>
           <root>17</root>
           <name>m</name>
@@ -1071,7 +1137,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="14">
+      <Measure number="15">
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -1135,7 +1201,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="15">
+      <Measure number="16">
         <stretch>0.6</stretch>
         <Harmony>
           <root>16</root>
@@ -1188,7 +1254,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="16">
+      <Measure number="17">
         <stretch>0.6</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
@@ -1212,7 +1278,7 @@
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="17">
+      <Measure number="18">
         <startRepeat/>
         <BarLine>
           <subtype>start-repeat</subtype>
@@ -1310,7 +1376,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="18">
+      <Measure number="19">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1443,7 +1509,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="19">
+      <Measure number="20">
         <Harmony>
           <root>15</root>
           </Harmony>
@@ -1532,7 +1598,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="20">
+      <Measure number="21">
         <endRepeat>2</endRepeat>
         <LayoutBreak>
           <subtype>line</subtype>
@@ -1600,7 +1666,7 @@
             <text>on.</text>
             </Lyrics>
           <Note>
-            <Tie id="4">
+            <Tie id="6">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -1609,13 +1675,13 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="4"/>
+            <endSpanner id="6"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="21">
+      <Measure number="22">
         <Harmony>
           <root>17</root>
           <name>m</name>
@@ -1642,7 +1708,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="22">
+      <Measure number="23">
         <Harmony>
           <root>15</root>
           </Harmony>
@@ -1669,7 +1735,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="23">
+      <Measure number="24">
         <Harmony>
           <root>13</root>
           <name>m</name>
@@ -1707,7 +1773,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="24">
+      <Measure number="25">
         <Harmony>
           <root>17</root>
           <name>m</name>
@@ -1728,7 +1794,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="25">
+      <Measure number="26">
         <Harmony>
           <root>17</root>
           <name>m</name>
@@ -1755,7 +1821,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="26">
+      <Measure number="27">
         <Harmony>
           <root>15</root>
           </Harmony>
@@ -1782,7 +1848,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="27">
+      <Measure number="28">
         <Harmony>
           <root>13</root>
           <name>m</name>
@@ -1813,7 +1879,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="28">
+      <Measure number="29">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>

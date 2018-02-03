@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
-          <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1461,6 +1461,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -1969,7 +1971,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>Csak</text>
+            <text><font face="Times New Roman"></font>Csak</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1992,7 +1994,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>ba</text>
+            <text><font face="Times New Roman"></font>ba</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2035,7 +2037,7 @@
           <Beam>4</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>so</text>
+            <text><font face="Times New Roman"></font>so</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2139,6 +2141,25 @@
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Rámás csizmát visel a babám,
+Szeret is az engem igazán!
+Rámás csizma hadd szakadjon el,
+Csak a babám sose hagyjon el! Galambom,
+Rámás csizmát visel a babám,
+Szeret is az engem igazán!
+
+Nagy a világ, de van közepe,
+Az én rózsám fekete szeme!
+Ez a világ semmire se jó,
+Ha nincs kislány énnekem való! Galambom,
+Nagy a világ, de van közepe,
+Az én rózsám fekete szeme!</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>

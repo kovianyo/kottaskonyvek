@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
-          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1742,6 +1742,16 @@
         <breakMultiMeasureRest/>
         <Volta id="2">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>1</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
+          <Segment>
+            <subtype>3</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font face="Times New Roman"></font><b>1</b></text>
             </beginText>
@@ -1957,6 +1967,11 @@
         <endSpanner id="2"/>
         <Volta id="3">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font face="Times New Roman"></font><b>2</b></text>
             </beginText>
@@ -2259,6 +2274,11 @@
           </Harmony>
         <Volta id="4">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font face="Times New Roman"></font><b>1</b></text>
             </beginText>
@@ -2376,6 +2396,11 @@
         <endSpanner id="4"/>
         <Volta id="5">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font face="Times New Roman"></font><b>2</b></text>
             </beginText>
@@ -2731,6 +2756,11 @@
           </Harmony>
         <Volta id="6">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font face="Times New Roman"></font><b>1</b></text>
             </beginText>
@@ -2740,6 +2770,7 @@
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Beam>33</Beam>
           <StemDirection>up</StemDirection>
@@ -2750,7 +2781,7 @@
           </Chord>
         <Chord>
           <BeamMode>end</BeamMode>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Beam>33</Beam>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2826,6 +2857,11 @@
         <endSpanner id="6"/>
         <Volta id="7">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
           <beginText>
             <text><font face="Times New Roman"></font><b>2</b></text>
             </beginText>

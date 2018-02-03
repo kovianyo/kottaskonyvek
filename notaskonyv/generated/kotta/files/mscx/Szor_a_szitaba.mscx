@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1527,7 +1527,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>Szőr</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>Szőr</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1709,7 +1709,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ba!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ba!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1915,7 +1915,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ba!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ba!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2128,6 +2128,7 @@
       <Measure number="20">
         <breakMultiMeasureRest/>
         <Jump>
+          <pos x="0.144003" y="-1.3941"/>
           <style>Repeat Text Right</style>
           <text><font size="11.7074"></font><font face="Times New Roman"></font>D.C. al Fine</text>
           <jumpTo>start</jumpTo>
@@ -2142,7 +2143,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ja!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ja!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

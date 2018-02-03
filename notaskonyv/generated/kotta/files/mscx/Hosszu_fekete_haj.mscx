@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
-          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1986,7 +1986,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ta.</text>
+            <text><font face="Times New Roman"/>ta!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1998,13 +1998,24 @@
       <Measure number="16">
         <breakMultiMeasureRest/>
         <Rest>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>Olyan</text>
+            <syllabic>begin</syllabic>
+            <text>O</text>
+            </Lyrics>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font face="Times New Roman"/>lyan</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2138,13 +2149,24 @@
       <Measure number="20">
         <breakMultiMeasureRest/>
         <Rest>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>Olyan</text>
+            <syllabic>begin</syllabic>
+            <text>O</text>
+            </Lyrics>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text><font face="Times New Roman"/>lyan</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2521,7 +2543,7 @@
           <duration z="2" n="4"/>
           </Rest>
         <BarLine>
-          <subtype>double</subtype>
+          <subtype>normal</subtype>
           <span>1</span>
           </BarLine>
         </Measure>
@@ -2962,7 +2984,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>ma</text>
+            <text><font face="Times New Roman"></font>ma</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

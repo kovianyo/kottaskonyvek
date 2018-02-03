@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -2223,8 +2223,8 @@
           <durationType>eighth</durationType>
           <Beam>11</Beam>
           <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ni</text>
+            <syllabic>middle</syllabic>
+            <text><font face="Times New Roman"/>ni</text>
             </Lyrics>
           <Slur type="start" id="5"/>
           <Note>
@@ -2423,9 +2423,30 @@
           <extension>1</extension>
           </Harmony>
         <Chord>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>such an</text>
+            <text><font face="Times New Roman"/>such</text>
+            </Lyrics>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text>an</text>
+            </Lyrics>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>in</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -2438,8 +2459,8 @@
           <durationType>eighth</durationType>
           <Beam>14</Beam>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>in</text>
+            <syllabic>middle</syllabic>
+            <text>cre</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -2451,7 +2472,7 @@
           <Beam>14</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>cre</text>
+            <text>di</text>
             </Lyrics>
           <Note>
             <pitch>62</pitch>
@@ -2462,7 +2483,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>dible</text>
+            <text>ble</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>
@@ -2679,7 +2700,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>curse</text>
+            <text><font face="Times New Roman"></font>curse</text>
             </Lyrics>
           <Note>
             <pitch>69</pitch>

@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1835,13 +1835,13 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>van!</text>
+            <text><font face="Times New Roman"></font>van!</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>tok!</text>
+            <text><font face="Times New Roman"></font>tok!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1863,7 +1863,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>Hó</text>
+            <text><font face="Times New Roman"/>Nó</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1906,7 +1906,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>játsz</text>
+            <text><font face="Times New Roman"></font>játsz</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1920,7 +1920,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>szá</text>
+            <text><font face="Times New Roman"></font>szá</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2076,7 +2076,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>van!</text>
+            <text><font face="Times New Roman"></font>van!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

@@ -44,17 +44,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1550,6 +1550,13 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
+        <Tempo>
+          <tempo>2.33333</tempo>
+          <followText>1</followText>
+          <pos x="-7.71342" y="-3.85924"/>
+          <visible>0</visible>
+          <text><sym>unicodeNoteQuarterUp</sym> = 140</text>
+          </Tempo>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -1657,17 +1664,9 @@
         </Measure>
       <Measure number="7">
         <Chord>
+          <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Note>
-            <Tie id="2">
-              </Tie>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -1678,15 +1677,14 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
-            <endSpanner id="2"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Rest>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           </Rest>
         </Measure>
       <Measure number="9">
@@ -1695,14 +1693,13 @@
           <accidental>-2</accidental>
           </KeySig>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Note>
             <pitch>70</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
             <pitch>69</pitch>
@@ -1720,14 +1717,13 @@
       <Measure number="10">
         <stretch>0.9</stretch>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
             <pitch>67</pitch>
@@ -1903,17 +1899,9 @@
       <Measure number="19">
         <stretch>0.9</stretch>
         <Chord>
+          <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Note>
-            <Tie id="3">
-              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -1925,15 +1913,14 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
-            <endSpanner id="3"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Rest>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           </Rest>
         </Measure>
       <Measure number="21">
@@ -2528,7 +2515,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>tál</text>
+            <text><font face="Times New Roman"/>tál,</text>
             </Lyrics>
           <Note>
             <pitch>67</pitch>

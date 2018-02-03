@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
-          <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1682,7 +1682,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>se'</text>
+            <text><font face="Times New Roman"/>se</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1781,7 +1781,7 @@
       <Measure number="12">
         <breakMultiMeasureRest/>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Lyrics>
             <text><font face="Times New Roman"></font>kolsz,</text>
             </Lyrics>
@@ -1791,9 +1791,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="13">
         <breakMultiMeasureRest/>
@@ -1879,7 +1876,7 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>lyát!</text>
+            <text><font face="Times New Roman"></font>lyát!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2151,7 +2148,7 @@
       <Measure number="28">
         <breakMultiMeasureRest/>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Lyrics>
             <text><font face="Times New Roman"></font>nyolsz,</text>
             </Lyrics>
@@ -2161,9 +2158,6 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="29">
         <breakMultiMeasureRest/>
@@ -2253,7 +2247,7 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>nyém!</text>
+            <text><font face="Times New Roman"></font>nyém!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -2233,10 +2233,10 @@
           <name>m</name>
           </Harmony>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Ju</text>
+            <text><font face="Times New Roman"></font>Ju</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2245,7 +2245,6 @@
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
@@ -2260,7 +2259,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ka,</text>
+            <text><font face="Times New Roman"></font>ka,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

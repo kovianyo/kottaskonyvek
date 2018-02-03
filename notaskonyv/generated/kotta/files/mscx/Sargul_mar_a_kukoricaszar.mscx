@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1926,7 +1926,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>tár!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>tár!</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -2220,7 +2220,7 @@
           <extension>1</extension>
           </Harmony>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <text>várj</text>
             </Lyrics>
@@ -2231,7 +2231,6 @@
             </Note>
           </Chord>
         <Chord>
-          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
@@ -2321,7 +2320,7 @@
           <Beam>7</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>lű</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>lű</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2365,7 +2364,7 @@
           <Beam>8</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>dő</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>dő</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2523,7 +2522,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>légy</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>légy</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2545,7 +2544,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>e</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>e</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2614,7 +2613,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>bám!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>bám!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

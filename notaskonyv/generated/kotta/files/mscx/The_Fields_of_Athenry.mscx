@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
-          <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notee" value="e"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1626,17 +1626,15 @@
           </Chord>
         </Measure>
       <Measure number="2">
-        <Slur id="2">
-          <track>0</track>
-          </Slur>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
           <Lyrics>
             <text><font face="Times New Roman"></font>wall,</text>
             </Lyrics>
-          <Slur type="start" id="2"/>
           <Note>
+            <Tie id="2">
+              </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -1646,8 +1644,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>2</Beam>
-          <Slur type="stop" id="2"/>
           <Note>
+            <endSpanner id="2"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -1906,17 +1904,15 @@
           <root>15</root>
           <extension>1</extension>
           </Harmony>
-        <Slur id="4">
-          <track>0</track>
-          </Slur>
         <Chord>
           <durationType>whole</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>way,</text>
             </Lyrics>
-          <Slur type="start" id="4"/>
           <Note>
+            <Tie id="4">
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -1926,8 +1922,8 @@
         <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="4"/>
           <Note>
+            <endSpanner id="4"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -2257,16 +2253,14 @@
           <root>14</root>
           <extension>1</extension>
           </Harmony>
-        <Slur id="6">
-          <track>0</track>
-          </Slur>
         <Chord>
           <durationType>whole</durationType>
           <Lyrics>
             <text><font face="Times New Roman"></font>bay.</text>
             </Lyrics>
-          <Slur type="start" id="6"/>
           <Note>
+            <Tie id="6">
+              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -2276,8 +2270,8 @@
         <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="6"/>
           <Note>
+            <endSpanner id="6"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -2337,16 +2331,14 @@
           <root>14</root>
           <extension>1</extension>
           </Harmony>
-        <Slur id="7">
-          <track>0</track>
-          </Slur>
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
             <text><font face="Times New Roman"></font>fields</text>
             </Lyrics>
-          <Slur type="start" id="7"/>
           <Note>
+            <Tie id="7">
+              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -2356,8 +2348,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>8</Beam>
-          <Slur type="stop" id="7"/>
           <Note>
+            <endSpanner id="7"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -2506,16 +2498,14 @@
           <root>15</root>
           <extension>1</extension>
           </Harmony>
-        <Slur id="8">
-          <track>0</track>
-          </Slur>
         <Chord>
           <durationType>whole</durationType>
           <Lyrics>
             <text><font face="Times New Roman"></font>fly;</text>
             </Lyrics>
-          <Slur type="start" id="8"/>
           <Note>
+            <Tie id="8">
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -2525,8 +2515,8 @@
         <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="8"/>
           <Note>
+            <endSpanner id="8"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -2855,17 +2845,15 @@
           <root>14</root>
           <extension>1</extension>
           </Harmony>
-        <Slur id="11">
-          <track>0</track>
-          </Slur>
         <Chord>
           <durationType>whole</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>ry.</text>
             </Lyrics>
-          <Slur type="start" id="11"/>
           <Note>
+            <Tie id="11">
+              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -2875,8 +2863,8 @@
         <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="11"/>
           <Note>
+            <endSpanner id="11"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>

@@ -161,22 +161,20 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
+            <Tie id="2">
+              </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
+            <Tie id="3">
+              </Tie>
+            <endSpanner id="2"/>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -184,6 +182,7 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
+            <endSpanner id="3"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -1622,10 +1621,10 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text>na</text>
+            <text>na,</text>
             </Lyrics>
           <Note>
-            <Tie id="2">
+            <Tie id="4">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1638,7 +1637,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="2"/>
+            <endSpanner id="4"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             <velocity>79</velocity>
@@ -1692,7 +1691,7 @@
         <Harmony>
           <root>15</root>
           </Harmony>
-        <Slur id="3">
+        <Slur id="5">
           <track>0</track>
           </Slur>
         <Chord>
@@ -1700,7 +1699,7 @@
           <Lyrics>
             <text>doch</text>
             </Lyrics>
-          <Slur type="start" id="3"/>
+          <Slur type="start" id="5"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -1710,7 +1709,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="3"/>
+          <Slur type="stop" id="5"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>

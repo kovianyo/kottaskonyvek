@@ -1545,10 +1545,10 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Tempo>
-          <tempo>1.33333</tempo>
+          <tempo>1.66667</tempo>
           <followText>1</followText>
           <visible>0</visible>
-          <text><sym>unicodeNoteQuarterUp</sym> = 80</text>
+          <text><sym>unicodeNoteQuarterUp</sym> = 100</text>
           </Tempo>
         <Rest>
           <durationType>eighth</durationType>
@@ -1903,10 +1903,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>normal</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       <Measure number="10">
         <Chord>
@@ -2278,7 +2274,7 @@
           <Beam>14</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>he</text>
+            <text><font face="Times New Roman"></font>he</text>
             </Lyrics>
           <Note>
             <pitch>72</pitch>
@@ -2290,7 +2286,7 @@
           <Beam>14</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>gyek</text>
+            <text><font face="Times New Roman"></font>gyek</text>
             </Lyrics>
           <Note>
             <pitch>72</pitch>

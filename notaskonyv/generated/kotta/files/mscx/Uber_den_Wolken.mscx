@@ -47,17 +47,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="noted" value="d"/>
-          <sym name="notee" value="e"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -2509,7 +2509,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>gen.</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>gen.</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2521,7 +2521,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <BarLine>
-          <subtype>double</subtype>
+          <subtype>normal</subtype>
           <span>1</span>
           </BarLine>
         </Measure>
@@ -2538,7 +2538,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>Ü</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>Ü</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

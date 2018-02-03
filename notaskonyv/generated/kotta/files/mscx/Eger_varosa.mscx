@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="notee" value="e"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1801,12 +1801,7 @@
           </Rest>
         </Measure>
       <Measure number="5">
-        <startRepeat/>
         <breakMultiMeasureRest/>
-        <BarLine>
-          <subtype>start-repeat</subtype>
-          <span>1</span>
-          </BarLine>
         <Harmony>
           <root>14</root>
           <extension>16</extension>
@@ -2050,10 +2045,10 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>a</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>a</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2062,12 +2057,12 @@
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>latt</text>
+            <text>latt</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -2075,7 +2070,6 @@
           </Chord>
         </Measure>
       <Measure number="8" len="3/4">
-        <endRepeat>2</endRepeat>
         <breakMultiMeasureRest/>
         <Harmony>
           <root>15</root>
@@ -2089,7 +2083,7 @@
           <Beam>6</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>pá</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>pá</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2131,7 +2125,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>visz!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>visz!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2139,6 +2133,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>end</subtype>
+          <span>1</span>
+          </BarLine>
         </Measure>
       </Staff>
     </Score>

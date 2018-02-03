@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1501,7 +1501,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"/>Katyusa</text>
+          <text><font face="Times New Roman"></font>Katyusa</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -1801,7 +1801,7 @@
           <name>m</name>
           </Harmony>
         <Chord>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>ve,</text>
@@ -1812,6 +1812,9 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         </Measure>
       <Measure number="9">
         <startRepeat/>
@@ -2137,7 +2140,7 @@
           <name>m</name>
           </Harmony>
         <Chord>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>me!</text>
@@ -2148,6 +2151,9 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         </Measure>
       </Staff>
     </Score>
