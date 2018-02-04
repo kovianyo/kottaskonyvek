@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
+          <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -2009,10 +2009,6 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <BarLine>
-          <subtype>end-repeat</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       <TBox>
         <height>1</height>
@@ -2027,7 +2023,7 @@ Föl van a lovam nyergelve,
 Én ülök a nyeregbe!
 Én ülök a szeretőm ölibe,
 Másnak kacsingat a szemébe!
-Én ülök a szeretőm ölibe
+Én ülök a szeretőm ölibe,
 Te meg babám elmehetsz a fenébe!</text>
           </Text>
         </TBox>

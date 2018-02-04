@@ -46,15 +46,15 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="noteb" value="b"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1656,7 +1656,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>né,</text>
+            <text><font face="Times New Roman"></font>né,</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1698,7 +1698,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>csip</text>
+            <text><font face="Times New Roman"></font>csip</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1734,7 +1734,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>kom</text>
+            <text><font face="Times New Roman"></font>kom</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1779,7 +1779,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>né,</text>
+            <text><font face="Times New Roman"></font>né,</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1808,7 +1808,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>Még</text>
+            <text><font face="Times New Roman"></font>Még</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1846,7 +1846,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>éj</text>
+            <text><font face="Times New Roman"></font>éj</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -2256,11 +2256,21 @@
           <name>m</name>
           </Harmony>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>Majd</text>
+            <text><font face="Times New Roman"/>Majd</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text>a</text>
+            </Lyrics>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2273,7 +2283,8 @@
           <durationType>eighth</durationType>
           <Beam>12</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>a</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>pap</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2286,7 +2297,8 @@
           <durationType>eighth</durationType>
           <Beam>12</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>paplan</text>
+            <syllabic>end</syllabic>
+            <text>lan</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

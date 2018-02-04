@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
+          <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1783,7 +1783,8 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>aj</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>aj</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1802,8 +1803,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>na</text>
+            <syllabic>middle</syllabic>
+            <text><font face="Times New Roman"/>na</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

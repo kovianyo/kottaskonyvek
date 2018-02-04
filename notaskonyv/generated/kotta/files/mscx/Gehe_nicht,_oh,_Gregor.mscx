@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
+          <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1816,6 +1816,9 @@
             </beginText>
           <endings>2</endings>
           </Volta>
+        <Slur id="4">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
@@ -1823,6 +1826,7 @@
             <style>Lyrics Even Lines</style>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>dort!</text>
             </Lyrics>
+          <Slur type="start" id="4"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -1835,6 +1839,7 @@
           </Harmony>
         <Chord>
           <durationType>half</durationType>
+          <Slur type="stop" id="4"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -2001,7 +2006,7 @@
           <root>11</root>
           <extension>1</extension>
           </Harmony>
-        <Slur id="4">
+        <Slur id="5">
           <track>0</track>
           </Slur>
         <Chord>
@@ -2010,7 +2015,7 @@
             <syllabic>middle</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>kräu</text>
             </Lyrics>
-          <Slur type="start" id="4"/>
+          <Slur type="start" id="5"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -2019,7 +2024,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="4"/>
+          <Slur type="stop" id="5"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
@@ -2031,7 +2036,7 @@
           <extension>64</extension>
           <name>7</name>
           </Harmony>
-        <Slur id="5">
+        <Slur id="6">
           <track>0</track>
           </Slur>
         <Chord>
@@ -2040,7 +2045,7 @@
             <syllabic>end</syllabic>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>tern,</text>
             </Lyrics>
-          <Slur type="start" id="5"/>
+          <Slur type="start" id="6"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>63</pitch>
@@ -2049,7 +2054,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="5"/>
+          <Slur type="stop" id="6"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -2227,7 +2232,7 @@
           <extension>16</extension>
           <name>m</name>
           </Harmony>
-        <Volta id="6">
+        <Volta id="7">
           <endHook>1</endHook>
           <Segment>
             <subtype>0</subtype>
@@ -2239,11 +2244,19 @@
             </beginText>
           <endings>1</endings>
           </Volta>
+        <Slur id="8">
+          <track>0</track>
+          <SlurSegment no="0">
+            <o2 x="-0.0437581" y="-0.525097"/>
+            <o3 x="-0.0437581" y="-0.525097"/>
+            </SlurSegment>
+          </Slur>
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
             <text><font size="10.7317"></font><font face="Times New Roman"></font>See!</text>
             </Lyrics>
+          <Slur type="start" id="8"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>60</pitch>
@@ -2256,6 +2269,7 @@
           </Harmony>
         <Chord>
           <durationType>half</durationType>
+          <Slur type="stop" id="8"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -2270,8 +2284,8 @@
           <extension>16</extension>
           <name>m</name>
           </Harmony>
-        <endSpanner id="6"/>
-        <Volta id="7">
+        <endSpanner id="7"/>
+        <Volta id="9">
           <endHook>1</endHook>
           <Segment>
             <subtype>0</subtype>
@@ -2297,7 +2311,7 @@
           <subtype>end</subtype>
           <span>1</span>
           </BarLine>
-        <endSpanner id="7"/>
+        <endSpanner id="9"/>
         </Measure>
       </Staff>
     </Score>

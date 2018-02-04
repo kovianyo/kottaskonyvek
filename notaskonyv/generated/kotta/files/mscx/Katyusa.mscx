@@ -46,16 +46,16 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1866,6 +1866,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
         <Beam id="5">
           </Beam>
         <Chord>
@@ -1876,6 +1879,7 @@
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>ton</text>
             </Lyrics>
+          <Slur type="start" id="2"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>76</pitch>
@@ -1886,6 +1890,7 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>5</Beam>
+          <Slur type="stop" id="2"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>74</pitch>

@@ -45,15 +45,15 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="noteb" value="b"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1656,7 +1656,7 @@
           <durationType>eighth</durationType>
           <Beam>3</Beam>
           <Lyrics>
-            <text><font size="10.7317"></font><font face="Times New Roman"></font>meg</text>
+            <text><font size="10.7317"/><font face="Times New Roman"/>meg,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2030,7 +2030,7 @@
           <Beam>10</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>A</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>A</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2056,7 +2056,7 @@
           <BeamMode>mid</BeamMode>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>él</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>él</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2076,7 +2076,7 @@
           <Beam>11</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ö</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ö</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2124,7 +2124,7 @@
           <Beam>12</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>mind</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>mind</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2182,7 +2182,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>A</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>A</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

@@ -44,22 +44,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1716,7 +1716,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>va</text>
+            <text><font face="Times New Roman"></font>va</text>
             </Lyrics>
           <Note>
             <pitch>70</pitch>
@@ -1817,7 +1817,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>ég,</text>
+            <text><font face="Times New Roman"></font>ég,</text>
             </Lyrics>
           <Note>
             <pitch>67</pitch>
@@ -2021,7 +2021,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>cá</text>
+            <text><font face="Times New Roman"></font>cá</text>
             </Lyrics>
           <Note>
             <pitch>63</pitch>
@@ -2053,7 +2053,7 @@
           <Beam>8</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>ra</text>
+            <text><font face="Times New Roman"></font>ra</text>
             </Lyrics>
           <Note>
             <pitch>62</pitch>
@@ -2177,7 +2177,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>be'!</text>
+            <text><font face="Times New Roman"></font>be'!</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -2200,7 +2200,7 @@ A szép orcámon ragyog a szerelem a sötétbe'!
 
 Édesanyám vett nekem kalapot, 
 Fújja a szél rajta a szalagot!
-Ha nem fújja magam is lobogtatom, 
+Ha nem fújja magam is meglobogtatom, 
 Ezt a szőkét idecsalogatom a sötétbe!</text>
           </Text>
         </TBox>

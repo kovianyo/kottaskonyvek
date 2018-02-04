@@ -45,16 +45,16 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1539,7 +1539,7 @@
           </Text>
         <Text>
           <style>Composer</style>
-          <text><font face="Times New Roman"></font>Magashegyi Underground</text>
+          <text><font face="Times New Roman"/>Magashegyi Underground</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -2158,7 +2158,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ság</text>
+            <text><font face="Times New Roman"></font>ság</text>
             </Lyrics>
           <Note>
             <pitch>62</pitch>
@@ -2171,7 +2171,7 @@
           <durationType>eighth</durationType>
           <Beam>11</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>csak</text>
+            <text><font face="Times New Roman"></font>csak</text>
             </Lyrics>
           <Note>
             <pitch>64</pitch>

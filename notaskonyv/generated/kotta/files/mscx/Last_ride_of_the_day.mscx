@@ -46,15 +46,15 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="noteb" value="b"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -2069,7 +2069,8 @@
           <durationType>eighth</durationType>
           <Beam>8</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>u</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>u</text>
             </Lyrics>
           <Slur type="start" id="2"/>
           <Note>
@@ -2224,7 +2225,7 @@
           <Beam>11</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>ni</text>
+            <text><font face="Times New Roman"></font>ni</text>
             </Lyrics>
           <Slur type="start" id="5"/>
           <Note>
@@ -2425,7 +2426,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>such</text>
+            <text><font face="Times New Roman"></font>such</text>
             </Lyrics>
           <Note>
             <pitch>60</pitch>
@@ -2746,7 +2747,8 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>in</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>in</text>
             </Lyrics>
           <Note>
             <pitch>67</pitch>
@@ -2762,7 +2764,8 @@
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>stead.</text>
+            <syllabic>end</syllabic>
+            <text><font face="Times New Roman"/>stead.</text>
             </Lyrics>
           <Note>
             <Tie id="14">

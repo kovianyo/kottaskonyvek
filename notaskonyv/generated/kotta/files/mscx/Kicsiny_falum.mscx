@@ -47,17 +47,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -2520,7 +2520,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>gyek!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>gyek!</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -2793,7 +2793,7 @@
           <Beam>16</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>nyám,</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>nyám,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3164,7 +3164,7 @@
           <Beam>21</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>le</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>le</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3214,7 +3214,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>gyek,</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>gyek,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3496,6 +3496,7 @@
       <Measure number="24">
         <breakMultiMeasureRest/>
         <Jump>
+          <pos x="0" y="-1.5"/>
           <style>Repeat Text Right</style>
           <text>D.S. al Fine</text>
           <jumpTo>segno</jumpTo>
@@ -3510,7 +3511,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>rák!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>rák!</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
