@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -2986,9 +2986,12 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span>1</span>
+          </BarLine>
         </Measure>
       <Measure number="33">
-        <startRepeat/>
         <breakMultiMeasureRest/>
         <stretch>0.9</stretch>
         <Harmony>
@@ -3012,6 +3015,7 @@
           </Rest>
         </Measure>
       <Measure number="34">
+        <startRepeat/>
         <breakMultiMeasureRest/>
         <stretch>0.9</stretch>
         <Harmony>
@@ -3274,9 +3278,7 @@
             </Note>
           </Chord>
         <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
+          <dots>1</dots>
           <durationType>half</durationType>
           </Rest>
         </Measure>
@@ -3443,7 +3445,6 @@
           </Chord>
         </Measure>
       <Measure number="40">
-        <endRepeat>2</endRepeat>
         <stretch>0.9</stretch>
         <Harmony>
           <root>17</root>
@@ -3469,7 +3470,7 @@
           <Note>
             <Tie id="18">
               <SlurSegment no="0">
-                <o1 x="16.8799" y="0.378905"/>
+                <o1 x="28.7847" y="0.052527"/>
                 </SlurSegment>
               </Tie>
             <endSpanner id="16"/>
@@ -3517,15 +3518,34 @@
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
+            <Tie id="19">
+              </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="41">
+        <endRepeat>2</endRepeat>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <endSpanner id="19"/>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Rest>
+          <durationType>half</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="42">
         <stretch>0.9</stretch>
         <endSpanner id="17"/>
-        <Volta id="19">
+        <Volta id="20">
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
@@ -3551,14 +3571,14 @@
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="42">
+      <Measure number="43">
         <stretch>0.5</stretch>
         <Harmony>
           <root>17</root>
           <extension>16</extension>
           <name>m</name>
           </Harmony>
-        <endSpanner id="19"/>
+        <endSpanner id="20"/>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
@@ -3618,7 +3638,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="43">
+      <Measure number="44">
         <stretch>0.5</stretch>
         <Chord>
           <durationType>quarter</durationType>
@@ -3679,7 +3699,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="44">
+      <Measure number="45">
         <stretch>0.5</stretch>
         <Harmony>
           <root>14</root>
@@ -3732,7 +3752,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="45">
+      <Measure number="46">
         <stretch>0.5</stretch>
         <Chord>
           <durationType>half</durationType>
@@ -3770,7 +3790,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="46">
+      <Measure number="47">
         <stretch>0.5</stretch>
         <Harmony>
           <root>15</root>
@@ -3822,7 +3842,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="47">
+      <Measure number="48">
         <stretch>0.5</stretch>
         <Chord>
           <durationType>half</durationType>
@@ -3839,7 +3859,7 @@
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="48">
+      <Measure number="49">
         <stretch>0.5</stretch>
         <Harmony>
           <root>16</root>
@@ -3882,7 +3902,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="49">
+      <Measure number="50">
         <stretch>0.5</stretch>
         <Chord>
           <durationType>eighth</durationType>
@@ -3939,7 +3959,6 @@
           <style>Frame</style>
           <text>Húsz éve már, több is talán, hogy nap-nap után,
 Minden nap délután eljött a dédapám.
-
 Mesélt ilyet, mesélt olyat, mesélt sok csodát,
 Igen, mesélt sok csodát, lódított is talán.
 
@@ -3959,7 +3978,7 @@ Jöjj velem, mesélek megint sok csodát!
 Elmegyünk, s úgy leszünk, mint két jó barát!
 
 Vártam megint, hogy újra vigyen, de nem jött többé már,
-Sajnos nem jött többé már, érte jött a halál...</text>
+Sajnos nem jött többé már, érte jött a halál.</text>
           </Text>
         </TBox>
       </Staff>

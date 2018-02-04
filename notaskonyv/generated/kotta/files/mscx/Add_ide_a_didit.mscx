@@ -46,22 +46,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="accidentals" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1618,7 +1618,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>dit,</text>
+            <text><font face="Times New Roman"></font>dit,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1648,7 +1648,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>di</text>
+            <text><font face="Times New Roman"></font>di</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1662,7 +1662,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>dit</text>
+            <text><font face="Times New Roman"></font>dit</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1852,17 +1852,14 @@
           </Chord>
         </Measure>
       <Measure number="7">
-        <endRepeat>2</endRepeat>
         <breakMultiMeasureRest/>
         <stretch>0.9</stretch>
         <Marker>
+          <pos x="-1.2668" y="-1.15547"/>
           <style>Repeat Text Right</style>
-          <text><font face="Times New Roman"></font>Fine</text>
+          <text>Fine</text>
           <label>fine</label>
           </Marker>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <root>14</root>
           <extension>16</extension>
@@ -1885,8 +1882,44 @@
           </Rest>
         </Measure>
       <Measure number="8">
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Volta id="2">
+          <endHook>1</endHook>
+          <pos x="0" y="-0.6"/>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
+          <beginText>
+            <text>1.</text>
+            </beginText>
+          <endings>1</endings>
+          </Volta>
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="2" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="9">
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
+        <endSpanner id="2"/>
+        <Volta id="3">
+          <pos x="0" y="-0.6"/>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-0.6"/>
+            </Segment>
+          <beginText>
+            <text>2.</text>
+            </beginText>
+          <endings>2</endings>
+          </Volta>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -1932,7 +1965,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="9">
+      <Measure number="10">
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Harmony>
@@ -1940,6 +1973,7 @@
           <extension>16</extension>
           <name>m</name>
           </Harmony>
+        <endSpanner id="3"/>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
@@ -1977,14 +2011,14 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="2">
+            <Tie id="4">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="10">
+      <Measure number="11">
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Beam id="11">
@@ -1995,7 +2029,7 @@
           <Beam>11</Beam>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="2"/>
+            <endSpanner id="4"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -2044,7 +2078,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="11">
+      <Measure number="12">
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Harmony>
@@ -2090,14 +2124,14 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="3">
+            <Tie id="5">
               </Tie>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="12">
+      <Measure number="13">
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Beam id="14">
@@ -2108,7 +2142,7 @@
           <Beam>14</Beam>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="3"/>
+            <endSpanner id="5"/>
             <pitch>63</pitch>
             <tpc>11</tpc>
             </Note>
@@ -2157,7 +2191,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="13">
+      <Measure number="14">
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Harmony>
@@ -2203,14 +2237,14 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="4">
+            <Tie id="6">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="14">
+      <Measure number="15">
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Beam id="17">
@@ -2221,7 +2255,7 @@
           <Beam>17</Beam>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="4"/>
+            <endSpanner id="6"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -2270,14 +2304,14 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="15">
+      <Measure number="16">
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Harmony>
           <root>15</root>
           <extension>1</extension>
           </Harmony>
-        <Slur id="5">
+        <Slur id="7">
           <track>0</track>
           </Slur>
         <Chord>
@@ -2285,7 +2319,7 @@
           <Lyrics>
             <text><font face="Times New Roman"></font>jó!</text>
             </Lyrics>
-          <Slur type="start" id="5"/>
+          <Slur type="start" id="7"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
@@ -2301,7 +2335,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="16">
+      <Measure number="17">
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Jump>
@@ -2321,7 +2355,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="5"/>
+          <Slur type="stop" id="7"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>

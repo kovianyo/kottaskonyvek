@@ -47,17 +47,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1524,7 +1524,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>A</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>A</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1613,7 +1613,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>nincs</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>nincs</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1844,7 +1844,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text>ző.</text>
+            <text>ző!</text>
             </Lyrics>
           <Lyrics>
             <no>2</no>

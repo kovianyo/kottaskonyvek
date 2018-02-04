@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="notec" value="c"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1471,6 +1471,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -2044,7 +2046,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>be'!</text>
+            <text><font face="Times New Roman"></font>be'!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2552,7 +2554,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>je!</text>
+            <text><font face="Times New Roman"></font>je!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2568,6 +2570,21 @@
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Árad a Duna vize, elfolyik a Fekete-tengerbe,
+Furcsa egy nyavalya, ha zajlik a szerelem az emberbe'!
+Árad is, zajlik is, fázik is, melege is van tőle,
+Ott benn a szíve körül száz fokot mutat a hőmérője!
+
+Dörmög az öregapánk, szidja is a bolondos népséget:
+Egyszer tán eszére tér, s vége lesz a fura betegségnek!
+Észre tér, véget ér, elfogy a szerelem az emberből,
+Majd, ha a Duna vize visszajön a Fekete-tengerből!</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>
