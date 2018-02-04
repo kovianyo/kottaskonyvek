@@ -46,22 +46,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1449,7 +1449,7 @@
     <metaTag name="movementTitle">Zöldre van a rácsos kapu festve</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">http://wikifonia.org/node/4187/revisions/5580/view</metaTag>
+    <metaTag name="source">https://musescore.com/score/4920808</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
@@ -1811,7 +1811,7 @@
           <Lyrics>
             <no>1</no>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"/><font face="Times New Roman"/>ni!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>ni!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1833,7 +1833,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>O</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>O</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1857,7 +1857,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>já</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>já</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1958,7 +1958,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>te!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>te!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2031,7 +2031,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>kis</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>kis</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2088,7 +2088,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>vár</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>vár</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2115,6 +2115,10 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        <BarLine>
+          <subtype>end</subtype>
+          <span>1</span>
+          </BarLine>
         </Measure>
       </Staff>
     </Score>

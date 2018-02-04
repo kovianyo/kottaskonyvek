@@ -45,16 +45,16 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="noteh" value="h"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
@@ -1448,7 +1448,7 @@
     <metaTag name="movementTitle">Hosszú fekete haj</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">http://wikifonia.org/node/4479/revisions/6043/view</metaTag>
+    <metaTag name="source">https://musescore.com/score/4920823</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
@@ -1986,7 +1986,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ta!</text>
+            <text><font face="Times New Roman"></font>ta!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2015,7 +2015,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>lyan</text>
+            <text><font face="Times New Roman"></font>lyan</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2166,7 +2166,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>lyan</text>
+            <text><font face="Times New Roman"></font>lyan</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2542,10 +2542,6 @@
           <durationType>measure</durationType>
           <duration z="2" n="4"/>
           </Rest>
-        <BarLine>
-          <subtype>normal</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       <Measure number="33">
         <breakMultiMeasureRest/>

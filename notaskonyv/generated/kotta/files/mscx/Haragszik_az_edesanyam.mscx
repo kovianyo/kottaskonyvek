@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="notec" value="c"/>
+          <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
+          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1449,7 +1449,7 @@
     <metaTag name="movementTitle">Haragszik az édesanyám</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">http://wikifonia.org/node/1145/revisions/1512/view</metaTag>
+    <metaTag name="source">https://musescore.com/score/4920766</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
@@ -1630,10 +1630,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>normal</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       <Measure number="3">
         <Harmony>
@@ -1644,7 +1640,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>Mért</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>Mért</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1656,7 +1652,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>já</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>já</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1680,7 +1676,7 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>a</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1702,7 +1698,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>lá</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>lá</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1726,7 +1722,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>u</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>u</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
