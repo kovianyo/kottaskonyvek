@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1449,7 +1449,7 @@
     <metaTag name="movementTitle">He's a pirate</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">http://wikifonia.org/node/1325/revisions/1738/view</metaTag>
+    <metaTag name="source">https://musescore.com/score/4921677</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
@@ -1523,7 +1523,11 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text>He's a pirate</text>
+          <text>He's a Pirate</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Klaus Badelt</text>
           </Text>
         </VBox>
       <Measure number="1">
