@@ -44,6 +44,8 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
@@ -51,15 +53,13 @@
           <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1535,6 +1535,10 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
+        <Harmony>
+          <root>14</root>
+          <extension>1</extension>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -1676,6 +1680,10 @@
           </Chord>
         </Measure>
       <Measure number="7">
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          </Harmony>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -1706,6 +1714,10 @@
           <subtype>start-repeat</subtype>
           <span>1</span>
           </BarLine>
+        <Harmony>
+          <root>14</root>
+          <extension>1</extension>
+          </Harmony>
         <Beam id="5">
           </Beam>
         <Chord>
@@ -1760,6 +1772,10 @@
           </Chord>
         </Measure>
       <Measure number="11">
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          </Harmony>
         <Beam id="6">
           </Beam>
         <Chord>
@@ -1852,6 +1868,10 @@
           </Chord>
         </Measure>
       <Measure number="14">
+        <Harmony>
+          <root>16</root>
+          <extension>1</extension>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -1869,6 +1889,10 @@
           </Chord>
         </Measure>
       <Measure number="15">
+        <Harmony>
+          <root>15</root>
+          <extension>1</extension>
+          </Harmony>
         <Chord>
           <durationType>half</durationType>
           <Note>
