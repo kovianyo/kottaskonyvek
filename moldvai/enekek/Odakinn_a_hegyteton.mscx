@@ -130,8 +130,8 @@
             <text>O</text>
             </Lyrics>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -233,12 +233,24 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>te</text>
             </Lyrics>
+          <Slur type="start" id="2"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="2"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -248,7 +260,7 @@
           <root>15</root>
           </Harmony>
         <Chord>
-          <durationType>half</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>tőn</text>
@@ -258,6 +270,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         </Measure>
       <Measure number="3">
         <Harmony>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.2.1</programVersion>
-  <programRevision>51b8386</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -347,6 +347,11 @@
           </Rest>
         </Measure>
       <Measure number="5">
+        <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -513,6 +518,7 @@
           </Chord>
         </Measure>
       <Measure number="7">
+        <endRepeat>2</endRepeat>
         <Chord>
           <durationType>half</durationType>
           <Lyrics>
@@ -528,7 +534,7 @@
           <durationType>half</durationType>
           </Rest>
         <BarLine>
-          <subtype>end</subtype>
+          <subtype>end-repeat</subtype>
           <span>1</span>
           </BarLine>
         </Measure>

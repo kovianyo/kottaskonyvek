@@ -120,6 +120,12 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
+        <Tempo>
+          <tempo>2.66667</tempo>
+          <followText>1</followText>
+          <visible>0</visible>
+          <text><sym>unicodeNoteQuarterUp</sym> = 160</text>
+          </Tempo>
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
@@ -204,22 +210,34 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text>Két</text>
+            <text>két</text>
             </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>ke</text>
             </Lyrics>
+          <Slur type="start" id="2"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="2"/>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -441,14 +459,14 @@
             <text>szuly</text>
             </Lyrics>
           <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="8">
         <endRepeat>2</endRepeat>
-        <Slur id="2">
+        <Slur id="3">
           <track>0</track>
           </Slur>
         <Chord>
@@ -457,7 +475,7 @@
             <syllabic>middle</syllabic>
             <text>ka</text>
             </Lyrics>
-          <Slur type="start" id="2"/>
+          <Slur type="start" id="3"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -465,7 +483,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="2"/>
+          <Slur type="stop" id="3"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -493,10 +511,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>end-repeat</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       </Staff>
     </Score>

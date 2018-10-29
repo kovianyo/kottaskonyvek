@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -124,6 +124,13 @@
           <root>17</root>
           <name>m</name>
           </Harmony>
+        <Tempo>
+          <tempo>1.83333</tempo>
+          <followText>1</followText>
+          <pos x="-9.10013" y="-3.25152"/>
+          <visible>0</visible>
+          <text><sym>unicodeNoteQuarterUp</sym> = 110</text>
+          </Tempo>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -411,6 +418,11 @@
           </Rest>
         </Measure>
       <Measure number="5">
+        <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Harmony>
           <root>17</root>
           <name>m</name>
@@ -583,6 +595,7 @@
           </Chord>
         </Measure>
       <Measure number="7">
+        <endRepeat>2</endRepeat>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -635,7 +648,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <BarLine>
-          <subtype>end</subtype>
+          <subtype>end-repeat</subtype>
           <span>1</span>
           </BarLine>
         </Measure>

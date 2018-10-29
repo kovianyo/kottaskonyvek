@@ -124,6 +124,13 @@
         <Harmony>
           <root>14</root>
           </Harmony>
+        <Tempo>
+          <tempo>1.83333</tempo>
+          <followText>1</followText>
+          <pos x="-8.55695" y="-3.40122"/>
+          <visible>0</visible>
+          <text><sym>unicodeNoteQuarterUp</sym> = 110</text>
+          </Tempo>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -394,6 +401,7 @@
           </Chord>
         </Measure>
       <Measure number="4">
+        <endRepeat>2</endRepeat>
         <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
@@ -440,6 +448,11 @@
           </Rest>
         </Measure>
       <Measure number="5">
+        <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Harmony>
           <root>14</root>
           </Harmony>
@@ -668,6 +681,7 @@
           </Chord>
         </Measure>
       <Measure number="8">
+        <endRepeat>2</endRepeat>
         <Harmony>
           <root>17</root>
           <name>m</name>
@@ -710,7 +724,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <BarLine>
-          <subtype>end</subtype>
+          <subtype>end-repeat</subtype>
           <span>1</span>
           </BarLine>
         </Measure>

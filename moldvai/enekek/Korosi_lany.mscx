@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -49,9 +49,9 @@
           <sym name="accidentalis" code="0x266f"/>
           <sym name="noteh" value="h"/>
           <sym name="notea" value="a"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteb" value="b"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
@@ -1519,6 +1519,13 @@
           <root>14</root>
           <extension>1</extension>
           </Harmony>
+        <Tempo>
+          <tempo>2.16667</tempo>
+          <followText>1</followText>
+          <pos x="-8.44617" y="-4.14605"/>
+          <visible>0</visible>
+          <text><sym>unicodeNoteQuarterUp</sym> = 130</text>
+          </Tempo>
         <Chord>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
