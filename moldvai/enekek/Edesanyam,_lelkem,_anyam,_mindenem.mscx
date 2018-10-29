@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,6 +9,7 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <lyricsDistance>3</lyricsDistance>
       <lastSystemFillLimit>0</lastSystemFillLimit>
       <page-layout>
         <page-height>1683.36</page-height>
@@ -117,9 +118,6 @@
           </Text>
         </VBox>
       <Measure number="1">
-        <KeySig>
-          <accidental>0</accidental>
-          </KeySig>
         <TimeSig>
           <sigN>2</sigN>
           <sigD>4</sigD>
@@ -151,12 +149,24 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>a</text>
             </Lyrics>
+          <Slur type="start" id="2"/>
+          <Note>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="2"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -202,25 +212,26 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text>a</text>
             </Lyrics>
           <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>nyám,</text>
             </Lyrics>
           <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -240,22 +251,13 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>de</text>
             </Lyrics>
           <Note>
-            <Tie id="2">
-              </Tie>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Note>
-            <endSpanner id="2"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -313,8 +315,8 @@
             <text>rül</text>
             </Lyrics>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -323,8 +325,8 @@
             <text>vett</text>
             </Lyrics>
           <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -361,8 +363,8 @@
             <text>met</text>
             </Lyrics>
           <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -371,8 +373,8 @@
             <text>a</text>
             </Lyrics>
           <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -388,8 +390,8 @@
             <text>sze</text>
             </Lyrics>
           <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
+            <pitch>59</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>

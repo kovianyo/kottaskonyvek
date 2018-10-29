@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.2.1</programVersion>
-  <programRevision>51b8386</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -274,7 +274,7 @@
           <track>0</track>
           </Slur>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>zsa</text>
@@ -286,11 +286,18 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
-          <Slur type="stop" id="3"/>
+          <durationType>16th</durationType>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="3"/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -298,24 +305,12 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Slur id="4">
-          <track>0</track>
-          </Slur>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>lyas!</text>
             </Lyrics>
-          <Slur type="start" id="4"/>
-          <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Slur type="stop" id="4"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -378,16 +373,16 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Slur id="5">
+        <Slur id="4">
           <track>0</track>
           </Slur>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>zsa</text>
             </Lyrics>
-          <Slur type="start" id="5"/>
+          <Slur type="start" id="4"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -401,8 +396,8 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>16th</durationType>
-          <Slur type="stop" id="5"/>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="4"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -410,16 +405,17 @@
           </Chord>
         </Measure>
       <Measure number="9">
-        <Slur id="6">
+        <Slur id="5">
           <track>0</track>
           </Slur>
         <Chord>
+          <dots>1</dots>
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>lyas,</text>
             </Lyrics>
-          <Slur type="start" id="6"/>
+          <Slur type="start" id="5"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -427,14 +423,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Slur type="stop" id="6"/>
+          <Slur type="stop" id="5"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -498,16 +487,16 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Slur id="7">
+        <Slur id="6">
           <track>0</track>
           </Slur>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text>u</text>
             </Lyrics>
-          <Slur type="start" id="7"/>
+          <Slur type="start" id="6"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -521,8 +510,8 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>16th</durationType>
-          <Slur type="stop" id="7"/>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="6"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -531,18 +520,11 @@
         </Measure>
       <Measure number="12">
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>gass!</text>
             </Lyrics>
-          <Note>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>

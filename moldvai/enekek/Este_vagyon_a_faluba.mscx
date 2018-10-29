@@ -246,6 +246,7 @@
           <name>m</name>
           </Harmony>
         <Chord>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
@@ -257,7 +258,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>te</text>
@@ -410,15 +411,27 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Slur id="3">
+          <track>0</track>
+          </Slur>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>lyas</text>
             </Lyrics>
+          <Slur type="start" id="3"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="3"/>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -439,6 +452,7 @@
           <name>m</name>
           </Harmony>
         <Chord>
+          <dots>1</dots>
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
@@ -450,7 +464,7 @@
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>na...</text>

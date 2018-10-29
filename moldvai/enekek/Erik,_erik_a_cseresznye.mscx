@@ -116,7 +116,7 @@
         </VBox>
       <Measure number="1">
         <TimeSig>
-          <sigN>4</sigN>
+          <sigN>2</sigN>
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
@@ -157,6 +157,8 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="2">
         <Slur id="2">
           <track>0</track>
           </Slur>
@@ -202,7 +204,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="2">
+      <Measure number="3">
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -251,6 +253,8 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="4">
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
@@ -286,10 +290,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="3">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="5">
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -333,6 +334,8 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="6">
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -367,7 +370,16 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="4">
+      <Measure number="7">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="2" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="8">
         <Harmony>
           <root>14</root>
           </Harmony>
@@ -404,27 +416,17 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Slur id="4">
-          <track>0</track>
-          </Slur>
+        </Measure>
+      <Measure number="9">
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>káb</text>
             </Lyrics>
-          <Slur type="start" id="4"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Slur type="stop" id="4"/>
-          <Note>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -434,8 +436,8 @@
             <text>bon</text>
             </Lyrics>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -445,18 +447,30 @@
             <text>do</text>
             </Lyrics>
           <Note>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="5">
+      <Measure number="10">
+        <Slur id="4">
+          <track>0</track>
+          </Slur>
         <Chord>
-          <durationType>eighth</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text>ro</text>
             </Lyrics>
+          <Slur type="start" id="4"/>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="4"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -498,6 +512,8 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="11">
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
@@ -533,7 +549,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="6">
+      <Measure number="12">
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -578,6 +594,8 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="13">
         <Harmony>
           <root>17</root>
           <name>m</name>
@@ -615,6 +633,12 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="14">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="2" n="4"/>
+          </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
