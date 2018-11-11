@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentales" code="0x266d"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="noteh" value="h"/>
-          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1592,7 +1592,7 @@
       <Measure number="2">
         <breakMultiMeasureRest/>
         <Harmony>
-          <root>14</root>
+          <root>15</root>
           <extension>1</extension>
           </Harmony>
         <Chord>
@@ -1655,6 +1655,10 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Harmony>
+          <root>14</root>
+          <extension>1</extension>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -1695,7 +1699,7 @@
       <Measure number="4">
         <breakMultiMeasureRest/>
         <Harmony>
-          <root>15</root>
+          <root>14</root>
           <extension>1</extension>
           </Harmony>
         <Chord>
@@ -1721,10 +1725,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <root>14</root>
-          <extension>1</extension>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -2106,11 +2106,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <root>17</root>
-          <extension>16</extension>
-          <name>m</name>
-          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -2154,7 +2149,7 @@
       <Measure number="12">
         <breakMultiMeasureRest/>
         <Harmony>
-          <root>18</root>
+          <root>15</root>
           <extension>1</extension>
           </Harmony>
         <Chord>
