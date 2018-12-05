@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -188,7 +188,7 @@
           <beginText>
             <text>1.</text>
             </beginText>
-          <endings>1</endings>
+          <endings>1, 3</endings>
           </Volta>
         <Chord>
           <durationType>eighth</durationType>
@@ -237,7 +237,7 @@
           </Chord>
         </Measure>
       <Measure number="4">
-        <endRepeat>2</endRepeat>
+        <endRepeat>3</endRepeat>
         <Harmony>
           <root>15</root>
           </Harmony>
@@ -268,7 +268,7 @@
           <beginText>
             <text>2.</text>
             </beginText>
-          <endings>2</endings>
+          <endings>2, 4</endings>
           </Volta>
         <Chord>
           <durationType>eighth</durationType>
@@ -317,6 +317,7 @@
           </Chord>
         </Measure>
       <Measure number="6">
+        <endRepeat>2</endRepeat>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -504,13 +505,13 @@
           </Chord>
         </Measure>
       <Measure number="10">
-        <endRepeat>2</endRepeat>
+        <endRepeat>3</endRepeat>
         <Volta id="4">
           <endHook>1</endHook>
           <beginText>
             <text>1.</text>
             </beginText>
-          <endings>1</endings>
+          <endings>1, 3</endings>
           </Volta>
         <Chord>
           <durationType>eighth</durationType>
@@ -541,6 +542,7 @@
           </Rest>
         </Measure>
       <Measure number="11">
+        <endRepeat>2</endRepeat>
         <Harmony>
           <root>15</root>
           </Harmony>
@@ -550,7 +552,7 @@
           <beginText>
             <text>2.</text>
             </beginText>
-          <endings>2</endings>
+          <endings>2, 4</endings>
           </Volta>
         <Chord>
           <durationType>eighth</durationType>
@@ -581,7 +583,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <BarLine>
-          <subtype>end</subtype>
+          <subtype>end-repeat</subtype>
           <span>1</span>
           </BarLine>
         <endSpanner id="5"/>
