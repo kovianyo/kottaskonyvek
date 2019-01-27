@@ -509,6 +509,11 @@
           </Chord>
         </Measure>
       <Measure number="6">
+        <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Harmony>
           <root>16</root>
           <name>m</name>
@@ -669,6 +674,7 @@
           </Chord>
         </Measure>
       <Measure number="9">
+        <endRepeat>2</endRepeat>
         <Harmony>
           <root>14</root>
           </Harmony>
@@ -719,7 +725,7 @@
             </Note>
           </Chord>
         <BarLine>
-          <subtype>end</subtype>
+          <subtype>end-repeat</subtype>
           <span>1</span>
           </BarLine>
         </Measure>
