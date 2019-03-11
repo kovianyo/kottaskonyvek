@@ -41,7 +41,7 @@
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">https://musescore.com/score/4847959</metaTag>
+    <metaTag name="source">https://musescore.com/user/443/scores/4847959</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Seremoj</metaTag>
@@ -251,7 +251,7 @@
         </Measure>
       <Measure number="2">
         <Harmony>
-          <root>18</root>
+          <root>15</root>
           </Harmony>
         <Beam id="5">
           <StemDirection>down</StemDirection>
@@ -472,7 +472,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <root>18</root>
+          <root>15</root>
           </Harmony>
         <Beam id="12">
           <StemDirection>down</StemDirection>
@@ -1576,12 +1576,16 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Slur id="5">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>be,</text>
             </Lyrics>
+          <Slur type="start" id="5"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -1589,6 +1593,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="stop" id="5"/>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -2279,6 +2284,11 @@
           </Chord>
         </Measure>
       <Measure number="25">
+        <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Harmony>
           <root>17</root>
           <name>m</name>
@@ -2348,6 +2358,9 @@
           </Chord>
         </Measure>
       <Measure number="26">
+        <Harmony>
+          <root>14</root>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -2369,6 +2382,9 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <root>15</root>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -2411,6 +2427,9 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <root>17</root>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2493,6 +2512,9 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Harmony>
+          <root>14</root>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -2514,6 +2536,9 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <root>15</root>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -2556,6 +2581,10 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <root>17</root>
+          <name>m</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
