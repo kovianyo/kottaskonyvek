@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1454,7 +1454,7 @@
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">https://musescore.com/score/759941</metaTag>
+    <metaTag name="source">https://musescore.com/user/443/scores/759941</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
@@ -1533,10 +1533,6 @@
           <style>Title</style>
           <text><font face="Times New Roman"></font>The Fields of Athenry</text>
           </Text>
-        <Text>
-          <style>Composer</style>
-          <text><font face="Times New Roman"></font>Traditional</text>
-          </Text>
         </VBox>
       <Measure number="1" len="1/4">
         <irregular/>
@@ -1566,7 +1562,7 @@
           <durationType>eighth</durationType>
           <Beam>1</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"></font>the</text>
+            <text><font face="Times New Roman"/>a</text>
             </Lyrics>
           <Note>
             <pitch>55</pitch>
@@ -1717,7 +1713,6 @@
         <Slur id="3">
           <track>0</track>
           <SlurSegment no="0">
-            <o4 x="5.25" y="0.15"/>
             <pos x="-0.45" y="1.05"/>
             </SlurSegment>
           </Slur>
@@ -1738,7 +1733,6 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>3</Beam>
-          <Slur type="stop" id="3"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -1763,6 +1757,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>3</Beam>
+          <Slur type="stop" id="3"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -2878,7 +2873,7 @@
           </BarLine>
         </Measure>
       <VBox>
-        <height>37.3</height>
+        <height>30.7338</height>
         <bottomGap>7</bottomGap>
         <Text>
           <style>Frame</style>
