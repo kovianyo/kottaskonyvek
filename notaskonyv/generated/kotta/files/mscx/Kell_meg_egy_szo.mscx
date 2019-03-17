@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -47,6 +47,7 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
@@ -57,7 +58,6 @@
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1450,7 +1450,7 @@
     <metaTag name="movementTitle">Kell még egy szó (Honfoglalás)</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">http://wikifonia.org/node/1779/revisions/2281/view</metaTag>
+    <metaTag name="source">https://musescore.com/user/443/scores/5490008</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
@@ -1521,6 +1521,10 @@
         <Text>
           <style>Title</style>
           <text>Kell még egy szó</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Demjén Ferenc</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -1682,7 +1686,7 @@
           <durationType>half</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>lőtt</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>lőtt</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2718,7 +2722,7 @@
           <dots>1</dots>
           <durationType>half</durationType>
           <Lyrics>
-            <text><font size="10.7317"/><font face="Times New Roman"/>tűnt</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>tűnt</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -2968,7 +2972,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"/><font face="Times New Roman"/>rő</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>rő</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3096,7 +3100,7 @@
           <Lyrics>
             <no>1</no>
             <style>Lyrics Even Lines</style>
-            <text><font size="10.7317"/><font face="Times New Roman"/>nő</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>nő</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -3849,6 +3853,7 @@
           <jumpTo>segno</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
+          <playRepeats>0</playRepeats>
           </Jump>
         <Chord>
           <dots>1</dots>
@@ -4262,7 +4267,7 @@
           <Beam>32</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font size="10.7317"/><font face="Times New Roman"/>lé!</text>
+            <text><font size="10.7317"></font><font face="Times New Roman"></font>lé!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
