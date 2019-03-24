@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="noted" value="d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1448,7 +1448,7 @@
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
+    <metaTag name="source">https://musescore.com/user/443/scores/5499103</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
@@ -1535,7 +1535,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>Száll</text>
+            <text><font face="Times New Roman"></font>Száll</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1677,7 +1677,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>da</text>
+            <text><font face="Times New Roman"></font>da</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1718,7 +1718,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>ma</text>
+            <text><font face="Times New Roman"></font>ma</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1878,7 +1878,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>A</text>
+            <text><font face="Times New Roman"></font>A</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1943,7 +1943,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1962,7 +1962,7 @@
           <Beam>5</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>meny</text>
+            <text><font face="Times New Roman"></font>meny</text>
             </Lyrics>
           <Slur type="start" id="5"/>
           <StemDirection>up</StemDirection>
@@ -2014,7 +2014,7 @@
           <durationType>eighth</durationType>
           <Beam>6</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>most</text>
+            <text><font face="Times New Roman"></font>most</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2028,7 +2028,7 @@
           <Beam>6</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>me</text>
+            <text><font face="Times New Roman"></font>me</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2058,7 +2058,7 @@
           <durationType>eighth</durationType>
           <Beam>6</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>az</text>
+            <text><font face="Times New Roman"></font>az</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2070,7 +2070,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>es</text>
+            <text><font face="Times New Roman"></font>es</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2314,6 +2314,7 @@
           <jumpTo>start</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
+          <playRepeats>0</playRepeats>
           </Jump>
         <Chord>
           <durationType>half</durationType>

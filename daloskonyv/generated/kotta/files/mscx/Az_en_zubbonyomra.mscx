@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -45,6 +45,7 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noteh" value="h"/>
           <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
@@ -55,12 +56,11 @@
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1448,7 +1448,7 @@
     <metaTag name="movementTitle">Az én zubbonyomra</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">http://wikifonia.org/node/2477/revisions/3101/view</metaTag>
+    <metaTag name="source">https://musescore.com/user/443/scores/5498858</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
@@ -2035,6 +2035,7 @@
           <jumpTo>start</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
+          <playRepeats>0</playRepeats>
           </Jump>
         <Harmony>
           <root>15</root>

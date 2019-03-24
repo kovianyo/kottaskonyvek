@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="noted" value="d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1448,7 +1448,7 @@
     <metaTag name="movementTitle">Sárga a csikó</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">http://wikifonia.org/node/2816/revisions/3548/view</metaTag>
+    <metaTag name="source">https://musescore.com/user/443/scores/5499099</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
@@ -1857,7 +1857,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ta!</text>
+            <text><font face="Times New Roman"></font>ta!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1877,7 +1877,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>Most</text>
+            <text><font face="Times New Roman"></font>Most</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1889,7 +1889,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1901,7 +1901,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>kar</text>
+            <text><font face="Times New Roman"></font>kar</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1913,7 +1913,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>tam</text>
+            <text><font face="Times New Roman"></font>tam</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1931,7 +1931,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>vé</text>
+            <text><font face="Times New Roman"></font>vé</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -1955,7 +1955,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>be</text>
+            <text><font face="Times New Roman"></font>be</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2021,7 +2021,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>Itt</text>
+            <text><font face="Times New Roman"></font>Itt</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2036,7 +2036,7 @@
           <durationType>eighth</durationType>
           <Beam>3</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>van</text>
+            <text><font face="Times New Roman"></font>van</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2049,7 +2049,7 @@
           <durationType>eighth</durationType>
           <Beam>3</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>az</text>
+            <text><font face="Times New Roman"></font>az</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2065,7 +2065,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>i</text>
+            <text><font face="Times New Roman"></font>i</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2095,7 +2095,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>el</text>
+            <text><font face="Times New Roman"></font>el</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2107,7 +2107,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>kel</text>
+            <text><font face="Times New Roman"></font>kel</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2123,7 +2123,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>ma</text>
+            <text><font face="Times New Roman"></font>ma</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
