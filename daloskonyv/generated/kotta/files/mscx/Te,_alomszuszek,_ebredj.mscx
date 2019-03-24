@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1780,12 +1780,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Beam id="6">
-          </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>6</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>lod,</text>
             </Lyrics>
@@ -1796,13 +1793,12 @@
             </Note>
           </Chord>
         <Chord>
-          <BeamMode>end</BeamMode>
+          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>6</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>nem</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -1828,12 +1824,12 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Beam id="7">
+        <Beam id="6">
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>7</Beam>
+          <Beam>6</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>lod</text>
@@ -1847,7 +1843,7 @@
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>7</Beam>
+          <Beam>6</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
@@ -1865,12 +1861,12 @@
           <root>13</root>
           <extension>1</extension>
           </Harmony>
-        <Beam id="8">
+        <Beam id="7">
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>8</Beam>
+          <Beam>7</Beam>
           <Lyrics>
             <text><font face="Times New Roman"></font>víg</text>
             </Lyrics>
@@ -1883,7 +1879,7 @@
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>8</Beam>
+          <Beam>7</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>ka</text>
@@ -1894,12 +1890,12 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Beam id="9">
+        <Beam id="8">
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>9</Beam>
+          <Beam>8</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text><font face="Times New Roman"></font>kuk</text>
@@ -1913,7 +1909,7 @@
         <Chord>
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
-          <Beam>9</Beam>
+          <Beam>8</Beam>
           <Lyrics>
             <syllabic>middle</syllabic>
             <text><font face="Times New Roman"></font>ko</text>
@@ -2064,7 +2060,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"/>latt!</text>
+            <text><font face="Times New Roman"></font>latt!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

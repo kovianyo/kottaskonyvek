@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1960,7 +1960,7 @@
           <Beam>3</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ge!</text>
+            <text><font face="Times New Roman"></font>ge!</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -2049,7 +2049,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>je!</text>
+            <text><font face="Times New Roman"></font>je!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2073,7 +2073,7 @@
           <Lyrics>
             <text><font face="Times New Roman"></font>Ha</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2086,10 +2086,11 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>be</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
+            <dotPosition>down</dotPosition>
             </Note>
           </Chord>
         </Measure>
@@ -2100,7 +2101,7 @@
             <syllabic>middle</syllabic>
             <text><font face="Times New Roman"></font>sza</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2143,10 +2144,11 @@
           <Lyrics>
             <text><font face="Times New Roman"></font>lesz</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
+            <dotPosition>down</dotPosition>
             </Note>
           </Chord>
         </Measure>
@@ -2160,7 +2162,7 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>vé</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2172,7 +2174,7 @@
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>lem,</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2204,7 +2206,7 @@
             <syllabic>end</syllabic>
             <text><font face="Times New Roman"></font>ga</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2216,9 +2218,9 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>lá</text>
+            <text><font face="Times New Roman"></font>lá</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2284,6 +2286,7 @@
           <jumpTo>start</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
+          <playRepeats>0</playRepeats>
           </Jump>
         <Beam id="5">
           </Beam>
@@ -2321,7 +2324,7 @@
           <Beam>5</Beam>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>ge!</text>
+            <text><font face="Times New Roman"></font>ge!</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2337,7 +2340,7 @@
           <durationType>eighth</durationType>
           <Beam>5</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>De</text>
+            <text><font face="Times New Roman"></font>De</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

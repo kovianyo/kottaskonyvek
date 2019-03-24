@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -49,18 +49,18 @@
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="notee" value="e"/>
           <sym name="accidentales" code="0x266d"/>
+          <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="accidentalis" code="0x266f"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1500,7 +1500,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"/>Azt mondják, ideje féjhez menni</text>
+          <text><font face="Times New Roman"></font>Azt mondják, ideje féjhez menni</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -1921,7 +1921,8 @@
           <BeamMode>begin</BeamMode>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"></font>Azt</text>
+            <syllabic>begin</syllabic>
+            <text><font face="Times New Roman"/>Aj</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1933,7 +1934,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ják,</text>
+            <text>na,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1949,8 +1950,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>i</text>
+            <text><font face="Times New Roman"/>...</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1962,8 +1962,7 @@
           <BeamMode>end</BeamMode>
           <durationType>quarter</durationType>
           <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>de</text>
+            <text><font face="Times New Roman"/>de</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1992,10 +1991,6 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>9</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>férj</text>
-            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -2006,10 +2001,6 @@
           <BeamMode>end</BeamMode>
           <durationType>eighth</durationType>
           <Beam>9</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>hez</text>
-            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -2018,10 +2009,6 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>men</text>
-            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -2034,10 +2021,6 @@
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ni,</text>
-            </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>

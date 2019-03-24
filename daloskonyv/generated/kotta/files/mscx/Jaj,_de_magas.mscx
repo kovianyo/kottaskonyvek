@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,7 +9,6 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <lyricsDistance>4</lyricsDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -46,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1541,9 +1540,9 @@
           <Lyrics>
             <text>Jaj,</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>55</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
@@ -1552,9 +1551,9 @@
           <Lyrics>
             <text>de</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -1564,9 +1563,9 @@
             <syllabic>begin</syllabic>
             <text>ma</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -1577,9 +1576,9 @@
             <syllabic>end</syllabic>
             <text>gas,</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -1592,9 +1591,9 @@
           <Lyrics>
             <text>Jaj,</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>55</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
@@ -1603,9 +1602,9 @@
           <Lyrics>
             <text>de</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -1615,9 +1614,9 @@
             <syllabic>begin</syllabic>
             <text>ma</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -1628,9 +1627,9 @@
             <syllabic>end</syllabic>
             <text>gas</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -1642,9 +1641,9 @@
           <Lyrics>
             <text>ez</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>62</pitch>
+            <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
@@ -1654,9 +1653,9 @@
           <Lyrics>
             <text>a</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -1666,9 +1665,9 @@
             <syllabic>begin</syllabic>
             <text>ven</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>59</pitch>
+            <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
@@ -1680,7 +1679,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>57</pitch>
+            <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
@@ -1698,7 +1697,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>55</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
@@ -1711,8 +1710,9 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>53</pitch>
+            <pitch>65</pitch>
             <tpc>13</tpc>
+            <dotPosition>down</dotPosition>
             </Note>
           </Chord>
         <Chord>
@@ -1723,7 +1723,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>52</pitch>
+            <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -1740,7 +1740,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>55</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
@@ -1751,8 +1751,9 @@
             <syllabic>end</syllabic>
             <text>e</text>
             </Lyrics>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -1762,9 +1763,9 @@
             <syllabic>begin</syllabic>
             <text>ben</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -1774,9 +1775,9 @@
             <syllabic>end</syllabic>
             <text>ne,</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -1790,7 +1791,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>55</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
@@ -1801,8 +1802,9 @@
             <syllabic>end</syllabic>
             <text>e</text>
             </Lyrics>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -1812,9 +1814,9 @@
             <syllabic>begin</syllabic>
             <text>ben</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -1824,9 +1826,9 @@
             <syllabic>end</syllabic>
             <text>ne</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -1839,9 +1841,9 @@
             <syllabic>begin</syllabic>
             <text>bar</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>62</pitch>
+            <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
@@ -1851,9 +1853,9 @@
             <syllabic>end</syllabic>
             <text>na</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -1863,9 +1865,9 @@
             <syllabic>begin</syllabic>
             <text>kis</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>59</pitch>
+            <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
@@ -1877,7 +1879,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>57</pitch>
+            <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
@@ -1894,7 +1896,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>55</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
@@ -1907,8 +1909,9 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>53</pitch>
+            <pitch>65</pitch>
             <tpc>13</tpc>
+            <dotPosition>down</dotPosition>
             </Note>
           </Chord>
         <Chord>
@@ -1919,7 +1922,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>52</pitch>
+            <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -1935,9 +1938,9 @@
           <Lyrics>
             <text>Ha</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>62</pitch>
+            <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
@@ -1946,9 +1949,9 @@
           <Lyrics>
             <text>nincs</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>62</pitch>
+            <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
@@ -1958,9 +1961,9 @@
             <syllabic>begin</syllabic>
             <text>ben</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>62</pitch>
+            <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
@@ -1972,7 +1975,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>55</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
@@ -1986,9 +1989,9 @@
             <syllabic>begin</syllabic>
             <text>bar</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>65</pitch>
+            <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
@@ -1998,9 +2001,9 @@
             <syllabic>end</syllabic>
             <text>na</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>65</pitch>
+            <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
@@ -2010,9 +2013,9 @@
             <syllabic>begin</syllabic>
             <text>kis</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -2022,9 +2025,9 @@
             <syllabic>end</syllabic>
             <text>lány</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>62</pitch>
+            <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
@@ -2040,9 +2043,9 @@
             <syllabic>begin</syllabic>
             <text>el</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -2053,9 +2056,9 @@
             <syllabic>middle</syllabic>
             <text>a</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -2067,7 +2070,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>55</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
@@ -2084,9 +2087,9 @@
             <syllabic>begin</syllabic>
             <text>Dűl</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>64</pitch>
+            <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
@@ -2096,9 +2099,9 @@
             <syllabic>end</syllabic>
             <text>jön</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>59</pitch>
+            <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
@@ -2108,9 +2111,9 @@
             <syllabic>begin</syllabic>
             <text>ösz</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -2122,7 +2125,7 @@
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>57</pitch>
+            <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
@@ -2134,9 +2137,9 @@
           <Lyrics>
             <text>ez</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>62</pitch>
+            <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
@@ -2146,9 +2149,9 @@
           <Lyrics>
             <text>a</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>62</pitch>
+            <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
@@ -2158,9 +2161,9 @@
             <syllabic>begin</syllabic>
             <text>ven</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -2170,9 +2173,9 @@
             <syllabic>end</syllabic>
             <text>dég</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>59</pitch>
+            <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
@@ -2185,9 +2188,9 @@
             <syllabic>begin</syllabic>
             <text>fo</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -2198,9 +2201,9 @@
             <syllabic>middle</syllabic>
             <text>ga</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
@@ -2210,9 +2213,9 @@
             <syllabic>end</syllabic>
             <text>dó!</text>
             </Lyrics>
-          <StemDirection>up</StemDirection>
+          <StemDirection>down</StemDirection>
           <Note>
-            <pitch>60</pitch>
+            <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>

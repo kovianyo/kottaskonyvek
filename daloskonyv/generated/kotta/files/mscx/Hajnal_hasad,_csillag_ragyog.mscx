@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="accidentalis" code="0x266f"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1537,7 +1537,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Haj</text>
+            <text><font face="Times New Roman"></font>Haj</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1847,7 +1847,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>kell,</text>
+            <text><font face="Times New Roman"></font>kell,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -1945,8 +1945,13 @@
           </Chord>
         </Measure>
       <Measure number="7">
+        <startRepeat/>
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
         <Beam id="3">
           </Beam>
         <Chord>
@@ -2257,6 +2262,7 @@
           </Chord>
         </Measure>
       <Measure number="10">
+        <endRepeat>2</endRepeat>
         <breakMultiMeasureRest/>
         <stretch>0.8</stretch>
         <Chord>
@@ -2291,7 +2297,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>sen</text>
+            <text><font face="Times New Roman"/>sen.</text>
             </Lyrics>
           <Slur type="start" id="3"/>
           <StemDirection>up</StemDirection>
@@ -2310,7 +2316,7 @@
             </Note>
           </Chord>
         <BarLine>
-          <subtype>end</subtype>
+          <subtype>end-repeat</subtype>
           <span>1</span>
           </BarLine>
         </Measure>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -45,17 +45,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noteh" value="h"/>
           <sym name="accidentales" code="0x266d"/>
+          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
-          <sym name="noteh" value="h"/>
-          <sym name="notea" value="a"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1912,7 +1912,7 @@
           <Beam>5</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>fő</text>
+            <text><font face="Times New Roman"></font>fő</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -2103,7 +2103,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>nem</text>
+            <text><font face="Times New Roman"></font>nem</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2193,6 +2193,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Marker>
+          <pos x="0.823989" y="-3.64798"/>
           <style>Repeat Text Right</style>
           <text><font face="Times New Roman"></font>Fine</text>
           <label>fine</label>
@@ -2208,7 +2209,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <offset x="1.29774" y="-0.985446"/>
+            <offset x="0.611082" y="-0.710783"/>
             </Segment>
           <beginText>
             <text><font face="Times New Roman"></font><b>2.</b></text>
@@ -2301,7 +2302,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>gyer</text>
+            <text><font face="Times New Roman"></font>gyer</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2417,7 +2418,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>le</text>
+            <text><font face="Times New Roman"></font>le</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2445,7 +2446,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
-            <text><font face="Times New Roman"/>nyek,</text>
+            <text><font face="Times New Roman"></font>nyek,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2606,6 +2607,7 @@
           <jumpTo>start</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
+          <playRepeats>0</playRepeats>
           </Jump>
         <Harmony>
           <root>18</root>
@@ -2614,7 +2616,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Lyrics>
-            <text><font face="Times New Roman"/>sem</text>
+            <text><font face="Times New Roman"></font>sem</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>

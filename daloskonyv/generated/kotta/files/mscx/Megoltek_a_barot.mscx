@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -45,22 +45,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notee" value="e"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1500,7 +1500,7 @@
         <bottomGap>7</bottomGap>
         <Text>
           <style>Title</style>
-          <text><font face="Times New Roman"/>Megölték a bárót</text>
+          <text><font face="Times New Roman"></font>Megölték a bárót</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -1524,7 +1524,7 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Meg</text>
+            <text><font face="Times New Roman"></font>Meg</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1590,7 +1590,7 @@
           <durationType>eighth</durationType>
           <Beam>1</Beam>
           <Lyrics>
-            <text><font face="Times New Roman"/>a</text>
+            <text><font face="Times New Roman"></font>a</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1612,7 +1612,7 @@
           <Beam>2</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>bá</text>
+            <text><font face="Times New Roman"></font>bá</text>
             </Lyrics>
           <Lyrics>
             <no>1</no>
@@ -1850,11 +1850,6 @@
       <Measure number="8">
         <endRepeat>2</endRepeat>
         <breakMultiMeasureRest/>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <text><font face="Times New Roman"></font>Fine</text>
-          <label>fine</label>
-          </Marker>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -2060,13 +2055,6 @@
         </Measure>
       <Measure number="17">
         <breakMultiMeasureRest/>
-        <Jump>
-          <style>Repeat Text Right</style>
-          <text><font face="Times New Roman"></font>D.C. al Fine</text>
-          <jumpTo>start</jumpTo>
-          <playUntil>fine</playUntil>
-          <continueAt></continueAt>
-          </Jump>
         <Beam id="6">
           </Beam>
         <Chord>

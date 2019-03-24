@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.3.2</programVersion>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -46,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="noted" value="d"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1613,7 +1613,7 @@
             <syllabic>begin</syllabic>
             <text><font face="Times New Roman"></font>fecs</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1798,7 +1798,7 @@
             <style>Lyrics Even Lines</style>
             <text><font face="Times New Roman"></font>Lát</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1816,7 +1816,7 @@
             <style>Lyrics Even Lines</style>
             <text><font face="Times New Roman"></font>tam</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1836,7 +1836,7 @@
             <style>Lyrics Even Lines</style>
             <text><font face="Times New Roman"></font>biz</text>
             </Lyrics>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1882,6 +1882,7 @@
       <Measure number="9">
         <breakMultiMeasureRest/>
         <Beam id="5">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -1928,6 +1929,7 @@
             </Note>
           </Chord>
         <Beam id="6">
+          <StemDirection>up</StemDirection>
           </Beam>
         <Chord>
           <BeamMode>begin</BeamMode>
@@ -2083,7 +2085,7 @@
             <no>1</no>
             <syllabic>end</syllabic>
             <style>Lyrics Even Lines</style>
-            <text><font face="Times New Roman"/>ten,</text>
+            <text><font face="Times New Roman"></font>ten,</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2110,7 +2112,7 @@
           <Beam>7</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>Ke</text>
+            <text><font face="Times New Roman"></font>Ke</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2140,7 +2142,7 @@
           <Beam>8</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>lá</text>
+            <text><font face="Times New Roman"></font>lá</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2174,7 +2176,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>lo</text>
+            <text><font face="Times New Roman"></font>lo</text>
             </Lyrics>
           <StemDirection>down</StemDirection>
           <Note>
@@ -2211,7 +2213,7 @@
           <Beam>9</Beam>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>le</text>
+            <text><font face="Times New Roman"></font>le</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
@@ -2273,7 +2275,7 @@
           <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"/>kö</text>
+            <text><font face="Times New Roman"></font>kö</text>
             </Lyrics>
           <StemDirection>up</StemDirection>
           <Note>
