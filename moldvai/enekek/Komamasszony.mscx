@@ -421,6 +421,7 @@
         </Measure>
       <Measure number="5">
         <startRepeat/>
+        <stretch>0.9</stretch>
         <BarLine>
           <subtype>start-repeat</subtype>
           <span>1</span>
@@ -509,6 +510,7 @@
           </Chord>
         </Measure>
       <Measure number="6">
+        <stretch>0.9</stretch>
         <Harmony>
           <root>17</root>
           <name>m</name>
@@ -597,7 +599,7 @@
           </Chord>
         </Measure>
       <Measure number="7">
-        <endRepeat>2</endRepeat>
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>eighth</durationType>
           <Lyrics>
@@ -639,6 +641,59 @@
           <durationType>quarter</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
+            <text>szony,</text>
+            </Lyrics>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        </Measure>
+      <Measure number="8">
+        <endRepeat>2</endRepeat>
+        <stretch>0.9</stretch>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text>s még</text>
+            </Lyrics>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Lyrics>
+            <text>egy</text>
+            </Lyrics>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>asz</text>
+            </Lyrics>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <root>17</root>
+          <name>m</name>
+          </Harmony>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
             <text>szony!</text>
             </Lyrics>
           <Note>
@@ -656,11 +711,11 @@
           <style>Frame</style>
           <text>Komámasszony, menjünk ki a hegytetőre,
 Üljünk fel a boroshordó tetejére!
-Fúrjuk ki az oldalát, csapjunk egy kometriát, komámasszony!
+Fúrjuk ki az oldalát, csapjunk egy kometriát, komámasszony, s még egy asszony!
 
 Komámasszony, meg ne mondja az uramnak,
 Hogy eladtam a ludakat a zsidónak!
-Haza-haza jövöget, engem jól megvereget, komámasszony!</text>
+Haza-haza jövöget, engem jól megvereget, komámasszony, s még egy asszony!</text>
           </Text>
         </TBox>
       </Staff>
