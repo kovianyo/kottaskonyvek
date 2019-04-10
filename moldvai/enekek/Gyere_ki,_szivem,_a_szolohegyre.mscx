@@ -152,8 +152,8 @@
             <text>ki,</text>
             </Lyrics>
           <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -208,16 +208,28 @@
             <text>lő</text>
             </Lyrics>
           <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>hegy</text>
+            </Lyrics>
+          <Slur type="start" id="2"/>
+          <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text>hegy</text>
-            </Lyrics>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="2"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -286,7 +298,7 @@
         <Harmony>
           <root>14</root>
           </Harmony>
-        <Slur id="2">
+        <Slur id="3">
           <track>0</track>
           </Slur>
         <Chord>
@@ -295,7 +307,7 @@
           <Lyrics>
             <text>bé</text>
             </Lyrics>
-          <Slur type="start" id="2"/>
+          <Slur type="start" id="3"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -310,7 +322,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="stop" id="2"/>
+          <Slur type="stop" id="3"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
