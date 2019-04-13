@@ -285,8 +285,16 @@
         <Harmony>
           <root>13</root>
           </Harmony>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>be,</text>
+            </Lyrics>
+          <Slur type="start" id="2"/>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -301,12 +309,9 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text>be,</text>
-            </Lyrics>
+          <Slur type="stop" id="2"/>
           <Note>
-            <Tie id="2">
+            <Tie id="3">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -315,7 +320,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="2"/>
+            <endSpanner id="3"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -469,7 +474,7 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Slur id="3">
+        <Slur id="4">
           <track>0</track>
           </Slur>
         <Chord>
@@ -478,7 +483,7 @@
             <syllabic>begin</syllabic>
             <text>fű</text>
             </Lyrics>
-          <Slur type="start" id="3"/>
+          <Slur type="start" id="4"/>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -486,7 +491,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="stop" id="3"/>
+          <Slur type="stop" id="4"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -497,7 +502,7 @@
           <name>m</name>
           </Harmony>
         <Chord>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>be,</text>
@@ -505,6 +510,20 @@
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -724,10 +743,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>end-repeat</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       <TBox>
         <height>1</height>
