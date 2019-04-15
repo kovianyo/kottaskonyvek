@@ -57,6 +57,8 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
         </Page>
       </PageList>
     <Part>
@@ -134,11 +136,16 @@
         <Tempo>
           <tempo>1.33333</tempo>
           <followText>1</followText>
-          <pos x="-8.11747" y="-3.12596"/>
+          <pos x="-8.72168" y="-3.12596"/>
+          <visible>0</visible>
           <text><sym>unicodeNoteQuarterUp</sym> = 80</text>
           </Tempo>
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>Ha</text>
+            </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -147,6 +154,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>las</text>
+            </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -154,6 +165,9 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <text>tó,</text>
+            </Lyrics>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -164,6 +178,9 @@
           </Slur>
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <text>de</text>
+            </Lyrics>
           <Slur type="start" id="2"/>
           <Note>
             <pitch>77</pitch>
@@ -180,6 +197,10 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>ha</text>
+            </Lyrics>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -191,6 +212,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>las</text>
+            </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -198,6 +223,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>tó,</text>
+            </Lyrics>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -205,6 +234,9 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <text>de</text>
+            </Lyrics>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -217,6 +249,10 @@
           </LayoutBreak>
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>ha</text>
+            </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -225,6 +261,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>las</text>
+            </Lyrics>
           <Note>
             <Tie id="3">
               </Tie>
@@ -232,8 +272,12 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Slur id="4">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="start" id="4"/>
           <Note>
             <endSpanner id="3"/>
             <pitch>74</pitch>
@@ -242,6 +286,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="stop" id="4"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -252,6 +297,10 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>tó,</text>
+            </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -264,6 +313,10 @@
       <Measure number="3">
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>Be</text>
+            </Lyrics>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -272,6 +325,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>le</text>
+            </Lyrics>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -279,17 +336,25 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>es</text>
+            </Lyrics>
           <Note>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Slur id="4">
+        <Slur id="5">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="start" id="4"/>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>tem</text>
+            </Lyrics>
+          <Slur type="start" id="5"/>
           <Note>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -297,7 +362,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="stop" id="4"/>
+          <Slur type="stop" id="5"/>
           <Note>
             <Accidental>
               <subtype>natural</subtype>
@@ -308,6 +373,10 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>sze</text>
+            </Lyrics>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -319,6 +388,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>ke</text>
+            </Lyrics>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -326,6 +399,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>res</text>
+            </Lyrics>
           <Note>
             <pitch>83</pitch>
             <tpc>19</tpc>
@@ -333,6 +410,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>tül,</text>
+            </Lyrics>
           <Note>
             <pitch>83</pitch>
             <tpc>19</tpc>
@@ -345,6 +426,10 @@
           </LayoutBreak>
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>lo</text>
+            </Lyrics>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -353,23 +438,32 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>vas</text>
+            </Lyrics>
           <Note>
-            <Tie id="5">
+            <Tie id="6">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Slur id="7">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="start" id="7"/>
           <Note>
-            <endSpanner id="5"/>
+            <endSpanner id="6"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="stop" id="7"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -380,6 +474,10 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>tól,</text>
+            </Lyrics>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -392,6 +490,10 @@
       <Measure number="5">
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>Gye</text>
+            </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -400,24 +502,36 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>re</text>
+            </Lyrics>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>ba</text>
+            </Lyrics>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Slur id="6">
+        <Slur id="8">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="start" id="6"/>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>bám,</text>
+            </Lyrics>
+          <Slur type="start" id="8"/>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -425,7 +539,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="stop" id="6"/>
+          <Slur type="stop" id="8"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -433,6 +547,10 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>húz</text>
+            </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -441,6 +559,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>zál</text>
+            </Lyrics>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -451,6 +573,9 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <text>ki,</text>
+            </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -463,6 +588,9 @@
           </LayoutBreak>
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <text>ne</text>
+            </Lyrics>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -471,6 +599,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>hagy</text>
+            </Lyrics>
           <Note>
             <pitch>82</pitch>
             <tpc>12</tpc>
@@ -478,17 +610,25 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>jál</text>
+            </Lyrics>
           <Note>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Slur id="7">
+        <Slur id="9">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="start" id="7"/>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>el</text>
+            </Lyrics>
+          <Slur type="start" id="9"/>
           <Note>
             <pitch>82</pitch>
             <tpc>12</tpc>
@@ -496,7 +636,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="stop" id="7"/>
+          <Slur type="stop" id="9"/>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -504,6 +644,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>her</text>
+            </Lyrics>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -511,6 +655,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>vad</text>
+            </Lyrics>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -518,6 +666,10 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>ni,</text>
+            </Lyrics>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -541,6 +693,10 @@
       <Measure number="7">
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>Ne</text>
+            </Lyrics>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -549,6 +705,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>hagy</text>
+            </Lyrics>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -556,17 +716,24 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>jál</text>
+            </Lyrics>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Slur id="8">
+        <Slur id="10">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="start" id="8"/>
+          <Lyrics>
+            <text>a</text>
+            </Lyrics>
+          <Slur type="start" id="10"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -574,7 +741,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="stop" id="8"/>
+          <Slur type="stop" id="10"/>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -582,6 +749,10 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>ha</text>
+            </Lyrics>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -590,6 +761,10 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>las</text>
+            </Lyrics>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -597,17 +772,25 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>tó</text>
+            </Lyrics>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Slur id="9">
+        <Slur id="11">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="start" id="9"/>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>ba'</text>
+            </Lyrics>
+          <Slur type="start" id="11"/>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -615,7 +798,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="stop" id="9"/>
+          <Slur type="stop" id="11"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -625,6 +808,10 @@
       <Measure number="8">
         <Chord>
           <durationType>16th</durationType>
+          <Lyrics>
+            <syllabic>begin</syllabic>
+            <text>meg</text>
+            </Lyrics>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -633,23 +820,32 @@
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
+          <Lyrics>
+            <syllabic>middle</syllabic>
+            <text>hal</text>
+            </Lyrics>
           <Note>
-            <Tie id="10">
+            <Tie id="12">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Slur id="13">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="start" id="13"/>
           <Note>
-            <endSpanner id="10"/>
+            <endSpanner id="12"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="stop" id="13"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -660,6 +856,10 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Lyrics>
+            <syllabic>end</syllabic>
+            <text>ni!</text>
+            </Lyrics>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -673,6 +873,30 @@
           <span>1</span>
           </BarLine>
         </Measure>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <text>Halastó, de halstó, de halastó,
+Beleestem szekerestől, lovastól.
+Gyere, babám húzzál ki, ne hagyjál elhervadni,
+ne hagyjál a halastóba' meghalni.
+Gyere, babám húzzál ki, ne hagyjál elhervadni,
+ne hagyjál a halastóba' meghalni.
+
+Ratyi phirav kanak khonyik chi dikhel, 
+Thaj xolyajvel thaj pe mande le shave.
+Dragoale shejale,
+Chi xolyájve pe mande.
+Thaj na phirav sako ratyi tumenge.
+
+Lassan kocsis, hogy a kocsi ne rázzon!
+Hogy a babám gyenge szíve ne fájjon.
+Dragoale shejale,
+Chi xolyájve pe mande.
+Thaj na phirav sako ratyi tumenge.</text>
+          </Text>
+        </TBox>
       </Staff>
     </Score>
   </museScore>
