@@ -115,9 +115,6 @@
           </Text>
         </VBox>
       <Measure number="1">
-        <KeySig>
-          <accidental>0</accidental>
-          </KeySig>
         <TimeSig>
           <sigN>4</sigN>
           <sigD>4</sigD>
@@ -156,8 +153,8 @@
             <text>kör</text>
             </Lyrics>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -167,8 +164,8 @@
             <text>te</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -190,8 +187,8 @@
             <text>vad</text>
             </Lyrics>
           <Note>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -201,19 +198,39 @@
             <text>al</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
         <Chord>
-          <durationType>half</durationType>
+          <durationType>16th</durationType>
           <Lyrics>
             <syllabic>end</syllabic>
             <text>ma,</text>
             </Lyrics>
+          <Slur type="start" id="2"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Slur type="stop" id="2"/>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -299,8 +316,8 @@
             <text>al</text>
             </Lyrics>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Harmony>
