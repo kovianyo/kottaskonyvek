@@ -2,7 +2,7 @@
 
 include("HtmlProcessor.php");
 
-echo 
+echo
 'if [ ! -d "files/tex" ]; then
   mkdir files/tex
 fi'."\n\n";
@@ -12,7 +12,7 @@ $proc = new HtmlProcessor();
 $proc->loadFirstArg($argv);
 
 $as = $proc->query("//div[@id='bodyContent']//li/a[not(@class='new')]");
-		
+
 foreach ($as as $a)
 {
 	$href = $proc->getNodeValue("@href", $a);
@@ -20,10 +20,10 @@ foreach ($as as $a)
 	{
 		// echo "href: " . $href . "\n";
 		$fileName = toFileName($href);
-		echo "php ../../generator/Dal.php files/html/" . $fileName . ".html > files/tex/". $fileName .".tex\n";
+		echo "php ../../generator/DalXml.php files/xml/" . $fileName . ".xml > files/tex/". $fileName .".tex\n";
 	}
 }
 
 
-		
+
 ?>
