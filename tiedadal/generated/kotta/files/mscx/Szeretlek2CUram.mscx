@@ -1,56 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+<museScore version="3.01">
+  <programVersion>3.2.3</programVersion>
+  <programRevision>d2d863f</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
-    <Synthesizer>
-      </Synthesizer>
     <Division>480</Division>
     <Style>
-      <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
+      <pageWidth>8.26771</pageWidth>
+      <pageHeight>11.6929</pageHeight>
+      <pagePrintableWidth>7.48031</pagePrintableWidth>
+      <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.393701</pageOddLeftMargin>
+      <pageEvenTopMargin>0.393701</pageEvenTopMargin>
+      <pageEvenBottomMargin>0.787403</pageEvenBottomMargin>
+      <pageOddTopMargin>0.393701</pageOddTopMargin>
+      <pageOddBottomMargin>0.787403</pageOddBottomMargin>
+      <lyricsDashForce>0</lyricsDashForce>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
-      <endBarDistance>0.3</endBarDistance>
+      <doubleBarDistance>0.46</doubleBarDistance>
+      <endBarDistance>0.96</endBarDistance>
       <bracketWidth>0.35</bracketWidth>
       <bracketDistance>0.25</bracketDistance>
       <clefLeftMargin>0.5</clefLeftMargin>
+      <clefKeyRightMargin>1.75</clefKeyRightMargin>
       <minNoteDistance>0.4</minNoteDistance>
+      <barNoteDistance>1.2</barNoteDistance>
       <measureSpacing>1.14</measureSpacing>
       <ledgerLineWidth>0.12</ledgerLineWidth>
       <beamWidth>0.48</beamWidth>
       <beamMinLen>1.25</beamMinLen>
       <propertyDistanceStem>0.5</propertyDistanceStem>
-      <harmonyY>0</harmonyY>
+      <harmonyFretDist>0.5</harmonyFretDist>
+      <chordSymbolPosBelow x="0" y="0"/>
+      <chordSymbolAFramePadding>0</chordSymbolAFramePadding>
+      <chordSymbolAFrameWidth>0</chordSymbolAFrameWidth>
       <chordStyle>custom</chordStyle>
       <chordsXmlFile>1</chordsXmlFile>
       <chordDescriptionFile>stdchords.xml</chordDescriptionFile>
       <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
-      <voltaY>-2</voltaY>
       <keySigNaturals>1</keySigNaturals>
       <tupletOufOfStaff>0</tupletOufOfStaff>
-      <TextStyle>
-        <halign>left</halign>
-        <valign>baseline</valign>
-        <xoffset>0</xoffset>
-        <yoffset>-4</yoffset>
-        <offsetType>spatium</offsetType>
-        <name>Chord Symbol</name>
-        <family>FreeSerif</family>
-        <size>12</size>
-        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
-        </TextStyle>
+      <defaultFramePadding>0.5</defaultFramePadding>
+      <defaultFrameWidth>0.2</defaultFrameWidth>
+      <defaultFrameRound>25</defaultFrameRound>
+      <titleFramePadding>0.5</titleFramePadding>
+      <titleFrameWidth>0.2</titleFrameWidth>
+      <titleFrameRound>25</titleFrameRound>
+      <subTitleFramePadding>0.5</subTitleFramePadding>
+      <subTitleFrameWidth>0.2</subTitleFrameWidth>
+      <subTitleFrameRound>25</subTitleFrameRound>
+      <composerFramePadding>0.5</composerFramePadding>
+      <composerFrameWidth>0.2</composerFrameWidth>
+      <composerFrameRound>25</composerFrameRound>
+      <lyricistFramePadding>0.5</lyricistFramePadding>
+      <lyricistFrameWidth>0.2</lyricistFrameWidth>
+      <lyricistFrameRound>25</lyricistFrameRound>
+      <fingeringFramePadding>0.5</fingeringFramePadding>
+      <fingeringFrameWidth>0.2</fingeringFrameWidth>
+      <fingeringFrameRound>25</fingeringFrameRound>
+      <lhGuitarFingeringFramePadding>0.5</lhGuitarFingeringFramePadding>
+      <lhGuitarFingeringFrameWidth>0.2</lhGuitarFingeringFrameWidth>
+      <lhGuitarFingeringFrameRound>25</lhGuitarFingeringFrameRound>
+      <rhGuitarFingeringFramePadding>0.5</rhGuitarFingeringFramePadding>
+      <rhGuitarFingeringFrameWidth>0.2</rhGuitarFingeringFrameWidth>
+      <rhGuitarFingeringFrameRound>25</rhGuitarFingeringFrameRound>
+      <partInstrumentFramePadding>0.5</partInstrumentFramePadding>
+      <partInstrumentFrameWidth>0.2</partInstrumentFrameWidth>
+      <partInstrumentFrameRound>25</partInstrumentFrameRound>
+      <tempoFramePadding>0.5</tempoFramePadding>
+      <tempoFrameWidth>0.2</tempoFrameWidth>
+      <tempoFrameRound>25</tempoFrameRound>
+      <systemFramePadding>0.5</systemFramePadding>
+      <systemFrameWidth>0.2</systemFrameWidth>
+      <systemFrameRound>25</systemFrameRound>
+      <staffAlign>left,top</staffAlign>
+      <staffPosAbove x="0" y="-4"/>
+      <staffFramePadding>0.5</staffFramePadding>
+      <staffFrameWidth>0.2</staffFrameWidth>
+      <staffFrameRound>25</staffFrameRound>
+      <repeatLeftFramePadding>0.5</repeatLeftFramePadding>
+      <repeatLeftFrameWidth>0.2</repeatLeftFrameWidth>
+      <repeatLeftFrameRound>25</repeatLeftFrameRound>
+      <repeatRightFramePadding>0.5</repeatRightFramePadding>
+      <repeatRightFrameWidth>0.2</repeatRightFrameWidth>
+      <repeatRightFrameRound>25</repeatRightFrameRound>
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="accidentales" code="0x266d"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentalis" code="0x266f"/>
           <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
@@ -58,8 +103,8 @@
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1422,22 +1467,6 @@
           <render>Maj 7 b 13</render>
           </chord>
         </ChordList>
-      <page-layout>
-        <page-height>1683.78</page-height>
-        <page-width>1190.55</page-width>
-        <page-margins type="even">
-          <left-margin>56.6929</left-margin>
-          <right-margin>56.6929</right-margin>
-          <top-margin>56.6929</top-margin>
-          <bottom-margin>113.386</bottom-margin>
-          </page-margins>
-        <page-margins type="odd">
-          <left-margin>56.6929</left-margin>
-          <right-margin>56.6929</right-margin>
-          <top-margin>56.6929</top-margin>
-          <bottom-margin>113.386</bottom-margin>
-          </page-margins>
-        </page-layout>
       <Spatium>1.764</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -1457,41 +1486,11 @@
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
-    <PageList>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      </PageList>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
-        <bracket type="-1" span="1"/>
+        <bracket type="-1" span="1" col="0"/>
         </Staff>
       <trackName>Voice</trackName>
       <Instrument>
@@ -1527,2527 +1526,2527 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <bottomGap>7</bottomGap>
+        <bottomGap>8</bottomGap>
         <Text>
           <style>Title</style>
           <text><font face="Times New Roman"></font>Szeretlek, Uram</text>
           </Text>
         </VBox>
-      <Measure number="1">
+      <Measure>
         <stretch>0.7</stretch>
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
-        <KeySig>
-          <accidental>2</accidental>
-          </KeySig>
-        <TimeSig>
-          <sigN>4</sigN>
-          <sigD>4</sigD>
-          <showCourtesySig>1</showCourtesySig>
-          </TimeSig>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="1">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>1</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>1. Itt</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>1</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>va</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>1</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>gyok</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>1</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>most,</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Beam id="2">
-          </Beam>
-        <Chord>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>2</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>jó</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>2</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>U</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ram,</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <KeySig>
+            <accidental>2</accidental>
+            </KeySig>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>1. Itt</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>va</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>gyok</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>most,</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>jó</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>U</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>ram,</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="2">
+      <Measure>
         <stretch>0.7</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Harmony>
-          <root>15</root>
-          <extension>6</extension>
-          <name>Maj7</name>
-          </Harmony>
-        <Beam id="3">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>3</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>hoz</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>3</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>zád</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>3</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>száll</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>3</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>e</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>dal.</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
+        <voice>
+          <Harmony>
+            <root>15</root>
+            <extension>6</extension>
+            <name>Maj7</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>hoz</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>zád</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>száll</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>e</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>dal.</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
         </Measure>
-      <Measure number="3">
+      <Measure>
         <stretch>0.7</stretch>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="4">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>4</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>Tu</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>4</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>dod,</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>sok</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>szor</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Beam id="5">
-          </Beam>
-        <Chord>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>5</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>hív</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>5</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>ta</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lak,</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>de</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>most</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>Tu</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>dod,</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>sok</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>szor</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>hív</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>ta</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>lak,</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>de</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>most</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="4">
+      <Measure>
         <stretch>0.7</stretch>
-        <Harmony>
-          <root>15</root>
-          <extension>6</extension>
-          <name>Maj7</name>
-          </Harmony>
-        <Beam id="6">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>6</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>más</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>6</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ként</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>szól</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>e</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>dal,</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Beam id="7">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>7</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>Mert</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>7</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>ma</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>15</root>
+            <extension>6</extension>
+            <name>Maj7</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>más</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>ként</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>szól</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>e</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>dal,</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>Mert</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>ma</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="5">
-        <Harmony>
-          <root>18</root>
-          <extension>16</extension>
-          <name>m</name>
-          </Harmony>
-        <Beam id="8">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>8</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>nem</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>8</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>azt</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>8</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ké</text>
-            </Lyrics>
-          <Note>
-            <Tie id="2">
-              </Tie>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Beam id="9">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Beam>9</Beam>
-          <Note>
-            <endSpanner id="2"/>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>9</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>rem,</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>9</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>hogy</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="10">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>10</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>&quot;Adj</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>10</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>még!&quot;,</text>
-            </Lyrics>
-          <Note>
-            <Tie id="3">
-              </Tie>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Beam id="11">
-          </Beam>
-        <Tuplet id="1">
-          <normalNotes>2</normalNotes>
-          <actualNotes>3</actualNotes>
-          <baseNote>eighth</baseNote>
-          <Number>
-            <style>Tuplet</style>
-            <text>3</text>
-            </Number>
-          </Tuplet>
-        <Chord>
-          <Tuplet>1</Tuplet>
-          <durationType>eighth</durationType>
-          <Beam>11</Beam>
-          <Note>
-            <endSpanner id="3"/>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <Tuplet>1</Tuplet>
-          <durationType>eighth</durationType>
-          <Beam>11</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>nem</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <Tuplet>1</Tuplet>
-          <durationType>eighth</durationType>
-          <Beam>11</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>kö</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>18</root>
+            <extension>16</extension>
+            <name>m</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>nem</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>azt</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>ké</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>rem,</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>hogy</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>&quot;Adj</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>még!&quot;,</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>nem</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>kö</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
         </Measure>
-      <Measure number="6">
+      <Measure>
         <stretch>0.9</stretch>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="12">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>12</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>nyör</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>12</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>gök:</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>16th</durationType>
-          </Rest>
-        <Beam id="13">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>13</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>fi</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>13</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>gyelj</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>15</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>rám!</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Chord>
-          <durationType>16th</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>Csak</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>nyör</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>gök:</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>fi</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>gyelj</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>15</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>rám!</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>Csak</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="7">
+      <Measure>
         <stretch>0.9</stretch>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="14">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>14</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>azt</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>14</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>mon</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>14</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>dom,</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>14</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>hogy</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>18</root>
-          <extension>16</extension>
-          <name>m</name>
-          </Harmony>
-        <Beam id="15">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>15</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>&quot;Sze</text>
-            </Lyrics>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>15</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>ret</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>15</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lek,</text>
-            </Lyrics>
-          <Note>
-            <Tie id="4">
-              </Tie>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Beam id="16">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>16</Beam>
-          <Note>
-            <endSpanner id="4"/>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>16</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>A</text>
-            </Lyrics>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>azt</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>mon</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>dom,</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>hogy</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>18</root>
+            <extension>16</extension>
+            <name>m</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>&quot;Sze</text>
+              </Lyrics>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>ret</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>lek,</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>A</text>
+              </Lyrics>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="8">
-        <stretch>0.9</stretch>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>half</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>tyám!&quot;</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <StaffText>
-          <style>System</style>
-          <text><font face="Times New Roman"></font>Refrén</text>
-          </StaffText>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>Sze</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="9">
-        <stretch>0.9</stretch>
-        <Harmony>
-          <root>18</root>
-          <extension>16</extension>
-          <name>m</name>
-          </Harmony>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>ret</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Beam id="17">
-          </Beam>
-        <Chord>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>17</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lek,</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>17</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>U</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ram,</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Beam id="18">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>18</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>há</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>18</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lám</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="10">
-        <stretch>0.9</stretch>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="19">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>19</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>szí</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>19</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>vem</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Beam id="20">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>20</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ből</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>20</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>fa</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>15</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>kad,</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Beam id="21">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>21</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>hi</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>21</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>szen</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="11">
-        <stretch>0.9</stretch>
-        <Harmony>
-          <root>18</root>
-          <extension>16</extension>
-          <name>m</name>
-          </Harmony>
-        <Beam id="22">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>22</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>min</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>22</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>dent</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Beam id="23">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>23</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>látsz</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>23</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>Te</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ben</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>nem,</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        </Measure>
-      <Measure number="12">
-        <stretch>0.9</stretch>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="24">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>24</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ha</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>24</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>tal</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>24</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>mad</text>
-            </Lyrics>
-          <Note>
-            <Tie id="5">
-              </Tie>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Beam id="25">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>25</Beam>
-          <Note>
-            <endSpanner id="5"/>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>25</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>o</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>25</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lyan</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>19</root>
-          <extension>64</extension>
-          <name>7</name>
-          </Harmony>
-        <Chord>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>nagy!</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Beam id="26">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>26</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>Sze</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>26</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ret</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="13">
+      <Measure>
         <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Harmony>
-          <root>18</root>
-          <extension>16</extension>
-          <name>m</name>
-          </Harmony>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lek,</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>U</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ram,</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Beam id="27">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>27</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>há</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>27</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lám</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>half</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>tyám!&quot;</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <SystemText>
+            <text><font face="Times New Roman"></font>Refrén</text>
+            </SystemText>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>Sze</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="14">
+      <Measure>
         <stretch>0.9</stretch>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="28">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>28</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>szí</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>28</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>vem</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Beam id="29">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>29</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ből</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>69</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>29</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>fa</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>15</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>kad,</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>és</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>18</root>
+            <extension>16</extension>
+            <name>m</name>
+            </Harmony>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>ret</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>lek,</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>U</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>ram,</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>há</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>lám</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="15">
+      <Measure>
         <stretch>0.9</stretch>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="30">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>30</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>é</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>30</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>nek</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="31">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>31</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lem,</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>31</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>hogy</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>18</root>
-          <extension>16</extension>
-          <name>m</name>
-          </Harmony>
-        <Beam id="32">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>32</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>&quot;Ál</text>
-            </Lyrics>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>32</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>dott</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>17</root>
-          <extension>177</extension>
-          <name>4</name>
-          </Harmony>
-        <Beam id="33">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>33</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>légy,</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>33</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>U</text>
-            </Lyrics>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>szí</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>vem</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>ből</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>fa</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>15</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>kad,</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>hi</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>szen</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="16">
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <Harmony>
+            <root>18</root>
+            <extension>16</extension>
+            <name>m</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>min</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>dent</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>látsz</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>Te</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>ben</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>nem,</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>ha</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>tal</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>mad</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>o</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>lyan</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>19</root>
+            <extension>64</extension>
+            <name>7</name>
+            </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>nagy!</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>Sze</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>ret</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>half</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>ram!&quot;</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>half</durationType>
-          </Rest>
+        <voice>
+          <Harmony>
+            <root>18</root>
+            <extension>16</extension>
+            <name>m</name>
+            </Harmony>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>lek,</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>U</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>ram,</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>há</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>lám</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="17">
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>szí</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>vem</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>ből</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>fa</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>15</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>kad,</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>és</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>é</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>nek</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>lem,</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>hogy</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>18</root>
+            <extension>16</extension>
+            <name>m</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>&quot;Ál</text>
+              </Lyrics>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>dott</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>17</root>
+            <extension>177</extension>
+            <name>4</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>légy,</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>U</text>
+              </Lyrics>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>half</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>ram!&quot;</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
         <stretch>0.8</stretch>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="34">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>34</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>2. Is</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>34</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>mét</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Beam id="35">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Beam>35</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>tér</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>35</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>den</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Beam id="36">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>36</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ál</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>36</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lok</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>36</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>én,</text>
-            </Lyrics>
-          <Note>
-            <Tie id="6">
-              </Tie>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Beam id="37">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>37</Beam>
-          <Note>
-            <endSpanner id="6"/>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>37</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>és</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>2. Is</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>mét</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>tér</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>den</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>ál</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>lok</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>én,</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>és</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="18">
+      <Measure>
         <stretch>0.8</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Harmony>
-          <root>15</root>
-          <extension>6</extension>
-          <name>Maj7</name>
-          </Harmony>
-        <Beam id="38">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>38</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>tu</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>38</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>dom,</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>38</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>hogy</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Beam id="39">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Beam>39</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>hall</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>39</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>gatsz</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>rám,</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>Bár</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>15</root>
+            <extension>6</extension>
+            <name>Maj7</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>tu</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>dom,</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>hogy</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>hall</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>gatsz</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>rám,</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>Bár</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="19">
+      <Measure>
         <stretch>0.8</stretch>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="40">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>40</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>sok</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>40</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>szor</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Beam id="41">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>41</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>hi</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>41</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>deg</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Beam id="42">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>42</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>sza</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>42</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>va</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>42</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>kat</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>szól</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>sok</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>szor</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>hi</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>deg</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>sza</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>va</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>kat</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>szól</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="20">
+      <Measure>
         <stretch>0.8</stretch>
-        <Harmony>
-          <root>15</root>
-          <extension>6</extension>
-          <name>Maj7</name>
-          </Harmony>
-        <Beam id="43">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>43</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>ko</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>43</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>pott</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>43</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>és</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Beam id="44">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>44</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>halk</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>44</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>i</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>mám.</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Beam id="45">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>45</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>De</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>45</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>most</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>15</root>
+            <extension>6</extension>
+            <name>Maj7</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>ko</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>pott</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>és</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>halk</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>i</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>mám.</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>De</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>most</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="21">
+      <Measure>
         <stretch>0.8</stretch>
-        <Harmony>
-          <root>18</root>
-          <extension>16</extension>
-          <name>m</name>
-          </Harmony>
-        <Beam id="46">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>46</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>el</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>46</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>kell,</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>46</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>hogy</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Beam id="47">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>47</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>mond</text>
-            </Lyrics>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>47</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>jam</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="48">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>48</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>egy</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>48</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>szer,</text>
-            </Lyrics>
-          <Note>
-            <Tie id="7">
-              </Tie>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Beam id="49">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Beam>49</Beam>
-          <Note>
-            <endSpanner id="7"/>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>49</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>a</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>49</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>mit</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>18</root>
+            <extension>16</extension>
+            <name>m</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>el</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>kell,</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>hogy</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>mond</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>jam</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>egy</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>szer,</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>a</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>mit</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="22">
+      <Measure>
         <stretch>0.8</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="50">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>50</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>oly</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>50</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>rég</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Beam id="51">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>51</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>sze</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>51</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>ret</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>15</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>nék,</text>
-            </Lyrics>
-          <Note>
-            <pitch>59</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Rest>
-          <durationType>16th</durationType>
-          </Rest>
-        <Chord>
-          <durationType>16th</durationType>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>hogy</text>
-            </Lyrics>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>oly</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>rég</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>sze</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>ret</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>15</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>nék,</text>
+              </Lyrics>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>hogy</text>
+              </Lyrics>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="23">
+      <Measure>
         <stretch>0.8</stretch>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="52">
-          </Beam>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>52</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>sze</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>52</Beam>
-          <Lyrics>
-            <syllabic>middle</syllabic>
-            <text><font face="Times New Roman"></font>ret</text>
-            </Lyrics>
-          <Note>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>52</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>lek,</text>
-            </Lyrics>
-          <Note>
-            <Tie id="8">
-              </Tie>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="53">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Beam>53</Beam>
-          <Note>
-            <endSpanner id="8"/>
-            <pitch>66</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>53</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>és</text>
-            </Lyrics>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>18</root>
-          <extension>16</extension>
-          <name>m</name>
-          </Harmony>
-        <Beam id="54">
-          </Beam>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>54</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>szí</text>
-            </Lyrics>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Beam>54</Beam>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>vem</text>
-            </Lyrics>
-          <Note>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Harmony>
-          <root>17</root>
-          <extension>1</extension>
-          </Harmony>
-        <Beam id="55">
-          </Beam>
-        <Chord>
-          <BeamMode>begin</BeamMode>
-          <dots>1</dots>
-          <durationType>eighth</durationType>
-          <Beam>55</Beam>
-          <Lyrics>
-            <text><font face="Times New Roman"></font>csak</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>55</Beam>
-          <Lyrics>
-            <syllabic>begin</syllabic>
-            <text><font face="Times New Roman"></font>Ti</text>
-            </Lyrics>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>21</tpc>
-            </Note>
-          </Chord>
+        <voice>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>sze</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text><font face="Times New Roman"></font>ret</text>
+              </Lyrics>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>lek,</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>és</text>
+              </Lyrics>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>18</root>
+            <extension>16</extension>
+            <name>m</name>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>szí</text>
+              </Lyrics>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>vem</text>
+              </Lyrics>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>17</root>
+            <extension>1</extension>
+            </Harmony>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text><font face="Times New Roman"></font>csak</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text><font face="Times New Roman"></font>Ti</text>
+              </Lyrics>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
-      <Measure number="24">
+      <Measure>
         <stretch>0.8</stretch>
-        <Harmony>
-          <root>16</root>
-          <extension>1</extension>
-          </Harmony>
-        <Chord>
-          <durationType>half</durationType>
-          <Lyrics>
-            <syllabic>end</syllabic>
-            <text><font face="Times New Roman"></font>éd.</text>
-            </Lyrics>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>half</durationType>
-          </Rest>
-        <BarLine>
-          <subtype>end</subtype>
-          <span>1</span>
-          </BarLine>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <extension>1</extension>
+            </Harmony>
+          <Chord>
+            <durationType>half</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text><font face="Times New Roman"></font>éd.</text>
+              </Lyrics>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            </BarLine>
+          </voice>
         </Measure>
       </Staff>
     </Score>
