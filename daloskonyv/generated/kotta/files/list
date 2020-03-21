@@ -1,0 +1,5 @@
+for f in mscx/*.mscx; do 
+	#echo "$filename"
+	source=`xmllint --xpath '//museScore/Score/metaTag[@name="source"]/text()' $f 2>/dev/null`
+	echo "$f; $source"
+done

@@ -1,0 +1,6 @@
+find -name "*.mscx" | 
+while read filename; do 
+  SOURCE=`xmllint --xpath '//museScore/Score/metaTag[@name="source"]/text()' "$filename" 2>/dev/null`
+  echo $filename $SOURCE
+done
+

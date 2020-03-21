@@ -1,0 +1,299 @@
+\usepackage{pdfpages}
+% ---------------------------------------------------------
+% magyar beállítás
+%\usepackage[latin2]{inputenc}		% Latin-2-es kódolású ez a forrás: ékezetek %elehtne még: %\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{t1enc}			% a belsõ ábrázolás és a kimeneti font-kódolás  a T1 kódolás % csúnya lesz tõle	
+\usepackage[magyar]{babel}  % magyar támogatás
+
+\usepackage{indentfirst}  % to indent the first lines of sections
+
+\sloppy % jobbra kilógás helyett új sorba tördelés
+\frenchspacing % nincs nagyobb szóköz a mondatok után
+
+% idézõlejek: ``szem elõtt''
+
+% magyar latex leírás:
+% http://www.cs.bme.hu/~egmont/latex/
+
+% http://www.szofi.hu/gnu/magyarispell/
+% http://csomalin.elte.hu/~flu/konyvek/lkh_1.html
+% http://www.math.bme.hu/latex/
+
+\usepackage[a5paper,inner=1.3cm,outer=1.2cm,top=0.7cm,bottom=0.7cm,pdftex, includeheadfoot]{geometry}
+
+\setlength\headheight{5pt} 
+
+\setlength\parindent{0in}
+
+\usepackage{graphicx}
+\usepackage{alltt}
+
+\usepackage{fancyhdr}
+\usepackage{chngpage}
+
+% elválasztás kikapcsolása
+\usepackage[none]{hyphenat} 
+
+\usepackage{makeidx}
+\makeindex
+
+\usepackage{extramarks}
+
+%\usepackage{multind}
+%\makeindex{szavak}
+
+%\usepackage{times} % Times New Roman betûtípus
+
+\usepackage{multicol}
+
+% space before and after a multicol environment
+\setlength{\multicolsep}{0pt}
+
+\usepackage{extramarks}
+
+\usepackage{pdflscape}
+%\usepackage[landscape]{geometry} % all pages landscape
+
+% for \textsubscript{} :
+\usepackage{fixltx2e}
+
+% for \textmusicalnote
+\usepackage{textcomp}
+
+\setlength\fboxsep{0pt}
+\setlength\fboxrule{0.5pt}
+
+% usage: \incpicture{filename}{title}{graphpar(scale=0.5)}
+\newcommand{\incpicture}[3]
+{
+\begin{figure}[ht]
+  \vspace{10pt}
+  \begin{center}
+      \includegraphics[#3]{pictures/#1}
+  \end{center}
+%  \vspace{-30pt}
+\caption{#2\label{fig:#1}}
+\end{figure}
+} 
+
+\newcommand{\incborderpicture}[3]
+{
+\begin{figure}[ht]
+  \vspace{10pt}
+  \begin{center}
+      \fbox{\includegraphics[#3]{pictures/#1}}
+  \end{center}
+  \vspace{-10pt}
+\caption{#2\label{fig:#1}}
+\end{figure}
+} 
+
+
+\newcommand{\code}[1]{{\tt #1}}
+
+% bad
+\newcommand{\vers}[1]
+{
+    \begin{minipage}{\textwidth}
+    \begin{alltt}\normalfont
+    #1
+    \end{alltt}
+    \end{minipage}
+}
+
+
+
+%\newcommand{\labref}[1]{{\autoref{#1}}}
+
+% ------------------------------------------------------------------------------------------------------------------------------------------
+
+% my index
+\newcommand{\mi}[1]{\index{#1}}
+
+% multicol index
+% http://www.latex-community.org/forum/viewtopic.php?f=4&t=1735&start=0&st=0&sk=t&sd=a
+\makeatletter
+\renewenvironment{theindex}
+  {\if@twocolumn
+      \@restonecolfalse
+   \else
+      \@restonecoltrue
+   \fi
+   \setlength{\columnseprule}{0pt}
+   \setlength{\columnsep}{10pt}
+   \begin{multicols}{4}[\section*{\indexname}]
+   \markboth{\MakeUppercase\indexname}%
+            {\MakeUppercase\indexname}%
+   \thispagestyle{plain}
+   \setlength{\parindent}{0pt}
+   \setlength{\parskip}{0pt plus 0.3pt}
+   \relax
+   \let\item\@idxitem}%
+  {\end{multicols}\if@restonecol\onecolumn\else\clearpage\fi}
+\makeatother
+
+% cím cseréje
+\addto\captionsmagyar{\renewcommand{\listfigurename}{Kották jegyzéke}}
+
+
+% mwdiawiki sablonok fordításai
+
+% szómagyarázat \szo{szó}{magyarázat}
+\newcommand{\szo}[2]{\footnotesize{$\clubsuit$ #1: #2 \newline}} 
+
+% szerzõ \szerzo{szövegíró}{zeneszerzõ}
+\newcommand{\szerzo}[2]{\footnotesize{$\clubsuit$ Szöveg: #1, zene: #2 \newline}} 
+
+% van kotta (hangjegy)
+\newcommand{\vankotta}{\footnotesize{\textmusicalnote \ Ehhez a dalhoz van kotta. \newline}} 
+
+% megjegyzes
+\newcommand{\megjegyzes}[1]{\footnotesize{$\clubsuit$ Megjegyzés: #1 \newline}} 
+
+% tanultuk (falevél) (könyv?)
+\newcommand{\tanultuk}[1]{\footnotesize{$\spadesuit$ Tanultuk: #1 \newline}} 
+
+% tánc (szív)
+\newcommand{\tanc}[1]{\footnotesize{$\heartsuit$ Tánc: #1 \newline}} 
+
+% tájegység (kockatészta)
+\newcommand{\tajegyseg}[1]{\footnotesize{$\diamondsuit$ Tájegység: #1 \newline}} 
+
+% gyűjtő
+\newcommand{\gyujto}[1]{\footnotesize{$\clubsuit$ Gyűjtő: #1 \newline}} 
+
+% helyseg \helyseg{település}{megye}
+\newcommand{\helyseg}[2]{\footnotesize{$\textreferencemark$ #1 (#2 megye) \newline}} 
+
+% \bigvarstar \Asterisk \downpitchfork \Box \triangle \surd \blacksquare \varclubsuit \varspadesuit \checkmark \diameter \maltese \smallint
+
+% \steaming W \vardiamond U \varspade X \varclub V \varheart \SI
+
+% ceruza: \ding{46}
+\newcommand{\kotta}[2]
+{
+\begin{minipage}{\textwidth}
+\vspace{-0.6cm}
+        \phantomsection
+		\addcontentsline{lof}{subsection}{#1}
+%        \begin{center}
+%            \includegraphics[scale=0.936]{../generated/kotta/files/#2.pdf}
+            \includegraphics[scale=0.975]{generated/kotta/files/pdf/#2.pdf}
+%        \end{center}
+        \vspace{0.0cm}
+\end{minipage}
+}
+
+\newcommand{\fejezet}[1]
+{
+\newpage
+\addcontentsline{toc}{section}{#1}
+\begin{center}
+\Huge{\textbf{#1}}
+\end{center}
+~\newline
+}
+
+\usepackage{color}
+%\usepackage{calc}
+
+\newcounter{betu}
+
+\setlength{\unitlength}{7.7mm}
+\newcommand{\blob}{\rule[-.20\unitlength]{1.5\unitlength}{0.73\unitlength}}
+
+\newcommand\rblob{%\thepage \firstxmark
+\begin{picture}(0,0)
+\put(0.5,-\value{betu}){\blob}
+\put(0.77,-\value{betu}){\color{white}\textbf{\firstxmark}}
+\end{picture}}
+
+\newcommand\lblob{%\thepage \firstxmark
+\begin{picture}(0,0)
+\put(-2,-\value{betu}){\blob}
+\put(-1.22,-\value{betu}){\color{white}\textbf{\firstxmark}}
+\end{picture}}
+
+\usepackage[pdftex,pdfpagelabels]{hyperref}
+\hypersetup{
+%%    bookmarks=false,         % show bookmarks bar?
+    unicode=true,          % non-Latin characters in Acrobat’s bookmarks
+%    pdftoolbar=true,        % show Acrobat’s toolbar?
+%    pdfmenubar=true,        % show Acrobat’s menu?
+%    pdffitwindow=true,      % page fit to window when opened
+    pdftitle={Daloskönyv},    % title
+    pdfauthor={Kovács Tamás, Széles László},%,     % author
+    pdfsubject={A 105. sz. IV. Béla Cserkészcsapat daloskönyve},   % subject of the document
+%    pdfnewwindow=true,      % links in new window
+    pdfkeywords={dal, daloskönyv, kotta, akkord, népdal, nóta, cserkész}, % list of keywords
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=black,          % color of internal links
+    citecolor=black,        % color of links to bibliography
+    filecolor=black,      % color of file links
+		urlcolor=black,
+		pdflang=hu-HU,
+		pdfpagelayout=TwoPageRight
+%		plainpages=false,
+%%		hypertexnames=false,
+%    urlcolor=black           % color of external links
+}
+% temp
+%\newcommand{\url}[1]{\texttt{#1}}
+
+\newcommand{\cim}{Daloskönyv}
+\newcommand{\cscs}{105. sz. IV. Béla Cscs.}
+\newcommand{\cscslong}{105. számú IV. Béla Cserkészcsapat}
+\newcommand{\kiado}{Nóta Benne, 2010}
+
+
+\newcommand{\resetheaders}{
+\fancyhead[er,ol]{\cim}
+\fancyhead[el]{\includegraphics[scale=0.05]{pictures/ivbela_black.pdf}~~\footnotesize{\rightmark}}
+\fancyhead[or]{\footnotesize{\rightmark}~~\includegraphics[scale=0.05]{pictures/ivbela_black.pdf}}
+\fancyfoot[C]{}
+\fancyfoot[el,or]{\thepage}
+\fancyfoot[er,ol]{\leftmark}
+}
+
+% lblob
+\newcounter{line}
+\newcommand{\secname}[1]{\addtocounter{line}{1}%
+\put(-2,-\value{line}){\blob}
+\put(-1.22,-\value{line}){\color{white}\textbf{#1}}
+}
+
+\newcommand{\overview}{
+\begin{picture}(0,0)
+\secname{A}
+\secname{B}
+\secname{C}
+\secname{D}
+\secname{E}
+\secname{F}
+\secname{G}
+\secname{H}
+\secname{I}
+\secname{J}
+\secname{K}
+\secname{L}
+\secname{M}
+\secname{N}
+\secname{O}
+\secname{P}
+\secname{R}
+\secname{S}
+\secname{T}
+\secname{U}
+\secname{V}
+\secname{Z}
+\end{picture}
+\includegraphics[scale=0.05]{pictures/space.pdf}
+}
+
+\newcommand{\dalcim}[1]{\vspace{0.1cm}\Large{\textbf{#1}}\vspace{0.0cm}}
+
+% TODO fordítás után:
+% hosszú szövegeknél a \rightmark{cím}\rightmark{}-t beszúrni a dalok végére
+% \newpage-et beszúrni azoknak a fájloknak az elejére, amik új oldalra törtek, és nincs, és emiatt a megjegyzések alulra csúsztak
+% test

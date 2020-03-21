@@ -1,0 +1,7 @@
+#!/bin/bash
+for filename in *.mscz; do
+        echo $filename;
+	TARGET=`echo $filename | sed s/\.mscz/\.mscx/`
+	#echo $TARGET
+	musescore -o "$TARGET" "$filename"
+done
